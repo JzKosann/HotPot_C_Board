@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "kosann_UAVGimbal",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "kosann_UAVGimbal.elf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kosann_UAVGimbal.elf-Debug-43f6024a2a82994b4acc.json",
+					"name" : "kosann_UAVGimbal.elf",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug",
+		"source" : "E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
