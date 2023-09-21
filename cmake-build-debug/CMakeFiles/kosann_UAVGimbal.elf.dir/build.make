@@ -1285,19 +1285,19 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/GimbalTask.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/GimbalTask.cpp.s"
 	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\User\Tasks\GimbalTask.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Tasks\GimbalTask.cpp.s
 
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/classtest.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/classtest.cpp.obj: E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/classtest.cpp
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/classtest.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/classtest.cpp.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/classtest.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\classtest.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\classtest.cpp.obj -c E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\User\classtest.cpp
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/class.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/class.cpp.obj: E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/class.cpp
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/class.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/class.cpp.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/class.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\class.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\class.cpp.obj -c E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\User\class.cpp
 
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/classtest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kosann_UAVGimbal.elf.dir/User/classtest.cpp.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\User\classtest.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\classtest.cpp.i
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/class.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kosann_UAVGimbal.elf.dir/User/class.cpp.i"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\User\class.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\class.cpp.i
 
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/classtest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/classtest.cpp.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\User\classtest.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\classtest.cpp.s
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/class.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/class.cpp.s"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\User\class.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\class.cpp.s
 
 # Object files for target kosann_UAVGimbal.elf
 kosann_UAVGimbal_elf_OBJECTS = \
@@ -1388,7 +1388,7 @@ kosann_UAVGimbal_elf_OBJECTS = \
 "CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/SERVO/servo.cpp.obj" \
 "CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/TIM5/TIM5.cpp.obj" \
 "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/GimbalTask.cpp.obj" \
-"CMakeFiles/kosann_UAVGimbal.elf.dir/User/classtest.cpp.obj"
+"CMakeFiles/kosann_UAVGimbal.elf.dir/User/class.cpp.obj"
 
 # External object files for target kosann_UAVGimbal.elf
 kosann_UAVGimbal_elf_EXTERNAL_OBJECTS =
@@ -1480,7 +1480,7 @@ kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/REMOTEC
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/SERVO/servo.cpp.obj
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/TIM5/TIM5.cpp.obj
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/GimbalTask.cpp.obj
-kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/User/classtest.cpp.obj
+kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/User/class.cpp.obj
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/build.make
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/objects1
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/link.txt

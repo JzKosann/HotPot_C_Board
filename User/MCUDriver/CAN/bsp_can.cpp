@@ -4,14 +4,13 @@
 
 #include "bsp_can.h"
 #include "main.h"
-#include "classtest.hpp"
+#include "class.hpp"
 
 
 extern CAN_HandleTypeDef hcan1;
 extern CAN_HandleTypeDef hcan2;
 
 Motor_measure_t Motor_measure[14];
-Motor_measure_t test_motor;
 static CAN_TxHeaderTypeDef CANx_tx_message;
 static uint8_t CANx_send_data[8];
 
@@ -24,6 +23,7 @@ void can_filter_init(CAN_HandleTypeDef *hcan) {
     can_filter_st.FilterIdLow = 0x0000;                                                         //ID低位
     can_filter_st.FilterMaskIdHigh = 0x0000;                                                    //过滤器掩码高位
     can_filter_st.FilterMaskIdLow = 0x0000;                                                     //过滤器掩码低位
+    can_filter_st.SlaveStartFilterBank = 14;
 //    can_filter_st.FilterBank = 0;                                                             //过滤器组-双CAN可指定0~27
     can_filter_st.FilterFIFOAssignment = CAN_RX_FIFO0;                                          //与过滤器组管理的 FIFO
     if (hcan->Instance == CAN1) {
@@ -33,8 +33,8 @@ void can_filter_init(CAN_HandleTypeDef *hcan) {
     }
     HAL_CAN_ConfigFilter(hcan, &can_filter_st);                                     //HAL库配置过滤器函数
     HAL_CAN_Start(hcan);                                                                            //使能CAN控制器
-    HAL_CAN_ActivateNotification(hcan, CAN_IT_RX_FIFO0_MSG_PENDING);                    //使能CAN的各种中断
     __HAL_CAN_ENABLE_IT(hcan, CAN_IT_RX_FIFO0_MSG_PENDING);
+    HAL_CAN_ActivateNotification(hcan, CAN_IT_RX_FIFO0_MSG_PENDING);                    //使能CAN的各种中断
 }
 
 void Motor_measure_fun(Motor_measure_t *ptr, uint8_t *RX_buffer) {
@@ -64,12 +64,11 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan) {
         i = RX_Header.StdId - Chassis_3508A;//通过反馈数据的ID确定这一组数据存放的地址
         Motor_measure_fun(&Motor_measure[i], RX_BUFFER);                                           //调用函数把数据存入结构体数组
 
-        Motor_measure_fun(&test_motor, RX_BUFFER);
     } else if (hcan == &hcan2) {                                                                           //can2
         i = RX_Header.StdId - CAN2_3508_ID1 + 7;                                                //通过反馈数据的ID确定这一组数据存放的地址
         Motor_measure_fun(&Motor_measure[i], RX_BUFFER);                                    //调用函数把数据存入结构体数组
 
-        motor_read();
+        motor_read(Motor_measure[12]);
     }
 }
 

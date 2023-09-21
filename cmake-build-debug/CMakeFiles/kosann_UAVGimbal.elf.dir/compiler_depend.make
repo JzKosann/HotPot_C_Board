@@ -553,7 +553,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/mainpp.cpp.obj: E:/A_kosann/ROBOMAS
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/strings.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/string.h \
   E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/gpio.h \
-  E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/classtest.hpp \
+  E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/class.hpp \
   E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/framework_headfile.hpp \
   E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/ADRC/ADRC.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/math.h \
@@ -4448,7 +4448,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/CAN/bsp_can.cpp.obj: E:/A_kos
   E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
-  E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/classtest.hpp \
+  E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/class.hpp \
   E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/framework_headfile.hpp \
   E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/ADRC/ADRC.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/math.h \
@@ -5053,7 +5053,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/GimbalTask.cpp.obj: E:/A_kosann/R
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/os_defines.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/cpu_defines.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/pstl/pstl_config.h \
-  E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/classtest.hpp \
+  E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/class.hpp \
   E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/framework_headfile.hpp \
   E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/ADRC/ADRC.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/math.h \
@@ -5210,8 +5210,8 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/GimbalTask.cpp.obj: E:/A_kosann/R
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/stdlib.h \
   E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/gpio.h
 
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/classtest.cpp.obj: E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/classtest.cpp \
-  E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/classtest.hpp \
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/class.cpp.obj: E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/class.cpp \
+  E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/class.hpp \
   E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/framework_headfile.hpp \
   E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/ADRC/ADRC.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/math.h \
@@ -5496,6 +5496,8 @@ D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/inclu
 
 E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h:
 
+E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/class.cpp:
+
 E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters/kalman.h:
 
 D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h:
@@ -5746,6 +5748,8 @@ D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/inclu
 
 D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_locale.h:
 
+E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/class.hpp:
+
 D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/string.h:
 
 E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Core/Src/mainpp.cpp:
@@ -5763,8 +5767,6 @@ D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/inclu
 E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IWDG/iwdgC.cpp:
 
 D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/std_abs.h:
-
-E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/classtest.hpp:
 
 E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/framework_headfile.hpp:
 
@@ -6119,5 +6121,3 @@ E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDri
 E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/TIM5/TIM5.cpp:
 
 E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Tasks/GimbalTask.h:
-
-E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/classtest.cpp:

@@ -41,7 +41,6 @@ typedef struct {
 } Motor_measure_t;
 
 extern Motor_measure_t Motor_measure[14];
-extern Motor_measure_t test_motor;
 
 void can_filter_init(CAN_HandleTypeDef *hcan);
 

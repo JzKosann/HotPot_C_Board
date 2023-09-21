@@ -46,7 +46,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/CAN/bsp_can.cpp.obj: \
  E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pcd.h \
  E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_ll_usb.h \
  E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pcd_ex.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\User/classtest.hpp \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\User/class.hpp \
  E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\User\Framework/framework_headfile.hpp \
  E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\User\Framework\ADRC/ADRC.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\c++\10.3.1\math.h \

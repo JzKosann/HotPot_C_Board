@@ -4,7 +4,7 @@
 
 #include "GimbalTask.h"
 #include "lrgb.h"
-#include "classtest.hpp"
+#include "class.hpp"
 
 
 void GimbalControlTask(void const *argument) {

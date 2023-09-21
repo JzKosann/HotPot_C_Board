@@ -153,7 +153,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/SERVO/servo.cpp" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/SERVO/servo.cpp.obj" "gcc" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/SERVO/servo.cpp.obj.d"
   "E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/TIM5/TIM5.cpp" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/TIM5/TIM5.cpp.obj" "gcc" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/TIM5/TIM5.cpp.obj.d"
   "E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Tasks/GimbalTask.cpp" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/GimbalTask.cpp.obj" "gcc" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/GimbalTask.cpp.obj.d"
-  "E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/classtest.cpp" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/classtest.cpp.obj" "gcc" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/classtest.cpp.obj.d"
+  "E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/class.cpp" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/class.cpp.obj" "gcc" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/class.cpp.obj.d"
   )
 
 # Targets to which this target links.

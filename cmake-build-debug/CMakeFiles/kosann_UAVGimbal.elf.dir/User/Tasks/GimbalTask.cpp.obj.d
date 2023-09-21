@@ -78,7 +78,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/GimbalTask.cpp.obj: \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\c++\10.3.1\arm-none-eabi\thumb\v7e-m+fp\hard\bits\os_defines.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\c++\10.3.1\arm-none-eabi\thumb\v7e-m+fp\hard\bits\cpu_defines.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\c++\10.3.1\pstl\pstl_config.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\User/classtest.hpp \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\User/class.hpp \
  E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\User\Framework/framework_headfile.hpp \
  E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\User\Framework\ADRC/ADRC.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\c++\10.3.1\math.h \

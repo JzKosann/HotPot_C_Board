@@ -2200,29 +2200,29 @@ User/Tasks/GimbalTask.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/GimbalTask.cpp.s
 .PHONY : User/Tasks/GimbalTask.cpp.s
 
-User/classtest.obj: User/classtest.cpp.obj
-.PHONY : User/classtest.obj
+User/class.obj: User/class.cpp.obj
+.PHONY : User/class.obj
 
 # target to build an object file
-User/classtest.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/classtest.cpp.obj
-.PHONY : User/classtest.cpp.obj
+User/class.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/class.cpp.obj
+.PHONY : User/class.cpp.obj
 
-User/classtest.i: User/classtest.cpp.i
-.PHONY : User/classtest.i
+User/class.i: User/class.cpp.i
+.PHONY : User/class.i
 
 # target to preprocess a source file
-User/classtest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/classtest.cpp.i
-.PHONY : User/classtest.cpp.i
+User/class.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/class.cpp.i
+.PHONY : User/class.cpp.i
 
-User/classtest.s: User/classtest.cpp.s
-.PHONY : User/classtest.s
+User/class.s: User/class.cpp.s
+.PHONY : User/class.s
 
 # target to generate assembly for a file
-User/classtest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/classtest.cpp.s
-.PHONY : User/classtest.cpp.s
+User/class.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/class.cpp.s
+.PHONY : User/class.cpp.s
 
 # Help Target
 help:
@@ -2492,9 +2492,9 @@ help:
 	@echo ... User/Tasks/GimbalTask.obj
 	@echo ... User/Tasks/GimbalTask.i
 	@echo ... User/Tasks/GimbalTask.s
-	@echo ... User/classtest.obj
-	@echo ... User/classtest.i
-	@echo ... User/classtest.s
+	@echo ... User/class.obj
+	@echo ... User/class.i
+	@echo ... User/class.s
 .PHONY : help
 
 
