@@ -4,7 +4,7 @@
 
 #include "GimbalTask.h"
 #include "lrgb.h"
-#include "classtest.hpp"
+#include "class.hpp"
 
 
 void GimbalControlTask(void const *argument) {
@@ -17,7 +17,7 @@ void GimbalControlTask(void const *argument) {
         FeedDog();
         current = xTaskGetTickCount();
         RGB.loop();
-        yaw_cansend(5000);
+        yaw.can_send(5000);
         vTaskDelayUntil(&current, pdMS_TO_TICKS(10));
     }
     /* USER CODE END GimbalControlTask */

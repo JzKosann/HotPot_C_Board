@@ -41,15 +41,9 @@ typedef struct {
 } Motor_measure_t;
 
 extern Motor_measure_t Motor_measure[14];
-extern Motor_measure_t test_motor;
 
 void can_filter_init(CAN_HandleTypeDef *hcan);
 
 void Motor_measure_fun(Motor_measure_t *ptr, uint8_t *RX_buffer);
-
-void Set_motor_cmd(CAN_HandleTypeDef *hcan, uint32_t STDID,
-                   int16_t motor1, int16_t motor2, int16_t motor3, int16_t motor4);
-
-void Set_motor1_cmd(CAN_HandleTypeDef *hcan, int16_t motor_current);
 
 #endif //KOSANN_UAVGIMBAL_BSP_CAN_H

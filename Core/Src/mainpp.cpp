@@ -1,7 +1,7 @@
 //
 // Created by ShiF on 2023/9/16.
 #include "core.h"
-#include "classtest.hpp"
+#include "class.hpp"
 
 void User_Init() {
     can_filter_init(&hcan1);
