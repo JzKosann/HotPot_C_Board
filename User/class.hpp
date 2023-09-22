@@ -24,9 +24,6 @@ public:
 };
 
 void motor_Init();
-
-void motor_read(Motor_measure_t &yaw_get);
-
 extern motor yaw;
 
 #endif //KOSANN_UAVGIMBAL_CLASS_HPP
