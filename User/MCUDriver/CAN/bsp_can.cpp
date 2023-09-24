@@ -10,7 +10,7 @@
 extern CAN_HandleTypeDef hcan1;
 extern CAN_HandleTypeDef hcan2;
 
-Motor_measure_t Motor_measure[14];
+Motor_measure_t motor_measure[14];
 
 void can_filter_init(CAN_HandleTypeDef *hcan) {
     CAN_FilterTypeDef can_filter_st;                                                            //定义过滤器结构体
@@ -34,7 +34,7 @@ void can_filter_init(CAN_HandleTypeDef *hcan) {
     HAL_CAN_ActivateNotification(hcan, CAN_IT_RX_FIFO0_MSG_PENDING);                    //使能CAN的各种中断
 }
 
-void Motor_measure_fun(Motor_measure_t *ptr, uint8_t *RX_buffer) {
+void MotorMeasureFun(Motor_measure_t *ptr, uint8_t *RX_buffer) {
     ptr->last_angle = ptr->angle;                                                       //记录上一次转子机械角度
     ptr->angle = (int16_t) ((RX_buffer)[0] << 8 | (RX_buffer)[1]);                     //解析转子机械角度
     ptr->speed = (int16_t) ((RX_buffer)[2] << 8 | (RX_buffer)[3]);                     //解析转子转速(rpm)
@@ -51,20 +51,18 @@ void Motor_measure_fun(Motor_measure_t *ptr, uint8_t *RX_buffer) {
 }
 
 void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan) {
-    CAN_RxHeaderTypeDef RX_Header;                                                                //定义数据帧的帧头
-    uint8_t RX_BUFFER[8];                                                                         //接收存放数据帧数据的数组
+    CAN_RxHeaderTypeDef rx_header;                                                                //定义数据帧的帧头
+    uint8_t rx_buffer[8];                                                                         //接收存放数据帧数据的数组
 
-    HAL_CAN_GetRxMessage(hcan, CAN_RX_FIFO0, &RX_Header, RX_BUFFER);         //把can接收到的数据帧传入局部变量
+    HAL_CAN_GetRxMessage(hcan, CAN_RX_FIFO0, &rx_header, rx_buffer);         //把can接收到的数据帧传入局部变量
 
     static uint8_t i = 0;
     if (hcan == &hcan1) {
-        i = RX_Header.StdId - Chassis_3508A;//通过反馈数据的ID确定这一组数据存放的地址
-        Motor_measure_fun(&Motor_measure[i], RX_BUFFER);                                           //调用函数把数据存入结构体数组
+        i = rx_header.StdId - Chassis_3508A;//通过反馈数据的ID确定这一组数据存放的地址
+        MotorMeasureFun(&motor_measure[i], rx_buffer);                                           //调用函数把数据存入结构体数组
 
     } else if (hcan == &hcan2) {                //can2
-        if (RX_Header.StdId == yaw.can_ID) {
-            Motor_measure_fun(&yaw.can_read, RX_BUFFER);
-        }
+        yaw.canRead(rx_header.StdId,rx_buffer);
     }
 }
 

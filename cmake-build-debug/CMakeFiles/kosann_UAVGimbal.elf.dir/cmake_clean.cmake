@@ -168,8 +168,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/REMOTEC/remoteio.cpp.obj.d"
   "CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/SERVO/servo.cpp.obj"
   "CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/SERVO/servo.cpp.obj.d"
-  "CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/TIM5/TIM5.cpp.obj"
-  "CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/TIM5/TIM5.cpp.obj.d"
   "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/GimbalTask.cpp.obj"
   "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/GimbalTask.cpp.obj.d"
   "CMakeFiles/kosann_UAVGimbal.elf.dir/User/class.cpp.obj"

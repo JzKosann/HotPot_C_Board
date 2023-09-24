@@ -1,13 +1,13 @@
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/main.c.obj: \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Core\Src\main.c \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Core\Inc/main.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Core\Inc/stm32f4xx_hal_conf.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_rcc.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_def.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\CMSIS\Device\ST\STM32F4xx\Include/stm32f4xx.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\CMSIS\Device\ST\STM32F4xx\Include/stm32f407xx.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\CMSIS\Include/core_cm4.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Core\Src\main.c \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Core\Inc/main.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Core\Inc/stm32f4xx_hal_conf.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_rcc.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_def.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\CMSIS\Device\ST\STM32F4xx\Include/stm32f4xx.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\CMSIS\Device\ST\STM32F4xx\Include/stm32f407xx.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\CMSIS\Include/core_cm4.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\stdint.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\machine\_default_types.h \
@@ -15,44 +15,44 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/main.c.obj: \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\_newlib_version.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\sys\_intsup.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\sys\_stdint.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\CMSIS\Include/cmsis_version.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\CMSIS\Include/cmsis_compiler.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\CMSIS\Include/cmsis_gcc.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\CMSIS\Include/mpu_armv7.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\CMSIS\Device\ST\STM32F4xx\Include/system_stm32f4xx.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/Legacy/stm32_hal_legacy.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\CMSIS\Include/cmsis_version.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\CMSIS\Include/cmsis_compiler.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\CMSIS\Include/cmsis_gcc.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\CMSIS\Include/mpu_armv7.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\CMSIS\Device\ST\STM32F4xx\Include/system_stm32f4xx.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/Legacy/stm32_hal_legacy.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_rcc_ex.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_gpio.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_gpio_ex.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_exti.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_dma.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_dma_ex.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_cortex.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_can.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash_ex.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash_ramfunc.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_i2c.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_i2c_ex.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_iwdg.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr_ex.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_spi.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim_ex.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_uart.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pcd.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_ll_usb.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pcd_ex.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS/cmsis_os.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/FreeRTOS.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Core\Inc/FreeRTOSConfig.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/projdefs.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/portable.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/deprecated_definitions.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F/portmacro.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/mpu_wrappers.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_rcc_ex.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_gpio.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_gpio_ex.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_exti.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_dma.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_dma_ex.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_cortex.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_can.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash_ex.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash_ramfunc.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_i2c.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_i2c_ex.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_iwdg.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr_ex.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_spi.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim_ex.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_uart.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pcd.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_ll_usb.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pcd_ex.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS/cmsis_os.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/FreeRTOS.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Core\Inc/FreeRTOSConfig.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/projdefs.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/portable.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/deprecated_definitions.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F/portmacro.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/mpu_wrappers.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\reent.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\sys\reent.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\_ansi.h \
@@ -62,34 +62,34 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/main.c.obj: \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\sys\_types.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\machine\_types.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\sys\lock.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/task.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/list.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/timers.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/task.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/queue.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/semphr.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/queue.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/event_groups.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/timers.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Core\Inc/can.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Core\Inc/main.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Core\Inc/dma.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\FATFS\App/fatfs.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FatFs\src/ff.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FatFs\src/integer.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\FATFS\Target/ffconf.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FatFs\src/ff_gen_drv.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FatFs\src/diskio.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FatFs\src/ff.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\FATFS\Target/user_diskio.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Core\Inc/i2c.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Core\Inc/iwdg.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Core\Inc/spi.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Core\Inc/tim.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Core\Inc/usart.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\USB_DEVICE\App/usb_device.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\ST\STM32_USB_Device_Library\Core\Inc/usbd_def.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\USB_DEVICE\Target/usbd_conf.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/task.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/list.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/timers.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/task.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/queue.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/semphr.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/queue.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/event_groups.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/timers.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Core\Inc/can.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Core\Inc/main.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Core\Inc/dma.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\FATFS\App/fatfs.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FatFs\src/ff.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FatFs\src/integer.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\FATFS\Target/ffconf.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FatFs\src/ff_gen_drv.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FatFs\src/diskio.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FatFs\src/ff.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\FATFS\Target/user_diskio.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Core\Inc/i2c.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Core\Inc/iwdg.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Core\Inc/spi.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Core\Inc/tim.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Core\Inc/usart.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\USB_DEVICE\App/usb_device.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\ST\STM32_USB_Device_Library\Core\Inc/usbd_def.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\USB_DEVICE\Target/usbd_conf.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\stdio.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\_ansi.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\sys\cdefs.h \
@@ -113,4 +113,4 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/main.c.obj: \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\sys\_locale.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\strings.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\sys\string.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Core\Inc/gpio.h
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Core\Inc/gpio.h

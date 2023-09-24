@@ -11,6 +11,5 @@
 #include "power.h"
 #include "remoteio.h"
 #include "servo.h"
-#include "TIM5.h"
 
 #endif //KOSANN_UAVGIMBAL_MCU_HEAFILE_HPP

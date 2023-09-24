@@ -81,6 +81,7 @@ void main_Init(void) {
     MX_TIM10_Init();
     MX_TIM5_Init();
     MX_FATFS_Init();
+    HAL_TIM_Base_Start_IT(&htim4);
 }
 void OS_Init(){
 
@@ -162,6 +163,9 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
   }
   /* USER CODE BEGIN Callback 1 */
 
+  if (htim->Instance == TIM4) {
+
+    }
   /* USER CODE END Callback 1 */
 }
 

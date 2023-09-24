@@ -1,5 +1,5 @@
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\string.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\_ansi.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\newlib.h \
@@ -18,26 +18,26 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSI
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\sys\_locale.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\strings.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\sys\string.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/FreeRTOS.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/FreeRTOS.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\stdint.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\sys\_intsup.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\sys\_stdint.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Core\Inc/FreeRTOSConfig.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/projdefs.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/portable.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/deprecated_definitions.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F/portmacro.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/mpu_wrappers.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Core\Inc/FreeRTOSConfig.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/projdefs.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/portable.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/deprecated_definitions.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F/portmacro.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/mpu_wrappers.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\reent.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/task.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/list.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/timers.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/task.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/queue.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/semphr.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/queue.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/event_groups.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/timers.h \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\CMSIS\Include/cmsis_gcc.h
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/task.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/list.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/timers.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/task.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/queue.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/semphr.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/queue.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/event_groups.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Middlewares\Third_Party\FreeRTOS\Source\include/timers.h \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\CMSIS\Include/cmsis_gcc.h

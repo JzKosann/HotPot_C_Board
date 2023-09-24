@@ -1,5 +1,5 @@
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/sysmem.c.obj: \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\kosann_uav_gimbal\kosann_UAVGimbal\Core\Src\sysmem.c \
+ E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Core\Src\sysmem.c \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\errno.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\sys\errno.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\sys\reent.h \

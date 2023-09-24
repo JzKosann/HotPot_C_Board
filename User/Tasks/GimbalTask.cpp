@@ -7,16 +7,20 @@
 #include "class.hpp"
 
 
-void GimbalControlTask(void const *argument) {
+void GimbalControlTask(void const *argument)
+{
     /* USER CODE BEGIN GimbalControlTask */
     cRgb RGB(&htim5);
     TickType_t current;
     RGB.init();
     /* Infinite loop */
-    for (;;) {
+    for (;;)
+    {
         FeedDog();
         current = xTaskGetTickCount();
         RGB.loop();
+        yaw.calcPid(Debug_Param().vel_rampTargetValue);
+        yaw.sendPid();
         vTaskDelayUntil(&current, pdMS_TO_TICKS(10));
     }
     /* USER CODE END GimbalControlTask */

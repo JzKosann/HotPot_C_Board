@@ -54,7 +54,7 @@ include_directories(Core/Inc Drivers/STM32F4xx_HAL_Driver/Inc Drivers/STM32F4xx_
                                         User/Framework/LED User/Framework/PID
                                         User/Framework/RomteC User/Framework/ShootC User/Framework/Vision User/LOG User/MCUDriver/CAN User/MCUDriver/LASER
                                         User/MCUDriver/LED User/MCUDriver/POWER
-                                        User/MCUDriver/REMOTEC User/MCUDriver/SERVO User/MCUDriver/TIM5 User/Tasks User/ User/MCUDriver/ User/Framework/RGB)
+                                        User/MCUDriver/REMOTEC User/MCUDriver/SERVO User/Tasks User/ User/MCUDriver/ User/Framework/RGB)
 
 add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx)
 

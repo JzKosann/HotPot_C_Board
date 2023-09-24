@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug"/>
+				<Option working_dir="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="kosann_UAVGimbal.elf">
-				<Option output="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug/kosann_UAVGimbal.elf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug"/>
+				<Option output="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug/kosann_UAVGimbal.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -30,45 +30,44 @@
 					<Add option="-DDEBUG"/>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F407xx"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/FATFS/Target"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/FATFS/App"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/USB_DEVICE/App"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/USB_DEVICE/Target"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FatFs/src"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/ADRC"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Debug"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Gimbal"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IMU"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IWDG"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/LED"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/RomteC"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/ShootC"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Vision"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/LOG"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/CAN"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/LASER"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/LED"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/POWER"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/REMOTEC"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/SERVO"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/TIM5"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Tasks"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/RGB"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/FATFS/Target"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/FATFS/App"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/USB_DEVICE/App"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/USB_DEVICE/Target"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FatFs/src"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/ADRC"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Debug"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Gimbal"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IMU"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IWDG"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/LED"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/RomteC"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/ShootC"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Vision"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/LOG"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/CAN"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/LASER"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/LED"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/POWER"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/REMOTEC"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/SERVO"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Tasks"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/RGB"/>
 					<Add directory="d:\environment_for_clion_stm32\gcc-arm-none-eabi\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
 					<Add directory="d:\environment_for_clion_stm32\gcc-arm-none-eabi\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
 					<Add directory="d:\environment_for_clion_stm32\gcc-arm-none-eabi\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
@@ -77,15 +76,15 @@
 					<Add directory="d:\environment_for_clion_stm32\gcc-arm-none-eabi\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug/Makefile&quot;  VERBOSE=1 kosann_UAVGimbal.elf"/>
-					<CompileFile command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug/Makefile&quot;  VERBOSE=1 kosann_UAVGimbal.elf"/>
+					<CompileFile command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="kosann_UAVGimbal.elf/fast">
-				<Option output="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug/kosann_UAVGimbal.elf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug"/>
+				<Option output="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug/kosann_UAVGimbal.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -96,45 +95,44 @@
 					<Add option="-DDEBUG"/>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F407xx"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/FATFS/Target"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/FATFS/App"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/USB_DEVICE/App"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/USB_DEVICE/Target"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FatFs/src"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/ADRC"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Debug"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Gimbal"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IMU"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IWDG"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/LED"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/RomteC"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/ShootC"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Vision"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/LOG"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/CAN"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/LASER"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/LED"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/POWER"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/REMOTEC"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/SERVO"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/TIM5"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Tasks"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver"/>
-					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/RGB"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/FATFS/Target"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/FATFS/App"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/USB_DEVICE/App"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/USB_DEVICE/Target"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FatFs/src"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/ADRC"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Debug"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Gimbal"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IMU"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IWDG"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/LED"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/RomteC"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/ShootC"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Vision"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/LOG"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/CAN"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/LASER"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/LED"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/POWER"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/REMOTEC"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/SERVO"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Tasks"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver"/>
+					<Add directory="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/RGB"/>
 					<Add directory="d:\environment_for_clion_stm32\gcc-arm-none-eabi\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
 					<Add directory="d:\environment_for_clion_stm32\gcc-arm-none-eabi\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
 					<Add directory="d:\environment_for_clion_stm32\gcc-arm-none-eabi\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
@@ -143,733 +141,727 @@
 					<Add directory="d:\environment_for_clion_stm32\gcc-arm-none-eabi\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug/Makefile&quot;  VERBOSE=1 kosann_UAVGimbal.elf/fast"/>
-					<CompileFile command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug/Makefile&quot;  VERBOSE=1 kosann_UAVGimbal.elf/fast"/>
+					<CompileFile command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug"/>
+				<Option working_dir="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug"/>
+				<Option working_dir="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/FreeRTOSConfig.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/FreeRTOSConfig.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/can.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/can.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/dma.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/dma.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/gpio.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/gpio.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/i2c.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/i2c.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/iwdg.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/iwdg.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/main.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/main.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/spi.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/spi.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/stm32f4xx_hal_conf.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/stm32f4xx_hal_conf.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/stm32f4xx_it.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/stm32f4xx_it.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/tim.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/tim.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/usart.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/usart.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Core/Src/can.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Src/can.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Core/Src/dma.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Src/dma.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Core/Src/freertos.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Src/freertos.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Core/Src/gpio.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Src/gpio.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Core/Src/i2c.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Src/i2c.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Core/Src/iwdg.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Src/iwdg.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Core/Src/main.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Src/main.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Core/Src/mainpp.cpp">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Src/mainpp.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Core/Src/spi.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Src/spi.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Core/Src/stm32f4xx_hal_msp.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Src/stm32f4xx_hal_msp.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Core/Src/stm32f4xx_hal_timebase_tim.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Src/stm32f4xx_hal_timebase_tim.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Core/Src/stm32f4xx_it.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Src/stm32f4xx_it.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Core/Src/syscalls.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Src/syscalls.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Core/Src/sysmem.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Src/sysmem.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Core/Src/system_stm32f4xx.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Src/system_stm32f4xx.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Core/Src/tim.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Src/tim.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Core/Src/usart.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Src/usart.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Core/Startup/startup_stm32f407ighx.s">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Startup/startup_stm32f407ighx.s">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Device/ST/STM32F4xx/LICENSE.txt">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Device/ST/STM32F4xx/LICENSE.txt">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/cmsis_armcc.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/cmsis_armcc.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/cmsis_armclang.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/cmsis_armclang.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/cmsis_compiler.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/cmsis_compiler.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/cmsis_gcc.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/cmsis_gcc.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/cmsis_iccarm.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/cmsis_iccarm.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/cmsis_version.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/cmsis_version.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/core_armv8mbl.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/core_armv8mbl.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/core_armv8mml.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/core_armv8mml.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/core_cm0.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/core_cm0.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/core_cm0plus.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/core_cm0plus.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/core_cm1.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/core_cm1.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/core_cm23.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/core_cm23.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/core_cm3.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/core_cm3.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/core_cm33.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/core_cm33.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/core_cm4.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/core_cm4.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/core_cm7.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/core_cm7.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/core_sc000.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/core_sc000.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/core_sc300.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/core_sc300.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/mpu_armv7.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/mpu_armv7.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/mpu_armv8.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/mpu_armv8.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/tz_context.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/tz_context.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/LICENSE.txt">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/LICENSE.txt">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_iwdg.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_iwdg.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_cortex.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_cortex.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_i2c.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_i2c.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_pwr.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_pwr.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_utils.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_utils.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/LICENSE.txt">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/LICENSE.txt">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/FATFS/App/fatfs.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/FATFS/App/fatfs.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/FATFS/App/fatfs.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/FATFS/App/fatfs.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/FATFS/Target/ffconf.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/FATFS/Target/ffconf.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/FATFS/Target/user_diskio.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/FATFS/Target/user_diskio.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/FATFS/Target/user_diskio.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/FATFS/Target/user_diskio.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/LICENSE.txt">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/LICENSE.txt">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FatFs/src/diskio.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FatFs/src/diskio.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FatFs/src/diskio.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FatFs/src/diskio.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FatFs/src/ff.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FatFs/src/ff.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FatFs/src/ff.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FatFs/src/ff.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FatFs/src/ff_gen_drv.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FatFs/src/ff_gen_drv.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FatFs/src/integer.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FatFs/src/integer.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FatFs/src/option/syscall.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FatFs/src/option/syscall.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/croutine.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/croutine.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/atomic.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/atomic.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/list.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/list.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/message_buffer.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/message_buffer.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_prototypes.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_prototypes.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/task.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/task.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/list.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/list.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/queue.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/queue.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/tasks.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/tasks.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/timers.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/timers.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/STM32F407IGHX_FLASH.ld">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/STM32F407IGHX_FLASH.ld">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/USB_DEVICE/App/usb_device.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/USB_DEVICE/App/usb_device.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/USB_DEVICE/App/usb_device.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/USB_DEVICE/App/usb_device.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/USB_DEVICE/App/usbd_cdc_if.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/USB_DEVICE/App/usbd_cdc_if.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/USB_DEVICE/App/usbd_cdc_if.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/USB_DEVICE/App/usbd_cdc_if.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/USB_DEVICE/App/usbd_desc.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/USB_DEVICE/App/usbd_desc.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/USB_DEVICE/App/usbd_desc.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/USB_DEVICE/App/usbd_desc.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/USB_DEVICE/Target/usbd_conf.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/USB_DEVICE/Target/usbd_conf.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/USB_DEVICE/Target/usbd_conf.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/USB_DEVICE/Target/usbd_conf.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/ADRC/ADRC.cpp">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/ADRC/ADRC.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/ADRC/ADRC.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/ADRC/ADRC.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Debug/DebugC.cpp">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Debug/DebugC.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Debug/DebugC.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Debug/DebugC.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters/Kalman.md">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters/Kalman.md">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters/filter.cpp">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters/filter.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters/filter.hpp">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters/filter.hpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters/kalman.cpp">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters/kalman.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters/kalman.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters/kalman.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Gimbal/gimbalc.cpp">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Gimbal/gimbalc.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Gimbal/gimbalc.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Gimbal/gimbalc.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IMU/IMUC.cpp">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IMU/IMUC.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IMU/IMUC.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IMU/IMUC.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IMU/witreg.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IMU/witreg.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IWDG/iwdgC.cpp">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IWDG/iwdgC.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IWDG/iwdgC.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IWDG/iwdgC.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/LED/LEDC.cpp">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/LED/LEDC.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/LED/LEDC.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/LED/LEDC.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID/pidC.cpp">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID/pidC.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID/pidC.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID/pidC.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/RGB/lrgb.cpp">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/RGB/lrgb.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/RGB/lrgb.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/RGB/lrgb.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/RomteC/Remote.md">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/RomteC/Remote.md">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/RomteC/Remote.pdf">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/RomteC/Remote.pdf">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/RomteC/RemoteC.cpp">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/RomteC/RemoteC.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/RomteC/RemoteC.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/RomteC/RemoteC.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/framework_headfile.hpp">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/framework_headfile.hpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/LOG/log.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/LOG/log.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/LOG/log.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/LOG/log.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/LOG/log_port.c">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/LOG/log_port.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/LOG/log_port.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/LOG/log_port.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/CAN/bsp_can.cpp">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/CAN/bsp_can.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/CAN/bsp_can.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/CAN/bsp_can.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/LASER/laser.cpp">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/LASER/laser.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/LASER/laser.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/LASER/laser.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/LED/ledio.cpp">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/LED/ledio.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/LED/ledio.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/LED/ledio.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/MCU_heafile.hpp">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/MCU_heafile.hpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/POWER/power.cpp">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/POWER/power.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/POWER/power.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/POWER/power.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/REMOTEC/remoteio.cpp">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/REMOTEC/remoteio.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/REMOTEC/remoteio.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/REMOTEC/remoteio.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/SERVO/servo.cpp">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/SERVO/servo.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/SERVO/servo.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/SERVO/servo.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/TIM5/TIM5.cpp">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Tasks/GimbalTask.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/TIM5/TIM5.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Tasks/GimbalTask.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Tasks/GimbalTask.cpp">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/class.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/Tasks/GimbalTask.h">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/class.hpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/class.cpp">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/core.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/class.hpp">
-			<Option target="kosann_UAVGimbal.elf"/>
-		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/User/core.h">
-			<Option target="kosann_UAVGimbal.elf"/>
-		</Unit>
-		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/kosann_uav_gimbal/kosann_UAVGimbal/CMakeLists.txt">
+		<Unit filename="E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

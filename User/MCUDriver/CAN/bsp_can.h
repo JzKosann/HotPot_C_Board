@@ -40,10 +40,10 @@ typedef struct {
     int32_t total_angle;
 } Motor_measure_t;
 
-extern Motor_measure_t Motor_measure[14];
+extern Motor_measure_t motor_measure[14];
 
 void can_filter_init(CAN_HandleTypeDef *hcan);
 
-void Motor_measure_fun(Motor_measure_t *ptr, uint8_t *RX_buffer);
+void MotorMeasureFun(Motor_measure_t *ptr, uint8_t *RX_buffer);
 
 #endif //KOSANN_UAVGIMBAL_BSP_CAN_H
