@@ -31,13 +31,11 @@ extern "C" {
 /* USER CODE BEGIN Includes */
 
 /* USER CODE END Includes */
-
-extern UART_HandleTypeDef huart1;
-
 extern UART_HandleTypeDef huart3;
 
 /* USER CODE BEGIN Private defines */
 
+extern DMA_HandleTypeDef hdma_usart3_rx;
 /* USER CODE END Private defines */
 
 void MX_USART1_UART_Init(void);
@@ -46,6 +44,7 @@ void MX_USART3_UART_Init(void);
 /* USER CODE BEGIN Prototypes */
 
 void DEBUGC_UartIrqHandler(UART_HandleTypeDef* huart);
+void REMOTEC_UartIrqHandler(void);
 /* USER CODE END Prototypes */
 
 #ifdef __cplusplus

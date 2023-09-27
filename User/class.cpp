@@ -8,18 +8,29 @@ static CAN_TxHeaderTypeDef CANx_tx_message;
 static uint8_t CANx_send_data[8];
 
 cMotor yaw;
+cMotor pitch;
+
 
 void MotorInit()
 {
-    yaw.canInit(0x205, 0x1FF, &hcan2);
-
+//    yaw.canInit(0x209, 0x2FF, &hcan2);
+    pitch.canInit(0x209, &hcan2, GM6020);
     /*PID*/
-    yaw.classicPidInit();
-    yaw.classicPid(300, 20, 0, 30000, 1.6, 0, 0.01, 200);
+    pitch.classicPidInit();
+    pitch.classicPid(35, 0.2, 0, 2000, 1, 0, 0.3, 200);
 }
 
-void MotorCurrent()
+void cMotor::errorHandle(eRrorType error_type)
 {
+    while (1)
+    {
+        switch (error_type)
+        {
+            case ERROR_MOTOR:
+                usart_printf("motor setting error\r\n");
+                break;
+        }
+    }
 }
 
 /**
@@ -33,61 +44,191 @@ void cMotor::canSend(int16_t current)
     CANx_tx_message.IDE = CAN_ID_STD;                                                             //标识符选择位，STD-标准帧
     CANx_tx_message.RTR = CAN_RTR_DATA;                                                           //定义帧类型
     CANx_tx_message.DLC = 0x08;
-    switch (_std_id)
+    switch (_motor_type)
     {
-        case 0x1FF:
-            switch (_can_id)
+        case GM_6020:
+            switch (_std_id)
             {
-                case 0x205:
-                    CANx_send_data[0] = current >> 8;                               //依次将要发送的数据移入数据数组，下同
-                    CANx_send_data[1] = current;
+                case 0x1FF:
+                    switch (_can_id)
+                    {
+                        case 0x205:
+                            CANx_send_data[0] = current >> 8;                               //依次将要发送的数据移入数据数组，下同
+                            CANx_send_data[1] = current;
+                            break;
+                        case 0x206:
+                            CANx_send_data[2] = current >> 8;                               //依次将要发送的数据移入数据数组，下同
+                            CANx_send_data[3] = current;
+                            break;
+                        case 0x207:
+                            CANx_send_data[4] = current >> 8;                               //依次将要发送的数据移入数据数组，下同
+                            CANx_send_data[5] = current;
+                            break;
+                        case 0x208:
+                            CANx_send_data[6] = current >> 8;                               //依次将要发送的数据移入数据数组，下同
+                            CANx_send_data[7] = current;
+                            break;
+                        default:
+                            break;
+                    }
                     break;
-                case 0x206:
-                    CANx_send_data[2] = current >> 8;                               //依次将要发送的数据移入数据数组，下同
-                    CANx_send_data[3] = current;
-                    break;
-                case 0x207:
-                    CANx_send_data[4] = current >> 8;                               //依次将要发送的数据移入数据数组，下同
-                    CANx_send_data[5] = current;
-                    break;
-                case 0x208:
-                    CANx_send_data[6] = current >> 8;                               //依次将要发送的数据移入数据数组，下同
-                    CANx_send_data[7] = current;
-                    break;
-                default:
+                case 0x2FF:
+                    switch (_can_id)
+                    {
+                        case 0x209:
+                            CANx_send_data[0] = current >> 8;                               //依次将要发送的数据移入数据数组，下同
+                            CANx_send_data[1] = current;
+                            break;
+                        case 0x20A:
+                            CANx_send_data[2] = current >> 8;                               //依次将要发送的数据移入数据数组，下同
+                            CANx_send_data[3] = current;
+                            break;
+                        case 0x20B:
+                            CANx_send_data[4] = current >> 8;                               //依次将要发送的数据移入数据数组，下同
+                            CANx_send_data[5] = current;
+                            break;
+                        default:
+                            break;
+                    }
                     break;
             }
             break;
-        case 0x2FF:
-            switch (_can_id)
+        case M_3508:
+            switch (_std_id)
             {
-                case 0x209:
-                    CANx_send_data[0] = current >> 8;                               //依次将要发送的数据移入数据数组，下同
-                    CANx_send_data[1] = current;
+                case 0x200:
+                    switch (_can_id)
+                    {
+                        case 0x201:
+                            CANx_send_data[0] = current >> 8;                               //依次将要发送的数据移入数据数组，下同
+                            CANx_send_data[1] = current;
+                            break;
+                        case 0x202:
+                            CANx_send_data[2] = current >> 8;                               //依次将要发送的数据移入数据数组，下同
+                            CANx_send_data[3] = current;
+                            break;
+                        case 0x203:
+                            CANx_send_data[4] = current >> 8;                               //依次将要发送的数据移入数据数组，下同
+                            CANx_send_data[5] = current;
+                            break;
+                        case 0x204:
+                            CANx_send_data[6] = current >> 8;                               //依次将要发送的数据移入数据数组，下同
+                            CANx_send_data[7] = current;
+                            break;
+                        default:
+                            break;
+                    }
                     break;
-                case 0x20A:
-                    CANx_send_data[2] = current >> 8;                               //依次将要发送的数据移入数据数组，下同
-                    CANx_send_data[3] = current;
-                    break;
-                case 0x20B:
-                    CANx_send_data[4] = current >> 8;                               //依次将要发送的数据移入数据数组，下同
-                    CANx_send_data[5] = current;
-                default:
+                case 0x1FF:
+                    switch (_can_id)
+                    {
+                        case 0x205:
+                            CANx_send_data[0] = current >> 8;                               //依次将要发送的数据移入数据数组，下同
+                            CANx_send_data[1] = current;
+                            break;
+                        case 0x206:
+                            CANx_send_data[2] = current >> 8;                               //依次将要发送的数据移入数据数组，下同
+                            CANx_send_data[3] = current;
+                            break;
+                        case 0x207:
+                            CANx_send_data[4] = current >> 8;                               //依次将要发送的数据移入数据数组，下同
+                            CANx_send_data[5] = current;
+                            break;
+                        case 0x208:
+                            CANx_send_data[6] = current >> 8;                               //依次将要发送的数据移入数据数组，下同
+                            CANx_send_data[7] = current;
+                            break;
+                        default:
+                            break;
+                    }
                     break;
             }
+            break;
+        case M_2006:
+            switch (_std_id)
+            {
+                case 0x200:
+                    switch (_can_id)
+                    {
+                        case 0x201:
+                            CANx_send_data[0] = current >> 8;                               //依次将要发送的数据移入数据数组，下同
+                            CANx_send_data[1] = current;
+                            break;
+                        case 0x202:
+                            CANx_send_data[2] = current >> 8;                               //依次将要发送的数据移入数据数组，下同
+                            CANx_send_data[3] = current;
+                            break;
+                        case 0x203:
+                            CANx_send_data[4] = current >> 8;                               //依次将要发送的数据移入数据数组，下同
+                            CANx_send_data[5] = current;
+                            break;
+                        case 0x204:
+                            CANx_send_data[6] = current >> 8;                               //依次将要发送的数据移入数据数组，下同
+                            CANx_send_data[7] = current;
+                            break;
+                        default:
+                            break;
+                    }
+                    break;
+                case 0x1FF:
+                    switch (_can_id)
+                    {
+                        case 0x205:
+                            CANx_send_data[0] = current >> 8;                               //依次将要发送的数据移入数据数组，下同
+                            CANx_send_data[1] = current;
+                            break;
+                        case 0x206:
+                            CANx_send_data[2] = current >> 8;                               //依次将要发送的数据移入数据数组，下同
+                            CANx_send_data[3] = current;
+                            break;
+                        case 0x207:
+                            CANx_send_data[4] = current >> 8;                               //依次将要发送的数据移入数据数组，下同
+                            CANx_send_data[5] = current;
+                            break;
+                        case 0x208:
+                            CANx_send_data[6] = current >> 8;                               //依次将要发送的数据移入数据数组，下同
+                            CANx_send_data[7] = current;
+                            break;
+                        default:
+                            break;
+                    }
+                    break;
+            }
+            break;
+        default:
             break;
     }
+
 
     HAL_CAN_AddTxMessage(_usehcan,
                          &CANx_tx_message,                           //hal库can发送函数：该函数用于向发送邮箱
                          CANx_send_data, &send_mail_box);            //添加发送报文，并激活发送请求
 }
 
-void cMotor::canInit(uint32_t can_id_t, uint32_t stdid_t, CAN_HandleTypeDef *hcan_t)
+void cMotor::canInit(uint32_t can_id_t, CAN_HandleTypeDef *hcan_t, int motor_type)
 {
-    _std_id = stdid_t;
     _can_id = can_id_t;
     _usehcan = hcan_t;
+    _motor_type = (eMotorType) motor_type;
+    switch (_motor_type)
+    {
+        case GM_6020:
+            if (_can_id >= 0x205 && _can_id <= 0x208) _std_id = 0x1FF;
+            else if (_can_id >= 0x209 && _can_id <= 0x20B) _std_id = 0x2FF;
+            else errorHandle(ERROR_MOTOR);
+            break;
+        case M_3508:
+            if (_can_id >= 0x201 && _can_id <= 0x204) _std_id = 0x200;
+            else if (_can_id >= 0x205 && _can_id <= 0x208) _std_id = 0x1FF;
+            else errorHandle(ERROR_MOTOR);
+            break;
+        case M_2006:
+            if (_can_id >= 0x201 && _can_id <= 0x204) _std_id = 0x200;
+            else if (_can_id >= 0x205 && _can_id <= 0x208) _std_id = 0x1FF;
+            else errorHandle(ERROR_MOTOR);
+        default:
+            break;
+    }
 }
 
 void cMotor::canRead(uint32_t rx_std_id, uint8_t rx_buffer[8])
@@ -115,7 +256,7 @@ void cMotor::classicPid(float spd_kp, float spd_ki, float spd_kd, float spd_out_
 
 void cMotor::calcPid(float tar_pos)
 {
-    _classic_pos_pid.PID_Target = tar_pos;
+    _classic_pos_pid.PID_Target = Debug_Param().vel_rampTargetValue;
     PID_Update(&_classic_pos_pid, (float) _can_read.total_angle);
     PID_GetPositionPID(&_classic_pos_pid);
     _classic_spd_pid.PID_Target = _classic_pos_pid.PID_Out;
@@ -127,6 +268,8 @@ void cMotor::sendPid()
 {
     canSend(_classic_spd_pid.PID_Out);
 }
+
+
 
 
 

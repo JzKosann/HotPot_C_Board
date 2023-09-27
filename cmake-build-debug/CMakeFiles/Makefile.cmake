@@ -102,7 +102,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/clion/CLion 2023.1.1/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/FeatureTesting.cmake"
   "D:/clion/CLion 2023.1.1/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Generic.cmake"
   "D:/clion/CLion 2023.1.1/bin/cmake/win/x64/share/cmake-3.26/Modules/ProcessorCount.cmake"
-  "E:/A_kosann/ROBOMASTER2024/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/CMakeLists.txt"
+  "E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/CMakeLists.txt"
   "CMakeFiles/3.26.4/CMakeASMCompiler.cmake"
   "CMakeFiles/3.26.4/CMakeCCompiler.cmake"
   "CMakeFiles/3.26.4/CMakeCXXCompiler.cmake"

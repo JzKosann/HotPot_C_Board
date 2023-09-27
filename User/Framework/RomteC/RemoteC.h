@@ -110,48 +110,8 @@ extern void REMOTEC_Init(void);
   * @retval         遥控器数据指针
   */
 extern const RC_ctrl_t *get_remote_control_point(void);
-
-float portSetYawSpeed(void);
-
-float portSetPihSpeed(void);
-
-float portSetVx(void);
-
-float portSetVy(void);
-
-//float portSetVz(void);
 void RC_DataHandle(RC_ctrl_t *rc_ctrl);
 
-int8_t portSetProtect(void);
 
-int8_t portSetCarMode(void);
-
-void portSetRammer(void);
-
-void portSetBullet(void);
-
-void RC_ErrorCheck(void);
-
-int16_t RC_ErrorData();
-
-RC_ctrl_t RC_GetDatas(void);
-
-uint8_t portIsZimiao(void);
-
-uint8_t portIsRedrawing(void);
-
-void Set_ChannelStopTimeMax(int32_t max);
-
-void portSetHead(void);
-
-void portSetGun(void);
-
-//uint8_t portLockGimbal(void);
-void ShootSpeedTarget(float Shoot_Speed, float Ram_Speed, int8_t mode); //bug:有时候目标值弹跳 已解决
-uint8_t portAutoAmmo(void); //自动发弹
-void portHandle(Key_State *port); //非连续键值处理 即上一次是0，本次是1，判断为按了一次，用于处理状态切换等不适用于连续用手按的按键
-class remotec {
-
-};
 
 #endif //KOSANN_UAVGIMBAL_REMOTEC_H

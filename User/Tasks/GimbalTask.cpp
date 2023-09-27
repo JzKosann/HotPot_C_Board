@@ -19,8 +19,8 @@ void GimbalControlTask(void const *argument)
         FeedDog();
         current = xTaskGetTickCount();
         RGB.loop();
-        yaw.calcPid(Debug_Param().vel_rampTargetValue);
-        yaw.sendPid();
+        pitch.calcPid(Debug_Param().vel_rampTargetValue);
+        pitch.sendPid();
         vTaskDelayUntil(&current, pdMS_TO_TICKS(10));
     }
     /* USER CODE END GimbalControlTask */

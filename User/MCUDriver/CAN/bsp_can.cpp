@@ -63,6 +63,7 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan) {
 
     } else if (hcan == &hcan2) {                //can2
         yaw.canRead(rx_header.StdId,rx_buffer);
+        pitch.canRead(rx_header.StdId,rx_buffer);
     }
 }
 

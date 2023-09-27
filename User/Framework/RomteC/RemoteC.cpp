@@ -4,11 +4,8 @@
 
 #include "RemoteC.h"
 #include "usart.h"
-#include "debugc.h"
 #include "stdlib.h"
-#include "cmath"
 #include "cstring"
-#include "cstdio"
 #include "imuc.h"
 #include "pidC.h"
 
@@ -18,12 +15,9 @@
  *  串口 USART1
  */
 
-//static float GunZeroPoint, GunPiPoint;
-extern UART_HandleTypeDef huart1;
-extern DMA_HandleTypeDef hdma_usart1_rx;
-//extern getMotorAngelAll_TypeDef RamMotorAllAngel, GunMotorAllAngel;
-//extern PID_t ShootSpeedPidL, ShootSpeedPidR, ShootSpeedPidU, RamSpeedPID, RamPosPID, GunPosPID;
-extern int8_t Control_Mode;
+
+extern UART_HandleTypeDef huart3;
+extern DMA_HandleTypeDef hdma_usart3_rx;
 
 /**
   * @brief          remote control protocol resolution
@@ -79,39 +73,39 @@ const RC_ctrl_t* get_remote_control_point(void)
 void REMOTEC_UartIrqHandler(void)
 {
 //    usart_printf("hh\r\n");
-    if (huart1.Instance->SR & UART_FLAG_RXNE)//接收到数据
+    if (huart3.Instance->SR & UART_FLAG_RXNE)//接收到数据
     {
-        __HAL_UART_CLEAR_PEFLAG(&huart1);
+        __HAL_UART_CLEAR_PEFLAG(&huart3);
     }
-    else if (USART1->SR & UART_FLAG_IDLE)
+    else if (USART3->SR & UART_FLAG_IDLE)
     {
         static uint16_t this_time_rx_len = 0;
 
-        __HAL_UART_CLEAR_PEFLAG(&huart1);
+        __HAL_UART_CLEAR_PEFLAG(&huart3);
 
-        if ((hdma_usart1_rx.Instance->CR & DMA_SxCR_CT) == RESET)
+        if ((hdma_usart3_rx.Instance->CR & DMA_SxCR_CT) == RESET)
         {
             /* Current memory buffer used is Memory 0 */
 
             //disable DMA
             //失效DMA
-            __HAL_DMA_DISABLE(&hdma_usart1_rx);
+            __HAL_DMA_DISABLE(&hdma_usart3_rx);
 
             //get receive data length, length = set_data_length - remain_length
             //获取接收数据长度,长度 = 设定长度 - 剩余长度
-            this_time_rx_len = SBUS_RX_BUF_NUM - hdma_usart1_rx.Instance->NDTR;
+            this_time_rx_len = SBUS_RX_BUF_NUM - hdma_usart3_rx.Instance->NDTR;
 
             //reset set_data_lenght
             //重新设定数据长度
-            hdma_usart1_rx.Instance->NDTR = SBUS_RX_BUF_NUM;
+            hdma_usart3_rx.Instance->NDTR = SBUS_RX_BUF_NUM;
 
             //set memory buffer 1
             //设定缓冲区1
-            hdma_usart1_rx.Instance->CR |= DMA_SxCR_CT;
+            hdma_usart3_rx.Instance->CR |= DMA_SxCR_CT;
 
             //enable DMA
             //使能DMA
-            __HAL_DMA_ENABLE(&hdma_usart1_rx);
+            __HAL_DMA_ENABLE(&hdma_usart3_rx);
 
             if (this_time_rx_len == RC_FRAME_LENGTH)
             {
@@ -123,23 +117,23 @@ void REMOTEC_UartIrqHandler(void)
             /* Current memory buffer used is Memory 1 */
             //disable DMA
             //失效DMA
-            __HAL_DMA_DISABLE(&hdma_usart1_rx);
+            __HAL_DMA_DISABLE(&hdma_usart3_rx);
 
             //get receive data length, length = set_data_length - remain_length
             //获取接收数据长度,长度 = 设定长度 - 剩余长度
-            this_time_rx_len = SBUS_RX_BUF_NUM - hdma_usart1_rx.Instance->NDTR;
+            this_time_rx_len = SBUS_RX_BUF_NUM - hdma_usart3_rx.Instance->NDTR;
 
             //reset set_data_lenght
             //重新设定数据长度
-            hdma_usart1_rx.Instance->NDTR = SBUS_RX_BUF_NUM;
+            hdma_usart3_rx.Instance->NDTR = SBUS_RX_BUF_NUM;
 
             //set memory buffer 0
             //设定缓冲区0
-            DMA2_Stream2->CR &= ~(DMA_SxCR_CT);
+            DMA1_Stream1->CR &= ~(DMA_SxCR_CT);
 
             //enable DMA
             //使能DMA
-            __HAL_DMA_ENABLE(&hdma_usart1_rx);
+            __HAL_DMA_ENABLE(&hdma_usart3_rx);
 
             if (this_time_rx_len == RC_FRAME_LENGTH)
             {

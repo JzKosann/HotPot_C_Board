@@ -1,2 +1,2 @@
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/IMUC.cpp.obj: \
- E:\A_kosann\ROBOMASTER2024\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\User\Framework\IMU\IMUC.cpp
+ E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\User\Framework\IMU\IMUC.cpp

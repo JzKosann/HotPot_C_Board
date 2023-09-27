@@ -8,8 +8,8 @@ void UserInit() {
     can_filter_init(&hcan2);
     DEBUGC_UartInit();
     HAL_TIM_Base_Start_IT(&htim5);
-    REMOTEC_Init();
 
+    REMOTEC_Init();
     MotorInit();
 }
 

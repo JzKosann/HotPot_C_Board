@@ -9,21 +9,35 @@
 #include "MCU_heafile.hpp"
 #include "core.h"
 
-/*#define _func */
-#define YAW 0
-#define PITCH 1
+/*motor_type*/
+#define GM6020 0
+#define M3508 1
+#define M2006 2
 
 class cMotor
 {
 private:
+    enum eMotorType
+    {
+        GM_6020,
+        M_3508,
+        M_2006
+    };
+    enum eRrorType
+    {
+        ERROR_MOTOR
+    };
+private:
     uint32_t _std_id;
-    CAN_HandleTypeDef *_usehcan;
     uint32_t _can_id;
+    eMotorType _motor_type;
+    CAN_HandleTypeDef *_usehcan;
     Motor_measure_t _can_read;//获取数据,供访问
     PID_t _classic_spd_pid;
     PID_t _classic_pos_pid;
 public:
-    void canInit(uint32_t can_id_t, uint32_t stdid_t, CAN_HandleTypeDef *);
+    static void errorHandle(eRrorType error_type);
+    void canInit(uint32_t can_id_t, CAN_HandleTypeDef *hcan, int motor_type);
     void canSend(int16_t current);
     void canRead(uint32_t rx_std_id, uint8_t rx_buffer[8]);
     /*classicPID*/
@@ -36,5 +50,6 @@ public:
 
 void MotorInit();
 extern cMotor yaw;
+extern cMotor pitch;
 
 #endif //KOSANN_UAVGIMBAL_CLASS_HPP
