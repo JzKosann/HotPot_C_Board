@@ -4,7 +4,7 @@
 
 #include "bsp_can.h"
 #include "main.h"
-#include "class.hpp"
+#include "MotorC.hpp"
 
 
 extern CAN_HandleTypeDef hcan1;

@@ -2152,6 +2152,30 @@ User/MCUDriver/SERVO/servo.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/SERVO/servo.cpp.s
 .PHONY : User/MCUDriver/SERVO/servo.cpp.s
 
+User/MotorC.obj: User/MotorC.cpp.obj
+.PHONY : User/MotorC.obj
+
+# target to build an object file
+User/MotorC.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/MotorC.cpp.obj
+.PHONY : User/MotorC.cpp.obj
+
+User/MotorC.i: User/MotorC.cpp.i
+.PHONY : User/MotorC.i
+
+# target to preprocess a source file
+User/MotorC.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/MotorC.cpp.i
+.PHONY : User/MotorC.cpp.i
+
+User/MotorC.s: User/MotorC.cpp.s
+.PHONY : User/MotorC.s
+
+# target to generate assembly for a file
+User/MotorC.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/MotorC.cpp.s
+.PHONY : User/MotorC.cpp.s
+
 User/Tasks/GimbalTask.obj: User/Tasks/GimbalTask.cpp.obj
 .PHONY : User/Tasks/GimbalTask.obj
 
@@ -2175,30 +2199,6 @@ User/Tasks/GimbalTask.s: User/Tasks/GimbalTask.cpp.s
 User/Tasks/GimbalTask.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/GimbalTask.cpp.s
 .PHONY : User/Tasks/GimbalTask.cpp.s
-
-User/class.obj: User/class.cpp.obj
-.PHONY : User/class.obj
-
-# target to build an object file
-User/class.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/class.cpp.obj
-.PHONY : User/class.cpp.obj
-
-User/class.i: User/class.cpp.i
-.PHONY : User/class.i
-
-# target to preprocess a source file
-User/class.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/class.cpp.i
-.PHONY : User/class.cpp.i
-
-User/class.s: User/class.cpp.s
-.PHONY : User/class.s
-
-# target to generate assembly for a file
-User/class.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/class.cpp.s
-.PHONY : User/class.cpp.s
 
 # Help Target
 help:
@@ -2462,12 +2462,12 @@ help:
 	@echo ... User/MCUDriver/SERVO/servo.obj
 	@echo ... User/MCUDriver/SERVO/servo.i
 	@echo ... User/MCUDriver/SERVO/servo.s
+	@echo ... User/MotorC.obj
+	@echo ... User/MotorC.i
+	@echo ... User/MotorC.s
 	@echo ... User/Tasks/GimbalTask.obj
 	@echo ... User/Tasks/GimbalTask.i
 	@echo ... User/Tasks/GimbalTask.s
-	@echo ... User/class.obj
-	@echo ... User/class.i
-	@echo ... User/class.s
 .PHONY : help
 
 

@@ -846,16 +846,16 @@
 		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/SERVO/servo.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MotorC.cpp">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MotorC.hpp">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
 		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Tasks/GimbalTask.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
 		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Tasks/GimbalTask.h">
-			<Option target="kosann_UAVGimbal.elf"/>
-		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/class.cpp">
-			<Option target="kosann_UAVGimbal.elf"/>
-		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/class.hpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
 		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/core.h">

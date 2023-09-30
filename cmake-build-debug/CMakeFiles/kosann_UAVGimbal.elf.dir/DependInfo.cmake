@@ -150,8 +150,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/POWER/power.cpp" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/POWER/power.cpp.obj" "gcc" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/POWER/power.cpp.obj.d"
   "E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/REMOTEC/remoteio.cpp" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/REMOTEC/remoteio.cpp.obj" "gcc" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/REMOTEC/remoteio.cpp.obj.d"
   "E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/SERVO/servo.cpp" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/SERVO/servo.cpp.obj" "gcc" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/SERVO/servo.cpp.obj.d"
+  "E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MotorC.cpp" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/MotorC.cpp.obj" "gcc" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/MotorC.cpp.obj.d"
   "E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Tasks/GimbalTask.cpp" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/GimbalTask.cpp.obj" "gcc" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/GimbalTask.cpp.obj.d"
-  "E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/class.cpp" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/class.cpp.obj" "gcc" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/class.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

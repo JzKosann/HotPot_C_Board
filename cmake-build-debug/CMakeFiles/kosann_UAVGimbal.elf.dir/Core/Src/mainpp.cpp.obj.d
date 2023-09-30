@@ -122,7 +122,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/mainpp.cpp.obj: \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\strings.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\sys\string.h \
  E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Core\Inc/gpio.h \
- E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\User/class.hpp \
+ E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\User/MotorC.hpp \
  E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\User\Framework/framework_headfile.hpp \
  E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\User\Framework\ADRC/ADRC.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\c++\10.3.1\math.h \

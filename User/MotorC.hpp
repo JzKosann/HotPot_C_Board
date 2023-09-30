@@ -2,8 +2,8 @@
 // Created by ShiF on 2023/9/19.
 //
 
-#ifndef KOSANN_UAVGIMBAL_CLASS_HPP
-#define KOSANN_UAVGIMBAL_CLASS_HPP
+#ifndef KOSANN_UAVGIMBAL_MOTORC_HPP
+#define KOSANN_UAVGIMBAL_MOTORC_HPP
 
 #include "framework_headfile.hpp"
 #include "MCU_heafile.hpp"
@@ -52,4 +52,4 @@ void MotorInit();
 extern cMotor yaw;
 extern cMotor pitch;
 
-#endif //KOSANN_UAVGIMBAL_CLASS_HPP
+#endif //KOSANN_UAVGIMBAL_MOTORC_HPP

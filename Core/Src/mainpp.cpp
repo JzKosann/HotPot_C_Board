@@ -1,7 +1,7 @@
 //
 // Created by ShiF on 2023/9/16.
 #include "core.h"
-#include "class.hpp"
+#include "MotorC.hpp"
 
 void UserInit() {
     can_filter_init(&hcan1);
