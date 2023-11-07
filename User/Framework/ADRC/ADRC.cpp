@@ -1,7 +1,7 @@
 //
 // Created by ShiF on 2023/9/12.
 //
-#include "ADRC.h"
+#include "ADRC.hpp"
 #include "framework_headfile.hpp"
 /** 日志
  * ADRC目前没有做限幅
@@ -94,7 +94,6 @@ void ADRC_TD(ADRC_t *which) {
     fh = fhan(which->x1 - which->target, which->x2, which->r, which->h);
     which->x1 += which->h * which->x2;
     which->x2 += which->h * fh;
-//    usart_printf("%.2f,%.2f\r\n", which->x1, which->x2);
 }
 
 /**
@@ -161,13 +160,47 @@ void ADRCparamInit(ADRC_t *which) {
  * @param feedback  反馈值
  * @return 计算出来的输出值
  */
-float ADRC_calc(ADRC_t *which, float target, float feedback) {
-    which->target = target;
-    which->feedback = feedback;
-    ADRC_TD(which);
-    ADRC_ESO(which);
-    ADRC_nonlinerfeedback(which);
-    return which->u;
+void cADRC::Init(float r,float h,float delta,float b,float beta01,float beta02,
+                 float beta03,float alpha1,float alpha2,float betac1,float betac2)
+{
+    ADRCparamInit(&_spd);
+
+    _spd.r = r;
+    _spd.h = h;
+    _spd.delta = delta;
+    _spd.b = b;
+    _spd.beta01 = beta01;
+    _spd.beta02 = beta02;
+    _spd.beta03 = beta03;
+    _spd.alpha1 = alpha1;
+    _spd.alpha2 = alpha2;
+    _spd.betac1 = betac1;
+    _spd.betac2 = betac2;
+}
+
+float cADRC::SpdLoop(float SpdInput)
+{
+    _spd.feedback = SpdInput;
+    ADRC_TD(&_spd);
+    ADRC_ESO(&_spd);
+    ADRC_nonlinerfeedback(&_spd);
+    return _spd.u;
+}
+
+void cADRC::setSpdTar(float Spd_tar)
+{
+
+    _spd.target = Spd_tar;
+}
+
+float cADRC::ADRCout()
+{
+    return _spd.u;
+}
+
+const ADRC_t &cADRC::getSpd() const
+{
+    return _spd;
 }
 
 

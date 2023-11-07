@@ -15,7 +15,7 @@
   *          }
   */
 
-#include "kalman.h"
+#include "kalman.hpp"
 //#include "Device.h"
 //#include "Function.h"
 
@@ -30,9 +30,9 @@
   * @attention R固定，Q越大，代表越信任侧量值，Q无穷代表只用测量值
   *		       	反之，Q越小代表越信任模型预测值，Q为零则是只用模型预测
   */
-void KalmanCreate(extKalman_t *p,float T_Q,float T_R)
+void KalmanCreate(extKalman_t *p, float T_Q, float T_R)
 {
-    p->X_last = (float)0;
+    p->X_last = (float) 0;
     p->P_last = 0;
     p->Q = T_Q;
     p->R = T_R;
@@ -54,150 +54,24 @@ void KalmanCreate(extKalman_t *p,float T_Q,float T_R)
   *            一阶H'即为它本身,否则为转置矩阵
   */
 
-float KalmanFilter(extKalman_t* p,float dat)
+float KalmanFilter(extKalman_t *p, float dat)
 {
-    p->X_mid =p->A*p->X_last;                     //百度对应公式(1)    x(k|k-1) = A*X(k-1|k-1)+B*U(k)+W(K)     状态方程
-    p->P_mid = p->A*p->P_last+p->Q;               //百度对应公式(2)    p(k|k-1) = A*p(k-1|k-1)*A'+Q            观测方程
-    p->kg = p->P_mid/(p->P_mid+p->R);             //百度对应公式(4)    kg(k) = p(k|k-1)*H'/(H*p(k|k-1)*H'+R)   更新卡尔曼增益
-    p->X_now = p->X_mid + p->kg*(dat-p->X_mid);   //百度对应公式(3)    x(k|k) = X(k|k-1)+kg(k)*(Z(k)-H*X(k|k-1))  修正估计值
-    p->P_now = (1-p->kg)*p->P_mid;                //百度对应公式(5)    p(k|k) = (I-kg(k)*H)*P(k|k-1)           更新后验估计协方差
+    p->X_mid = p->A * p->X_last;                     //百度对应公式(1)    x(k|k-1) = A*X(k-1|k-1)+B*U(k)+W(K)     状态方程
+    p->P_mid = p->A * p->P_last + p->Q;               //百度对应公式(2)    p(k|k-1) = A*p(k-1|k-1)*A'+Q            观测方程
+    p->kg = p->P_mid / (p->P_mid + p->R);             //百度对应公式(4)    kg(k) = p(k|k-1)*H'/(H*p(k|k-1)*H'+R)   更新卡尔曼增益
+    p->X_now = p->X_mid + p->kg * (dat - p->X_mid);   //百度对应公式(3)    x(k|k) = X(k|k-1)+kg(k)*(Z(k)-H*X(k|k-1))  修正估计值
+    p->P_now = (1 - p->kg) * p->P_mid;                //百度对应公式(5)    p(k|k) = (I-kg(k)*H)*P(k|k-1)           更新后验估计协方差
     p->P_last = p->P_now;                         //状态更新
     p->X_last = p->X_now;
-    return p->X_now;							  //输出预测结果x(k|k)
+    return p->X_now;                              //输出预测结果x(k|k)
 }
 
-
-
-extern extKalman_t KF_Mouse_X_Speed,KF_Mouse_Y_Speed;
-void Kalman_Init(void)
+void kalman::Init(float T_Q, float T_R)
 {
-    //鼠标
-    KalmanCreate(&KF_Mouse_X_Speed,1,60);
-    KalmanCreate(&KF_Mouse_Y_Speed,1,60);
-#if (Infantry == 1)
-    //普通模式
-    //云台yaw
-    KalmanCreate(&Gimbal.YAW.KF_Angle[RC_MECH],1,30);
-    KalmanCreate(&Gimbal.YAW.KF_Angle[RC_GYRO],1,30);
-    KalmanCreate(&Gimbal.YAW.KF_Angle[KEY_MECH],1,30);
-    KalmanCreate(&Gimbal.YAW.KF_Angle[KEY_GYRO],1,30);
-    KalmanCreate(&Gimbal.YAW.KF_Angle[ACT_AUTO_AIM],1,30);
-    KalmanCreate(&Gimbal.YAW.KF_Angle[ACT_BIG_BUFF],1,30);
-    KalmanCreate(&Gimbal.YAW.KF_Angle[ACT_SMALL_BUFF],1,30);
-    KalmanCreate(&Gimbal.YAW.KF_Angle[ACT_PARK],1,30);
+    KalmanCreate(&_kalman, T_Q, T_R);
+}
 
-    //云台pitch
-    KalmanCreate(&Gimbal.PIT.KF_Angle[RC_MECH],1,30);
-    KalmanCreate(&Gimbal.PIT.KF_Angle[RC_GYRO],1,30);
-    KalmanCreate(&Gimbal.PIT.KF_Angle[KEY_MECH],1,30);
-    KalmanCreate(&Gimbal.PIT.KF_Angle[KEY_GYRO],1,30);
-    KalmanCreate(&Gimbal.PIT.KF_Angle[ACT_AUTO_AIM],1,30);
-    KalmanCreate(&Gimbal.PIT.KF_Angle[ACT_BIG_BUFF],1,30);
-    KalmanCreate(&Gimbal.PIT.KF_Angle[ACT_SMALL_BUFF],1,30);
-    KalmanCreate(&Gimbal.PIT.KF_Angle[ACT_PARK],1,30);
-
-    //底盘电机
-    KalmanCreate(&Chassis.RC_Move.GYRO_Move.KF_GYRO_Angle,1,10);
-    KalmanCreate(&Chassis.Key_Move.GYRO_Move.KF_GYRO_Angle,1,10);
-    KalmanCreate(&Chassis.SPIN_Move.GYRO_Move.KF_GYRO_Angle,1,0);
-
-  //特殊模式
-    //自瞄
-    KalmanCreate(&AutoAim.YAW.KF.Angle_KF , 1,40);
-    KalmanCreate(&AutoAim.YAW.KF.Omiga_KF , 1,35);
-    KalmanCreate(&AutoAim.YAW.KF.Accel_KF , 1,35);
-    KalmanCreate(&AutoAim.YAW.KF.Out_KF , 1 ,35);
-    KalmanCreate(&AutoAim.PIT.KF.Angle_KF , 1,40);
-    KalmanCreate(&AutoAim.PIT.KF.Omiga_KF , 1,35);
-    KalmanCreate(&AutoAim.PIT.KF.Accel_KF , 1,35);
-    KalmanCreate(&AutoAim.PIT.KF.Out_KF , 1 ,35);
-    //打符
-    KalmanCreate(&BuffAim.YAW.KF , 1 , 20 );
-    KalmanCreate(&BuffAim.PIT.KF , 1 , 20 );
-
-
-#elif (Infantry == 2)
-    //普通模式
-    //云台yaw
-    KalmanCreate(&Gimbal.YAW.KF_Angle[RC_MECH],1,30);
-    KalmanCreate(&Gimbal.YAW.KF_Angle[RC_GYRO],1,30);
-    KalmanCreate(&Gimbal.YAW.KF_Angle[KEY_MECH],1,30);
-    KalmanCreate(&Gimbal.YAW.KF_Angle[KEY_GYRO],1,30);
-    KalmanCreate(&Gimbal.YAW.KF_Angle[ACT_AUTO_AIM],1,30);
-    KalmanCreate(&Gimbal.YAW.KF_Angle[ACT_BIG_BUFF],1,30);
-    KalmanCreate(&Gimbal.YAW.KF_Angle[ACT_SMALL_BUFF],1,30);
-    KalmanCreate(&Gimbal.YAW.KF_Angle[ACT_PARK],1,30);
-
-    //云台pitch
-    KalmanCreate(&Gimbal.PIT.KF_Angle[RC_MECH],1,30);
-    KalmanCreate(&Gimbal.PIT.KF_Angle[RC_GYRO],1,30);//30
-    KalmanCreate(&Gimbal.PIT.KF_Angle[KEY_MECH],1,30);
-    KalmanCreate(&Gimbal.PIT.KF_Angle[KEY_GYRO],1,30);
-    KalmanCreate(&Gimbal.PIT.KF_Angle[ACT_AUTO_AIM],1,30);
-    KalmanCreate(&Gimbal.PIT.KF_Angle[ACT_BIG_BUFF],1,30);
-    KalmanCreate(&Gimbal.PIT.KF_Angle[ACT_SMALL_BUFF],1,30);
-    KalmanCreate(&Gimbal.PIT.KF_Angle[ACT_PARK],1,30);
-
-    //底盘电机
-    KalmanCreate(&Chassis.RC_Move.GYRO_Move.KF_GYRO_Angle,1,20);
-    KalmanCreate(&Chassis.Key_Move.GYRO_Move.KF_GYRO_Angle,1,20);
-    KalmanCreate(&Chassis.SPIN_Move.GYRO_Move.KF_GYRO_Angle,1,20);
-
-  //特殊模式
-    //自瞄
-    KalmanCreate(&AutoAim.YAW.KF.Angle_KF , 1,20);
-    KalmanCreate(&AutoAim.YAW.KF.Omiga_KF , 1,20);
-    KalmanCreate(&AutoAim.YAW.KF.Accel_KF , 1,20);
-    KalmanCreate(&AutoAim.YAW.KF.Out_KF , 1 ,50);
-    KalmanCreate(&AutoAim.PIT.KF.Angle_KF , 1,20);
-    KalmanCreate(&AutoAim.PIT.KF.Omiga_KF , 1,20);
-    KalmanCreate(&AutoAim.PIT.KF.Accel_KF , 1,20);
-    KalmanCreate(&AutoAim.PIT.KF.Out_KF , 1 ,50);
-    //打符
-    KalmanCreate(&BuffAim.YAW.KF , 1 , 20 );
-    KalmanCreate(&BuffAim.PIT.KF , 1 , 20 );
-
-#elif (Infantry == 3)
-    //普通模式
-    //云台yaw
-    KalmanCreate(&Gimbal.YAW.KF_Angle[RC_MECH],1,30);
-    KalmanCreate(&Gimbal.YAW.KF_Angle[RC_GYRO],1,30);
-    KalmanCreate(&Gimbal.YAW.KF_Angle[KEY_MECH],1,30);
-    KalmanCreate(&Gimbal.YAW.KF_Angle[KEY_GYRO],1,30);
-    KalmanCreate(&Gimbal.YAW.KF_Angle[ACT_AUTO_AIM],1,30);
-    KalmanCreate(&Gimbal.YAW.KF_Angle[ACT_BIG_BUFF],1,30);
-    KalmanCreate(&Gimbal.YAW.KF_Angle[ACT_SMALL_BUFF],1,30);
-    KalmanCreate(&Gimbal.YAW.KF_Angle[ACT_PARK],1,30);
-
-    //云台pitch
-    KalmanCreate(&Gimbal.PIT.KF_Angle[RC_MECH],1,30);
-    KalmanCreate(&Gimbal.PIT.KF_Angle[RC_GYRO],1,30);
-    KalmanCreate(&Gimbal.PIT.KF_Angle[KEY_MECH],1,30);
-    KalmanCreate(&Gimbal.PIT.KF_Angle[KEY_GYRO],1,30);
-    KalmanCreate(&Gimbal.PIT.KF_Angle[ACT_AUTO_AIM],1,30);
-    KalmanCreate(&Gimbal.PIT.KF_Angle[ACT_BIG_BUFF],1,30);
-    KalmanCreate(&Gimbal.PIT.KF_Angle[ACT_SMALL_BUFF],1,30);
-    KalmanCreate(&Gimbal.PIT.KF_Angle[ACT_PARK],1,30);
-
-    //底盘电机
-    KalmanCreate(&Chassis.RC_Move.GYRO_Move.KF_GYRO_Angle,1,10);
-    KalmanCreate(&Chassis.Key_Move.GYRO_Move.KF_GYRO_Angle,1,10);
-    KalmanCreate(&Chassis.SPIN_Move.GYRO_Move.KF_GYRO_Angle,1,0);
-
-  //特殊模式
-    //自瞄
-    KalmanCreate(&AutoAim.YAW.KF.Angle_KF , 1,40);
-    KalmanCreate(&AutoAim.YAW.KF.Omiga_KF , 1,35);
-    KalmanCreate(&AutoAim.YAW.KF.Accel_KF , 1,35);
-    KalmanCreate(&AutoAim.YAW.KF.Out_KF , 1 ,35);
-    KalmanCreate(&AutoAim.PIT.KF.Angle_KF , 1,40);
-    KalmanCreate(&AutoAim.PIT.KF.Omiga_KF , 1,35);
-    KalmanCreate(&AutoAim.PIT.KF.Accel_KF , 1,35);
-    KalmanCreate(&AutoAim.PIT.KF.Out_KF , 1 ,35);
-    //打符
-    KalmanCreate(&BuffAim.YAW.KF , 1 , 20 );
-    KalmanCreate(&BuffAim.PIT.KF , 1 , 20 );
-
-#endif
-
+float kalman::Calc(float dat)
+{
+    return KalmanFilter(&_kalman, dat);
 }

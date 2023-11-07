@@ -1,7 +1,7 @@
 //
 // Created by shif on 2023/9/12.
 //
-#include "pidC.h"
+#include "pidC.hpp"
 //COMMENT:要不要使用c++更新下PID？
 /*
 	* @name   PID_Update
@@ -9,26 +9,38 @@
 	* @param  WhichPID PID结构体指针,NowInput 当前PID输入值
   	* @retval None
 */
-void PID_Update(PID_t *WhichPID, float NowInput) {
+void PID_Update(PID_t *WhichPID, float NowInput)
+{
     WhichPID->PID_Input = NowInput;
-    if (WhichPID->State_RampOrNormal == Ramp_e) {
-        if (WhichPID->RampCountTime < WhichPID->RampTargetTime) {
+    if (WhichPID->State_RampOrNormal == Ramp_e)
+    {
+        if (WhichPID->RampCountTime < WhichPID->RampTargetTime)
+        {
             ++WhichPID->RampCountTime;
-        } else {
+        }
+        else
+        {
             WhichPID->RampCountTime = 0;
-            if (WhichPID->PID_Target < WhichPID->RampTarget) { //斜坡函数还没计数完，
+            if (WhichPID->PID_Target < WhichPID->RampTarget)
+            { //斜坡函数还没计数完，
                 WhichPID->PID_Target += WhichPID->RampTargetStep;
-                if (WhichPID->PID_Target >= WhichPID->RampTarget) {
+                if (WhichPID->PID_Target >= WhichPID->RampTarget)
+                {
                     WhichPID->PID_Target = WhichPID->RampTarget;
                     WhichPID->State_RampOrNormal = Normal_e;
                 }
-            } else if (WhichPID->PID_Target > WhichPID->RampTarget) {
+            }
+            else if (WhichPID->PID_Target > WhichPID->RampTarget)
+            {
                 WhichPID->PID_Target -= WhichPID->RampTargetStep;
-                if (WhichPID->PID_Target <= WhichPID->RampTarget) {
+                if (WhichPID->PID_Target <= WhichPID->RampTarget)
+                {
                     WhichPID->PID_Target = WhichPID->RampTarget;
                     WhichPID->State_RampOrNormal = Normal_e;
                 }
-            } else { //斜坡函数计数已经完成，要退出斜坡函数模式
+            }
+            else
+            { //斜坡函数计数已经完成，要退出斜坡函数模式
                 WhichPID->State_RampOrNormal = Normal_e;
             }
         }
@@ -42,9 +54,12 @@ void PID_Update(PID_t *WhichPID, float NowInput) {
 
     WhichPID->PID_Err_all += WhichPID->PID_Err_now;
 
-    if (WhichPID->PID_Err_all > WhichPID->PID_ErrAllMax) {
+    if (WhichPID->PID_Err_all > WhichPID->PID_ErrAllMax)
+    {
         WhichPID->PID_Err_all = WhichPID->PID_ErrAllMax;
-    } else if (WhichPID->PID_Err_all < -WhichPID->PID_ErrAllMax) {
+    }
+    else if (WhichPID->PID_Err_all < -WhichPID->PID_ErrAllMax)
+    {
         WhichPID->PID_Err_all = -WhichPID->PID_ErrAllMax;
     }
 }
@@ -55,7 +70,9 @@ void PID_Update(PID_t *WhichPID, float NowInput) {
 	* @param  WhichPID PID结构体指针
     * @retval None
 */
-float PID_GetPositionPID(PID_t *WhichPID) {
+float PID_GetPositionPID(PID_t *WhichPID)
+{
+
     WhichPID->PID_Out =
             WhichPID->Kp1 * WhichPID->PID_Err_now + WhichPID->Kd1 * (WhichPID->PID_Err_now - WhichPID->PID_Err_last);
     WhichPID->PID_Out += (WhichPID->PID_Err_all * WhichPID->Ki1);
@@ -65,10 +82,12 @@ float PID_GetPositionPID(PID_t *WhichPID) {
     if (WhichPID->PID_Out <= -WhichPID->PID_OutMax)
         WhichPID->PID_Out = -WhichPID->PID_OutMax;
 
-    if (WhichPID->PID_Out - WhichPID->PID_lastout > WhichPID->PID_OutStep) {
+    if (WhichPID->PID_Out - WhichPID->PID_lastout > WhichPID->PID_OutStep)
+    {
         WhichPID->PID_Out = WhichPID->PID_lastout + WhichPID->PID_OutStep;
     }
-    if (WhichPID->PID_Out - WhichPID->PID_lastout < -WhichPID->PID_OutStep) {
+    if (WhichPID->PID_Out - WhichPID->PID_lastout < -WhichPID->PID_OutStep)
+    {
         WhichPID->PID_Out = WhichPID->PID_lastout + -WhichPID->PID_OutStep;
     }
 
@@ -76,13 +95,15 @@ float PID_GetPositionPID(PID_t *WhichPID) {
 
     return WhichPID->PID_Out;
 }
+
 /*
 	* @name   PID_SpeedParamInit
 	* @brief  初始化PID速度环的参数
 	* @param  WhichPID PID结构体指针
 	* @retval None
 */
-void PID_SpeedParamInit(PID_t *WhichPID) { //初始化PID的默认参数
+void PID_SpeedParamInit(PID_t *WhichPID)
+{ //初始化PID的默认参数
     WhichPID->Kp1 = 20.0;
     WhichPID->Ki1 = 1;
     WhichPID->Kd1 = 0;
@@ -113,7 +134,8 @@ void PID_SpeedParamInit(PID_t *WhichPID) { //初始化PID的默认参数
 	* @param  WhichPID PID结构体指针
 	* @retval None
 */
-void PID_PosParamInit(PID_t *WhichPID) {
+void PID_PosParamInit(PID_t *WhichPID)
+{
     WhichPID->Kp1 = 10;
     WhichPID->Ki1 = 0;
     WhichPID->Kd1 = 0;
@@ -144,8 +166,10 @@ void PID_PosParamInit(PID_t *WhichPID) {
 	* @param  WhichPID PID结构体指针,Tartget PID目标值
 	* @retval None
 */
-void PID_SetTargetWithRamp(PID_t *WhichPID, float Tartget) {
-    if (WhichPID->RampTarget != Tartget) {
+void PID_SetTargetWithRamp(PID_t *WhichPID, float Tartget)
+{
+    if (WhichPID->RampTarget != Tartget)
+    {
         WhichPID->RampTarget = Tartget;
         WhichPID->State_RampOrNormal = Ramp_e;
     }
@@ -157,7 +181,8 @@ void PID_SetTargetWithRamp(PID_t *WhichPID, float Tartget) {
 	* @param  WhichPID PID结构体指针
 	* @retval None
 */
-void PID_Clear(PID_t *WhichPID) {
+void PID_Clear(PID_t *WhichPID)
+{
     WhichPID->PID_Err_now = 0.0;
     WhichPID->PID_Err_last = 0.0;
     WhichPID->PID_Err_lastlast = 0.0;
@@ -170,3 +195,85 @@ void PID_Clear(PID_t *WhichPID) {
     WhichPID->RampTarget = 0.0;
     WhichPID->RampCountTime = 0.0;
 }
+
+
+void cPID::Init()
+{
+    PID_SpeedParamInit(&SpdParam);
+    PID_PosParamInit(&PosParam);
+}
+
+void cPID::setParam(float pos_kp, float pos_ki, float pos_kd, float pos_outmax)
+{
+    PosParam.Kp1 = pos_kp;
+    PosParam.Ki1 = pos_ki;
+    PosParam.Kd1 = pos_kd;
+    PosParam.PID_OutMax = pos_outmax;
+}
+
+void cPID::setParam(float spd_kp, float spd_ki, float spd_kd, float spd_outmax,
+                    float pos_kp, float pos_ki, float pos_kd, float pos_outmax)
+{
+    PosParam.Kp1 = pos_kp;
+    PosParam.Ki1 = pos_ki;
+    PosParam.Kd1 = pos_kd;
+    PosParam.PID_OutMax = pos_outmax;                  //带载时电机速度不超过200RPM
+    SpdParam.Kp1 = spd_kp;
+    SpdParam.Ki1 = spd_ki;
+    SpdParam.Kd1 = spd_kd;
+    SpdParam.PID_OutMax = spd_outmax;
+}
+
+void cPID::setPosTar(float pos_tar)
+{
+    PosParam.PID_Target = pos_tar;
+}
+
+void cPID::setPosTar(float pos_tar, float step)
+{
+    PosParam.RampTargetStep = step;
+    PID_SetTargetWithRamp(&PosParam, pos_tar);
+}
+
+float cPID::PosLoop(float PosInput)
+{
+    PID_Update(&PosParam, PosInput);
+    PID_GetPositionPID(&PosParam);
+    return PosParam.PID_Out;
+}
+
+void cPID::PosLoop(float PosInput, float SpdInput)
+{
+    PID_Update(&PosParam, PosInput);
+    PID_GetPositionPID(&PosParam);
+    setSpdTar(PosParam.PID_Out);
+    PID_Update(&SpdParam, SpdInput);
+    PID_GetPositionPID(&SpdParam);
+}
+
+void cPID::setSpdTar(float spd_tar)
+{
+    SpdParam.PID_Target = spd_tar;
+}
+
+void cPID::setSpdTar(float spd_tar, float step)
+{
+    SpdParam.RampTargetStep = step;
+    PID_SetTargetWithRamp(&SpdParam, spd_tar);
+}
+
+void cPID::SpdLoop(float SpdInput)
+{
+    PID_Update(&SpdParam, SpdInput);
+    PID_GetPositionPID(&SpdParam);
+}
+
+float cPID::Pid_Out() const
+{
+    return SpdParam.PID_Out;
+}
+
+
+
+
+

@@ -3,15 +3,14 @@
 //
 
 #include "GimbalTask.h"
+#include "gimbalc.hpp"
 #include "lrgb.h"
-#include "MotorC.hpp"
-
 
 void GimbalControlTask(void const *argument)
 {
     /* USER CODE BEGIN GimbalControlTask */
-    cRgb RGB(&htim5);
     TickType_t current;
+    cRgb RGB(&htim5);
     RGB.init();
     /* Infinite loop */
     for (;;)
@@ -19,9 +18,9 @@ void GimbalControlTask(void const *argument)
         FeedDog();
         current = xTaskGetTickCount();
         RGB.loop();
-        pitch.calcPid(Debug_Param().vel_rampTargetValue);
-        pitch.sendPid();
-        vTaskDelayUntil(&current, pdMS_TO_TICKS(10));
+        GimbalLoop();
+
+        vTaskDelayUntil(&current, 1/ portTICK_RATE_MS);
     }
     /* USER CODE END GimbalControlTask */
 }

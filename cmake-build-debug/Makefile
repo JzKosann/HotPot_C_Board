@@ -1624,29 +1624,29 @@ USB_DEVICE/App/usb_device.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usb_device.c.s
 .PHONY : USB_DEVICE/App/usb_device.c.s
 
-USB_DEVICE/App/usbd_cdc_if.obj: USB_DEVICE/App/usbd_cdc_if.c.obj
+USB_DEVICE/App/usbd_cdc_if.obj: USB_DEVICE/App/usbd_cdc_if.cpp.obj
 .PHONY : USB_DEVICE/App/usbd_cdc_if.obj
 
 # target to build an object file
-USB_DEVICE/App/usbd_cdc_if.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
-.PHONY : USB_DEVICE/App/usbd_cdc_if.c.obj
+USB_DEVICE/App/usbd_cdc_if.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.cpp.obj
+.PHONY : USB_DEVICE/App/usbd_cdc_if.cpp.obj
 
-USB_DEVICE/App/usbd_cdc_if.i: USB_DEVICE/App/usbd_cdc_if.c.i
+USB_DEVICE/App/usbd_cdc_if.i: USB_DEVICE/App/usbd_cdc_if.cpp.i
 .PHONY : USB_DEVICE/App/usbd_cdc_if.i
 
 # target to preprocess a source file
-USB_DEVICE/App/usbd_cdc_if.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.i
-.PHONY : USB_DEVICE/App/usbd_cdc_if.c.i
+USB_DEVICE/App/usbd_cdc_if.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.cpp.i
+.PHONY : USB_DEVICE/App/usbd_cdc_if.cpp.i
 
-USB_DEVICE/App/usbd_cdc_if.s: USB_DEVICE/App/usbd_cdc_if.c.s
+USB_DEVICE/App/usbd_cdc_if.s: USB_DEVICE/App/usbd_cdc_if.cpp.s
 .PHONY : USB_DEVICE/App/usbd_cdc_if.s
 
 # target to generate assembly for a file
-USB_DEVICE/App/usbd_cdc_if.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.s
-.PHONY : USB_DEVICE/App/usbd_cdc_if.c.s
+USB_DEVICE/App/usbd_cdc_if.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.cpp.s
+.PHONY : USB_DEVICE/App/usbd_cdc_if.cpp.s
 
 USB_DEVICE/App/usbd_desc.obj: USB_DEVICE/App/usbd_desc.c.obj
 .PHONY : USB_DEVICE/App/usbd_desc.obj
@@ -1743,30 +1743,6 @@ User/Framework/Debug/DebugC.s: User/Framework/Debug/DebugC.cpp.s
 User/Framework/Debug/DebugC.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Debug/DebugC.cpp.s
 .PHONY : User/Framework/Debug/DebugC.cpp.s
-
-User/Framework/Filters/filter.obj: User/Framework/Filters/filter.cpp.obj
-.PHONY : User/Framework/Filters/filter.obj
-
-# target to build an object file
-User/Framework/Filters/filter.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Filters/filter.cpp.obj
-.PHONY : User/Framework/Filters/filter.cpp.obj
-
-User/Framework/Filters/filter.i: User/Framework/Filters/filter.cpp.i
-.PHONY : User/Framework/Filters/filter.i
-
-# target to preprocess a source file
-User/Framework/Filters/filter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Filters/filter.cpp.i
-.PHONY : User/Framework/Filters/filter.cpp.i
-
-User/Framework/Filters/filter.s: User/Framework/Filters/filter.cpp.s
-.PHONY : User/Framework/Filters/filter.s
-
-# target to generate assembly for a file
-User/Framework/Filters/filter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Filters/filter.cpp.s
-.PHONY : User/Framework/Filters/filter.cpp.s
 
 User/Framework/Filters/kalman.obj: User/Framework/Filters/kalman.cpp.obj
 .PHONY : User/Framework/Filters/kalman.obj
@@ -1912,6 +1888,54 @@ User/Framework/PID/pidC.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID/pidC.cpp.s
 .PHONY : User/Framework/PID/pidC.cpp.s
 
+User/Framework/PID_stm32/PIDC.obj: User/Framework/PID_stm32/PIDC.cpp.obj
+.PHONY : User/Framework/PID_stm32/PIDC.obj
+
+# target to build an object file
+User/Framework/PID_stm32/PIDC.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/PIDC.cpp.obj
+.PHONY : User/Framework/PID_stm32/PIDC.cpp.obj
+
+User/Framework/PID_stm32/PIDC.i: User/Framework/PID_stm32/PIDC.cpp.i
+.PHONY : User/Framework/PID_stm32/PIDC.i
+
+# target to preprocess a source file
+User/Framework/PID_stm32/PIDC.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/PIDC.cpp.i
+.PHONY : User/Framework/PID_stm32/PIDC.cpp.i
+
+User/Framework/PID_stm32/PIDC.s: User/Framework/PID_stm32/PIDC.cpp.s
+.PHONY : User/Framework/PID_stm32/PIDC.s
+
+# target to generate assembly for a file
+User/Framework/PID_stm32/PIDC.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/PIDC.cpp.s
+.PHONY : User/Framework/PID_stm32/PIDC.cpp.s
+
+User/Framework/PID_stm32/matlabPID.obj: User/Framework/PID_stm32/matlabPID.cpp.obj
+.PHONY : User/Framework/PID_stm32/matlabPID.obj
+
+# target to build an object file
+User/Framework/PID_stm32/matlabPID.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/matlabPID.cpp.obj
+.PHONY : User/Framework/PID_stm32/matlabPID.cpp.obj
+
+User/Framework/PID_stm32/matlabPID.i: User/Framework/PID_stm32/matlabPID.cpp.i
+.PHONY : User/Framework/PID_stm32/matlabPID.i
+
+# target to preprocess a source file
+User/Framework/PID_stm32/matlabPID.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/matlabPID.cpp.i
+.PHONY : User/Framework/PID_stm32/matlabPID.cpp.i
+
+User/Framework/PID_stm32/matlabPID.s: User/Framework/PID_stm32/matlabPID.cpp.s
+.PHONY : User/Framework/PID_stm32/matlabPID.s
+
+# target to generate assembly for a file
+User/Framework/PID_stm32/matlabPID.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/matlabPID.cpp.s
+.PHONY : User/Framework/PID_stm32/matlabPID.cpp.s
+
 User/Framework/RGB/lrgb.obj: User/Framework/RGB/lrgb.cpp.obj
 .PHONY : User/Framework/RGB/lrgb.obj
 
@@ -1959,6 +1983,54 @@ User/Framework/RomteC/RemoteC.s: User/Framework/RomteC/RemoteC.cpp.s
 User/Framework/RomteC/RemoteC.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RomteC/RemoteC.cpp.s
 .PHONY : User/Framework/RomteC/RemoteC.cpp.s
+
+User/Framework/ShootC/Shootc.obj: User/Framework/ShootC/Shootc.cpp.obj
+.PHONY : User/Framework/ShootC/Shootc.obj
+
+# target to build an object file
+User/Framework/ShootC/Shootc.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ShootC/Shootc.cpp.obj
+.PHONY : User/Framework/ShootC/Shootc.cpp.obj
+
+User/Framework/ShootC/Shootc.i: User/Framework/ShootC/Shootc.cpp.i
+.PHONY : User/Framework/ShootC/Shootc.i
+
+# target to preprocess a source file
+User/Framework/ShootC/Shootc.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ShootC/Shootc.cpp.i
+.PHONY : User/Framework/ShootC/Shootc.cpp.i
+
+User/Framework/ShootC/Shootc.s: User/Framework/ShootC/Shootc.cpp.s
+.PHONY : User/Framework/ShootC/Shootc.s
+
+# target to generate assembly for a file
+User/Framework/ShootC/Shootc.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ShootC/Shootc.cpp.s
+.PHONY : User/Framework/ShootC/Shootc.cpp.s
+
+User/Framework/Vision/crc.obj: User/Framework/Vision/crc.cpp.obj
+.PHONY : User/Framework/Vision/crc.obj
+
+# target to build an object file
+User/Framework/Vision/crc.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Vision/crc.cpp.obj
+.PHONY : User/Framework/Vision/crc.cpp.obj
+
+User/Framework/Vision/crc.i: User/Framework/Vision/crc.cpp.i
+.PHONY : User/Framework/Vision/crc.i
+
+# target to preprocess a source file
+User/Framework/Vision/crc.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Vision/crc.cpp.i
+.PHONY : User/Framework/Vision/crc.cpp.i
+
+User/Framework/Vision/crc.s: User/Framework/Vision/crc.cpp.s
+.PHONY : User/Framework/Vision/crc.s
+
+# target to generate assembly for a file
+User/Framework/Vision/crc.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Vision/crc.cpp.s
+.PHONY : User/Framework/Vision/crc.cpp.s
 
 User/LOG/log.obj: User/LOG/log.c.obj
 .PHONY : User/LOG/log.obj
@@ -2200,6 +2272,30 @@ User/Tasks/GimbalTask.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/GimbalTask.cpp.s
 .PHONY : User/Tasks/GimbalTask.cpp.s
 
+User/Tasks/visioncom_task.obj: User/Tasks/visioncom_task.cpp.obj
+.PHONY : User/Tasks/visioncom_task.obj
+
+# target to build an object file
+User/Tasks/visioncom_task.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/visioncom_task.cpp.obj
+.PHONY : User/Tasks/visioncom_task.cpp.obj
+
+User/Tasks/visioncom_task.i: User/Tasks/visioncom_task.cpp.i
+.PHONY : User/Tasks/visioncom_task.i
+
+# target to preprocess a source file
+User/Tasks/visioncom_task.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/visioncom_task.cpp.i
+.PHONY : User/Tasks/visioncom_task.cpp.i
+
+User/Tasks/visioncom_task.s: User/Tasks/visioncom_task.cpp.s
+.PHONY : User/Tasks/visioncom_task.s
+
+# target to generate assembly for a file
+User/Tasks/visioncom_task.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/visioncom_task.cpp.s
+.PHONY : User/Tasks/visioncom_task.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -2411,9 +2507,6 @@ help:
 	@echo ... User/Framework/Debug/DebugC.obj
 	@echo ... User/Framework/Debug/DebugC.i
 	@echo ... User/Framework/Debug/DebugC.s
-	@echo ... User/Framework/Filters/filter.obj
-	@echo ... User/Framework/Filters/filter.i
-	@echo ... User/Framework/Filters/filter.s
 	@echo ... User/Framework/Filters/kalman.obj
 	@echo ... User/Framework/Filters/kalman.i
 	@echo ... User/Framework/Filters/kalman.s
@@ -2432,12 +2525,24 @@ help:
 	@echo ... User/Framework/PID/pidC.obj
 	@echo ... User/Framework/PID/pidC.i
 	@echo ... User/Framework/PID/pidC.s
+	@echo ... User/Framework/PID_stm32/PIDC.obj
+	@echo ... User/Framework/PID_stm32/PIDC.i
+	@echo ... User/Framework/PID_stm32/PIDC.s
+	@echo ... User/Framework/PID_stm32/matlabPID.obj
+	@echo ... User/Framework/PID_stm32/matlabPID.i
+	@echo ... User/Framework/PID_stm32/matlabPID.s
 	@echo ... User/Framework/RGB/lrgb.obj
 	@echo ... User/Framework/RGB/lrgb.i
 	@echo ... User/Framework/RGB/lrgb.s
 	@echo ... User/Framework/RomteC/RemoteC.obj
 	@echo ... User/Framework/RomteC/RemoteC.i
 	@echo ... User/Framework/RomteC/RemoteC.s
+	@echo ... User/Framework/ShootC/Shootc.obj
+	@echo ... User/Framework/ShootC/Shootc.i
+	@echo ... User/Framework/ShootC/Shootc.s
+	@echo ... User/Framework/Vision/crc.obj
+	@echo ... User/Framework/Vision/crc.i
+	@echo ... User/Framework/Vision/crc.s
 	@echo ... User/LOG/log.obj
 	@echo ... User/LOG/log.i
 	@echo ... User/LOG/log.s
@@ -2468,6 +2573,9 @@ help:
 	@echo ... User/Tasks/GimbalTask.obj
 	@echo ... User/Tasks/GimbalTask.i
 	@echo ... User/Tasks/GimbalTask.s
+	@echo ... User/Tasks/visioncom_task.obj
+	@echo ... User/Tasks/visioncom_task.i
+	@echo ... User/Tasks/visioncom_task.s
 .PHONY : help
 
 

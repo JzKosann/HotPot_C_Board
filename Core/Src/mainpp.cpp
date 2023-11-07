@@ -1,7 +1,7 @@
 //
 // Created by ShiF on 2023/9/16.
 #include "core.h"
-#include "MotorC.hpp"
+#include "gimbalc.hpp"
 
 void UserInit() {
     can_filter_init(&hcan1);
@@ -10,7 +10,7 @@ void UserInit() {
     HAL_TIM_Base_Start_IT(&htim5);
 
     REMOTEC_Init();
-    MotorInit();
+    Gimbal_Init();
 }
 
 int main() {

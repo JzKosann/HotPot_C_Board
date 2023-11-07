@@ -5,7 +5,7 @@
 #ifndef KOSANN_UAVGIMBAL_MCU_HEAFILE_HPP
 #define KOSANN_UAVGIMBAL_MCU_HEAFILE_HPP
 
-#include "bsp_can.h"
+#include "bsp_can.hpp"
 #include "laser.h"
 #include "ledio.h"
 #include "power.h"

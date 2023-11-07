@@ -4,6 +4,8 @@
 
 #ifndef KOSANN_UAVGIMBAL_ADRC_H
 #define KOSANN_UAVGIMBAL_ADRC_H
+
+#include <cstdint>
 #include "math.h"
 typedef struct {
     float x1;
@@ -37,4 +39,15 @@ typedef struct {
 void ADRCparamInit(ADRC_t *which);
 float ADRC_calc(ADRC_t *which, float target, float feedback);
 
+class cADRC{
+private:
+    ADRC_t _spd;
+public:
+    void Init(float r,float h,float delta,float b,float beta01,float beta02,
+              float beta03,float alpha1,float alpha2,float betac1,float betac2);
+    float SpdLoop(float SpdInput); //Spd loop
+    void setSpdTar(float Spd_tar);
+    const ADRC_t &getSpd() const;
+    float ADRCout();
+};
 #endif //KOSANN_UAVGIMBAL_ADRC_H

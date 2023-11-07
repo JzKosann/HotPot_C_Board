@@ -1,8 +1,0 @@
-//
-// Created by ShiF on 2023/9/14.
-//
-
-#ifndef KOSANN_UAVGIMBAL_GIMBALC_H
-#define KOSANN_UAVGIMBAL_GIMBALC_H
-
-#endif //KOSANN_UAVGIMBAL_GIMBALC_H

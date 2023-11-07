@@ -5,7 +5,8 @@
   * 卡尔曼滤波器来自RoboMaster论坛
   */
 
-typedef struct {
+typedef struct
+{
     float X_last; //上一时刻的最优结果  X(k-|k-1)
     float X_mid;  //当前时刻的预测结果  X(k|k-1)
     float X_now;  //当前时刻的最优结果  X(k|k)
@@ -24,7 +25,12 @@ void KalmanCreate(extKalman_t *p, float T_Q, float T_R);
 
 float KalmanFilter(extKalman_t *p, float dat);
 
-
-void Kalman_Init(void);
+class kalman{
+private:
+    extKalman_t _kalman;
+public:
+    void Init(float T_Q, float T_R);
+    float Calc(float dat);
+};
 
 #endif //KOSANN_UAVGIMBAL_KALMAN_H

@@ -9,47 +9,78 @@
 #include "MCU_heafile.hpp"
 #include "core.h"
 
-/*motor_type*/
-#define GM6020 0
-#define M3508 1
-#define M2006 2
-
 class cMotor
 {
-private:
-    enum eMotorType
+public:
+    typedef enum
     {
         GM_6020,
         M_3508,
-        M_2006
-    };
-    enum eRrorType
+        M_2006,
+        M_3508_p19,
+        M_2006_p36
+    } eMotorType;
+    enum eErrorType
     {
-        ERROR_MOTOR
+        ERROR_MOTOR,
+        eCanSend_Error
     };
+    typedef enum
+    {
+        eExternal,
+        ePid,
+        eAdrc
+    } eController;
 private:
-    uint32_t _std_id;
     uint32_t _can_id;
     eMotorType _motor_type;
+    eController _controller_type;
+    float _ratio;//减速比
     CAN_HandleTypeDef *_usehcan;
     Motor_measure_t _can_read;//获取数据,供访问
-    PID_t _classic_spd_pid;
-    PID_t _classic_pos_pid;
+    Motor_measure_f _ecd;   //编码器数据
+    uint8_t tx_channel;
+    uint32_t ID;
 public:
-    static void errorHandle(eRrorType error_type);
+    static void errorHandle(eErrorType error_type);
     void canInit(uint32_t can_id_t, CAN_HandleTypeDef *hcan, int motor_type);
-    void canSend(int16_t current);
+    void canSend(eController controller_type,int16_t current);
+    void canSend(eController controller_type);
     void canRead(uint32_t rx_std_id, uint8_t rx_buffer[8]);
-    /*classicPID*/
-    void classicPidInit();
-    void classicPid(float spd_kp, float spd_ki, float spd_kd, float spd_out_max,
-                    float pos_kp, float pos_ki, float pos_kd, float pos_out_max);
-    void calcPid(float tar_pos);
-    void sendPid();
+    Motor_measure_f &getEcd();
+    void clearEcdRcnt();
+    cFilter autoAim_filter;
+    cFilter RCcrtl_filter;
+    algorithm MotorCtrl;
+    void protect();
+    bool autoaimflag;
 };
 
-void MotorInit();
-extern cMotor yaw;
-extern cMotor pitch;
+class cCar
+{
+private:
+    float _pCarInEcd;
+public:
+
+    typedef enum
+    {
+        ONMI,
+        MECANUM,
+        UAV
+    } eCarType;
+    typedef enum
+    {
+        eRC,
+        eAutoAim,
+        eKey
+    } eShootMode;
+
+    eCarType CarType;
+    eShootMode ShootMode;
+    explicit cCar(eCarType car_type);
+    [[nodiscard]] float getPCarInEcd() const;
+    void setPCarInEcd(float p_car_in_ecd);
+
+};
 
 #endif //KOSANN_UAVGIMBAL_MOTORC_HPP

@@ -62,6 +62,8 @@
 					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/LASER"/>
 					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/LED"/>
 					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/POWER"/>
+					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32"/>
+					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/slprj"/>
 					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/REMOTEC"/>
 					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/SERVO"/>
 					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Tasks"/>
@@ -127,6 +129,8 @@
 					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/LASER"/>
 					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/LED"/>
 					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/POWER"/>
+					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32"/>
+					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/slprj"/>
 					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/REMOTEC"/>
 					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/SERVO"/>
 					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Tasks"/>
@@ -696,7 +700,7 @@
 		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/USB_DEVICE/App/usb_device.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/USB_DEVICE/App/usbd_cdc_if.c">
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/USB_DEVICE/App/usbd_cdc_if.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
 		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/USB_DEVICE/App/usbd_cdc_if.h">
@@ -717,7 +721,7 @@
 		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/ADRC/ADRC.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/ADRC/ADRC.h">
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/ADRC/ADRC.hpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
 		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Debug/DebugC.cpp">
@@ -729,28 +733,28 @@
 		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters/Kalman.md">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters/filter.cpp">
-			<Option target="kosann_UAVGimbal.elf"/>
-		</Unit>
 		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters/filter.hpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
 		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters/kalman.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters/kalman.h">
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters/kalman.hpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
 		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Gimbal/gimbalc.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Gimbal/gimbalc.h">
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Gimbal/gimbalc.hpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
 		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IMU/IMUC.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
 		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IMU/IMUC.h">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IMU/IMUC.hpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
 		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IMU/witreg.h">
@@ -774,6 +778,159 @@
 		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID/pidC.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID/pidC.hpp">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/PID.bat">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/PID.mk">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/PIDC.cpp">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/PIDC.h">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/PID_External_Functions.h">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/PID_ref.rsp">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/STM32_Config.h">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/buildInfo.mat">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/codeInfo.mat">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/codedescriptor.dmr">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/compileInfo.mat">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/defines.txt">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/html/PID_External_Functions_h.html">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/html/PID_c.html">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/html/PID_codegen_rpt.html">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/html/PID_coderassumptions.html">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/html/PID_contents.html">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/html/PID_h.html">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/html/PID_interface.html">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/html/PID_metrics.html">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/html/PID_reducedblocks.html">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/html/PID_replacements.html">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/html/PID_subsystems.html">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/html/PID_survey.html">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/html/PID_trace.html">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/html/STM32_Config_h.html">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/html/css/coder_app.css">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/html/define.js">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/html/hilite_warning.png">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/html/inspect.html">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/html/js/coder_app.js">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/html/main_c.html">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/html/nav.html">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/html/navToolbar.html">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/html/rtwhilite.js">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/html/rtwmsg.html">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/html/rtwreport.css">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/html/rtwreport_utils.js">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/html/rtwshrink.js">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/html/rtwtypes_h.html">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/html/search.js">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/html/spinner.gif">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/html/stm32xxxx_it_c.html">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/matlabPID.cpp">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/matlabPID.hpp">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/modelsources.txt">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/rtw_proj.tmw">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/rtwtypes.h">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/rtwtypeschksum.mat">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/tmwinternal/simulink_cache.xml">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
 		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/RGB/lrgb.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
@@ -792,7 +949,46 @@
 		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/RomteC/RemoteC.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/ShootC/Shootc.cpp">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/ShootC/Shootc.hpp">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Vision/crc.cpp">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Vision/crc.h">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Vision/packet.hpp">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
 		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/framework_headfile.hpp">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/slprj/sim/varcache/PID/checksumOfCache.mat">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/slprj/sim/varcache/PID/tmwinternal/simulink_cache.xml">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/slprj/sim/varcache/PID/varInfo.mat">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/slprj/sl_proj.tmw">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/slprj/stm32/PID/tmwinternal/CompileInfo.xml">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/slprj/stm32/PID/tmwinternal/binfo.mat">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/slprj/stm32/PID/tmwinternal/minfo.mat">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/slprj/stm32/_sharedutils/shared_file.dmr">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
 		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/LOG/log.c">
@@ -811,6 +1007,9 @@
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
 		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/CAN/bsp_can.h">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/CAN/bsp_can.hpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
 		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/LASER/laser.cpp">
@@ -856,6 +1055,12 @@
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
 		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Tasks/GimbalTask.h">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Tasks/visioncom_task.cpp">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Tasks/visioncom_task.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
 		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/core.h">

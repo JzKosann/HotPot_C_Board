@@ -2,7 +2,7 @@
 //// Created by ShiF on 2023/9/12.
 ////
 //
-//#include "IMUC.h"
+//#include "IMUC.hpp"
 //#include <cstring>
 //#include "usart.h"
 //#include "DebugC.h"
@@ -34,7 +34,8 @@
 //	* @param  None
 //	* @retval None
 //*/
-//void IMU_UartInit(void) {
+//void IMU_UartInit(void)
+//{
 //    __HAL_UART_ENABLE_IT(&huart7, UART_IT_IDLE);
 //    HAL_UART_Receive_DMA(&huart7, IMU_RxBuf, IMU_DATASIZE);
 //}
@@ -45,8 +46,10 @@
 //	* @param  None
 //	* @retval None
 //*/
-//void IMU_Receive_Data(void) {
-//    if (__HAL_UART_GET_FLAG(&huart7, UART_FLAG_IDLE) != RESET) {
+//void IMU_Receive_Data(void)
+//{
+//    if (__HAL_UART_GET_FLAG(&huart7, UART_FLAG_IDLE) != RESET)
+//    {
 //        __HAL_UART_CLEAR_IDLEFLAG(&huart7);
 //        HAL_UART_DMAStop(&huart7);
 //        IMU_Data_Handler();
@@ -63,12 +66,16 @@
 //	* @param  None
 //	* @retval speed[3],angle[3],quaternion
 //*/
-//void IMU_Data_Handler(void) {
-//    for (int8_t i = 0; i < 3; i++) {
-//        if (IMU_RxBuf[11 * i] != IMU_HEAD) {
+//void IMU_Data_Handler(void)
+//{
+//    for (int8_t i = 0; i < 3; i++)
+//    {
+//        if (IMU_RxBuf[11 * i] != IMU_HEAD)
+//        {
 //            return;
 //        }
-//        switch (IMU_RxBuf[i * 11 + 1]) {
+//        switch (IMU_RxBuf[i * 11 + 1])
+//        {
 //            case IMU_SPEED:
 //                speed[0] = (short) (((short) IMU_RxBuf[i * 11 + 3] << 8) | IMU_RxBuf[i * 11 + 2]) * 2000.0f / 32768.0f;
 //                speed[1] = (short) (((short) IMU_RxBuf[i * 11 + 5] << 8) | IMU_RxBuf[i * 11 + 4]) * 2000.0f / 32768.0f;
@@ -105,7 +112,8 @@
 // * @param  angle_now 当前IMU反馈角度
 // * @retval angle_now 连续化后的IMU反馈角度
 // */
-//float IMU_AngleIncreLoop(float angle_now) {
+//float IMU_AngleIncreLoop(float angle_now)
+//{
 //    float this_angle;
 //    this_angle = angle_now;
 //    if ((this_angle - last_angle) > 300)
@@ -113,21 +121,22 @@
 //    if ((this_angle - last_angle) < -300)
 //        rotate_times++;
 //    angle_now = this_angle + rotate_times * 360.0f;
-//    //usart_printf("%d\r\n", rotate_times);
 //    last_angle = this_angle;
 //    return angle_now;
 //}
 //
 ///**
-// * IMU角度返回
+// * IMU角度返回  (已连续化)
 // * @param Witch_angle
 // * @return YAW轴 或 PITCH轴
 // */
-//float IMU_Angle(int8_t Witch_angle) {
-//    switch (Witch_angle) {
-//        case 1:
+//float IMU_Angle(IMU_data Witch_angle)
+//{
+//    switch (Witch_angle)
+//    {
+//        case imu_yaw:
 //            return Yaw_Angle;
-//        case 2:
+//        case imu_pitch:
 //            return Pih_Angle;
 //        default:
 //            return 0;
@@ -139,21 +148,25 @@
 // * @param Witch_angle
 // * @return  YAW轴 或 PITCH轴
 // */
-//float IMU_Speed(int8_t Witch_angle) {
-//    switch (Witch_angle) {
-//        case 1:
+//float IMU_Speed(IMU_data which)
+//{
+//    switch (which)
+//    {
+//        case imu_yaw:
 //            return Yaw_Speed;
-//        case 2:
+//        case imu_pitch:
 //            return Pih_Speed;
 //        default:
 //            return 0;
 //    }
 //}
 //
-//GetQuaternion IMU_Quaternion(void) {
+//GetQuaternion IMU_Quaternion(void)
+//{
 //    return quaternion;
 //}
 //
-//GetNaiveAngle IMU_NaiveAngle(void) {
+//GetNaiveAngle IMU_NaiveAngle(void)
+//{
 //    return NaiveAngle;
 //}

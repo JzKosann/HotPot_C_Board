@@ -5,15 +5,24 @@
 #ifndef KOSANN_UAVGIMBAL_FRAMEWORK_H
 #define KOSANN_UAVGIMBAL_FRAMEWORK_H
 
-#include "ADRC.h"
+#include "ADRC.hpp"
 #include "DebugC.h"
 #include "filter.hpp"
-#include "kalman.h"
-#include "IMUC.h"
+#include "kalman.hpp"
+#include "IMUC.hpp"
 #include "iwdgC.h"
 #include "LEDC.h"
-#include "pidC.h"
+#include "pidC.hpp"
 #include "RemoteC.h"
 #include "lrgb.h"
+#include "packet.hpp"
+#include "matlabPID.hpp"
+class algorithm
+{
+public:
+    cPID c_PID;
+    cADRC c_ADRC;
+};
+
 
 #endif //KOSANN_UAVGIMBAL_FRAMEWORK_H

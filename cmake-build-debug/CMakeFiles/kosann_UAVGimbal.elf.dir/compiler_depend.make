@@ -505,18 +505,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/mainpp.cpp.obj: E:/competition/2024
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/dma.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/FATFS/App/fatfs.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FatFs/src/ff.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FatFs/src/integer.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/FATFS/Target/ffconf.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/main.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FatFs/src/ff_gen_drv.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FatFs/src/diskio.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FatFs/src/ff.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/FATFS/Target/user_diskio.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/i2c.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/iwdg.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/spi.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/tim.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/usart.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/USB_DEVICE/App/usb_device.h \
@@ -552,10 +541,12 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/mainpp.cpp.obj: E:/competition/2024
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_locale.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/strings.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/string.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/main.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/gpio.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MotorC.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Gimbal/gimbalc.hpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/framework_headfile.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/ADRC/ADRC.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/ADRC/ADRC.hpp \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cstdint \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/math.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cmath \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/cpp_type_traits.h \
@@ -646,23 +637,30 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/mainpp.cpp.obj: E:/competition/2024
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_bvector.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/vector.tcc \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/pstl/execution_defs.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters/kalman.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IMU/IMUC.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters/kalman.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters/kalman.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IMU/IMUC.hpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IWDG/iwdgC.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/LED/LEDC.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cstdint \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID/pidC.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID/pidC.hpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/RomteC/RemoteC.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cctype \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/ctype.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/REMOTEC/remoteio.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/RGB/lrgb.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Vision/packet.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/matlabPID.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/PIDC.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/STM32_Config.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/rtwtypes.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/PID_External_Functions.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/MCU_heafile.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/CAN/bsp_can.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/CAN/bsp_can.hpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/LASER/laser.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/LED/ledio.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/POWER/power.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/SERVO/servo.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MotorC.hpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/core.h
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/spi.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Src/spi.c \
@@ -3423,7 +3421,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usb_device.c.obj: E:/competit
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/USB_DEVICE/App/usbd_cdc_if.h
 
-CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/USB_DEVICE/App/usbd_cdc_if.c \
+CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/USB_DEVICE/App/usbd_cdc_if.cpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/USB_DEVICE/App/usbd_cdc_if.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
@@ -3458,9 +3456,16 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj: E:/competi
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/sched.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/machine/types.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/stdio.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/stdlib.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cstdlib \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/c++config.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/os_defines.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/cpu_defines.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/pstl/pstl_config.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/stdlib.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/machine/stdlib.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/alloca.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/std_abs.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/string.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_locale.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/strings.h \
@@ -3507,7 +3512,156 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj: E:/competi
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Debug/DebugC.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Vision/crc.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cstdint \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Vision/packet.hpp \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/algorithm \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/utility \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_relops.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_pair.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/move.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/type_traits \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/initializer_list \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/functexcept.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/exception_defines.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/cpp_type_traits.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/ext/type_traits.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/ext/numeric_traits.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_iterator_base_types.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_iterator_base_funcs.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/concept_check.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/debug/assertions.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_iterator.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/ptr_traits.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/debug/debug.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/predefined_ops.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_algo.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/algorithmfwd.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_heap.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_tempbuf.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_construct.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/new \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/exception \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/exception.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/exception_ptr.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/cxxabi_init_exception.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/typeinfo \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/hash_bytes.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/nested_exception.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/uniform_int_dist.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/limits \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/pstl/glue_algorithm_defs.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/functional \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_function.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/backward/binders.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tuple \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/array \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/range_access.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/iterator_concepts.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/concepts \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/range_cmp.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/uses_allocator.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/invoke.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/functional_hash.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/refwrap.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/std_function.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/unordered_map \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/allocator.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/c++allocator.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/ext/new_allocator.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/memoryfwd.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/ext/alloc_traits.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/alloc_traits.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/ext/aligned_buffer.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/hashtable.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/hashtable_policy.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/node_handle.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/optional \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/enable_special_members.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/unordered_map.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/erase_if.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/vector \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_uninitialized.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_vector.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_bvector.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/vector.tcc \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/pstl/execution_defs.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Gimbal/gimbalc.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/framework_headfile.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/ADRC/ADRC.hpp \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/math.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cmath \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/math.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/specfun.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/gamma.tcc \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/special_function_util.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/bessel_function.tcc \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/beta_function.tcc \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/ell_integral.tcc \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/exp_integral.tcc \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/hypergeometric.tcc \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/legendre_function.tcc \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/modified_bessel_func.tcc \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/poly_hermite.tcc \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/poly_laguerre.tcc \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/riemann_zeta.tcc \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Debug/DebugC.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters/filter.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters/kalman.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters/kalman.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IMU/IMUC.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IWDG/iwdgC.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/LED/LEDC.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID/pidC.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/RomteC/RemoteC.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cctype \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/ctype.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/REMOTEC/remoteio.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/RGB/lrgb.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/matlabPID.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/PIDC.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/STM32_Config.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/rtwtypes.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/PID_External_Functions.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/MCU_heafile.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/CAN/bsp_can.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/LASER/laser.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/LED/ledio.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/POWER/power.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/SERVO/servo.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/core.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/FreeRTOSConfig.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/reent.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/list.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/can.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/main.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/dma.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/iwdg.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/tim.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/usart.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/USB_DEVICE/App/usb_device.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/gpio.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MotorC.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/core.h
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_desc.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/USB_DEVICE/App/usbd_desc.c \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h \
@@ -3683,27 +3837,32 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj: E:/compet
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ADRC/ADRC.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/ADRC/ADRC.cpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/ADRC/ADRC.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/math.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cmath \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/ADRC/ADRC.hpp \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cstdint \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/c++config.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/os_defines.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/cpu_defines.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/pstl/pstl_config.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/stdint.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/features.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/math.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cmath \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/cpp_type_traits.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/ext/type_traits.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/math.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/reent.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/_ansi.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/newlib.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/config.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/machine/ieeefp.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/features.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_types.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/machine/_types.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/lock.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/cdefs.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/_ansi.h \
@@ -3741,7 +3900,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ADRC/ADRC.cpp.obj: E:/competi
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/poly_laguerre.tcc \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/riemann_zeta.tcc \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/framework_headfile.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/ADRC/ADRC.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/ADRC/ADRC.hpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Debug/DebugC.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/stm32f4xx_hal_conf.h \
@@ -3750,10 +3909,6 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ADRC/ADRC.cpp.obj: E:/competi
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/core_cm4.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/cmsis_version.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/cmsis_compiler.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/cmsis_gcc.h \
@@ -3857,18 +4012,24 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ADRC/ADRC.cpp.obj: E:/competi
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_locale.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/strings.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/string.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters/kalman.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IMU/IMUC.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters/kalman.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters/kalman.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IMU/IMUC.hpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IWDG/iwdgC.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/LED/LEDC.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cstdint \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID/pidC.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID/pidC.hpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/RomteC/RemoteC.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cctype \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/ctype.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/REMOTEC/remoteio.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/RGB/lrgb.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/main.h
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/main.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Vision/packet.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/matlabPID.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/PIDC.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/STM32_Config.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/rtwtypes.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/PID_External_Functions.h
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Debug/DebugC.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Debug/DebugC.cpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Debug/DebugC.h \
@@ -3957,25 +4118,53 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Debug/DebugC.cpp.obj: E:/comp
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/usart.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/main.h
 
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Filters/filter.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters/filter.cpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters/filter.hpp \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/algorithm \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/utility \
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Filters/kalman.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters/kalman.cpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters/kalman.hpp
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Gimbal/gimbalc.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Gimbal/gimbalc.cpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Gimbal/gimbalc.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/framework_headfile.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/ADRC/ADRC.hpp \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cstdint \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/c++config.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/os_defines.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/cpu_defines.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/pstl/pstl_config.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_relops.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_pair.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/move.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/type_traits \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/initializer_list \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/stdint.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/features.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/math.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cmath \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/cpp_type_traits.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/ext/type_traits.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/math.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/reent.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/_ansi.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/newlib.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/config.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/machine/ieeefp.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_types.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/machine/_types.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/lock.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/cdefs.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/_ansi.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/std_abs.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/stdlib.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/machine/stdlib.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/alloca.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/specfun.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/functexcept.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/exception_defines.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/cpp_type_traits.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/ext/type_traits.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/ext/numeric_traits.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_pair.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/move.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/type_traits \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_iterator_base_types.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_iterator_base_funcs.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/concept_check.h \
@@ -3984,26 +4173,77 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Filters/filter.cpp.obj: E:/co
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/ptr_traits.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/debug/debug.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/predefined_ops.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/limits \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/gamma.tcc \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/special_function_util.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/bessel_function.tcc \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/beta_function.tcc \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/ell_integral.tcc \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/exp_integral.tcc \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/hypergeometric.tcc \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/legendre_function.tcc \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/modified_bessel_func.tcc \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/poly_hermite.tcc \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/poly_laguerre.tcc \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/riemann_zeta.tcc \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Debug/DebugC.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/stm32f4xx_hal_conf.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/core_cm4.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/cmsis_version.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/cmsis_compiler.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/cmsis_gcc.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/mpu_armv7.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_iwdg.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/stdio.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/types.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/machine/endian.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/machine/_endian.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/select.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_sigset.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_timeval.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/timespec.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_timespec.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_pthreadtypes.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/sched.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/machine/types.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/stdio.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters/filter.hpp \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/algorithm \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/utility \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_relops.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/initializer_list \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_algo.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cstdlib \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/stdlib.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/machine/ieeefp.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/_ansi.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/newlib.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/config.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/reent.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/_ansi.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_types.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/machine/_types.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/lock.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/cdefs.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/machine/stdlib.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/alloca.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/std_abs.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/algorithmfwd.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_heap.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_tempbuf.h \
@@ -4017,7 +4257,6 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Filters/filter.cpp.obj: E:/co
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/hash_bytes.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/nested_exception.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/uniform_int_dist.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/limits \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/pstl/glue_algorithm_defs.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/functional \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_function.h \
@@ -4057,13 +4296,63 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Filters/filter.cpp.obj: E:/co
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/string.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_locale.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/strings.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/string.h
-
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Filters/kalman.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters/kalman.cpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters/kalman.h
-
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Gimbal/gimbalc.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Gimbal/gimbalc.cpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Gimbal/gimbalc.h
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/string.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters/kalman.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters/kalman.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IMU/IMUC.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IWDG/iwdgC.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/LED/LEDC.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID/pidC.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/RomteC/RemoteC.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cctype \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/ctype.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/REMOTEC/remoteio.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/RGB/lrgb.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/main.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Vision/packet.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/matlabPID.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/PIDC.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/STM32_Config.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/rtwtypes.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/PID_External_Functions.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/MCU_heafile.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/CAN/bsp_can.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/LASER/laser.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/LED/ledio.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/POWER/power.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/SERVO/servo.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/core.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/FreeRTOSConfig.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/reent.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/list.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/can.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/main.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/dma.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/iwdg.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/tim.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/usart.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/USB_DEVICE/App/usb_device.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/USB_DEVICE/Target/usbd_conf.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/stdlib.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/gpio.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MotorC.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/core.h
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/IMUC.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IMU/IMUC.cpp
 
@@ -4168,7 +4457,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/LED/LEDC.cpp.obj: E:/competit
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/LED/ledio.h
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID/pidC.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID/pidC.cpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID/pidC.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID/pidC.hpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/stm32f4xx_hal_conf.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
@@ -4212,7 +4501,186 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID/pidC.cpp.obj: E:/competit
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cmath \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/c++config.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/os_defines.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/cpu_defines.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/pstl/pstl_config.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/cpp_type_traits.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/ext/type_traits.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/math.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/reent.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/_ansi.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/newlib.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/config.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/machine/ieeefp.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_types.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/machine/_types.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/lock.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/cdefs.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/_ansi.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/std_abs.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/stdlib.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/machine/stdlib.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/alloca.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/specfun.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/functexcept.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/exception_defines.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/ext/numeric_traits.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_pair.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/move.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/type_traits \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_iterator_base_types.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_iterator_base_funcs.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/concept_check.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/debug/assertions.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_iterator.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/ptr_traits.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/debug/debug.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/predefined_ops.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/limits \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/gamma.tcc \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/special_function_util.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/bessel_function.tcc \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/beta_function.tcc \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/ell_integral.tcc \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/exp_integral.tcc \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/hypergeometric.tcc \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/legendre_function.tcc \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/modified_bessel_func.tcc \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/poly_hermite.tcc \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/poly_laguerre.tcc \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/riemann_zeta.tcc
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/PIDC.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/PIDC.cpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/PIDC.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/STM32_Config.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/core_cm4.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/stdint.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/features.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/cmsis_version.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/cmsis_compiler.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/cmsis_gcc.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/mpu_armv7.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/stm32f4xx_hal_conf.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_iwdg.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/main.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/rtwtypes.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/PID_External_Functions.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Debug/DebugC.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/stdio.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/_ansi.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/newlib.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/config.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/machine/ieeefp.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/cdefs.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/reent.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/_ansi.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_types.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/machine/_types.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/lock.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/types.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/machine/endian.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/machine/_endian.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/select.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_sigset.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_timeval.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/timespec.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_timespec.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_pthreadtypes.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/sched.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/machine/types.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/stdio.h
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/matlabPID.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/matlabPID.cpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/matlabPID.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/PIDC.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/STM32_Config.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/core_cm4.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/stdint.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/features.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/cmsis_version.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/cmsis_compiler.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/cmsis_gcc.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/mpu_armv7.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/stm32f4xx_hal_conf.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_iwdg.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/main.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/rtwtypes.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/PID_External_Functions.h
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RGB/lrgb.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/RGB/lrgb.cpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/RGB/lrgb.h \
@@ -4347,12 +4815,30 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RomteC/RemoteC.cpp.obj: E:/co
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IMU/IMUC.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID/pidC.h
 
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ShootC/Shootc.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/ShootC/Shootc.cpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/ShootC/Shootc.hpp
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Vision/crc.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Vision/crc.cpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Vision/crc.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cstdint \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/c++config.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/os_defines.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/cpu_defines.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/pstl/pstl_config.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/stdint.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/features.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h
+
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/LOG/log.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/LOG/log.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/LOG/log_port.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/LOG/log_port.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/CAN/bsp_can.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/CAN/bsp_can.cpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/CAN/bsp_can.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/CAN/bsp_can.hpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/main.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/stm32f4xx_hal_conf.h \
@@ -4398,15 +4884,16 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/CAN/bsp_can.cpp.obj: E:/compe
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MotorC.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Gimbal/gimbalc.hpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/framework_headfile.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/ADRC/ADRC.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/math.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cmath \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/ADRC/ADRC.hpp \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cstdint \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/c++config.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/os_defines.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/cpu_defines.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/pstl/pstl_config.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/math.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cmath \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/cpp_type_traits.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/ext/type_traits.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/math.h \
@@ -4528,19 +5015,25 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/CAN/bsp_can.cpp.obj: E:/compe
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_locale.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/strings.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/string.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters/kalman.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IMU/IMUC.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters/kalman.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters/kalman.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IMU/IMUC.hpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IWDG/iwdgC.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/LED/LEDC.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cstdint \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID/pidC.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID/pidC.hpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/RomteC/RemoteC.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cctype \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/ctype.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/REMOTEC/remoteio.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/RGB/lrgb.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Vision/packet.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/matlabPID.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/PIDC.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/STM32_Config.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/rtwtypes.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/PID_External_Functions.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/MCU_heafile.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/CAN/bsp_can.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/CAN/bsp_can.hpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/LASER/laser.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/LED/ledio.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/POWER/power.h \
@@ -4567,24 +5060,16 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/CAN/bsp_can.cpp.obj: E:/compe
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/can.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/main.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/dma.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/FATFS/App/fatfs.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FatFs/src/ff.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FatFs/src/integer.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/FATFS/Target/ffconf.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FatFs/src/ff_gen_drv.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FatFs/src/diskio.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FatFs/src/ff.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/FATFS/Target/user_diskio.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/i2c.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/iwdg.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/spi.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/tim.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/usart.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/USB_DEVICE/App/usb_device.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/USB_DEVICE/Target/usbd_conf.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/stdlib.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/gpio.h
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/gpio.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MotorC.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/core.h
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/LASER/laser.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/LASER/laser.cpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/LASER/laser.h \
@@ -4784,19 +5269,20 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/REMOTEC/remoteio.cpp.obj: E:/
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/main.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/usart.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/main.h
 
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/SERVO/servo.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/SERVO/servo.cpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/SERVO/servo.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/stm32f4xx_hal_conf.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/core_cm4.h \
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/SERVO/servo.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/SERVO/servo.cpp
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/MotorC.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MotorC.cpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MotorC.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/framework_headfile.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/ADRC/ADRC.hpp \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cstdint \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/c++config.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/os_defines.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/cpu_defines.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/pstl/pstl_config.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/stdint.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
@@ -4804,64 +5290,19 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/SERVO/servo.cpp.obj: E:/compe
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/cmsis_version.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/cmsis_compiler.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/cmsis_gcc.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/mpu_armv7.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_iwdg.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Gimbal/gimbalc.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/tim.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/main.h
-
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/MotorC.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MotorC.cpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MotorC.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/framework_headfile.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/ADRC/ADRC.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/math.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cmath \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/c++config.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/os_defines.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/cpu_defines.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/pstl/pstl_config.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/cpp_type_traits.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/ext/type_traits.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/math.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/reent.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/_ansi.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/newlib.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/config.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/machine/ieeefp.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/features.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_types.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/machine/_types.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/lock.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/cdefs.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/_ansi.h \
@@ -4906,10 +5347,6 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/MotorC.cpp.obj: E:/competition/2024_ROB
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/core_cm4.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/cmsis_version.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/cmsis_compiler.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/cmsis_gcc.h \
@@ -5013,20 +5450,26 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/MotorC.cpp.obj: E:/competition/2024_ROB
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_locale.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/strings.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/string.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters/kalman.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IMU/IMUC.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters/kalman.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters/kalman.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IMU/IMUC.hpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IWDG/iwdgC.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/LED/LEDC.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cstdint \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID/pidC.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID/pidC.hpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/RomteC/RemoteC.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cctype \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/ctype.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/REMOTEC/remoteio.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/RGB/lrgb.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/main.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Vision/packet.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/matlabPID.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/PIDC.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/STM32_Config.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/rtwtypes.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/PID_External_Functions.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/MCU_heafile.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/CAN/bsp_can.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/CAN/bsp_can.hpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/LASER/laser.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/LED/ledio.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/POWER/power.h \
@@ -5053,17 +5496,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/MotorC.cpp.obj: E:/competition/2024_ROB
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/can.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/main.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/dma.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/FATFS/App/fatfs.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FatFs/src/ff.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FatFs/src/integer.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/FATFS/Target/ffconf.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FatFs/src/ff_gen_drv.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FatFs/src/diskio.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FatFs/src/ff.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/FATFS/Target/user_diskio.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/i2c.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/iwdg.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/spi.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/tim.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/usart.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/USB_DEVICE/App/usb_device.h \
@@ -5145,15 +5578,14 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/GimbalTask.cpp.obj: E:/competitio
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/RGB/lrgb.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Gimbal/gimbalc.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/framework_headfile.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/ADRC/ADRC.hpp \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cstdint \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/c++config.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/os_defines.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/cpu_defines.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/pstl/pstl_config.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MotorC.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/framework_headfile.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/ADRC/ADRC.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/math.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cmath \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/cpp_type_traits.h \
@@ -5269,17 +5701,25 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/GimbalTask.cpp.obj: E:/competitio
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_locale.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/strings.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/string.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters/kalman.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IMU/IMUC.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters/kalman.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters/kalman.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IMU/IMUC.hpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IWDG/iwdgC.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/LED/LEDC.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID/pidC.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID/pidC.hpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/RomteC/RemoteC.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cctype \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/ctype.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/REMOTEC/remoteio.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/RGB/lrgb.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Vision/packet.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/matlabPID.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/PIDC.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/STM32_Config.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/rtwtypes.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/PID_External_Functions.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/MCU_heafile.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/CAN/bsp_can.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/CAN/bsp_can.hpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/LASER/laser.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/LED/ledio.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/POWER/power.h \
@@ -5288,24 +5728,205 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/GimbalTask.cpp.obj: E:/competitio
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/can.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/main.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/dma.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/FATFS/App/fatfs.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FatFs/src/ff.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FatFs/src/integer.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/FATFS/Target/ffconf.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FatFs/src/ff_gen_drv.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FatFs/src/diskio.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FatFs/src/ff.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/FATFS/Target/user_diskio.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/i2c.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/iwdg.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/spi.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/tim.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/usart.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/USB_DEVICE/App/usb_device.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/USB_DEVICE/Target/usbd_conf.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/stdlib.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/gpio.h
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/gpio.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MotorC.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/core.h
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/visioncom_task.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Tasks/visioncom_task.cpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Tasks/visioncom_task.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/stm32f4xx_hal_conf.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/core_cm4.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/stdint.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/features.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/cmsis_version.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/cmsis_compiler.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/cmsis_gcc.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Include/mpu_armv7.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_iwdg.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/FreeRTOSConfig.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/reent.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/reent.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/_ansi.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/newlib.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/config.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/machine/ieeefp.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_types.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/machine/_types.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/lock.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/list.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/main.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Vision/packet.hpp \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/algorithm \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/utility \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/c++config.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/os_defines.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/cpu_defines.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/pstl/pstl_config.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_relops.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_pair.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/move.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/type_traits \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/initializer_list \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/functexcept.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/exception_defines.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/cpp_type_traits.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/ext/type_traits.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/ext/numeric_traits.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_iterator_base_types.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_iterator_base_funcs.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/concept_check.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/debug/assertions.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_iterator.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/ptr_traits.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/debug/debug.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/predefined_ops.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_algo.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cstdlib \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/stdlib.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/_ansi.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/cdefs.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/machine/stdlib.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/alloca.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/std_abs.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/algorithmfwd.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_heap.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_tempbuf.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_construct.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/new \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/exception \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/exception.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/exception_ptr.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/cxxabi_init_exception.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/typeinfo \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/hash_bytes.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/nested_exception.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/uniform_int_dist.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/limits \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/pstl/glue_algorithm_defs.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/functional \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_function.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/backward/binders.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tuple \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/array \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/range_access.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/iterator_concepts.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/concepts \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/range_cmp.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/uses_allocator.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/invoke.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/functional_hash.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/refwrap.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/std_function.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/unordered_map \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/allocator.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/c++allocator.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/ext/new_allocator.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/memoryfwd.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/ext/alloc_traits.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/alloc_traits.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/ext/aligned_buffer.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/hashtable.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/hashtable_policy.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/node_handle.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/optional \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/enable_special_members.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/unordered_map.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/erase_if.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/vector \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_uninitialized.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_vector.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_bvector.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/vector.tcc \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/pstl/execution_defs.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cstdint \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Vision/crc.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IMU/IMUC.hpp \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/USB_DEVICE/App/usbd_cdc_if.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/USB_DEVICE/Target/usbd_conf.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/stdio.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/types.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/machine/endian.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/machine/_endian.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/select.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_sigset.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_timeval.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/timespec.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_timespec.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_pthreadtypes.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/sched.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/machine/types.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/stdio.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/stdlib.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/string.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_locale.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/strings.h \
+  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/string.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h \
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IWDG/iwdgC.h
 
 
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/FATFS/Target/user_diskio.h:
@@ -5315,8 +5936,6 @@ E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimba
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Inc/main.h:
 
 D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/machine/ieeefp.h:
-
-E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/USB_DEVICE/App/usbd_cdc_if.c:
 
 D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/_ansi.h:
 
@@ -5360,6 +5979,8 @@ E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimba
 
 D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/newlib.h:
 
+E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/matlabPID.hpp:
+
 D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/memoryfwd.h:
 
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h:
@@ -5377,6 +5998,8 @@ D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/inclu
 D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/features.h:
 
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h:
+
+E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters/kalman.hpp:
 
 D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/_newlib_version.h:
 
@@ -5508,6 +6131,8 @@ D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/inclu
 
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/task.h:
 
+E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Tasks/visioncom_task.cpp:
+
 D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/time.h:
 
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/list.h:
@@ -5527,6 +6152,8 @@ E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimba
 D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/unordered_map.h:
 
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h:
+
+E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID/pidC.hpp:
 
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Src/gpio.c:
 
@@ -5568,6 +6195,8 @@ D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/inclu
 
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:
 
+E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IMU/IMUC.hpp:
+
 D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_timeval.h:
 
 D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/cdefs.h:
@@ -5575,6 +6204,8 @@ D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/inclu
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/ADRC/ADRC.cpp:
 
 D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/types.h:
+
+E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Vision/crc.cpp:
 
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c:
 
@@ -5622,15 +6253,15 @@ D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/inclu
 
 D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/cpu_defines.h:
 
-E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c:
-
-E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MotorC.hpp:
+E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Gimbal/gimbalc.hpp:
 
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/framework_headfile.hpp:
 
-E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Src/sysmem.c:
+E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c:
 
-E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/ADRC/ADRC.h:
+D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/limits:
+
+E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/ADRC/ADRC.hpp:
 
 D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_algo.h:
 
@@ -5678,13 +6309,11 @@ D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/inclu
 
 D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/debug/debug.h:
 
-E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c:
-
-D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/limits:
-
 D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/gamma.tcc:
 
 D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/special_function_util.h:
+
+E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/rtwtypes.h:
 
 D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/bessel_function.tcc:
 
@@ -5760,8 +6389,6 @@ E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimba
 
 D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/array:
 
-E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/CAN/bsp_can.h:
-
 D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/range_access.h:
 
 D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/iterator_concepts.h:
@@ -5808,11 +6435,11 @@ D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/inclu
 
 D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/node_handle.h:
 
-E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters/filter.cpp:
-
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c:
 
 D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/enable_special_members.h:
+
+E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/ShootC/Shootc.cpp:
 
 D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/erase_if.h:
 
@@ -5824,13 +6451,9 @@ D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/inclu
 
 D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/vector.tcc:
 
-E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Filters/kalman.h:
-
-E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c:
-
-E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IMU/IMUC.h:
-
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c:
+
+E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/CAN/bsp_can.hpp:
 
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IWDG/iwdgC.h:
 
@@ -5846,9 +6469,23 @@ E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimba
 
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/RGB/lrgb.h:
 
+E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Vision/packet.hpp:
+
+E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/list.c:
+
+E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/PIDC.h:
+
+E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/STM32_Config.h:
+
+E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/PID_External_Functions.h:
+
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/MCU_heafile.hpp:
 
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/LED/ledio.h:
+
+E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c:
+
+E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MotorC.hpp:
 
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Src/spi.c:
 
@@ -5876,6 +6513,8 @@ D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/inclu
 
 D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/times.h:
 
+E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Src/sysmem.c:
+
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Src/usart.c:
 
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c:
@@ -5894,6 +6533,10 @@ E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimba
 
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c:
 
+E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IMU/IMUC.h:
+
+E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c:
+
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c:
 
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:
@@ -5903,6 +6546,8 @@ E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimba
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/FATFS/Target/user_diskio.c:
 
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h:
+
+E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/ShootC/Shootc.hpp:
 
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h:
 
@@ -5915,8 +6560,6 @@ E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimba
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c:
 
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/croutine.c:
-
-E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/list.c:
 
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c:
 
@@ -5938,9 +6581,13 @@ E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimba
 
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/USB_DEVICE/App/usbd_cdc_if.h:
 
-E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/USB_DEVICE/App/usbd_desc.c:
-
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/USB_DEVICE/Target/usbd_conf.c:
+
+E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/USB_DEVICE/App/usbd_cdc_if.cpp:
+
+E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Vision/crc.h:
+
+E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/USB_DEVICE/App/usbd_desc.c:
 
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Debug/DebugC.cpp:
 
@@ -5948,19 +6595,21 @@ D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/inclu
 
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Gimbal/gimbalc.cpp:
 
-E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/Gimbal/gimbalc.h:
-
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IMU/IMUC.cpp:
 
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/IWDG/iwdgC.cpp:
 
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/LED/LEDC.cpp:
 
+E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/PIDC.cpp:
+
+E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/LOG/log.c:
+
+E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/PID_stm32/matlabPID.cpp:
+
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/RGB/lrgb.cpp:
 
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Framework/RomteC/RemoteC.cpp:
-
-E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/LOG/log.c:
 
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/LOG/log_port.c:
 
@@ -5977,3 +6626,5 @@ E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimba
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MCUDriver/SERVO/servo.cpp:
 
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/MotorC.cpp:
+
+E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/User/Tasks/visioncom_task.h:

@@ -8,7 +8,7 @@
 #include "usart.h"
 
 /**
- * VOFA调试专用 UART8
+ * VOFA调试专用 UART1
  * 协议：MJW传授
  *
  */

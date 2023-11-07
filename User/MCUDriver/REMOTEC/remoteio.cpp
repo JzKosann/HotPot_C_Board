@@ -1,11 +1,12 @@
 //
-// Created by ShiF on 2023/9/14.
+// Created by cr on 22-9-12.
 //
 
 #include "remoteio.h"
-#include "main.h"
 #include "usart.h"
 
+extern UART_HandleTypeDef huart3;
+extern DMA_HandleTypeDef hdma_usart3_rx;
 
 void REMOTEIO_init(uint8_t *rx1_buf, uint8_t *rx2_buf, uint16_t dma_buf_num)
 {

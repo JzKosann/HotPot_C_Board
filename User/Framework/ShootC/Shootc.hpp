@@ -1,0 +1,15 @@
+//
+// Created by ShiF on 2023/10/18.
+//
+
+#ifndef KOSANN_INFANTRY_GIMBAL_SHOOTC_HPP
+#define KOSANN_INFANTRY_GIMBAL_SHOOTC_HPP
+
+
+class Shootc
+{
+
+};
+
+
+#endif //KOSANN_INFANTRY_GIMBAL_SHOOTC_HPP

@@ -1,26 +1,31 @@
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ADRC/ADRC.cpp.obj: \
  E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\User\Framework\ADRC\ADRC.cpp \
- E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\User\Framework\ADRC\ADRC.h \
- d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\c++\10.3.1\math.h \
- d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\c++\10.3.1\cmath \
+ E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\User\Framework\ADRC\ADRC.hpp \
+ d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\c++\10.3.1\cstdint \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\c++\10.3.1\arm-none-eabi\thumb\v7e-m+fp\hard\bits\c++config.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\c++\10.3.1\arm-none-eabi\thumb\v7e-m+fp\hard\bits\os_defines.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\c++\10.3.1\arm-none-eabi\thumb\v7e-m+fp\hard\bits\cpu_defines.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\c++\10.3.1\pstl\pstl_config.h \
+ d:\enviro~1\gcc-ar~1\102021~1.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h \
+ d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\stdint.h \
+ d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\machine\_default_types.h \
+ d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\sys\features.h \
+ d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\_newlib_version.h \
+ d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\sys\_intsup.h \
+ d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\sys\_stdint.h \
+ d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\c++\10.3.1\math.h \
+ d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\c++\10.3.1\cmath \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\c++\10.3.1\bits\cpp_type_traits.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\c++\10.3.1\ext\type_traits.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\math.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\sys\reent.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\_ansi.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\newlib.h \
- d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\_newlib_version.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\sys\config.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\machine\ieeefp.h \
- d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\sys\features.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\sys\_types.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\machine\_types.h \
- d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\machine\_default_types.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\sys\lock.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\sys\cdefs.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\_ansi.h \
@@ -58,7 +63,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ADRC/ADRC.cpp.obj: \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\c++\10.3.1\tr1\poly_laguerre.tcc \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\c++\10.3.1\tr1\riemann_zeta.tcc \
  E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\User\Framework/framework_headfile.hpp \
- E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\User\Framework\ADRC/ADRC.h \
+ E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\User\Framework\ADRC/ADRC.hpp \
  E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\User\Framework\Debug/DebugC.h \
  E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal.h \
  E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Core\Inc/stm32f4xx_hal_conf.h \
@@ -67,10 +72,6 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ADRC/ADRC.cpp.obj: \
  E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\CMSIS\Device\ST\STM32F4xx\Include/stm32f4xx.h \
  E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\CMSIS\Device\ST\STM32F4xx\Include/stm32f407xx.h \
  E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\CMSIS\Include/core_cm4.h \
- d:\enviro~1\gcc-ar~1\102021~1.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h \
- d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\stdint.h \
- d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\sys\_intsup.h \
- d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\sys\_stdint.h \
  E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\CMSIS\Include/cmsis_version.h \
  E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\CMSIS\Include/cmsis_compiler.h \
  E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Drivers\CMSIS\Include/cmsis_gcc.h \
@@ -174,15 +175,21 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ADRC/ADRC.cpp.obj: \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\sys\_locale.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\strings.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\sys\string.h \
- E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\User\Framework\Filters/kalman.h \
- E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\User\Framework\IMU/IMUC.h \
+ E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\User\Framework\Filters/kalman.hpp \
+ E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\User\Framework\Filters/kalman.hpp \
+ E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\User\Framework\IMU/IMUC.hpp \
  E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\User\Framework\IWDG/iwdgC.h \
  E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\User\Framework\LED/LEDC.h \
- d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\c++\10.3.1\cstdint \
- E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\User\Framework\PID/pidC.h \
+ E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\User\Framework\PID/pidC.hpp \
  E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\User\Framework\RomteC/RemoteC.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\c++\10.3.1\cctype \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\ctype.h \
  E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\User\MCUDriver\REMOTEC/remoteio.h \
  E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\User\Framework\RGB/lrgb.h \
- E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Core\Inc/main.h
+ E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Core\Inc/main.h \
+ E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\User\Framework\Vision/packet.hpp \
+ E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\User\Framework\PID_stm32/matlabPID.hpp \
+ E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\User\Framework\PID_stm32/PIDC.h \
+ E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\User\Framework\PID_stm32/STM32_Config.h \
+ E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\User\Framework\PID_stm32/rtwtypes.h \
+ E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\User\Framework\PID_stm32/PID_External_Functions.h
