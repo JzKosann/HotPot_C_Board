@@ -1,5 +1,5 @@
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/syscalls.c.obj: \
- E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\Core\Src\syscalls.c \
+ E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\syscalls.c \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\sys\stat.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\_ansi.h \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\newlib.h \

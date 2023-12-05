@@ -17,6 +17,8 @@
 #include "lrgb.h"
 #include "packet.hpp"
 #include "matlabPID.hpp"
+#include "refee.hpp"
+
 class algorithm
 {
 public:

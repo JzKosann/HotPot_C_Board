@@ -4,28 +4,29 @@
 
 #ifndef KOSANN_INFANTRY_GIMBAL_MATLABPID_HPP
 #define KOSANN_INFANTRY_GIMBAL_MATLABPID_HPP
-#include "PIDC.h"
+#include "PID_mat.hpp"
+#include "PosPID.hpp"
 /**
  * 取自mjw---matlab pid代码
  * 仅有PID POS LOOP
  * 直接赋值 yaw pitch 的目标值和前馈系数
  */
-#define mPid_In rtU
-#define mPid_Out rtY //matlab生成的PID
+#define SpdPid_In PID_mat_U
+#define SpdPid_Out PID_mat_Y //matlab生成的PID
+#define PosPid_In PosPID_U
+#define PosPid_Out PosPID_Y //matlab生成的PID
+
 
 typedef class matlabPID{
 public:
     void Init();
-    void yaw_calc(float yawPosIn,float yawSpdIn);
-    void pitch_calc(float pitchPosIn,float pitchSpdIn);
-    void yawSetparam(float spd_kp, float spd_ki, float spd_kd, float spd_n, float spd_outmax, float dif_gain,
-                     float pos_kp, float pos_ki, float pos_kd, float pos_n, float pos_outmax);
-    void pitchSetparam(float spd_kp, float spd_ki, float spd_kd, float spd_outmax,
-                     float pos_kp, float pos_ki, float pos_kd, float pos_outmax);
-    void yawSetTar(float Tar);
-    void pitchSetTar(float Tar);
-    int16_t yawOut();
-    int16_t pitchOut();
+    void calc(float input);
+    void settar(float tar);
+    void setPara(float Kp,float Ki,float OUTMAX);
+    void PosSetPara(float Kp,float Ki,float Kd,float Kn,float OUTMAX);
+    void PosLoop(float input,float tar);
+    float PosOut();
+    float out();
 }mPID;
 
 #endif //KOSANN_INFANTRY_GIMBAL_MATLABPID_HPP

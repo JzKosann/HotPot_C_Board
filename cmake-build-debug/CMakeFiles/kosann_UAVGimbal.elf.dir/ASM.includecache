@@ -6,5 +6,5 @@
 
 #IncludeRegexTransform: 
 
-E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/Core/Startup/startup_stm32f407ighx.s
+E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Core/Startup/startup_stm32f407ighx.s
 

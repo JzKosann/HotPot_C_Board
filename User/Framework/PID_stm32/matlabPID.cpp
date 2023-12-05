@@ -5,63 +5,50 @@
 
 void matlabPID::Init()
 {
-    PID_initialize();
+    PID_mat_initialize();
 }
 
-void matlabPID::yaw_calc(float yawPosIn,float yawSpdIn)
+void matlabPID::calc(float input)
 {
-    mPid_In.YawAngle_Now = yawPosIn;
-    mPid_In.YawSpeed_Now = yawSpdIn;
-    PID_step(1);
+    SpdPid_In.Now=input;
+    PID_mat_step();
+}
+float matlabPID::out(){
+
+    return SpdPid_Out.Current;
 }
 
-void matlabPID::pitch_calc(float pitchPosIn,float pitchSpdIn)
+void matlabPID::settar(float tar)
 {
-
+    SpdPid_In.Tar=tar;
 }
 
-void matlabPID::yawSetparam(float spd_kp, float spd_ki, float spd_kd, float spd_n, float spd_outmax, float dif_gain,
-                            float pos_kp, float pos_ki, float pos_kd, float pos_n, float pos_outmax)
+void matlabPID::setPara(float Kp, float Ki, float OUTMAX)
 {
-    mPid_In.YawP_P = pos_kp;
-    mPid_In.YawP_I = pos_ki;
-    mPid_In.YawP_D = pos_kd;
-    mPid_In.YawP_N = pos_n;
-    mPid_In.YawP_MO = pos_outmax;
-    mPid_In.YawP_LO = -mPid_In.YawP_MO;
-    mPid_In.YawS_P = spd_kp;
-    mPid_In.YawS_I = spd_ki;
-    mPid_In.YawS_D = spd_kd;
-    mPid_In.YawS_N = spd_n;
-    mPid_In.YawS_MO = spd_outmax;
-    mPid_In.YawS_LO = -mPid_In.YawS_MO;
-    mPid_In.Yaw_Dif_Gain = dif_gain;
+    SpdPid_In.Kp=Kp;
+    SpdPid_In.Ki=Ki;
+    SpdPid_In.OUTMAX=OUTMAX;
+    SpdPid_In.OUTLOW=-OUTMAX;
 }
 
-void matlabPID::pitchSetparam(float spd_kp, float spd_ki, float spd_kd, float spd_outmax, float pos_kp, float pos_ki, float pos_kd, float pos_outmax)
+void matlabPID::PosLoop(float input, float tar)
 {
-
+    PosPid_In.Tar=tar;
+    PosPid_In.Now=input;
+    PosPID_step();
 }
 
-void matlabPID::yawSetTar(float Tar)
+float matlabPID::PosOut()
 {
-    mPid_In.YawAngle_set = Tar;
+    return PosPid_Out.spd;
 }
 
-void matlabPID::pitchSetTar(float Tar)
+void matlabPID::PosSetPara(float Kp, float Ki, float Kd, float Kn, float OUTMAX)
 {
-
+    PosPid_In.Kp=Kp;
+    PosPid_In.Ki=Ki;
+    PosPid_In.Kd=Kd;
+    PosPid_In.N=Kn;
+    PosPid_In.OUTMAX=OUTMAX;
+    PosPid_In.OUTLOW=-OUTMAX;
 }
-
-int16_t matlabPID::yawOut()
-{
-    return mPid_Out.YawCurrent;
-}
-
-int16_t matlabPID::pitchOut()
-{
-    return mPid_Out.PihCurrent;
-}
-
-
-

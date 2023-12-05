@@ -2,6 +2,7 @@
 // Created by mjw on 2023/1/12.
 //
 #include "visioncom_task.h"
+#include "framework_headfile.hpp"
 #include "packet.hpp"
 #include "crc.h"
 #include "IMUC.hpp"
@@ -30,7 +31,6 @@ uint8_t Buf[sizeof(SendPacket)];
 
 void VisionChattingLoop(uint8_t mode)
 {
-    float ShootSpeed = Shoot_SpeedNow;
 //	float w = IMU_Quaternion().w;
 //	float x = IMU_Quaternion().x;
 //	float y = IMU_Quaternion().y;
@@ -41,7 +41,7 @@ void VisionChattingLoop(uint8_t mode)
 //	if (Color_now == 1)	send_packet.color =0;
 //	if (Color_now == 0)	send_packet.color =1;
     send_packet.header = 0x5A;
-    send_packet.shoot_spd = 30;
+    send_packet.shoot_spd =refereeMsg.shoot_spd;
     send_packet.pitch = pitch;
     send_packet.yaw = yaw;
     send_packet.roll = roll;

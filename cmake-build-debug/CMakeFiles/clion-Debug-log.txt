@@ -1,4 +1,4 @@
-"D:\clion\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal -B E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\cmake-build-debug
+"D:\clion\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board -B E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug
 -- The C compiler identification is GNU 10.3.1
 -- The CXX compiler identification is GNU 10.3.1
 -- The ASM compiler identification is GNU
@@ -14,6 +14,6 @@
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
 -- Minimal optimization, debug info included
--- Configuring done (1.5s)
+-- Configuring done (1.4s)
 -- Generating done (0.1s)
--- Build files have been written to: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_UAVGimbal/cmake-build-debug
+-- Build files have been written to: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/cmake-build-debug

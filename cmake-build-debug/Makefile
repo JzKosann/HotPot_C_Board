@@ -56,10 +56,10 @@ RM = "D:\clion\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal
+CMAKE_SOURCE_DIR = E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\cmake-build-debug
+CMAKE_BINARY_DIR = E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\cmake-build-debug\CMakeFiles E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_UAVGimbal\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -1888,29 +1888,29 @@ User/Framework/PID/pidC.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID/pidC.cpp.s
 .PHONY : User/Framework/PID/pidC.cpp.s
 
-User/Framework/PID_stm32/PIDC.obj: User/Framework/PID_stm32/PIDC.cpp.obj
-.PHONY : User/Framework/PID_stm32/PIDC.obj
+User/Framework/PID_stm32/PID_mat.obj: User/Framework/PID_stm32/PID_mat.cpp.obj
+.PHONY : User/Framework/PID_stm32/PID_mat.obj
 
 # target to build an object file
-User/Framework/PID_stm32/PIDC.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/PIDC.cpp.obj
-.PHONY : User/Framework/PID_stm32/PIDC.cpp.obj
+User/Framework/PID_stm32/PID_mat.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/PID_mat.cpp.obj
+.PHONY : User/Framework/PID_stm32/PID_mat.cpp.obj
 
-User/Framework/PID_stm32/PIDC.i: User/Framework/PID_stm32/PIDC.cpp.i
-.PHONY : User/Framework/PID_stm32/PIDC.i
+User/Framework/PID_stm32/PID_mat.i: User/Framework/PID_stm32/PID_mat.cpp.i
+.PHONY : User/Framework/PID_stm32/PID_mat.i
 
 # target to preprocess a source file
-User/Framework/PID_stm32/PIDC.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/PIDC.cpp.i
-.PHONY : User/Framework/PID_stm32/PIDC.cpp.i
+User/Framework/PID_stm32/PID_mat.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/PID_mat.cpp.i
+.PHONY : User/Framework/PID_stm32/PID_mat.cpp.i
 
-User/Framework/PID_stm32/PIDC.s: User/Framework/PID_stm32/PIDC.cpp.s
-.PHONY : User/Framework/PID_stm32/PIDC.s
+User/Framework/PID_stm32/PID_mat.s: User/Framework/PID_stm32/PID_mat.cpp.s
+.PHONY : User/Framework/PID_stm32/PID_mat.s
 
 # target to generate assembly for a file
-User/Framework/PID_stm32/PIDC.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/PIDC.cpp.s
-.PHONY : User/Framework/PID_stm32/PIDC.cpp.s
+User/Framework/PID_stm32/PID_mat.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/PID_mat.cpp.s
+.PHONY : User/Framework/PID_stm32/PID_mat.cpp.s
 
 User/Framework/PID_stm32/matlabPID.obj: User/Framework/PID_stm32/matlabPID.cpp.obj
 .PHONY : User/Framework/PID_stm32/matlabPID.obj
@@ -1935,6 +1935,30 @@ User/Framework/PID_stm32/matlabPID.s: User/Framework/PID_stm32/matlabPID.cpp.s
 User/Framework/PID_stm32/matlabPID.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/matlabPID.cpp.s
 .PHONY : User/Framework/PID_stm32/matlabPID.cpp.s
+
+User/Framework/PosPID_stm32/PosPID.obj: User/Framework/PosPID_stm32/PosPID.cpp.obj
+.PHONY : User/Framework/PosPID_stm32/PosPID.obj
+
+# target to build an object file
+User/Framework/PosPID_stm32/PosPID.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PosPID_stm32/PosPID.cpp.obj
+.PHONY : User/Framework/PosPID_stm32/PosPID.cpp.obj
+
+User/Framework/PosPID_stm32/PosPID.i: User/Framework/PosPID_stm32/PosPID.cpp.i
+.PHONY : User/Framework/PosPID_stm32/PosPID.i
+
+# target to preprocess a source file
+User/Framework/PosPID_stm32/PosPID.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PosPID_stm32/PosPID.cpp.i
+.PHONY : User/Framework/PosPID_stm32/PosPID.cpp.i
+
+User/Framework/PosPID_stm32/PosPID.s: User/Framework/PosPID_stm32/PosPID.cpp.s
+.PHONY : User/Framework/PosPID_stm32/PosPID.s
+
+# target to generate assembly for a file
+User/Framework/PosPID_stm32/PosPID.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PosPID_stm32/PosPID.cpp.s
+.PHONY : User/Framework/PosPID_stm32/PosPID.cpp.s
 
 User/Framework/RGB/lrgb.obj: User/Framework/RGB/lrgb.cpp.obj
 .PHONY : User/Framework/RGB/lrgb.obj
@@ -2031,6 +2055,30 @@ User/Framework/Vision/crc.s: User/Framework/Vision/crc.cpp.s
 User/Framework/Vision/crc.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Vision/crc.cpp.s
 .PHONY : User/Framework/Vision/crc.cpp.s
+
+User/Framework/refee.obj: User/Framework/refee.cpp.obj
+.PHONY : User/Framework/refee.obj
+
+# target to build an object file
+User/Framework/refee.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/refee.cpp.obj
+.PHONY : User/Framework/refee.cpp.obj
+
+User/Framework/refee.i: User/Framework/refee.cpp.i
+.PHONY : User/Framework/refee.i
+
+# target to preprocess a source file
+User/Framework/refee.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/refee.cpp.i
+.PHONY : User/Framework/refee.cpp.i
+
+User/Framework/refee.s: User/Framework/refee.cpp.s
+.PHONY : User/Framework/refee.s
+
+# target to generate assembly for a file
+User/Framework/refee.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/refee.cpp.s
+.PHONY : User/Framework/refee.cpp.s
 
 User/LOG/log.obj: User/LOG/log.c.obj
 .PHONY : User/LOG/log.obj
@@ -2525,12 +2573,15 @@ help:
 	@echo ... User/Framework/PID/pidC.obj
 	@echo ... User/Framework/PID/pidC.i
 	@echo ... User/Framework/PID/pidC.s
-	@echo ... User/Framework/PID_stm32/PIDC.obj
-	@echo ... User/Framework/PID_stm32/PIDC.i
-	@echo ... User/Framework/PID_stm32/PIDC.s
+	@echo ... User/Framework/PID_stm32/PID_mat.obj
+	@echo ... User/Framework/PID_stm32/PID_mat.i
+	@echo ... User/Framework/PID_stm32/PID_mat.s
 	@echo ... User/Framework/PID_stm32/matlabPID.obj
 	@echo ... User/Framework/PID_stm32/matlabPID.i
 	@echo ... User/Framework/PID_stm32/matlabPID.s
+	@echo ... User/Framework/PosPID_stm32/PosPID.obj
+	@echo ... User/Framework/PosPID_stm32/PosPID.i
+	@echo ... User/Framework/PosPID_stm32/PosPID.s
 	@echo ... User/Framework/RGB/lrgb.obj
 	@echo ... User/Framework/RGB/lrgb.i
 	@echo ... User/Framework/RGB/lrgb.s
@@ -2543,6 +2594,9 @@ help:
 	@echo ... User/Framework/Vision/crc.obj
 	@echo ... User/Framework/Vision/crc.i
 	@echo ... User/Framework/Vision/crc.s
+	@echo ... User/Framework/refee.obj
+	@echo ... User/Framework/refee.i
+	@echo ... User/Framework/refee.s
 	@echo ... User/LOG/log.obj
 	@echo ... User/LOG/log.i
 	@echo ... User/LOG/log.s

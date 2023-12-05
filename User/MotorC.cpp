@@ -33,6 +33,7 @@ void cMotor::canSend( eController controller_type,int16_t current)
     }else{
     CanReg[tx_channel].CANx_send_data[(ID - 1) * 2] = current >> 8;
     CanReg[tx_channel].CANx_send_data[(ID - 1) * 2 + 1] = current;
+//        usart_printf("%d\r\n",CanReg[tx_channel].CANx_send_data[(ID - 1) * 2]);
     }
 }
 

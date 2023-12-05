@@ -53,7 +53,7 @@ include_directories(Core/Inc Drivers/STM32F4xx_HAL_Driver/Inc Drivers/STM32F4xx_
                                                                                                         User/Framework/Debug User/Framework/Filters User/Framework/Gimbal User/Framework/IMU User/Framework/IWDG
                                                                                                         User/Framework/LED User/Framework/PID
                                                                                                         User/Framework/RomteC User/Framework/ShootC User/Framework/Vision User/LOG User/MCUDriver/CAN User/MCUDriver/LASER
-                                                                                                        User/MCUDriver/LED User/MCUDriver/POWER User/Framework/PID_stm32 User/Framework/slprj
+                                                                                                        User/MCUDriver/LED User/MCUDriver/POWER User/Framework/PID_stm32 User/Framework/PosPID_stm32 User/Framework/slprj
                                                                                                         User/MCUDriver/REMOTEC User/MCUDriver/SERVO User/Tasks User/ User/MCUDriver/ User/Framework/RGB
                                                                                                         User/Framework/Vision)
 

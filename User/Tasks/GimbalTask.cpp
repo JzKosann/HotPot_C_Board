@@ -18,7 +18,7 @@ void GimbalControlTask(void const *argument)
         FeedDog();
         current = xTaskGetTickCount();
         RGB.loop();
-        GimbalLoop();
+//        GimbalLoop();
 
         vTaskDelayUntil(&current, 1/ portTICK_RATE_MS);
     }

@@ -17,7 +17,8 @@ CanType CanReg[] = {CanType(&hcan1, 0x1FF), //motor
                     CanType(&hcan2, 0x200), //motor
                     CanType(&hcan2, 0x2FF), //can包
                     CanType(&hcan2, 0x401), //chassis vel
-                    CanType(&hcan2, 0x402)  //chassis yaw
+                    CanType(&hcan2, 0x402), //chassis yaw
+                    CanType(&hcan1, 0x601)  //chassis yaw
 };
 
 
@@ -74,15 +75,16 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan)
     static uint8_t i = 0;
     if (hcan == &hcan1)
     {
-//        pitch.canRead(rx_header.StdId, rx_buffer);
+        pitch.canRead(rx_header.StdId, rx_buffer);
 //        fricL.canRead(rx_header.StdId, rx_buffer);
 //        fricR.canRead(rx_header.StdId, rx_buffer);
 //        rammc.canRead(rx_header.StdId, rx_buffer);
 
+
     }
     else if (hcan == &hcan2)
     {                //can2
-        yaw.canRead(rx_header.StdId, rx_buffer);
+//        yaw.canRead(rx_header.StdId, rx_buffer);
 
     }
 }
