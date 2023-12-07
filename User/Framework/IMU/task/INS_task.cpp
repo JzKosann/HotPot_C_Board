@@ -390,7 +390,7 @@ static void imu_temp_control(fp32 temp)
 //        IMU_temp_PWM(MPU6500_TEMP_PWM_MAX - 1);
 //    }
 
-    usart_printf("%.2f,%.2f,%.2f,%.2f,%d,%.2f\r\n", IMU_Angle(0), IMU_Angle(1), IMU_Speed(0), IMU_Speed(1),tempPWM,bmi088_real_data.temp);
+//    usart_printf("%.2f,%.2f,%.2f,%.2f,%d,%.2f\r\n", IMU_Angle(0), IMU_Angle(1), IMU_Speed(0), IMU_Speed(1),tempPWM,bmi088_real_data.temp);
 }
 
 /**
