@@ -23,7 +23,6 @@
 #include "dma.h"
 #include "fatfs.h"
 #include "i2c.h"
-#include "iwdg.h"
 #include "spi.h"
 #include "tim.h"
 #include "usart.h"
@@ -70,7 +69,6 @@ void main_Init(void) {
     SystemClock_Config();
     MX_GPIO_Init();
     MX_DMA_Init();
-    MX_TIM1_Init();
     MX_TIM8_Init();
     MX_USART1_UART_Init();
     MX_USART3_UART_Init();
@@ -81,6 +79,8 @@ void main_Init(void) {
     MX_TIM10_Init();
     MX_TIM5_Init();
     MX_FATFS_Init();
+    MX_TIM4_Init();
+
     HAL_TIM_Base_Start_IT(&htim4);
 }
 void OS_Init(){
@@ -112,9 +112,8 @@ void SystemClock_Config(void)
   /** Initializes the RCC Oscillators according to the specified parameters
   * in the RCC_OscInitTypeDef structure.
   */
-  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_LSI|RCC_OSCILLATORTYPE_HSE;
+  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSE;
   RCC_OscInitStruct.HSEState = RCC_HSE_ON;
-  RCC_OscInitStruct.LSIState = RCC_LSI_ON;
   RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
   RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSE;
   RCC_OscInitStruct.PLL.PLLM = 6;
@@ -153,22 +152,6 @@ void SystemClock_Config(void)
   * @param  htim : TIM handle
   * @retval None
   */
-void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
-{
-  /* USER CODE BEGIN Callback 0 */
-
-  /* USER CODE END Callback 0 */
-  if (htim->Instance == TIM6) {
-    HAL_IncTick();
-  }
-  /* USER CODE BEGIN Callback 1 */
-
-  if (htim->Instance == TIM4) {
-
-    }
-  /* USER CODE END Callback 1 */
-}
-
 /**
   * @brief  This function is executed in case of error occurrence.
   * @retval None

@@ -49,14 +49,27 @@ else ()
 endif ()
 
 include_directories(${includes} User/Framework User/Framework/ADRC
-                                                                                                        User/Framework/Debug User/Framework/Filters User/Framework/Gimbal User/Framework/IMU User/Framework/IWDG
-                                                                                                        User/Framework/LED User/Framework/PID
-                                                                                                        User/Framework/RomteC User/Framework/ShootC User/Framework/Vision User/LOG User/MCUDriver/CAN User/MCUDriver/LASER
-                                                                                                        User/MCUDriver/LED User/MCUDriver/POWER User/Framework/PID_stm32 User/Framework/PosPID_stm32 User/Framework/slprj
-                                                                                                        User/MCUDriver/REMOTEC User/MCUDriver/SERVO User/Tasks User/ User/MCUDriver/ User/Framework/RGB
-                                                                                                        User/Framework/Vision)
+    User/Framework/Debug User/Framework/Filters User/Framework/Gimbal User/Framework/IMU User/Framework/IWDG
+    User/Framework/LED User/Framework/PID
+    User/Framework/RomteC User/Framework/ShootC User/Framework/Vision User/LOG User/MCUDriver/CAN User/MCUDriver/LASER
+    User/MCUDriver/LED User/MCUDriver/POWER User/Framework/PID_stm32 User/Framework/PosPID_stm32 User/Framework/slprj
+    User/MCUDriver/REMOTEC User/MCUDriver/SERVO User/Tasks User/ User/MCUDriver/ User/Framework/RGB
+    User/Framework/Vision User/Framework/IMU/algorithm User/Framework/IMU/bsp User/Framework/IMU/controller User/Framework/IMU/devices User/Framework/IMU/task
+    )
 
 add_definitions(${defines})
+add_definitions(
+            -DDEBUG
+            -DUSE_HAL_DRIVER
+            -DSTM32F407xx
+
+            -DARM_MATH_CM4
+            -D__FPU_USED=1U
+            -D__FPU_PRESENT=1U
+            -DARM_MATH_MATRIX_CHECK
+            -DARM_MATH_ROUNDING
+)
+
 
 file(GLOB_RECURSE SOURCES ${sources} "User/*.*")
 
@@ -66,7 +79,14 @@ add_link_options(-Wl,-gc-sections,--print-memory-usage,-Map=$${PROJECT_BINARY_DI
 add_link_options(-mcpu=${mcpu} -mthumb -mthumb-interwork)
 add_link_options(-T $${LINKER_SCRIPT})
 
+link_directories(${PROJECT_SOURCE_DIR}/Middlewares/ST/ARM/DSP/Lib)
+link_libraries("arm_cortexM4lf_math.a")
+link_directories(${PROJECT_SOURCE_DIR}/User/Framework/IMU/algorithm)
+
 add_executable($${PROJECT_NAME}.elf $${SOURCES} $${LINKER_SCRIPT})
+
+# target link ahrs.lib
+target_link_libraries(${PROJECT_NAME}.elf ${PROJECT_SOURCE_DIR}/User/Framework/IMU/algorithm/AHRS.lib)
 
 set(HEX_FILE $${PROJECT_BINARY_DIR}/$${PROJECT_NAME}.hex)
 set(BIN_FILE $${PROJECT_BINARY_DIR}/$${PROJECT_NAME}.bin)

@@ -56,10 +56,10 @@ RM = "D:\clion\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board
+CMAKE_SOURCE_DIR = E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug
+CMAKE_BINARY_DIR = E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -247,30 +247,6 @@ Core/Src/i2c.s: Core/Src/i2c.c.s
 Core/Src/i2c.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/i2c.c.s
 .PHONY : Core/Src/i2c.c.s
-
-Core/Src/iwdg.obj: Core/Src/iwdg.c.obj
-.PHONY : Core/Src/iwdg.obj
-
-# target to build an object file
-Core/Src/iwdg.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/iwdg.c.obj
-.PHONY : Core/Src/iwdg.c.obj
-
-Core/Src/iwdg.i: Core/Src/iwdg.c.i
-.PHONY : Core/Src/iwdg.i
-
-# target to preprocess a source file
-Core/Src/iwdg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/iwdg.c.i
-.PHONY : Core/Src/iwdg.c.i
-
-Core/Src/iwdg.s: Core/Src/iwdg.c.s
-.PHONY : Core/Src/iwdg.s
-
-# target to generate assembly for a file
-Core/Src/iwdg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/iwdg.c.s
-.PHONY : Core/Src/iwdg.c.s
 
 Core/Src/main.obj: Core/Src/main.c.obj
 .PHONY : Core/Src/main.obj
@@ -831,30 +807,6 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.s: Drivers/STM32F4xx_HAL_D
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s
-
-Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj
-.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.obj
-
-# target to build an object file
-Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj
-.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj
-
-Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.i
-.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.i
-
-# target to preprocess a source file
-Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.i
-.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.i
-
-Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.s
-.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.s
-
-# target to generate assembly for a file
-Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.s
-.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.obj
@@ -1624,6 +1576,30 @@ USB_DEVICE/App/usb_device.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usb_device.c.s
 .PHONY : USB_DEVICE/App/usb_device.c.s
 
+USB_DEVICE/App/usbd_cdc_if.obj: USB_DEVICE/App/usbd_cdc_if.c.obj
+.PHONY : USB_DEVICE/App/usbd_cdc_if.obj
+
+# target to build an object file
+USB_DEVICE/App/usbd_cdc_if.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
+.PHONY : USB_DEVICE/App/usbd_cdc_if.c.obj
+
+USB_DEVICE/App/usbd_cdc_if.i: USB_DEVICE/App/usbd_cdc_if.c.i
+.PHONY : USB_DEVICE/App/usbd_cdc_if.i
+
+# target to preprocess a source file
+USB_DEVICE/App/usbd_cdc_if.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.i
+.PHONY : USB_DEVICE/App/usbd_cdc_if.c.i
+
+USB_DEVICE/App/usbd_cdc_if.s: USB_DEVICE/App/usbd_cdc_if.c.s
+.PHONY : USB_DEVICE/App/usbd_cdc_if.s
+
+# target to generate assembly for a file
+USB_DEVICE/App/usbd_cdc_if.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.s
+.PHONY : USB_DEVICE/App/usbd_cdc_if.c.s
+
 USB_DEVICE/App/usbd_cdc_if.obj: USB_DEVICE/App/usbd_cdc_if.cpp.obj
 .PHONY : USB_DEVICE/App/usbd_cdc_if.obj
 
@@ -1792,29 +1768,341 @@ User/Framework/Gimbal/gimbalc.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Gimbal/gimbalc.cpp.s
 .PHONY : User/Framework/Gimbal/gimbalc.cpp.s
 
-User/Framework/IMU/IMUC.obj: User/Framework/IMU/IMUC.cpp.obj
-.PHONY : User/Framework/IMU/IMUC.obj
+User/Framework/IMU/algorithm/AHRS_middleware.obj: User/Framework/IMU/algorithm/AHRS_middleware.c.obj
+.PHONY : User/Framework/IMU/algorithm/AHRS_middleware.obj
 
 # target to build an object file
-User/Framework/IMU/IMUC.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/IMUC.cpp.obj
-.PHONY : User/Framework/IMU/IMUC.cpp.obj
+User/Framework/IMU/algorithm/AHRS_middleware.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/algorithm/AHRS_middleware.c.obj
+.PHONY : User/Framework/IMU/algorithm/AHRS_middleware.c.obj
 
-User/Framework/IMU/IMUC.i: User/Framework/IMU/IMUC.cpp.i
-.PHONY : User/Framework/IMU/IMUC.i
+User/Framework/IMU/algorithm/AHRS_middleware.i: User/Framework/IMU/algorithm/AHRS_middleware.c.i
+.PHONY : User/Framework/IMU/algorithm/AHRS_middleware.i
 
 # target to preprocess a source file
-User/Framework/IMU/IMUC.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/IMUC.cpp.i
-.PHONY : User/Framework/IMU/IMUC.cpp.i
+User/Framework/IMU/algorithm/AHRS_middleware.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/algorithm/AHRS_middleware.c.i
+.PHONY : User/Framework/IMU/algorithm/AHRS_middleware.c.i
 
-User/Framework/IMU/IMUC.s: User/Framework/IMU/IMUC.cpp.s
-.PHONY : User/Framework/IMU/IMUC.s
+User/Framework/IMU/algorithm/AHRS_middleware.s: User/Framework/IMU/algorithm/AHRS_middleware.c.s
+.PHONY : User/Framework/IMU/algorithm/AHRS_middleware.s
 
 # target to generate assembly for a file
-User/Framework/IMU/IMUC.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/IMUC.cpp.s
-.PHONY : User/Framework/IMU/IMUC.cpp.s
+User/Framework/IMU/algorithm/AHRS_middleware.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/algorithm/AHRS_middleware.c.s
+.PHONY : User/Framework/IMU/algorithm/AHRS_middleware.c.s
+
+User/Framework/IMU/algorithm/user_lib.obj: User/Framework/IMU/algorithm/user_lib.c.obj
+.PHONY : User/Framework/IMU/algorithm/user_lib.obj
+
+# target to build an object file
+User/Framework/IMU/algorithm/user_lib.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/algorithm/user_lib.c.obj
+.PHONY : User/Framework/IMU/algorithm/user_lib.c.obj
+
+User/Framework/IMU/algorithm/user_lib.i: User/Framework/IMU/algorithm/user_lib.c.i
+.PHONY : User/Framework/IMU/algorithm/user_lib.i
+
+# target to preprocess a source file
+User/Framework/IMU/algorithm/user_lib.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/algorithm/user_lib.c.i
+.PHONY : User/Framework/IMU/algorithm/user_lib.c.i
+
+User/Framework/IMU/algorithm/user_lib.s: User/Framework/IMU/algorithm/user_lib.c.s
+.PHONY : User/Framework/IMU/algorithm/user_lib.s
+
+# target to generate assembly for a file
+User/Framework/IMU/algorithm/user_lib.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/algorithm/user_lib.c.s
+.PHONY : User/Framework/IMU/algorithm/user_lib.c.s
+
+User/Framework/IMU/bsp/bsp_delay.obj: User/Framework/IMU/bsp/bsp_delay.c.obj
+.PHONY : User/Framework/IMU/bsp/bsp_delay.obj
+
+# target to build an object file
+User/Framework/IMU/bsp/bsp_delay.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_delay.c.obj
+.PHONY : User/Framework/IMU/bsp/bsp_delay.c.obj
+
+User/Framework/IMU/bsp/bsp_delay.i: User/Framework/IMU/bsp/bsp_delay.c.i
+.PHONY : User/Framework/IMU/bsp/bsp_delay.i
+
+# target to preprocess a source file
+User/Framework/IMU/bsp/bsp_delay.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_delay.c.i
+.PHONY : User/Framework/IMU/bsp/bsp_delay.c.i
+
+User/Framework/IMU/bsp/bsp_delay.s: User/Framework/IMU/bsp/bsp_delay.c.s
+.PHONY : User/Framework/IMU/bsp/bsp_delay.s
+
+# target to generate assembly for a file
+User/Framework/IMU/bsp/bsp_delay.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_delay.c.s
+.PHONY : User/Framework/IMU/bsp/bsp_delay.c.s
+
+User/Framework/IMU/bsp/bsp_flash.obj: User/Framework/IMU/bsp/bsp_flash.c.obj
+.PHONY : User/Framework/IMU/bsp/bsp_flash.obj
+
+# target to build an object file
+User/Framework/IMU/bsp/bsp_flash.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_flash.c.obj
+.PHONY : User/Framework/IMU/bsp/bsp_flash.c.obj
+
+User/Framework/IMU/bsp/bsp_flash.i: User/Framework/IMU/bsp/bsp_flash.c.i
+.PHONY : User/Framework/IMU/bsp/bsp_flash.i
+
+# target to preprocess a source file
+User/Framework/IMU/bsp/bsp_flash.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_flash.c.i
+.PHONY : User/Framework/IMU/bsp/bsp_flash.c.i
+
+User/Framework/IMU/bsp/bsp_flash.s: User/Framework/IMU/bsp/bsp_flash.c.s
+.PHONY : User/Framework/IMU/bsp/bsp_flash.s
+
+# target to generate assembly for a file
+User/Framework/IMU/bsp/bsp_flash.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_flash.c.s
+.PHONY : User/Framework/IMU/bsp/bsp_flash.c.s
+
+User/Framework/IMU/bsp/bsp_imu_pwm.obj: User/Framework/IMU/bsp/bsp_imu_pwm.c.obj
+.PHONY : User/Framework/IMU/bsp/bsp_imu_pwm.obj
+
+# target to build an object file
+User/Framework/IMU/bsp/bsp_imu_pwm.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_imu_pwm.c.obj
+.PHONY : User/Framework/IMU/bsp/bsp_imu_pwm.c.obj
+
+User/Framework/IMU/bsp/bsp_imu_pwm.i: User/Framework/IMU/bsp/bsp_imu_pwm.c.i
+.PHONY : User/Framework/IMU/bsp/bsp_imu_pwm.i
+
+# target to preprocess a source file
+User/Framework/IMU/bsp/bsp_imu_pwm.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_imu_pwm.c.i
+.PHONY : User/Framework/IMU/bsp/bsp_imu_pwm.c.i
+
+User/Framework/IMU/bsp/bsp_imu_pwm.s: User/Framework/IMU/bsp/bsp_imu_pwm.c.s
+.PHONY : User/Framework/IMU/bsp/bsp_imu_pwm.s
+
+# target to generate assembly for a file
+User/Framework/IMU/bsp/bsp_imu_pwm.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_imu_pwm.c.s
+.PHONY : User/Framework/IMU/bsp/bsp_imu_pwm.c.s
+
+User/Framework/IMU/bsp/bsp_spi.obj: User/Framework/IMU/bsp/bsp_spi.c.obj
+.PHONY : User/Framework/IMU/bsp/bsp_spi.obj
+
+# target to build an object file
+User/Framework/IMU/bsp/bsp_spi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_spi.c.obj
+.PHONY : User/Framework/IMU/bsp/bsp_spi.c.obj
+
+User/Framework/IMU/bsp/bsp_spi.i: User/Framework/IMU/bsp/bsp_spi.c.i
+.PHONY : User/Framework/IMU/bsp/bsp_spi.i
+
+# target to preprocess a source file
+User/Framework/IMU/bsp/bsp_spi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_spi.c.i
+.PHONY : User/Framework/IMU/bsp/bsp_spi.c.i
+
+User/Framework/IMU/bsp/bsp_spi.s: User/Framework/IMU/bsp/bsp_spi.c.s
+.PHONY : User/Framework/IMU/bsp/bsp_spi.s
+
+# target to generate assembly for a file
+User/Framework/IMU/bsp/bsp_spi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_spi.c.s
+.PHONY : User/Framework/IMU/bsp/bsp_spi.c.s
+
+User/Framework/IMU/controller/pid.obj: User/Framework/IMU/controller/pid.c.obj
+.PHONY : User/Framework/IMU/controller/pid.obj
+
+# target to build an object file
+User/Framework/IMU/controller/pid.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/controller/pid.c.obj
+.PHONY : User/Framework/IMU/controller/pid.c.obj
+
+User/Framework/IMU/controller/pid.i: User/Framework/IMU/controller/pid.c.i
+.PHONY : User/Framework/IMU/controller/pid.i
+
+# target to preprocess a source file
+User/Framework/IMU/controller/pid.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/controller/pid.c.i
+.PHONY : User/Framework/IMU/controller/pid.c.i
+
+User/Framework/IMU/controller/pid.s: User/Framework/IMU/controller/pid.c.s
+.PHONY : User/Framework/IMU/controller/pid.s
+
+# target to generate assembly for a file
+User/Framework/IMU/controller/pid.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/controller/pid.c.s
+.PHONY : User/Framework/IMU/controller/pid.c.s
+
+User/Framework/IMU/devices/BMI088Middleware.obj: User/Framework/IMU/devices/BMI088Middleware.c.obj
+.PHONY : User/Framework/IMU/devices/BMI088Middleware.obj
+
+# target to build an object file
+User/Framework/IMU/devices/BMI088Middleware.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/BMI088Middleware.c.obj
+.PHONY : User/Framework/IMU/devices/BMI088Middleware.c.obj
+
+User/Framework/IMU/devices/BMI088Middleware.i: User/Framework/IMU/devices/BMI088Middleware.c.i
+.PHONY : User/Framework/IMU/devices/BMI088Middleware.i
+
+# target to preprocess a source file
+User/Framework/IMU/devices/BMI088Middleware.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/BMI088Middleware.c.i
+.PHONY : User/Framework/IMU/devices/BMI088Middleware.c.i
+
+User/Framework/IMU/devices/BMI088Middleware.s: User/Framework/IMU/devices/BMI088Middleware.c.s
+.PHONY : User/Framework/IMU/devices/BMI088Middleware.s
+
+# target to generate assembly for a file
+User/Framework/IMU/devices/BMI088Middleware.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/BMI088Middleware.c.s
+.PHONY : User/Framework/IMU/devices/BMI088Middleware.c.s
+
+User/Framework/IMU/devices/BMI088driver.obj: User/Framework/IMU/devices/BMI088driver.c.obj
+.PHONY : User/Framework/IMU/devices/BMI088driver.obj
+
+# target to build an object file
+User/Framework/IMU/devices/BMI088driver.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/BMI088driver.c.obj
+.PHONY : User/Framework/IMU/devices/BMI088driver.c.obj
+
+User/Framework/IMU/devices/BMI088driver.i: User/Framework/IMU/devices/BMI088driver.c.i
+.PHONY : User/Framework/IMU/devices/BMI088driver.i
+
+# target to preprocess a source file
+User/Framework/IMU/devices/BMI088driver.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/BMI088driver.c.i
+.PHONY : User/Framework/IMU/devices/BMI088driver.c.i
+
+User/Framework/IMU/devices/BMI088driver.s: User/Framework/IMU/devices/BMI088driver.c.s
+.PHONY : User/Framework/IMU/devices/BMI088driver.s
+
+# target to generate assembly for a file
+User/Framework/IMU/devices/BMI088driver.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/BMI088driver.c.s
+.PHONY : User/Framework/IMU/devices/BMI088driver.c.s
+
+User/Framework/IMU/devices/ist8310driver.obj: User/Framework/IMU/devices/ist8310driver.c.obj
+.PHONY : User/Framework/IMU/devices/ist8310driver.obj
+
+# target to build an object file
+User/Framework/IMU/devices/ist8310driver.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/ist8310driver.c.obj
+.PHONY : User/Framework/IMU/devices/ist8310driver.c.obj
+
+User/Framework/IMU/devices/ist8310driver.i: User/Framework/IMU/devices/ist8310driver.c.i
+.PHONY : User/Framework/IMU/devices/ist8310driver.i
+
+# target to preprocess a source file
+User/Framework/IMU/devices/ist8310driver.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/ist8310driver.c.i
+.PHONY : User/Framework/IMU/devices/ist8310driver.c.i
+
+User/Framework/IMU/devices/ist8310driver.s: User/Framework/IMU/devices/ist8310driver.c.s
+.PHONY : User/Framework/IMU/devices/ist8310driver.s
+
+# target to generate assembly for a file
+User/Framework/IMU/devices/ist8310driver.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/ist8310driver.c.s
+.PHONY : User/Framework/IMU/devices/ist8310driver.c.s
+
+User/Framework/IMU/devices/ist8310driver_middleware.obj: User/Framework/IMU/devices/ist8310driver_middleware.c.obj
+.PHONY : User/Framework/IMU/devices/ist8310driver_middleware.obj
+
+# target to build an object file
+User/Framework/IMU/devices/ist8310driver_middleware.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/ist8310driver_middleware.c.obj
+.PHONY : User/Framework/IMU/devices/ist8310driver_middleware.c.obj
+
+User/Framework/IMU/devices/ist8310driver_middleware.i: User/Framework/IMU/devices/ist8310driver_middleware.c.i
+.PHONY : User/Framework/IMU/devices/ist8310driver_middleware.i
+
+# target to preprocess a source file
+User/Framework/IMU/devices/ist8310driver_middleware.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/ist8310driver_middleware.c.i
+.PHONY : User/Framework/IMU/devices/ist8310driver_middleware.c.i
+
+User/Framework/IMU/devices/ist8310driver_middleware.s: User/Framework/IMU/devices/ist8310driver_middleware.c.s
+.PHONY : User/Framework/IMU/devices/ist8310driver_middleware.s
+
+# target to generate assembly for a file
+User/Framework/IMU/devices/ist8310driver_middleware.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/ist8310driver_middleware.c.s
+.PHONY : User/Framework/IMU/devices/ist8310driver_middleware.c.s
+
+User/Framework/IMU/filtter.obj: User/Framework/IMU/filtter.cpp.obj
+.PHONY : User/Framework/IMU/filtter.obj
+
+# target to build an object file
+User/Framework/IMU/filtter.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/filtter.cpp.obj
+.PHONY : User/Framework/IMU/filtter.cpp.obj
+
+User/Framework/IMU/filtter.i: User/Framework/IMU/filtter.cpp.i
+.PHONY : User/Framework/IMU/filtter.i
+
+# target to preprocess a source file
+User/Framework/IMU/filtter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/filtter.cpp.i
+.PHONY : User/Framework/IMU/filtter.cpp.i
+
+User/Framework/IMU/filtter.s: User/Framework/IMU/filtter.cpp.s
+.PHONY : User/Framework/IMU/filtter.s
+
+# target to generate assembly for a file
+User/Framework/IMU/filtter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/filtter.cpp.s
+.PHONY : User/Framework/IMU/filtter.cpp.s
+
+User/Framework/IMU/imu_tool.obj: User/Framework/IMU/imu_tool.cpp.obj
+.PHONY : User/Framework/IMU/imu_tool.obj
+
+# target to build an object file
+User/Framework/IMU/imu_tool.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/imu_tool.cpp.obj
+.PHONY : User/Framework/IMU/imu_tool.cpp.obj
+
+User/Framework/IMU/imu_tool.i: User/Framework/IMU/imu_tool.cpp.i
+.PHONY : User/Framework/IMU/imu_tool.i
+
+# target to preprocess a source file
+User/Framework/IMU/imu_tool.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/imu_tool.cpp.i
+.PHONY : User/Framework/IMU/imu_tool.cpp.i
+
+User/Framework/IMU/imu_tool.s: User/Framework/IMU/imu_tool.cpp.s
+.PHONY : User/Framework/IMU/imu_tool.s
+
+# target to generate assembly for a file
+User/Framework/IMU/imu_tool.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/imu_tool.cpp.s
+.PHONY : User/Framework/IMU/imu_tool.cpp.s
+
+User/Framework/IMU/task/INS_task.obj: User/Framework/IMU/task/INS_task.cpp.obj
+.PHONY : User/Framework/IMU/task/INS_task.obj
+
+# target to build an object file
+User/Framework/IMU/task/INS_task.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/task/INS_task.cpp.obj
+.PHONY : User/Framework/IMU/task/INS_task.cpp.obj
+
+User/Framework/IMU/task/INS_task.i: User/Framework/IMU/task/INS_task.cpp.i
+.PHONY : User/Framework/IMU/task/INS_task.i
+
+# target to preprocess a source file
+User/Framework/IMU/task/INS_task.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/task/INS_task.cpp.i
+.PHONY : User/Framework/IMU/task/INS_task.cpp.i
+
+User/Framework/IMU/task/INS_task.s: User/Framework/IMU/task/INS_task.cpp.s
+.PHONY : User/Framework/IMU/task/INS_task.s
+
+# target to generate assembly for a file
+User/Framework/IMU/task/INS_task.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/task/INS_task.cpp.s
+.PHONY : User/Framework/IMU/task/INS_task.cpp.s
 
 User/Framework/IWDG/iwdgC.obj: User/Framework/IWDG/iwdgC.cpp.obj
 .PHONY : User/Framework/IWDG/iwdgC.obj
@@ -2368,9 +2656,6 @@ help:
 	@echo ... Core/Src/i2c.obj
 	@echo ... Core/Src/i2c.i
 	@echo ... Core/Src/i2c.s
-	@echo ... Core/Src/iwdg.obj
-	@echo ... Core/Src/iwdg.i
-	@echo ... Core/Src/iwdg.s
 	@echo ... Core/Src/main.obj
 	@echo ... Core/Src/main.i
 	@echo ... Core/Src/main.s
@@ -2441,9 +2726,6 @@ help:
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.s
-	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.obj
-	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.i
-	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.s
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.s
@@ -2543,6 +2825,9 @@ help:
 	@echo ... USB_DEVICE/App/usbd_cdc_if.obj
 	@echo ... USB_DEVICE/App/usbd_cdc_if.i
 	@echo ... USB_DEVICE/App/usbd_cdc_if.s
+	@echo ... USB_DEVICE/App/usbd_cdc_if.obj
+	@echo ... USB_DEVICE/App/usbd_cdc_if.i
+	@echo ... USB_DEVICE/App/usbd_cdc_if.s
 	@echo ... USB_DEVICE/App/usbd_desc.obj
 	@echo ... USB_DEVICE/App/usbd_desc.i
 	@echo ... USB_DEVICE/App/usbd_desc.s
@@ -2561,9 +2846,48 @@ help:
 	@echo ... User/Framework/Gimbal/gimbalc.obj
 	@echo ... User/Framework/Gimbal/gimbalc.i
 	@echo ... User/Framework/Gimbal/gimbalc.s
-	@echo ... User/Framework/IMU/IMUC.obj
-	@echo ... User/Framework/IMU/IMUC.i
-	@echo ... User/Framework/IMU/IMUC.s
+	@echo ... User/Framework/IMU/algorithm/AHRS_middleware.obj
+	@echo ... User/Framework/IMU/algorithm/AHRS_middleware.i
+	@echo ... User/Framework/IMU/algorithm/AHRS_middleware.s
+	@echo ... User/Framework/IMU/algorithm/user_lib.obj
+	@echo ... User/Framework/IMU/algorithm/user_lib.i
+	@echo ... User/Framework/IMU/algorithm/user_lib.s
+	@echo ... User/Framework/IMU/bsp/bsp_delay.obj
+	@echo ... User/Framework/IMU/bsp/bsp_delay.i
+	@echo ... User/Framework/IMU/bsp/bsp_delay.s
+	@echo ... User/Framework/IMU/bsp/bsp_flash.obj
+	@echo ... User/Framework/IMU/bsp/bsp_flash.i
+	@echo ... User/Framework/IMU/bsp/bsp_flash.s
+	@echo ... User/Framework/IMU/bsp/bsp_imu_pwm.obj
+	@echo ... User/Framework/IMU/bsp/bsp_imu_pwm.i
+	@echo ... User/Framework/IMU/bsp/bsp_imu_pwm.s
+	@echo ... User/Framework/IMU/bsp/bsp_spi.obj
+	@echo ... User/Framework/IMU/bsp/bsp_spi.i
+	@echo ... User/Framework/IMU/bsp/bsp_spi.s
+	@echo ... User/Framework/IMU/controller/pid.obj
+	@echo ... User/Framework/IMU/controller/pid.i
+	@echo ... User/Framework/IMU/controller/pid.s
+	@echo ... User/Framework/IMU/devices/BMI088Middleware.obj
+	@echo ... User/Framework/IMU/devices/BMI088Middleware.i
+	@echo ... User/Framework/IMU/devices/BMI088Middleware.s
+	@echo ... User/Framework/IMU/devices/BMI088driver.obj
+	@echo ... User/Framework/IMU/devices/BMI088driver.i
+	@echo ... User/Framework/IMU/devices/BMI088driver.s
+	@echo ... User/Framework/IMU/devices/ist8310driver.obj
+	@echo ... User/Framework/IMU/devices/ist8310driver.i
+	@echo ... User/Framework/IMU/devices/ist8310driver.s
+	@echo ... User/Framework/IMU/devices/ist8310driver_middleware.obj
+	@echo ... User/Framework/IMU/devices/ist8310driver_middleware.i
+	@echo ... User/Framework/IMU/devices/ist8310driver_middleware.s
+	@echo ... User/Framework/IMU/filtter.obj
+	@echo ... User/Framework/IMU/filtter.i
+	@echo ... User/Framework/IMU/filtter.s
+	@echo ... User/Framework/IMU/imu_tool.obj
+	@echo ... User/Framework/IMU/imu_tool.i
+	@echo ... User/Framework/IMU/imu_tool.s
+	@echo ... User/Framework/IMU/task/INS_task.obj
+	@echo ... User/Framework/IMU/task/INS_task.i
+	@echo ... User/Framework/IMU/task/INS_task.s
 	@echo ... User/Framework/IWDG/iwdgC.obj
 	@echo ... User/Framework/IWDG/iwdgC.i
 	@echo ... User/Framework/IWDG/iwdgC.s

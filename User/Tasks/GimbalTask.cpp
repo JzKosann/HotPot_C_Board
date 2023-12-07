@@ -6,7 +6,7 @@
 #include "gimbalc.hpp"
 #include "lrgb.h"
 
-void GimbalControlTask(void const *argument)
+void GimbalTask(void const *argument)
 {
     /* USER CODE BEGIN GimbalControlTask */
     TickType_t current;
@@ -15,12 +15,12 @@ void GimbalControlTask(void const *argument)
     /* Infinite loop */
     for (;;)
     {
-        FeedDog();
+//        FeedDog();
         current = xTaskGetTickCount();
         RGB.loop();
-//        GimbalLoop();
+        GimbalLoop();
 
-        vTaskDelayUntil(&current, 1/ portTICK_RATE_MS);
+        vTaskDelayUntil(&current, 2/ portTICK_RATE_MS);
     }
     /* USER CODE END GimbalControlTask */
 }

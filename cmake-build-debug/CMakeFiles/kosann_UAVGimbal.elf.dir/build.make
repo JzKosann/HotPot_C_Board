@@ -52,10 +52,10 @@ RM = "D:\clion\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board
+CMAKE_SOURCE_DIR = E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug
+CMAKE_BINARY_DIR = E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/kosann_UAVGimbal.elf.dir/depend.make
@@ -69,1305 +69,1473 @@ include CMakeFiles/kosann_UAVGimbal.elf.dir/progress.make
 include CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/can.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/can.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Core/Src/can.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/can.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Src/can.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/can.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/can.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/can.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\can.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\can.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\can.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/can.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/can.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\can.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\can.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Src\can.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/can.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/can.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\can.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\can.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Src\can.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\can.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/can.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/can.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\can.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\can.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Src\can.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\can.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/dma.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/dma.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Core/Src/dma.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/dma.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Src/dma.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/dma.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/dma.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/dma.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\dma.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\dma.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\dma.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/dma.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/dma.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\dma.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\dma.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Src\dma.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/dma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/dma.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\dma.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\dma.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Src\dma.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\dma.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/dma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/dma.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\dma.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\dma.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Src\dma.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\dma.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/freertos.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/freertos.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Core/Src/freertos.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/freertos.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Src/freertos.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/freertos.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/freertos.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/freertos.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\freertos.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\freertos.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\freertos.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/freertos.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/freertos.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\freertos.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\freertos.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Src\freertos.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/freertos.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/freertos.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\freertos.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\freertos.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Src\freertos.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\freertos.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/freertos.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/freertos.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\freertos.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\freertos.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Src\freertos.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\freertos.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/gpio.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Core/Src/gpio.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/gpio.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Src/gpio.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/gpio.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/gpio.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\gpio.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\gpio.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/gpio.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/gpio.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\gpio.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\gpio.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Src\gpio.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/gpio.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\gpio.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\gpio.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Src\gpio.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\gpio.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/gpio.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\gpio.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\gpio.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Src\gpio.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\gpio.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/i2c.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/i2c.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Core/Src/i2c.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/i2c.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Src/i2c.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/i2c.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/i2c.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/i2c.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\i2c.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\i2c.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\i2c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/i2c.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/i2c.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\i2c.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\i2c.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Src\i2c.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/i2c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/i2c.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\i2c.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\i2c.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Src\i2c.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\i2c.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/i2c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/i2c.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\i2c.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\i2c.c.s
-
-CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/iwdg.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/iwdg.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Core/Src/iwdg.c
-CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/iwdg.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/iwdg.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/iwdg.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\iwdg.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\iwdg.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\iwdg.c
-
-CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/iwdg.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/iwdg.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\iwdg.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\iwdg.c.i
-
-CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/iwdg.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/iwdg.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\iwdg.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\iwdg.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Src\i2c.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\i2c.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/main.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/main.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Core/Src/main.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/main.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Src/main.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/main.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/main.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/main.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\main.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\main.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/main.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/main.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\main.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\main.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Src\main.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/main.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\main.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\main.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Src\main.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\main.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/main.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\main.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\main.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Src\main.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\main.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/mainpp.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/mainpp.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Core/Src/mainpp.cpp
+CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/mainpp.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Src/mainpp.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/mainpp.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/mainpp.cpp.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/mainpp.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\mainpp.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\mainpp.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\mainpp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/mainpp.cpp.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/mainpp.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\mainpp.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\mainpp.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Src\mainpp.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/mainpp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/mainpp.cpp.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\mainpp.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\mainpp.cpp.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Src\mainpp.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\mainpp.cpp.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/mainpp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/mainpp.cpp.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\mainpp.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\mainpp.cpp.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Src\mainpp.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\mainpp.cpp.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/spi.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/spi.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Core/Src/spi.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/spi.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Src/spi.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/spi.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/spi.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/spi.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\spi.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\spi.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\spi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/spi.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/spi.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\spi.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\spi.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Src\spi.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/spi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/spi.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\spi.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\spi.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Src\spi.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\spi.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/spi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/spi.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\spi.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\spi.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Src\spi.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\spi.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Core/Src/stm32f4xx_hal_msp.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Src/stm32f4xx_hal_msp.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\stm32f4xx_hal_msp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Src\stm32f4xx_hal_msp.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/stm32f4xx_hal_msp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/stm32f4xx_hal_msp.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\stm32f4xx_hal_msp.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\stm32f4xx_hal_msp.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Src\stm32f4xx_hal_msp.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\stm32f4xx_hal_msp.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/stm32f4xx_hal_msp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/stm32f4xx_hal_msp.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\stm32f4xx_hal_msp.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\stm32f4xx_hal_msp.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Src\stm32f4xx_hal_msp.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\stm32f4xx_hal_msp.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Core/Src/stm32f4xx_hal_timebase_tim.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Src/stm32f4xx_hal_timebase_tim.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\stm32f4xx_hal_timebase_tim.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\stm32f4xx_hal_timebase_tim.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\stm32f4xx_hal_timebase_tim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\stm32f4xx_hal_timebase_tim.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\stm32f4xx_hal_timebase_tim.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Src\stm32f4xx_hal_timebase_tim.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\stm32f4xx_hal_timebase_tim.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\stm32f4xx_hal_timebase_tim.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Src\stm32f4xx_hal_timebase_tim.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\stm32f4xx_hal_timebase_tim.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\stm32f4xx_hal_timebase_tim.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\stm32f4xx_hal_timebase_tim.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Src\stm32f4xx_hal_timebase_tim.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\stm32f4xx_hal_timebase_tim.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/stm32f4xx_it.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/stm32f4xx_it.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Core/Src/stm32f4xx_it.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/stm32f4xx_it.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Src/stm32f4xx_it.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/stm32f4xx_it.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/stm32f4xx_it.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/stm32f4xx_it.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\stm32f4xx_it.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\stm32f4xx_it.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\stm32f4xx_it.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/stm32f4xx_it.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/stm32f4xx_it.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\stm32f4xx_it.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\stm32f4xx_it.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Src\stm32f4xx_it.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/stm32f4xx_it.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/stm32f4xx_it.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\stm32f4xx_it.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\stm32f4xx_it.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Src\stm32f4xx_it.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\stm32f4xx_it.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/stm32f4xx_it.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/stm32f4xx_it.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\stm32f4xx_it.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\stm32f4xx_it.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Src\stm32f4xx_it.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\stm32f4xx_it.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/syscalls.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Core/Src/syscalls.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/syscalls.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Src/syscalls.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/syscalls.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\syscalls.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\syscalls.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\syscalls.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/syscalls.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\syscalls.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\syscalls.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Src\syscalls.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/syscalls.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/syscalls.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\syscalls.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\syscalls.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Src\syscalls.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\syscalls.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/syscalls.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/syscalls.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\syscalls.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\syscalls.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Src\syscalls.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\syscalls.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/sysmem.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Core/Src/sysmem.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/sysmem.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Src/sysmem.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/sysmem.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/sysmem.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\sysmem.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\sysmem.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\sysmem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/sysmem.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/sysmem.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\sysmem.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\sysmem.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Src\sysmem.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/sysmem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/sysmem.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\sysmem.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\sysmem.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Src\sysmem.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\sysmem.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/sysmem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/sysmem.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\sysmem.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\sysmem.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Src\sysmem.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\sysmem.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/system_stm32f4xx.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/system_stm32f4xx.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Core/Src/system_stm32f4xx.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/system_stm32f4xx.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Src/system_stm32f4xx.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/system_stm32f4xx.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/system_stm32f4xx.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/system_stm32f4xx.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\system_stm32f4xx.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\system_stm32f4xx.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\system_stm32f4xx.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/system_stm32f4xx.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/system_stm32f4xx.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\system_stm32f4xx.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\system_stm32f4xx.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Src\system_stm32f4xx.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/system_stm32f4xx.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/system_stm32f4xx.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\system_stm32f4xx.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\system_stm32f4xx.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Src\system_stm32f4xx.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\system_stm32f4xx.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/system_stm32f4xx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/system_stm32f4xx.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\system_stm32f4xx.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\system_stm32f4xx.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Src\system_stm32f4xx.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\system_stm32f4xx.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/tim.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/tim.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Core/Src/tim.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/tim.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Src/tim.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/tim.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/tim.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/tim.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\tim.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\tim.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\tim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/tim.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/tim.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\tim.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\tim.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Src\tim.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/tim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/tim.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\tim.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\tim.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Src\tim.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\tim.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/tim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/tim.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\tim.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\tim.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Src\tim.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\tim.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/usart.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/usart.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Core/Src/usart.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/usart.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Src/usart.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/usart.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/usart.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/usart.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\usart.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\usart.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\usart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/usart.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/usart.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\usart.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\usart.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Src\usart.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/usart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/usart.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\usart.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\usart.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Src\usart.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\usart.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/usart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/usart.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Src\usart.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\usart.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Src\usart.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Src\usart.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Startup/startup_stm32f407ighx.s.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Startup/startup_stm32f407ighx.s.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Core/Startup/startup_stm32f407ighx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building ASM object CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Startup/startup_stm32f407ighx.s.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Startup\startup_stm32f407ighx.s.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Startup\startup_stm32f407ighx.s
+CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Startup/startup_stm32f407ighx.s.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Startup/startup_stm32f407ighx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building ASM object CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Startup/startup_stm32f407ighx.s.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Startup\startup_stm32f407ighx.s.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Startup\startup_stm32f407ighx.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Startup/startup_stm32f407ighx.s.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Startup/startup_stm32f407ighx.s.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Startup\startup_stm32f407ighx.s > CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Startup\startup_stm32f407ighx.s.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Startup\startup_stm32f407ighx.s > CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Startup\startup_stm32f407ighx.s.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Startup/startup_stm32f407ighx.s.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Startup/startup_stm32f407ighx.s.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Core\Startup\startup_stm32f407ighx.s -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Startup\startup_stm32f407ighx.s.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Startup\startup_stm32f407ighx.s -o CMakeFiles\kosann_UAVGimbal.elf.dir\Core\Startup\startup_stm32f407ighx.s.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.s
-
-CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c
-CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_iwdg.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_iwdg.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_iwdg.c
-
-CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_iwdg.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_iwdg.c.i
-
-CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_iwdg.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_iwdg.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/FATFS/App/fatfs.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/FATFS/App/fatfs.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/FATFS/App/fatfs.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/FATFS/App/fatfs.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/FATFS/App/fatfs.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/FATFS/App/fatfs.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/FATFS/App/fatfs.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/FATFS/App/fatfs.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\FATFS\App\fatfs.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\FATFS\App\fatfs.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\FATFS\App\fatfs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/FATFS/App/fatfs.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/FATFS/App/fatfs.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\FATFS\App\fatfs.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\FATFS\App\fatfs.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\FATFS\App\fatfs.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/FATFS/App/fatfs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/FATFS/App/fatfs.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\FATFS\App\fatfs.c > CMakeFiles\kosann_UAVGimbal.elf.dir\FATFS\App\fatfs.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\FATFS\App\fatfs.c > CMakeFiles\kosann_UAVGimbal.elf.dir\FATFS\App\fatfs.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/FATFS/App/fatfs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/FATFS/App/fatfs.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\FATFS\App\fatfs.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\FATFS\App\fatfs.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\FATFS\App\fatfs.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\FATFS\App\fatfs.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/FATFS/Target/user_diskio.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/FATFS/Target/user_diskio.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/FATFS/Target/user_diskio.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/FATFS/Target/user_diskio.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/FATFS/Target/user_diskio.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/FATFS/Target/user_diskio.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/FATFS/Target/user_diskio.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/FATFS/Target/user_diskio.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\FATFS\Target\user_diskio.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\FATFS\Target\user_diskio.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\FATFS\Target\user_diskio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/FATFS/Target/user_diskio.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/FATFS/Target/user_diskio.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\FATFS\Target\user_diskio.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\FATFS\Target\user_diskio.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\FATFS\Target\user_diskio.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/FATFS/Target/user_diskio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/FATFS/Target/user_diskio.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\FATFS\Target\user_diskio.c > CMakeFiles\kosann_UAVGimbal.elf.dir\FATFS\Target\user_diskio.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\FATFS\Target\user_diskio.c > CMakeFiles\kosann_UAVGimbal.elf.dir\FATFS\Target\user_diskio.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/FATFS/Target/user_diskio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/FATFS/Target/user_diskio.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\FATFS\Target\user_diskio.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\FATFS\Target\user_diskio.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\FATFS\Target\user_diskio.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\FATFS\Target\user_diskio.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Middlewares/Third_Party/FatFs/src/diskio.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FatFs/src/diskio.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FatFs\src\diskio.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FatFs\src\diskio.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\Third_Party\FatFs\src\diskio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FatFs\src\diskio.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FatFs\src\diskio.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\Third_Party\FatFs\src\diskio.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\Third_Party\FatFs\src\diskio.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FatFs\src\diskio.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\Third_Party\FatFs\src\diskio.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FatFs\src\diskio.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\Third_Party\FatFs\src\diskio.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FatFs\src\diskio.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\Third_Party\FatFs\src\diskio.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FatFs\src\diskio.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Middlewares/Third_Party/FatFs/src/ff.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FatFs/src/ff.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FatFs\src\ff.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FatFs\src\ff.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\Third_Party\FatFs\src\ff.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FatFs\src\ff.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FatFs\src\ff.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\Third_Party\FatFs\src\ff.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\Third_Party\FatFs\src\ff.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FatFs\src\ff.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\Third_Party\FatFs\src\ff.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FatFs\src\ff.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\Third_Party\FatFs\src\ff.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FatFs\src\ff.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\Third_Party\FatFs\src\ff.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FatFs\src\ff.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Middlewares/Third_Party/FatFs/src/option/syscall.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FatFs/src/option/syscall.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FatFs\src\option\syscall.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FatFs\src\option\syscall.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\Third_Party\FatFs\src\option\syscall.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FatFs\src\option\syscall.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FatFs\src\option\syscall.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\Third_Party\FatFs\src\option\syscall.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\Third_Party\FatFs\src\option\syscall.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FatFs\src\option\syscall.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\Third_Party\FatFs\src\option\syscall.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FatFs\src\option\syscall.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\Third_Party\FatFs\src\option\syscall.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FatFs\src\option\syscall.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\Third_Party\FatFs\src\option\syscall.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FatFs\src\option\syscall.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/croutine.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/croutine.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\croutine.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\croutine.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\croutine.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\croutine.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\croutine.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\croutine.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/list.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/list.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\list.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\list.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\list.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\list.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\list.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\list.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/queue.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/queue.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\queue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\queue.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\queue.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\queue.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\queue.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\queue.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/tasks.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/tasks.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\tasks.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\tasks.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\tasks.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\tasks.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\tasks.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\tasks.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/timers.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/timers.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\timers.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\timers.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\timers.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\timers.c > CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\timers.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Middlewares\Third_Party\FreeRTOS\Source\timers.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usb_device.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usb_device.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/USB_DEVICE/App/usb_device.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usb_device.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/USB_DEVICE/App/usb_device.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usb_device.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usb_device.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usb_device.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\USB_DEVICE\App\usb_device.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\USB_DEVICE\App\usb_device.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\USB_DEVICE\App\usb_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usb_device.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usb_device.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\USB_DEVICE\App\usb_device.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\USB_DEVICE\App\usb_device.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\USB_DEVICE\App\usb_device.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usb_device.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usb_device.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\USB_DEVICE\App\usb_device.c > CMakeFiles\kosann_UAVGimbal.elf.dir\USB_DEVICE\App\usb_device.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\USB_DEVICE\App\usb_device.c > CMakeFiles\kosann_UAVGimbal.elf.dir\USB_DEVICE\App\usb_device.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usb_device.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usb_device.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\USB_DEVICE\App\usb_device.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\USB_DEVICE\App\usb_device.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\USB_DEVICE\App\usb_device.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\USB_DEVICE\App\usb_device.c.s
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
+CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/USB_DEVICE/App/usbd_cdc_if.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\USB_DEVICE\App\usbd_cdc_if.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\USB_DEVICE\App\usbd_cdc_if.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\USB_DEVICE\App\usbd_cdc_if.c
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.i"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\USB_DEVICE\App\usbd_cdc_if.c > CMakeFiles\kosann_UAVGimbal.elf.dir\USB_DEVICE\App\usbd_cdc_if.c.i
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.s"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\USB_DEVICE\App\usbd_cdc_if.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\USB_DEVICE\App\usbd_cdc_if.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/USB_DEVICE/App/usbd_cdc_if.cpp
+CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/USB_DEVICE/App/usbd_cdc_if.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.cpp.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\USB_DEVICE\App\usbd_cdc_if.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\USB_DEVICE\App\usbd_cdc_if.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\USB_DEVICE\App\usbd_cdc_if.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.cpp.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\USB_DEVICE\App\usbd_cdc_if.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\USB_DEVICE\App\usbd_cdc_if.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\USB_DEVICE\App\usbd_cdc_if.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.cpp.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\USB_DEVICE\App\usbd_cdc_if.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\USB_DEVICE\App\usbd_cdc_if.cpp.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\USB_DEVICE\App\usbd_cdc_if.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\USB_DEVICE\App\usbd_cdc_if.cpp.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.cpp.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\USB_DEVICE\App\usbd_cdc_if.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\USB_DEVICE\App\usbd_cdc_if.cpp.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\USB_DEVICE\App\usbd_cdc_if.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\USB_DEVICE\App\usbd_cdc_if.cpp.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_desc.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_desc.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/USB_DEVICE/App/usbd_desc.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_desc.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/USB_DEVICE/App/usbd_desc.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_desc.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_desc.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_desc.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\USB_DEVICE\App\usbd_desc.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\USB_DEVICE\App\usbd_desc.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\USB_DEVICE\App\usbd_desc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_desc.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_desc.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\USB_DEVICE\App\usbd_desc.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\USB_DEVICE\App\usbd_desc.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\USB_DEVICE\App\usbd_desc.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_desc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_desc.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\USB_DEVICE\App\usbd_desc.c > CMakeFiles\kosann_UAVGimbal.elf.dir\USB_DEVICE\App\usbd_desc.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\USB_DEVICE\App\usbd_desc.c > CMakeFiles\kosann_UAVGimbal.elf.dir\USB_DEVICE\App\usbd_desc.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_desc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_desc.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\USB_DEVICE\App\usbd_desc.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\USB_DEVICE\App\usbd_desc.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\USB_DEVICE\App\usbd_desc.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\USB_DEVICE\App\usbd_desc.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/USB_DEVICE/Target/usbd_conf.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/USB_DEVICE/Target/usbd_conf.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\USB_DEVICE\Target\usbd_conf.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\USB_DEVICE\Target\usbd_conf.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\USB_DEVICE\Target\usbd_conf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\USB_DEVICE\Target\usbd_conf.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\USB_DEVICE\Target\usbd_conf.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\USB_DEVICE\Target\usbd_conf.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/Target/usbd_conf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/Target/usbd_conf.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\USB_DEVICE\Target\usbd_conf.c > CMakeFiles\kosann_UAVGimbal.elf.dir\USB_DEVICE\Target\usbd_conf.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\USB_DEVICE\Target\usbd_conf.c > CMakeFiles\kosann_UAVGimbal.elf.dir\USB_DEVICE\Target\usbd_conf.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/Target/usbd_conf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/Target/usbd_conf.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\USB_DEVICE\Target\usbd_conf.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\USB_DEVICE\Target\usbd_conf.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\USB_DEVICE\Target\usbd_conf.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\USB_DEVICE\Target\usbd_conf.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ADRC/ADRC.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ADRC/ADRC.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/User/Framework/ADRC/ADRC.cpp
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ADRC/ADRC.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/ADRC/ADRC.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ADRC/ADRC.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ADRC/ADRC.cpp.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ADRC/ADRC.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\ADRC\ADRC.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\ADRC\ADRC.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Framework\ADRC\ADRC.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ADRC/ADRC.cpp.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ADRC/ADRC.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\ADRC\ADRC.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\ADRC\ADRC.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\ADRC\ADRC.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ADRC/ADRC.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ADRC/ADRC.cpp.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Framework\ADRC\ADRC.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\ADRC\ADRC.cpp.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\ADRC\ADRC.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\ADRC\ADRC.cpp.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ADRC/ADRC.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ADRC/ADRC.cpp.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Framework\ADRC\ADRC.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\ADRC\ADRC.cpp.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\ADRC\ADRC.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\ADRC\ADRC.cpp.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Debug/DebugC.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Debug/DebugC.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/User/Framework/Debug/DebugC.cpp
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Debug/DebugC.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Debug/DebugC.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Debug/DebugC.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Debug/DebugC.cpp.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Debug/DebugC.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Debug\DebugC.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Debug\DebugC.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Framework\Debug\DebugC.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Debug/DebugC.cpp.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Debug/DebugC.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Debug\DebugC.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Debug\DebugC.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\Debug\DebugC.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Debug/DebugC.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Debug/DebugC.cpp.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Framework\Debug\DebugC.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Debug\DebugC.cpp.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\Debug\DebugC.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Debug\DebugC.cpp.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Debug/DebugC.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Debug/DebugC.cpp.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Framework\Debug\DebugC.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Debug\DebugC.cpp.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\Debug\DebugC.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Debug\DebugC.cpp.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Filters/kalman.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Filters/kalman.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/User/Framework/Filters/kalman.cpp
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Filters/kalman.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Filters/kalman.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Filters/kalman.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Filters/kalman.cpp.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Filters/kalman.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Filters\kalman.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Filters\kalman.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Framework\Filters\kalman.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Filters/kalman.cpp.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Filters/kalman.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Filters\kalman.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Filters\kalman.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\Filters\kalman.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Filters/kalman.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Filters/kalman.cpp.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Framework\Filters\kalman.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Filters\kalman.cpp.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\Filters\kalman.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Filters\kalman.cpp.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Filters/kalman.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Filters/kalman.cpp.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Framework\Filters\kalman.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Filters\kalman.cpp.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\Filters\kalman.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Filters\kalman.cpp.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Gimbal/gimbalc.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Gimbal/gimbalc.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/User/Framework/Gimbal/gimbalc.cpp
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Gimbal/gimbalc.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Gimbal/gimbalc.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Gimbal/gimbalc.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Gimbal/gimbalc.cpp.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Gimbal/gimbalc.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Gimbal\gimbalc.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Gimbal\gimbalc.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Framework\Gimbal\gimbalc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Gimbal/gimbalc.cpp.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Gimbal/gimbalc.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Gimbal\gimbalc.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Gimbal\gimbalc.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\Gimbal\gimbalc.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Gimbal/gimbalc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Gimbal/gimbalc.cpp.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Framework\Gimbal\gimbalc.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Gimbal\gimbalc.cpp.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\Gimbal\gimbalc.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Gimbal\gimbalc.cpp.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Gimbal/gimbalc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Gimbal/gimbalc.cpp.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Framework\Gimbal\gimbalc.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Gimbal\gimbalc.cpp.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\Gimbal\gimbalc.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Gimbal\gimbalc.cpp.s
 
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/IMUC.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/IMUC.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/User/Framework/IMU/IMUC.cpp
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/IMUC.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/IMUC.cpp.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/IMUC.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\IMUC.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\IMUC.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Framework\IMU\IMUC.cpp
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/algorithm/AHRS_middleware.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/algorithm/AHRS_middleware.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/algorithm/AHRS_middleware.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/algorithm/AHRS_middleware.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/algorithm/AHRS_middleware.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/algorithm/AHRS_middleware.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\algorithm\AHRS_middleware.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\algorithm\AHRS_middleware.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\IMU\algorithm\AHRS_middleware.c
 
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/IMUC.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/IMUC.cpp.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Framework\IMU\IMUC.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\IMUC.cpp.i
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/algorithm/AHRS_middleware.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/algorithm/AHRS_middleware.c.i"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\IMU\algorithm\AHRS_middleware.c > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\algorithm\AHRS_middleware.c.i
 
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/IMUC.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/IMUC.cpp.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Framework\IMU\IMUC.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\IMUC.cpp.s
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/algorithm/AHRS_middleware.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/algorithm/AHRS_middleware.c.s"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\IMU\algorithm\AHRS_middleware.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\algorithm\AHRS_middleware.c.s
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/algorithm/user_lib.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/algorithm/user_lib.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/algorithm/user_lib.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/algorithm/user_lib.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/algorithm/user_lib.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/algorithm/user_lib.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\algorithm\user_lib.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\algorithm\user_lib.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\IMU\algorithm\user_lib.c
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/algorithm/user_lib.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/algorithm/user_lib.c.i"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\IMU\algorithm\user_lib.c > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\algorithm\user_lib.c.i
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/algorithm/user_lib.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/algorithm/user_lib.c.s"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\IMU\algorithm\user_lib.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\algorithm\user_lib.c.s
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_delay.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_delay.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/bsp/bsp_delay.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_delay.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_delay.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_delay.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\bsp\bsp_delay.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\bsp\bsp_delay.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\IMU\bsp\bsp_delay.c
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_delay.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_delay.c.i"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\IMU\bsp\bsp_delay.c > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\bsp\bsp_delay.c.i
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_delay.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_delay.c.s"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\IMU\bsp\bsp_delay.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\bsp\bsp_delay.c.s
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_flash.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_flash.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/bsp/bsp_flash.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_flash.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_flash.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_flash.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\bsp\bsp_flash.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\bsp\bsp_flash.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\IMU\bsp\bsp_flash.c
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_flash.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_flash.c.i"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\IMU\bsp\bsp_flash.c > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\bsp\bsp_flash.c.i
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_flash.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_flash.c.s"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\IMU\bsp\bsp_flash.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\bsp\bsp_flash.c.s
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_imu_pwm.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_imu_pwm.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/bsp/bsp_imu_pwm.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_imu_pwm.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_imu_pwm.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_imu_pwm.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\bsp\bsp_imu_pwm.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\bsp\bsp_imu_pwm.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\IMU\bsp\bsp_imu_pwm.c
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_imu_pwm.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_imu_pwm.c.i"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\IMU\bsp\bsp_imu_pwm.c > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\bsp\bsp_imu_pwm.c.i
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_imu_pwm.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_imu_pwm.c.s"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\IMU\bsp\bsp_imu_pwm.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\bsp\bsp_imu_pwm.c.s
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_spi.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_spi.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/bsp/bsp_spi.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_spi.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_spi.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_spi.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\bsp\bsp_spi.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\bsp\bsp_spi.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\IMU\bsp\bsp_spi.c
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_spi.c.i"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\IMU\bsp\bsp_spi.c > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\bsp\bsp_spi.c.i
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_spi.c.s"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\IMU\bsp\bsp_spi.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\bsp\bsp_spi.c.s
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/controller/pid.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/controller/pid.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/controller/pid.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/controller/pid.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/controller/pid.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/controller/pid.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\controller\pid.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\controller\pid.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\IMU\controller\pid.c
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/controller/pid.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/controller/pid.c.i"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\IMU\controller\pid.c > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\controller\pid.c.i
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/controller/pid.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/controller/pid.c.s"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\IMU\controller\pid.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\controller\pid.c.s
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/BMI088Middleware.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/BMI088Middleware.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/devices/BMI088Middleware.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/BMI088Middleware.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/BMI088Middleware.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/BMI088Middleware.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\devices\BMI088Middleware.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\devices\BMI088Middleware.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\IMU\devices\BMI088Middleware.c
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/BMI088Middleware.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/BMI088Middleware.c.i"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\IMU\devices\BMI088Middleware.c > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\devices\BMI088Middleware.c.i
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/BMI088Middleware.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/BMI088Middleware.c.s"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\IMU\devices\BMI088Middleware.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\devices\BMI088Middleware.c.s
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/BMI088driver.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/BMI088driver.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/devices/BMI088driver.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/BMI088driver.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/BMI088driver.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/BMI088driver.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\devices\BMI088driver.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\devices\BMI088driver.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\IMU\devices\BMI088driver.c
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/BMI088driver.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/BMI088driver.c.i"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\IMU\devices\BMI088driver.c > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\devices\BMI088driver.c.i
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/BMI088driver.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/BMI088driver.c.s"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\IMU\devices\BMI088driver.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\devices\BMI088driver.c.s
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/ist8310driver.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/ist8310driver.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/devices/ist8310driver.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/ist8310driver.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/ist8310driver.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/ist8310driver.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\devices\ist8310driver.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\devices\ist8310driver.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\IMU\devices\ist8310driver.c
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/ist8310driver.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/ist8310driver.c.i"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\IMU\devices\ist8310driver.c > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\devices\ist8310driver.c.i
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/ist8310driver.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/ist8310driver.c.s"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\IMU\devices\ist8310driver.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\devices\ist8310driver.c.s
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/ist8310driver_middleware.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/ist8310driver_middleware.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/devices/ist8310driver_middleware.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/ist8310driver_middleware.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/ist8310driver_middleware.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/ist8310driver_middleware.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\devices\ist8310driver_middleware.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\devices\ist8310driver_middleware.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\IMU\devices\ist8310driver_middleware.c
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/ist8310driver_middleware.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/ist8310driver_middleware.c.i"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\IMU\devices\ist8310driver_middleware.c > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\devices\ist8310driver_middleware.c.i
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/ist8310driver_middleware.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/ist8310driver_middleware.c.s"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\IMU\devices\ist8310driver_middleware.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\devices\ist8310driver_middleware.c.s
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/filtter.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/filtter.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/filtter.cpp
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/filtter.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/filtter.cpp.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/filtter.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\filtter.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\filtter.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\IMU\filtter.cpp
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/filtter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/filtter.cpp.i"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\IMU\filtter.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\filtter.cpp.i
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/filtter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/filtter.cpp.s"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\IMU\filtter.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\filtter.cpp.s
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/imu_tool.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/imu_tool.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/imu_tool.cpp
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/imu_tool.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/imu_tool.cpp.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/imu_tool.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\imu_tool.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\imu_tool.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\IMU\imu_tool.cpp
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/imu_tool.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/imu_tool.cpp.i"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\IMU\imu_tool.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\imu_tool.cpp.i
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/imu_tool.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/imu_tool.cpp.s"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\IMU\imu_tool.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\imu_tool.cpp.s
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/task/INS_task.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/task/INS_task.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/task/INS_task.cpp
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/task/INS_task.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/task/INS_task.cpp.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/task/INS_task.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\task\INS_task.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\task\INS_task.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\IMU\task\INS_task.cpp
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/task/INS_task.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/task/INS_task.cpp.i"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\IMU\task\INS_task.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\task\INS_task.cpp.i
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/task/INS_task.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/task/INS_task.cpp.s"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\IMU\task\INS_task.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\task\INS_task.cpp.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IWDG/iwdgC.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IWDG/iwdgC.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/User/Framework/IWDG/iwdgC.cpp
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IWDG/iwdgC.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IWDG/iwdgC.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IWDG/iwdgC.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IWDG/iwdgC.cpp.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IWDG/iwdgC.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IWDG\iwdgC.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IWDG\iwdgC.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Framework\IWDG\iwdgC.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IWDG/iwdgC.cpp.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IWDG/iwdgC.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IWDG\iwdgC.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IWDG\iwdgC.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\IWDG\iwdgC.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IWDG/iwdgC.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IWDG/iwdgC.cpp.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Framework\IWDG\iwdgC.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IWDG\iwdgC.cpp.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\IWDG\iwdgC.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IWDG\iwdgC.cpp.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IWDG/iwdgC.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IWDG/iwdgC.cpp.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Framework\IWDG\iwdgC.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IWDG\iwdgC.cpp.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\IWDG\iwdgC.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IWDG\iwdgC.cpp.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/LED/LEDC.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/LED/LEDC.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/User/Framework/LED/LEDC.cpp
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/LED/LEDC.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/LED/LEDC.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/LED/LEDC.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/LED/LEDC.cpp.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/LED/LEDC.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\LED\LEDC.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\LED\LEDC.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Framework\LED\LEDC.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/LED/LEDC.cpp.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/LED/LEDC.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\LED\LEDC.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\LED\LEDC.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\LED\LEDC.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/LED/LEDC.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/LED/LEDC.cpp.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Framework\LED\LEDC.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\LED\LEDC.cpp.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\LED\LEDC.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\LED\LEDC.cpp.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/LED/LEDC.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/LED/LEDC.cpp.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Framework\LED\LEDC.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\LED\LEDC.cpp.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\LED\LEDC.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\LED\LEDC.cpp.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID/pidC.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID/pidC.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/User/Framework/PID/pidC.cpp
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID/pidC.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/PID/pidC.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID/pidC.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID/pidC.cpp.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID/pidC.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\PID\pidC.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\PID\pidC.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Framework\PID\pidC.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID/pidC.cpp.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID/pidC.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\PID\pidC.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\PID\pidC.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\PID\pidC.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID/pidC.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID/pidC.cpp.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Framework\PID\pidC.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\PID\pidC.cpp.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\PID\pidC.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\PID\pidC.cpp.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID/pidC.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID/pidC.cpp.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Framework\PID\pidC.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\PID\pidC.cpp.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\PID\pidC.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\PID\pidC.cpp.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/PID_mat.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/PID_mat.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/User/Framework/PID_stm32/PID_mat.cpp
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/PID_mat.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/PID_stm32/PID_mat.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/PID_mat.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/PID_mat.cpp.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/PID_mat.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\PID_stm32\PID_mat.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\PID_stm32\PID_mat.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Framework\PID_stm32\PID_mat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/PID_mat.cpp.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/PID_mat.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\PID_stm32\PID_mat.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\PID_stm32\PID_mat.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\PID_stm32\PID_mat.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/PID_mat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/PID_mat.cpp.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Framework\PID_stm32\PID_mat.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\PID_stm32\PID_mat.cpp.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\PID_stm32\PID_mat.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\PID_stm32\PID_mat.cpp.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/PID_mat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/PID_mat.cpp.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Framework\PID_stm32\PID_mat.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\PID_stm32\PID_mat.cpp.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\PID_stm32\PID_mat.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\PID_stm32\PID_mat.cpp.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/matlabPID.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/matlabPID.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/User/Framework/PID_stm32/matlabPID.cpp
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/matlabPID.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/PID_stm32/matlabPID.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/matlabPID.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/matlabPID.cpp.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/matlabPID.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\PID_stm32\matlabPID.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\PID_stm32\matlabPID.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Framework\PID_stm32\matlabPID.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/matlabPID.cpp.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/matlabPID.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\PID_stm32\matlabPID.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\PID_stm32\matlabPID.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\PID_stm32\matlabPID.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/matlabPID.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/matlabPID.cpp.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Framework\PID_stm32\matlabPID.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\PID_stm32\matlabPID.cpp.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\PID_stm32\matlabPID.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\PID_stm32\matlabPID.cpp.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/matlabPID.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/matlabPID.cpp.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Framework\PID_stm32\matlabPID.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\PID_stm32\matlabPID.cpp.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\PID_stm32\matlabPID.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\PID_stm32\matlabPID.cpp.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PosPID_stm32/PosPID.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PosPID_stm32/PosPID.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/User/Framework/PosPID_stm32/PosPID.cpp
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PosPID_stm32/PosPID.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/PosPID_stm32/PosPID.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PosPID_stm32/PosPID.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PosPID_stm32/PosPID.cpp.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PosPID_stm32/PosPID.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\PosPID_stm32\PosPID.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\PosPID_stm32\PosPID.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Framework\PosPID_stm32\PosPID.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PosPID_stm32/PosPID.cpp.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PosPID_stm32/PosPID.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\PosPID_stm32\PosPID.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\PosPID_stm32\PosPID.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\PosPID_stm32\PosPID.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PosPID_stm32/PosPID.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PosPID_stm32/PosPID.cpp.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Framework\PosPID_stm32\PosPID.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\PosPID_stm32\PosPID.cpp.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\PosPID_stm32\PosPID.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\PosPID_stm32\PosPID.cpp.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PosPID_stm32/PosPID.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PosPID_stm32/PosPID.cpp.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Framework\PosPID_stm32\PosPID.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\PosPID_stm32\PosPID.cpp.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\PosPID_stm32\PosPID.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\PosPID_stm32\PosPID.cpp.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RGB/lrgb.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RGB/lrgb.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/User/Framework/RGB/lrgb.cpp
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RGB/lrgb.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/RGB/lrgb.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RGB/lrgb.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RGB/lrgb.cpp.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RGB/lrgb.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\RGB\lrgb.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\RGB\lrgb.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Framework\RGB\lrgb.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RGB/lrgb.cpp.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RGB/lrgb.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\RGB\lrgb.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\RGB\lrgb.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\RGB\lrgb.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RGB/lrgb.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RGB/lrgb.cpp.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Framework\RGB\lrgb.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\RGB\lrgb.cpp.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\RGB\lrgb.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\RGB\lrgb.cpp.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RGB/lrgb.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RGB/lrgb.cpp.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Framework\RGB\lrgb.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\RGB\lrgb.cpp.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\RGB\lrgb.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\RGB\lrgb.cpp.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RomteC/RemoteC.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RomteC/RemoteC.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/User/Framework/RomteC/RemoteC.cpp
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RomteC/RemoteC.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/RomteC/RemoteC.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RomteC/RemoteC.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RomteC/RemoteC.cpp.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RomteC/RemoteC.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\RomteC\RemoteC.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\RomteC\RemoteC.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Framework\RomteC\RemoteC.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RomteC/RemoteC.cpp.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RomteC/RemoteC.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\RomteC\RemoteC.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\RomteC\RemoteC.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\RomteC\RemoteC.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RomteC/RemoteC.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RomteC/RemoteC.cpp.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Framework\RomteC\RemoteC.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\RomteC\RemoteC.cpp.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\RomteC\RemoteC.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\RomteC\RemoteC.cpp.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RomteC/RemoteC.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RomteC/RemoteC.cpp.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Framework\RomteC\RemoteC.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\RomteC\RemoteC.cpp.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\RomteC\RemoteC.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\RomteC\RemoteC.cpp.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ShootC/Shootc.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ShootC/Shootc.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/User/Framework/ShootC/Shootc.cpp
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ShootC/Shootc.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/ShootC/Shootc.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ShootC/Shootc.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ShootC/Shootc.cpp.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ShootC/Shootc.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\ShootC\Shootc.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\ShootC\Shootc.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Framework\ShootC\Shootc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ShootC/Shootc.cpp.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ShootC/Shootc.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\ShootC\Shootc.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\ShootC\Shootc.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\ShootC\Shootc.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ShootC/Shootc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ShootC/Shootc.cpp.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Framework\ShootC\Shootc.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\ShootC\Shootc.cpp.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\ShootC\Shootc.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\ShootC\Shootc.cpp.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ShootC/Shootc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ShootC/Shootc.cpp.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Framework\ShootC\Shootc.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\ShootC\Shootc.cpp.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\ShootC\Shootc.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\ShootC\Shootc.cpp.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Vision/crc.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Vision/crc.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/User/Framework/Vision/crc.cpp
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Vision/crc.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Vision/crc.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Vision/crc.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Vision/crc.cpp.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Vision/crc.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Vision\crc.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Vision\crc.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Framework\Vision\crc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Vision/crc.cpp.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Vision/crc.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Vision\crc.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Vision\crc.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\Vision\crc.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Vision/crc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Vision/crc.cpp.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Framework\Vision\crc.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Vision\crc.cpp.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\Vision\crc.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Vision\crc.cpp.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Vision/crc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Vision/crc.cpp.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Framework\Vision\crc.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Vision\crc.cpp.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\Vision\crc.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Vision\crc.cpp.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/refee.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/refee.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/User/Framework/refee.cpp
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/refee.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/refee.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/refee.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/refee.cpp.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/refee.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\refee.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\refee.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Framework\refee.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/refee.cpp.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/refee.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\refee.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\refee.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\refee.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/refee.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/refee.cpp.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Framework\refee.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\refee.cpp.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\refee.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\refee.cpp.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/refee.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/refee.cpp.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Framework\refee.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\refee.cpp.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\refee.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\refee.cpp.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/LOG/log.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/LOG/log.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/User/LOG/log.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/LOG/log.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/LOG/log.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/LOG/log.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/User/LOG/log.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/LOG/log.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\LOG\log.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\LOG\log.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\LOG\log.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/User/LOG/log.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/LOG/log.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\LOG\log.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\LOG\log.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\LOG\log.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/LOG/log.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/User/LOG/log.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\LOG\log.c > CMakeFiles\kosann_UAVGimbal.elf.dir\User\LOG\log.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\LOG\log.c > CMakeFiles\kosann_UAVGimbal.elf.dir\User\LOG\log.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/LOG/log.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/LOG/log.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\LOG\log.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\LOG\log.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\LOG\log.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\LOG\log.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/LOG/log_port.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/LOG/log_port.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/User/LOG/log_port.c
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/LOG/log_port.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/LOG/log_port.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/LOG/log_port.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/User/LOG/log_port.c.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/LOG/log_port.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\LOG\log_port.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\LOG\log_port.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\LOG\log_port.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/User/LOG/log_port.c.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/LOG/log_port.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\LOG\log_port.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\LOG\log_port.c.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\LOG\log_port.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/LOG/log_port.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/User/LOG/log_port.c.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\LOG\log_port.c > CMakeFiles\kosann_UAVGimbal.elf.dir\User\LOG\log_port.c.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\LOG\log_port.c > CMakeFiles\kosann_UAVGimbal.elf.dir\User\LOG\log_port.c.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/LOG/log_port.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/LOG/log_port.c.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\LOG\log_port.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\LOG\log_port.c.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\LOG\log_port.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\LOG\log_port.c.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/CAN/bsp_can.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/CAN/bsp_can.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/User/MCUDriver/CAN/bsp_can.cpp
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/CAN/bsp_can.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/MCUDriver/CAN/bsp_can.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/CAN/bsp_can.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/CAN/bsp_can.cpp.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/CAN/bsp_can.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\CAN\bsp_can.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\CAN\bsp_can.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\MCUDriver\CAN\bsp_can.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/CAN/bsp_can.cpp.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/CAN/bsp_can.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\CAN\bsp_can.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\CAN\bsp_can.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\MCUDriver\CAN\bsp_can.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/CAN/bsp_can.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/CAN/bsp_can.cpp.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\MCUDriver\CAN\bsp_can.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\CAN\bsp_can.cpp.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\MCUDriver\CAN\bsp_can.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\CAN\bsp_can.cpp.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/CAN/bsp_can.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/CAN/bsp_can.cpp.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\MCUDriver\CAN\bsp_can.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\CAN\bsp_can.cpp.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\MCUDriver\CAN\bsp_can.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\CAN\bsp_can.cpp.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/LASER/laser.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/LASER/laser.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/User/MCUDriver/LASER/laser.cpp
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/LASER/laser.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/MCUDriver/LASER/laser.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/LASER/laser.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/LASER/laser.cpp.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/LASER/laser.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\LASER\laser.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\LASER\laser.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\MCUDriver\LASER\laser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/LASER/laser.cpp.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/LASER/laser.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\LASER\laser.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\LASER\laser.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\MCUDriver\LASER\laser.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/LASER/laser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/LASER/laser.cpp.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\MCUDriver\LASER\laser.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\LASER\laser.cpp.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\MCUDriver\LASER\laser.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\LASER\laser.cpp.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/LASER/laser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/LASER/laser.cpp.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\MCUDriver\LASER\laser.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\LASER\laser.cpp.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\MCUDriver\LASER\laser.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\LASER\laser.cpp.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/LED/ledio.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/LED/ledio.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/User/MCUDriver/LED/ledio.cpp
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/LED/ledio.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/MCUDriver/LED/ledio.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/LED/ledio.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/LED/ledio.cpp.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/LED/ledio.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\LED\ledio.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\LED\ledio.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\MCUDriver\LED\ledio.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/LED/ledio.cpp.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/LED/ledio.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\LED\ledio.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\LED\ledio.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\MCUDriver\LED\ledio.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/LED/ledio.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/LED/ledio.cpp.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\MCUDriver\LED\ledio.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\LED\ledio.cpp.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\MCUDriver\LED\ledio.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\LED\ledio.cpp.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/LED/ledio.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/LED/ledio.cpp.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\MCUDriver\LED\ledio.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\LED\ledio.cpp.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\MCUDriver\LED\ledio.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\LED\ledio.cpp.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/POWER/power.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/POWER/power.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/User/MCUDriver/POWER/power.cpp
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/POWER/power.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/MCUDriver/POWER/power.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/POWER/power.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/POWER/power.cpp.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/POWER/power.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\POWER\power.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\POWER\power.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\MCUDriver\POWER\power.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/POWER/power.cpp.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/POWER/power.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\POWER\power.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\POWER\power.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\MCUDriver\POWER\power.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/POWER/power.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/POWER/power.cpp.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\MCUDriver\POWER\power.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\POWER\power.cpp.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\MCUDriver\POWER\power.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\POWER\power.cpp.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/POWER/power.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/POWER/power.cpp.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\MCUDriver\POWER\power.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\POWER\power.cpp.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\MCUDriver\POWER\power.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\POWER\power.cpp.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/REMOTEC/remoteio.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/REMOTEC/remoteio.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/User/MCUDriver/REMOTEC/remoteio.cpp
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/REMOTEC/remoteio.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/MCUDriver/REMOTEC/remoteio.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/REMOTEC/remoteio.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/REMOTEC/remoteio.cpp.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/REMOTEC/remoteio.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\REMOTEC\remoteio.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\REMOTEC\remoteio.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\MCUDriver\REMOTEC\remoteio.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/REMOTEC/remoteio.cpp.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/REMOTEC/remoteio.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\REMOTEC\remoteio.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\REMOTEC\remoteio.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\MCUDriver\REMOTEC\remoteio.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/REMOTEC/remoteio.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/REMOTEC/remoteio.cpp.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\MCUDriver\REMOTEC\remoteio.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\REMOTEC\remoteio.cpp.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\MCUDriver\REMOTEC\remoteio.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\REMOTEC\remoteio.cpp.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/REMOTEC/remoteio.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/REMOTEC/remoteio.cpp.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\MCUDriver\REMOTEC\remoteio.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\REMOTEC\remoteio.cpp.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\MCUDriver\REMOTEC\remoteio.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\REMOTEC\remoteio.cpp.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/SERVO/servo.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/SERVO/servo.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/User/MCUDriver/SERVO/servo.cpp
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/SERVO/servo.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/MCUDriver/SERVO/servo.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/SERVO/servo.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/SERVO/servo.cpp.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/SERVO/servo.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\SERVO\servo.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\SERVO\servo.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\MCUDriver\SERVO\servo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/SERVO/servo.cpp.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/SERVO/servo.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\SERVO\servo.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\SERVO\servo.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\MCUDriver\SERVO\servo.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/SERVO/servo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/SERVO/servo.cpp.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\MCUDriver\SERVO\servo.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\SERVO\servo.cpp.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\MCUDriver\SERVO\servo.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\SERVO\servo.cpp.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/SERVO/servo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/SERVO/servo.cpp.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\MCUDriver\SERVO\servo.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\SERVO\servo.cpp.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\MCUDriver\SERVO\servo.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\SERVO\servo.cpp.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MotorC.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/MotorC.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/User/MotorC.cpp
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/MotorC.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/MotorC.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MotorC.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/MotorC.cpp.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/MotorC.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\MotorC.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\MotorC.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\MotorC.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/MotorC.cpp.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/MotorC.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\MotorC.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\MotorC.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\MotorC.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MotorC.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kosann_UAVGimbal.elf.dir/User/MotorC.cpp.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\MotorC.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\MotorC.cpp.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\MotorC.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\MotorC.cpp.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MotorC.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/MotorC.cpp.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\MotorC.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\MotorC.cpp.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\MotorC.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\MotorC.cpp.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/GimbalTask.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/GimbalTask.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/User/Tasks/GimbalTask.cpp
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/GimbalTask.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Tasks/GimbalTask.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/GimbalTask.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/GimbalTask.cpp.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/GimbalTask.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Tasks\GimbalTask.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Tasks\GimbalTask.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Tasks\GimbalTask.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/GimbalTask.cpp.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/GimbalTask.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Tasks\GimbalTask.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Tasks\GimbalTask.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Tasks\GimbalTask.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/GimbalTask.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/GimbalTask.cpp.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Tasks\GimbalTask.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Tasks\GimbalTask.cpp.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Tasks\GimbalTask.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Tasks\GimbalTask.cpp.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/GimbalTask.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/GimbalTask.cpp.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Tasks\GimbalTask.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Tasks\GimbalTask.cpp.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Tasks\GimbalTask.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Tasks\GimbalTask.cpp.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/visioncom_task.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/visioncom_task.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/User/Tasks/visioncom_task.cpp
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/visioncom_task.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Tasks/visioncom_task.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/visioncom_task.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/visioncom_task.cpp.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/visioncom_task.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Tasks\visioncom_task.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Tasks\visioncom_task.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Tasks\visioncom_task.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/visioncom_task.cpp.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/visioncom_task.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Tasks\visioncom_task.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Tasks\visioncom_task.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Tasks\visioncom_task.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/visioncom_task.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/visioncom_task.cpp.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Tasks\visioncom_task.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Tasks\visioncom_task.cpp.i
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Tasks\visioncom_task.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Tasks\visioncom_task.cpp.i
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/visioncom_task.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/visioncom_task.cpp.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\User\Tasks\visioncom_task.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Tasks\visioncom_task.cpp.s
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Tasks\visioncom_task.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Tasks\visioncom_task.cpp.s
 
 # Object files for target kosann_UAVGimbal.elf
 kosann_UAVGimbal_elf_OBJECTS = \
@@ -1376,7 +1544,6 @@ kosann_UAVGimbal_elf_OBJECTS = \
 "CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/freertos.c.obj" \
 "CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/gpio.c.obj" \
 "CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/i2c.c.obj" \
-"CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/iwdg.c.obj" \
 "CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/main.c.obj" \
 "CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/mainpp.cpp.obj" \
 "CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/spi.c.obj" \
@@ -1401,7 +1568,6 @@ kosann_UAVGimbal_elf_OBJECTS = \
 "CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj" \
 "CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj" \
 "CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj" \
-"CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj" \
 "CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj" \
 "CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj" \
 "CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj" \
@@ -1434,6 +1600,7 @@ kosann_UAVGimbal_elf_OBJECTS = \
 "CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj" \
 "CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj" \
 "CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usb_device.c.obj" \
+"CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj" \
 "CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.cpp.obj" \
 "CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_desc.c.obj" \
 "CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj" \
@@ -1441,7 +1608,20 @@ kosann_UAVGimbal_elf_OBJECTS = \
 "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Debug/DebugC.cpp.obj" \
 "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Filters/kalman.cpp.obj" \
 "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Gimbal/gimbalc.cpp.obj" \
-"CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/IMUC.cpp.obj" \
+"CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/algorithm/AHRS_middleware.c.obj" \
+"CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/algorithm/user_lib.c.obj" \
+"CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_delay.c.obj" \
+"CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_flash.c.obj" \
+"CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_imu_pwm.c.obj" \
+"CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_spi.c.obj" \
+"CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/controller/pid.c.obj" \
+"CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/BMI088Middleware.c.obj" \
+"CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/BMI088driver.c.obj" \
+"CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/ist8310driver.c.obj" \
+"CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/ist8310driver_middleware.c.obj" \
+"CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/filtter.cpp.obj" \
+"CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/imu_tool.cpp.obj" \
+"CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/task/INS_task.cpp.obj" \
 "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IWDG/iwdgC.cpp.obj" \
 "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/LED/LEDC.cpp.obj" \
 "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID/pidC.cpp.obj" \
@@ -1473,7 +1653,6 @@ kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/dma.c.obj
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/freertos.c.obj
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/gpio.c.obj
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/i2c.c.obj
-kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/iwdg.c.obj
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/main.c.obj
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/mainpp.cpp.obj
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/spi.c.obj
@@ -1498,7 +1677,6 @@ kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
-kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
@@ -1531,6 +1709,7 @@ kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Part
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usb_device.c.obj
+kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.cpp.obj
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
@@ -1538,7 +1717,20 @@ kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ADRC/AD
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Debug/DebugC.cpp.obj
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Filters/kalman.cpp.obj
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Gimbal/gimbalc.cpp.obj
-kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/IMUC.cpp.obj
+kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/algorithm/AHRS_middleware.c.obj
+kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/algorithm/user_lib.c.obj
+kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_delay.c.obj
+kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_flash.c.obj
+kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_imu_pwm.c.obj
+kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_spi.c.obj
+kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/controller/pid.c.obj
+kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/BMI088Middleware.c.obj
+kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/BMI088driver.c.obj
+kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/ist8310driver.c.obj
+kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/ist8310driver_middleware.c.obj
+kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/filtter.cpp.obj
+kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/imu_tool.cpp.obj
+kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/task/INS_task.cpp.obj
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IWDG/iwdgC.cpp.obj
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/LED/LEDC.cpp.obj
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID/pidC.cpp.obj
@@ -1562,14 +1754,15 @@ kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/User/MotorC.cpp.obj
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/GimbalTask.cpp.obj
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/visioncom_task.cpp.obj
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/build.make
+kosann_UAVGimbal.elf: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/algorithm/AHRS.lib
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/objects1.rsp
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Linking CXX executable kosann_UAVGimbal.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Linking CXX executable kosann_UAVGimbal.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\kosann_UAVGimbal.elf.dir\link.txt --verbose=$(VERBOSE)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/cmake-build-debug/kosann_UAVGimbal.hex"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/cmake-build-debug/kosann_UAVGimbal.bin"
-	arm-none-eabi-objcopy -Oihex E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/cmake-build-debug/kosann_UAVGimbal.elf E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/cmake-build-debug/kosann_UAVGimbal.hex
-	arm-none-eabi-objcopy -Obinary E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/cmake-build-debug/kosann_UAVGimbal.elf E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/cmake-build-debug/kosann_UAVGimbal.bin
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/cmake-build-debug/kosann_UAVGimbal.hex"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/cmake-build-debug/kosann_UAVGimbal.bin"
+	arm-none-eabi-objcopy -Oihex E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/cmake-build-debug/kosann_UAVGimbal.elf E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/cmake-build-debug/kosann_UAVGimbal.hex
+	arm-none-eabi-objcopy -Obinary E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/cmake-build-debug/kosann_UAVGimbal.elf E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/cmake-build-debug/kosann_UAVGimbal.bin
 
 # Rule to build all files generated by this target.
 CMakeFiles/kosann_UAVGimbal.elf.dir/build: kosann_UAVGimbal.elf
@@ -1580,6 +1773,6 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/clean:
 .PHONY : CMakeFiles/kosann_UAVGimbal.elf.dir/clean
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_uav_gimbal\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles\kosann_UAVGimbal.elf.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles\kosann_UAVGimbal.elf.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/kosann_UAVGimbal.elf.dir/depend
 

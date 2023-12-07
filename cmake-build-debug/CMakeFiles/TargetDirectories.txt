@@ -1,3 +1,3 @@
-E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/cmake-build-debug/CMakeFiles/kosann_UAVGimbal.elf.dir
-E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_uav_gimbal/kosann_Gimbal_C_Board/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/cmake-build-debug/CMakeFiles/kosann_UAVGimbal.elf.dir
+E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/cmake-build-debug/CMakeFiles/rebuild_cache.dir

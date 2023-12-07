@@ -58,18 +58,33 @@ void OS_Init(void);
 void Error_Handler(void);
 
 /* USER CODE BEGIN EFP */
-
+void INS_task(void const * argument);
+void GimbalTask(void const * argument);
+void VisionTask(void const * argument);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define RSTN_IST8310_Pin GPIO_PIN_6
+#define RSTN_IST8310_GPIO_Port GPIOG
 #define LED_R_Pin GPIO_PIN_12
 #define LED_R_GPIO_Port GPIOH
-#define IST8310_DRDY_Pin GPIO_PIN_3
-#define IST8310_DRDY_GPIO_Port GPIOG
+#define DRDY_IST8310_Pin GPIO_PIN_3
+#define DRDY_IST8310_GPIO_Port GPIOG
+#define DRDY_IST8310_EXTI_IRQn EXTI3_IRQn
 #define LED_G_Pin GPIO_PIN_11
 #define LED_G_GPIO_Port GPIOH
 #define LED_B_Pin GPIO_PIN_10
 #define LED_B_GPIO_Port GPIOH
+#define CS1_ACCEL_Pin GPIO_PIN_4
+#define CS1_ACCEL_GPIO_Port GPIOA
+#define INT1_ACCEL_Pin GPIO_PIN_4
+#define INT1_ACCEL_GPIO_Port GPIOC
+#define INT1_ACCEL_EXTI_IRQn EXTI4_IRQn
+#define INT1_GYRO_Pin GPIO_PIN_5
+#define INT1_GYRO_GPIO_Port GPIOC
+#define INT1_GYRO_EXTI_IRQn EXTI9_5_IRQn
+#define CS1_GYRO_Pin GPIO_PIN_0
+#define CS1_GYRO_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 

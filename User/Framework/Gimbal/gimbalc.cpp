@@ -3,6 +3,7 @@
 //
 #include "gimbalc.hpp"
 #include "math.h"
+#include "INS_task.h"
 
 /** Motor List **/
 cMotor yaw, pitch;          //云台功能
@@ -13,7 +14,7 @@ mPID matPID;
 
 #define TIMpiece    0.002   //控制周期，时间切片
 /** Car **/             //choose your car here
-cCar Car(cCar::UAV);
+cCar Car(cCar::ONMI);
 /**
  * ONMI 全向
  * MECANUM 麦步
@@ -38,29 +39,38 @@ void Algorithm_Init()
 //    yaw.MotorCtrl.c_PID.setParam(20, 5, 0, 30192, 0, 0, 0, 0);
     pitch.MotorCtrl.c_PID.Init();
 
-    fricL.MotorCtrl.c_ADRC.Init(1500, 0.05, 0.5, 5, 1, 1000, 10,
-                                0.5, 1.25, 80, 1);
-    fricR.MotorCtrl.c_ADRC.Init(1500, 0.05, 0.5, 5, 1, 1000, 10,
-                                0.5, 1.25, 80, 1);
-    fricL.MotorCtrl.c_PID.Init();
-    fricR.MotorCtrl.c_PID.Init();
-
-    fricL.MotorCtrl.c_PID.setParam(2, 0.2, 0, 13684,
-                                   0, 0, 0, 0);
-    fricR.MotorCtrl.c_PID.setParam(2, 0.2, 0, 13684,
-                                   0, 0, 0, 0);
-    rammc.MotorCtrl.c_PID.Init();
-    rammc.MotorCtrl.c_PID.setParam(20, 3, 0, 10000,
-                                   0, 0, 0, 0);
+//    fricL.MotorCtrl.c_ADRC.Init(1500, 0.05, 0.5, 5, 1, 1000, 10,
+//                                0.5, 1.25, 80, 1);
+//    fricR.MotorCtrl.c_ADRC.Init(1500, 0.05, 0.5, 5, 1, 1000, 10,
+//                                0.5, 1.25, 80, 1);
+//    fricL.MotorCtrl.c_PID.Init();
+//    fricR.MotorCtrl.c_PID.Init();
+//
+//    fricL.MotorCtrl.c_PID.setParam(2, 0.2, 0, 13684,
+//                                   0, 0, 0, 0);
+//    fricR.MotorCtrl.c_PID.setParam(2, 0.2, 0, 13684,
+//                                   0, 0, 0, 0);
+//    rammc.MotorCtrl.c_PID.Init();
+//    rammc.MotorCtrl.c_PID.setParam(20, 3, 0, 10000,
+//                                   0, 0, 0, 0);
 }
 
 void MotorInit()
 {
-    yaw.canInit(0x209, &hcan2, cMotor::GM_6020);
+//    yaw.canInit(0x209, &hcan2, cMotor::GM_6020);
     pitch.canInit(0x206, &hcan1, cMotor::GM_6020);
-    fricL.canInit(0x201, &hcan1, cMotor::M_3508);
-    fricR.canInit(0x202, &hcan1, cMotor::M_3508);
-    rammc.canInit(0x203, &hcan1, cMotor::M_2006_p36);
+
+
+//
+//    rammc.canInit(0x203, &hcan1, cMotor::M_2006_p36);
+//    if(Car.CarType==cCar::UAV){
+//        fricL.canInit(0x201, &hcan1, cMotor::M_2006);
+//        fricR.canInit(0x202, &hcan1, cMotor::M_2006);
+//    }
+//    else{
+//        fricL.canInit(0x201, &hcan1, cMotor::M_3508);
+//        fricR.canInit(0x202, &hcan1, cMotor::M_3508);
+//    }
 }
 
 void ChassisInit()
@@ -221,7 +231,7 @@ float portSetYaw()
 float portSetPitch()
 {
     static float portion = TIMpiece;
-    static float tar_pos = -28;
+    static float tar_pos = 100;
     switch (Car.ShootMode)
     {
 
@@ -243,8 +253,8 @@ float portSetPitch()
                     break;
             }
             tar_pos += (float) RC_GetDatas().rc.ch[1] * portion;
-            if (tar_pos >= 2) tar_pos = 2;
-            else if (tar_pos <= -55) tar_pos = -55;
+            if (tar_pos >= 136) tar_pos = 136;
+            else if (tar_pos <= 65) tar_pos = 65;
             pitch.RCcrtl_filter.ckalman.Calc(tar_pos);
             break;
         case cCar::eAutoAim:
@@ -275,7 +285,7 @@ float portSetPitch()
         case cCar::eKey:
             break;
     }
-    usart_printf("%.2f,%.2f,%.2f,%.2f,%.2f\r\n", pitch.getEcd().torque_current,pitch.getEcd().speed, pitch.getEcd().total_angle,tar_pos,pitch.MotorCtrl.c_PID.Pid_Out());
+//    usart_printf("%.2f,%.2f,%.2f\r\n", pitch.getEcd().total_angle,tar_pos,pitch.getEcd().torque_current);
     return tar_pos;
 }
 
@@ -456,7 +466,6 @@ void GimbalLoop()
 
     }
     CanMxg();
-
 
 }
 

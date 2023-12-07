@@ -6,7 +6,6 @@
 #include "usart.h"
 #include "stdlib.h"
 #include "cstring"
-#include "imuc.h"
 #include "pidC.h"
 
 /**

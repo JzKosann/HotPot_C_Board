@@ -48,9 +48,11 @@
 
 /* USER CODE END Variables */
 osThreadId defaultTaskHandle;
-osThreadId Log_TaskHandle;
-osThreadId GimabalControlTHandle;
-osThreadId VisionComTaHandle;
+osThreadId Gimabal_TaskHandle;
+osThreadId Vision_TaskHandle;
+osThreadId imuTaskHandle;
+uint32_t imuTaskBuffer[ 1024 ];
+osStaticThreadDef_t imuTaskControlBlock;
 osTimerId myTimer01Handle;
 
 /* Private function prototypes -----------------------------------------------*/
@@ -59,9 +61,9 @@ osTimerId myTimer01Handle;
 /* USER CODE END FunctionPrototypes */
 
 void StartDefaultTask(void const * argument);
-void StartLog_Task(void const * argument);
-void GimbalControlTask(void const * argument);
-void VisionComTask(void const * argument);
+void GimbalTask(void const * argument);
+void VisionTask(void const * argument);
+void INS_task(void const * argument);
 void Callback01(void const * argument);
 
 extern void MX_USB_DEVICE_Init(void);
@@ -135,17 +137,17 @@ void MX_FREERTOS_Init(void) {
   osThreadDef(defaultTask, StartDefaultTask, osPriorityNormal, 0, 128);
   defaultTaskHandle = osThreadCreate(osThread(defaultTask), NULL);
 
-  /* definition and creation of Log_Task */
-  osThreadDef(Log_Task, StartLog_Task, osPriorityIdle, 0, 256);
-  Log_TaskHandle = osThreadCreate(osThread(Log_Task), NULL);
+  /* definition and creation of Gimabal_Task */
+  osThreadDef(Gimabal_Task, GimbalTask, osPriorityHigh, 0, 1024);
+  Gimabal_TaskHandle = osThreadCreate(osThread(Gimabal_Task), NULL);
 
-  /* definition and creation of GimabalControlT */
-  osThreadDef(GimabalControlT, GimbalControlTask, osPriorityRealtime, 0, 2048);
-  GimabalControlTHandle = osThreadCreate(osThread(GimabalControlT), NULL);
+  /* definition and creation of Vision_Task */
+  osThreadDef(Vision_Task, VisionTask, osPriorityAboveNormal, 0, 512);
+  Vision_TaskHandle = osThreadCreate(osThread(Vision_Task), NULL);
 
-  /* definition and creation of VisionComTa */
-  osThreadDef(VisionComTa, VisionComTask, osPriorityRealtime, 0, 1024);
-  VisionComTaHandle = osThreadCreate(osThread(VisionComTa), NULL);
+  /* definition and creation of imuTask */
+  osThreadStaticDef(imuTask, INS_task, osPriorityRealtime, 0, 1024, imuTaskBuffer, &imuTaskControlBlock);
+  imuTaskHandle = osThreadCreate(osThread(imuTask), NULL);
 
   /* USER CODE BEGIN RTOS_THREADS */
     /* add threads, ... */
@@ -173,55 +175,58 @@ void StartDefaultTask(void const * argument)
   /* USER CODE END StartDefaultTask */
 }
 
-/* USER CODE BEGIN Header_StartLog_Task */
+/* USER CODE BEGIN Header_GimbalTask */
 /**
-* @brief Function implementing the Log_Task thread.
+* @brief Function implementing the Gimabal_Task thread.
 * @param argument: Not used
 * @retval None
 */
-/* USER CODE END Header_StartLog_Task */
-void StartLog_Task(void const * argument)
+/* USER CODE END Header_GimbalTask */
+__weak void GimbalTask(void const * argument)
 {
-  /* USER CODE BEGIN StartLog_Task */
-    /* Infinite loop */
-    for (;;) {
-        osDelay(1);
-    }
-  /* USER CODE END StartLog_Task */
+  /* USER CODE BEGIN GimbalTask */
+  /* Infinite loop */
+  for(;;)
+  {
+    osDelay(1);
+  }
+  /* USER CODE END GimbalTask */
 }
 
-/* USER CODE BEGIN Header_GimbalControlTask */
+/* USER CODE BEGIN Header_VisionTask */
 /**
-* @brief Function implementing the GimabalControlT thread.
+* @brief Function implementing the Vision_Task thread.
 * @param argument: Not used
 * @retval None
 */
-/* USER CODE END Header_GimbalControlTask */
-__weak void GimbalControlTask(void const * argument)
+/* USER CODE END Header_VisionTask */
+__weak void VisionTask(void const * argument)
 {
-  /* USER CODE BEGIN GimbalControlTask */
-    /* Infinite loop */
-    for (;;) {
-        osDelay(1);
-    }
-  /* USER CODE END GimbalControlTask */
+  /* USER CODE BEGIN VisionTask */
+  /* Infinite loop */
+  for(;;)
+  {
+    osDelay(1);
+  }
+  /* USER CODE END VisionTask */
 }
 
-/* USER CODE BEGIN Header_VisionComTask */
+/* USER CODE BEGIN Header_INS_task */
 /**
-* @brief Function implementing the VisionComTa thread.
+* @brief Function implementing the imuTask thread.
 * @param argument: Not used
 * @retval None
 */
-/* USER CODE END Header_VisionComTask */
-__weak void VisionComTask(void const * argument)
+/* USER CODE END Header_INS_task */
+__weak void INS_task(void const * argument)
 {
-  /* USER CODE BEGIN VisionComTask */
-    /* Infinite loop */
-    for (;;) {
-        osDelay(1);
-    }
-  /* USER CODE END VisionComTask */
+  /* USER CODE BEGIN INS_task */
+  /* Infinite loop */
+  for(;;)
+  {
+    osDelay(1);
+  }
+  /* USER CODE END INS_task */
 }
 
 /* Callback01 function */

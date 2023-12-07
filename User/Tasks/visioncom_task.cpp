@@ -5,7 +5,6 @@
 #include "framework_headfile.hpp"
 #include "packet.hpp"
 #include "crc.h"
-#include "IMUC.hpp"
 #include "usbd_cdc_if.h"
 #include "iwdgC.h"
 
@@ -35,16 +34,16 @@ void VisionChattingLoop(uint8_t mode)
 //	float x = IMU_Quaternion().x;
 //	float y = IMU_Quaternion().y;
 //	float z = IMU_Quaternion().z;
-    float roll = IMU_NaiveAngle().roll;
-    float pitch = IMU_NaiveAngle().pitch; //用原始角好还是连续化之后的好？
-    float yaw = IMU_NaiveAngle().yaw;
+//    float roll = IMU_NaiveAngle().roll;
+//    float pitch = IMU_NaiveAngle().pitch; //用原始角好还是连续化之后的好？
+//    float yaw = IMU_NaiveAngle().yaw;
 //	if (Color_now == 1)	send_packet.color =0;
 //	if (Color_now == 0)	send_packet.color =1;
-    send_packet.header = 0x5A;
-    send_packet.shoot_spd =refereeMsg.shoot_spd;
-    send_packet.pitch = pitch;
-    send_packet.yaw = yaw;
-    send_packet.roll = roll;
+//    send_packet.header = 0x5A;
+//    send_packet.shoot_spd =refereeMsg.shoot_spd;
+//    send_packet.pitch = pitch;
+//    send_packet.yaw = yaw;
+//    send_packet.roll = roll;
 
 //    if (MyColor == 0)send_packet.enemy_color = 'B';
 //    else send_packet.enemy_color = 'R';
@@ -74,7 +73,7 @@ void VisionTask(void const *argument)
     /* Infinite loop */
     for (;;)
     {
-        FeedDog();
+//        FeedDog();
         CurrentTime = xTaskGetTickCount();
 //		int8_t Zimiao = portIsZimiao(); //暂时不改
         VisionChattingLoop(1);
