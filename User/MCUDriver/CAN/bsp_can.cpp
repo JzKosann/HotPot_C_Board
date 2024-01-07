@@ -76,15 +76,15 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan)
     if (hcan == &hcan1)
     {
         pitch.canRead(rx_header.StdId, rx_buffer);
-//        fricL.canRead(rx_header.StdId, rx_buffer);
-//        fricR.canRead(rx_header.StdId, rx_buffer);
-//        rammc.canRead(rx_header.StdId, rx_buffer);
+        fricL.canRead(rx_header.StdId, rx_buffer);
+        fricR.canRead(rx_header.StdId, rx_buffer);
+        rammc.canRead(rx_header.StdId, rx_buffer);
 
 
     }
     else if (hcan == &hcan2)
     {                //can2
-//        yaw.canRead(rx_header.StdId, rx_buffer);
+        yaw.canRead(rx_header.StdId, rx_buffer);
 
     }
 }

@@ -36,7 +36,6 @@ void usart_printf(const char *format, ...) {
     va_end(args);
     HAL_UART_Transmit_DMA(&huart1, (uint8_t *) send_buf, length);
 }
-
 void DEBUGC_UartIdleCallback(UART_HandleTypeDef *huart) {
     HAL_UART_DMAStop(huart);                                                     //停止本次DMA传输
     //解包预处理

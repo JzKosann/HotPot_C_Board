@@ -2176,78 +2176,6 @@ User/Framework/PID/pidC.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID/pidC.cpp.s
 .PHONY : User/Framework/PID/pidC.cpp.s
 
-User/Framework/PID_stm32/PID_mat.obj: User/Framework/PID_stm32/PID_mat.cpp.obj
-.PHONY : User/Framework/PID_stm32/PID_mat.obj
-
-# target to build an object file
-User/Framework/PID_stm32/PID_mat.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/PID_mat.cpp.obj
-.PHONY : User/Framework/PID_stm32/PID_mat.cpp.obj
-
-User/Framework/PID_stm32/PID_mat.i: User/Framework/PID_stm32/PID_mat.cpp.i
-.PHONY : User/Framework/PID_stm32/PID_mat.i
-
-# target to preprocess a source file
-User/Framework/PID_stm32/PID_mat.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/PID_mat.cpp.i
-.PHONY : User/Framework/PID_stm32/PID_mat.cpp.i
-
-User/Framework/PID_stm32/PID_mat.s: User/Framework/PID_stm32/PID_mat.cpp.s
-.PHONY : User/Framework/PID_stm32/PID_mat.s
-
-# target to generate assembly for a file
-User/Framework/PID_stm32/PID_mat.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/PID_mat.cpp.s
-.PHONY : User/Framework/PID_stm32/PID_mat.cpp.s
-
-User/Framework/PID_stm32/matlabPID.obj: User/Framework/PID_stm32/matlabPID.cpp.obj
-.PHONY : User/Framework/PID_stm32/matlabPID.obj
-
-# target to build an object file
-User/Framework/PID_stm32/matlabPID.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/matlabPID.cpp.obj
-.PHONY : User/Framework/PID_stm32/matlabPID.cpp.obj
-
-User/Framework/PID_stm32/matlabPID.i: User/Framework/PID_stm32/matlabPID.cpp.i
-.PHONY : User/Framework/PID_stm32/matlabPID.i
-
-# target to preprocess a source file
-User/Framework/PID_stm32/matlabPID.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/matlabPID.cpp.i
-.PHONY : User/Framework/PID_stm32/matlabPID.cpp.i
-
-User/Framework/PID_stm32/matlabPID.s: User/Framework/PID_stm32/matlabPID.cpp.s
-.PHONY : User/Framework/PID_stm32/matlabPID.s
-
-# target to generate assembly for a file
-User/Framework/PID_stm32/matlabPID.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/matlabPID.cpp.s
-.PHONY : User/Framework/PID_stm32/matlabPID.cpp.s
-
-User/Framework/PosPID_stm32/PosPID.obj: User/Framework/PosPID_stm32/PosPID.cpp.obj
-.PHONY : User/Framework/PosPID_stm32/PosPID.obj
-
-# target to build an object file
-User/Framework/PosPID_stm32/PosPID.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PosPID_stm32/PosPID.cpp.obj
-.PHONY : User/Framework/PosPID_stm32/PosPID.cpp.obj
-
-User/Framework/PosPID_stm32/PosPID.i: User/Framework/PosPID_stm32/PosPID.cpp.i
-.PHONY : User/Framework/PosPID_stm32/PosPID.i
-
-# target to preprocess a source file
-User/Framework/PosPID_stm32/PosPID.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PosPID_stm32/PosPID.cpp.i
-.PHONY : User/Framework/PosPID_stm32/PosPID.cpp.i
-
-User/Framework/PosPID_stm32/PosPID.s: User/Framework/PosPID_stm32/PosPID.cpp.s
-.PHONY : User/Framework/PosPID_stm32/PosPID.s
-
-# target to generate assembly for a file
-User/Framework/PosPID_stm32/PosPID.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PosPID_stm32/PosPID.cpp.s
-.PHONY : User/Framework/PosPID_stm32/PosPID.cpp.s
-
 User/Framework/RGB/lrgb.obj: User/Framework/RGB/lrgb.cpp.obj
 .PHONY : User/Framework/RGB/lrgb.obj
 
@@ -2343,6 +2271,78 @@ User/Framework/Vision/crc.s: User/Framework/Vision/crc.cpp.s
 User/Framework/Vision/crc.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Vision/crc.cpp.s
 .PHONY : User/Framework/Vision/crc.cpp.s
+
+User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.obj: User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.cpp.obj
+.PHONY : User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.obj
+
+# target to build an object file
+User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.cpp.obj
+.PHONY : User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.cpp.obj
+
+User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.i: User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.cpp.i
+.PHONY : User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.i
+
+# target to preprocess a source file
+User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.cpp.i
+.PHONY : User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.cpp.i
+
+User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.s: User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.cpp.s
+.PHONY : User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.s
+
+# target to generate assembly for a file
+User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.cpp.s
+.PHONY : User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.cpp.s
+
+User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.obj: User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.cpp.obj
+.PHONY : User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.obj
+
+# target to build an object file
+User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.cpp.obj
+.PHONY : User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.cpp.obj
+
+User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.i: User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.cpp.i
+.PHONY : User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.i
+
+# target to preprocess a source file
+User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.cpp.i
+.PHONY : User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.cpp.i
+
+User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.s: User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.cpp.s
+.PHONY : User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.s
+
+# target to generate assembly for a file
+User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.cpp.s
+.PHONY : User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.cpp.s
+
+User/Framework/Yaw_Matlab_PID/matlab_PID.obj: User/Framework/Yaw_Matlab_PID/matlab_PID.cpp.obj
+.PHONY : User/Framework/Yaw_Matlab_PID/matlab_PID.obj
+
+# target to build an object file
+User/Framework/Yaw_Matlab_PID/matlab_PID.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/matlab_PID.cpp.obj
+.PHONY : User/Framework/Yaw_Matlab_PID/matlab_PID.cpp.obj
+
+User/Framework/Yaw_Matlab_PID/matlab_PID.i: User/Framework/Yaw_Matlab_PID/matlab_PID.cpp.i
+.PHONY : User/Framework/Yaw_Matlab_PID/matlab_PID.i
+
+# target to preprocess a source file
+User/Framework/Yaw_Matlab_PID/matlab_PID.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/matlab_PID.cpp.i
+.PHONY : User/Framework/Yaw_Matlab_PID/matlab_PID.cpp.i
+
+User/Framework/Yaw_Matlab_PID/matlab_PID.s: User/Framework/Yaw_Matlab_PID/matlab_PID.cpp.s
+.PHONY : User/Framework/Yaw_Matlab_PID/matlab_PID.s
+
+# target to generate assembly for a file
+User/Framework/Yaw_Matlab_PID/matlab_PID.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/matlab_PID.cpp.s
+.PHONY : User/Framework/Yaw_Matlab_PID/matlab_PID.cpp.s
 
 User/Framework/refee.obj: User/Framework/refee.cpp.obj
 .PHONY : User/Framework/refee.obj
@@ -2897,15 +2897,6 @@ help:
 	@echo ... User/Framework/PID/pidC.obj
 	@echo ... User/Framework/PID/pidC.i
 	@echo ... User/Framework/PID/pidC.s
-	@echo ... User/Framework/PID_stm32/PID_mat.obj
-	@echo ... User/Framework/PID_stm32/PID_mat.i
-	@echo ... User/Framework/PID_stm32/PID_mat.s
-	@echo ... User/Framework/PID_stm32/matlabPID.obj
-	@echo ... User/Framework/PID_stm32/matlabPID.i
-	@echo ... User/Framework/PID_stm32/matlabPID.s
-	@echo ... User/Framework/PosPID_stm32/PosPID.obj
-	@echo ... User/Framework/PosPID_stm32/PosPID.i
-	@echo ... User/Framework/PosPID_stm32/PosPID.s
 	@echo ... User/Framework/RGB/lrgb.obj
 	@echo ... User/Framework/RGB/lrgb.i
 	@echo ... User/Framework/RGB/lrgb.s
@@ -2918,6 +2909,15 @@ help:
 	@echo ... User/Framework/Vision/crc.obj
 	@echo ... User/Framework/Vision/crc.i
 	@echo ... User/Framework/Vision/crc.s
+	@echo ... User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.obj
+	@echo ... User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.i
+	@echo ... User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.s
+	@echo ... User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.obj
+	@echo ... User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.i
+	@echo ... User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.s
+	@echo ... User/Framework/Yaw_Matlab_PID/matlab_PID.obj
+	@echo ... User/Framework/Yaw_Matlab_PID/matlab_PID.i
+	@echo ... User/Framework/Yaw_Matlab_PID/matlab_PID.s
 	@echo ... User/Framework/refee.obj
 	@echo ... User/Framework/refee.i
 	@echo ... User/Framework/refee.s

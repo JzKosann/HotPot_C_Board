@@ -73,6 +73,9 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/controller"
   "E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/devices"
   "E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/task"
+  "E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID"
+  "E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop"
+  "E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/PosLoop"
   )
 
 # The set of dependency files which are needed:
@@ -164,13 +167,13 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IWDG/iwdgC.cpp" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IWDG/iwdgC.cpp.obj" "gcc" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IWDG/iwdgC.cpp.obj.d"
   "E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/LED/LEDC.cpp" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/LED/LEDC.cpp.obj" "gcc" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/LED/LEDC.cpp.obj.d"
   "E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/PID/pidC.cpp" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID/pidC.cpp.obj" "gcc" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID/pidC.cpp.obj.d"
-  "E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/PID_stm32/PID_mat.cpp" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/PID_mat.cpp.obj" "gcc" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/PID_mat.cpp.obj.d"
-  "E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/PID_stm32/matlabPID.cpp" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/matlabPID.cpp.obj" "gcc" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/matlabPID.cpp.obj.d"
-  "E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/PosPID_stm32/PosPID.cpp" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PosPID_stm32/PosPID.cpp.obj" "gcc" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PosPID_stm32/PosPID.cpp.obj.d"
   "E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/RGB/lrgb.cpp" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RGB/lrgb.cpp.obj" "gcc" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RGB/lrgb.cpp.obj.d"
   "E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/RomteC/RemoteC.cpp" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RomteC/RemoteC.cpp.obj" "gcc" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RomteC/RemoteC.cpp.obj.d"
   "E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/ShootC/Shootc.cpp" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ShootC/Shootc.cpp.obj" "gcc" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ShootC/Shootc.cpp.obj.d"
   "E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Vision/crc.cpp" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Vision/crc.cpp.obj" "gcc" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Vision/crc.cpp.obj.d"
+  "E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.cpp" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.cpp.obj" "gcc" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.cpp.obj.d"
+  "E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.cpp" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.cpp.obj" "gcc" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.cpp.obj.d"
+  "E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/matlab_PID.cpp" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/matlab_PID.cpp.obj" "gcc" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/matlab_PID.cpp.obj.d"
   "E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/refee.cpp" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/refee.cpp.obj" "gcc" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/refee.cpp.obj.d"
   "E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/MCUDriver/CAN/bsp_can.cpp" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/CAN/bsp_can.cpp.obj" "gcc" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/CAN/bsp_can.cpp.obj.d"
   "E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/MCUDriver/LASER/laser.cpp" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/LASER/laser.cpp.obj" "gcc" "CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/LASER/laser.cpp.obj.d"

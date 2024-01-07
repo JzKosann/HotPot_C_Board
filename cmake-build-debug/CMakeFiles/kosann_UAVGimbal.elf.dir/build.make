@@ -1271,52 +1271,10 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID/pidC.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID/pidC.cpp.s"
 	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\PID\pidC.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\PID\pidC.cpp.s
 
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/PID_mat.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/PID_mat.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/PID_stm32/PID_mat.cpp
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/PID_mat.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/PID_mat.cpp.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/PID_mat.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\PID_stm32\PID_mat.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\PID_stm32\PID_mat.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\PID_stm32\PID_mat.cpp
-
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/PID_mat.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/PID_mat.cpp.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\PID_stm32\PID_mat.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\PID_stm32\PID_mat.cpp.i
-
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/PID_mat.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/PID_mat.cpp.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\PID_stm32\PID_mat.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\PID_stm32\PID_mat.cpp.s
-
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/matlabPID.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/matlabPID.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/PID_stm32/matlabPID.cpp
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/matlabPID.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/matlabPID.cpp.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/matlabPID.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\PID_stm32\matlabPID.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\PID_stm32\matlabPID.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\PID_stm32\matlabPID.cpp
-
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/matlabPID.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/matlabPID.cpp.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\PID_stm32\matlabPID.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\PID_stm32\matlabPID.cpp.i
-
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/matlabPID.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/matlabPID.cpp.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\PID_stm32\matlabPID.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\PID_stm32\matlabPID.cpp.s
-
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PosPID_stm32/PosPID.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PosPID_stm32/PosPID.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/PosPID_stm32/PosPID.cpp
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PosPID_stm32/PosPID.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PosPID_stm32/PosPID.cpp.obj"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PosPID_stm32/PosPID.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\PosPID_stm32\PosPID.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\PosPID_stm32\PosPID.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\PosPID_stm32\PosPID.cpp
-
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PosPID_stm32/PosPID.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PosPID_stm32/PosPID.cpp.i"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\PosPID_stm32\PosPID.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\PosPID_stm32\PosPID.cpp.i
-
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PosPID_stm32/PosPID.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PosPID_stm32/PosPID.cpp.s"
-	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\PosPID_stm32\PosPID.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\PosPID_stm32\PosPID.cpp.s
-
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RGB/lrgb.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RGB/lrgb.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/RGB/lrgb.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RGB/lrgb.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RGB/lrgb.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RGB/lrgb.cpp.obj"
 	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RGB/lrgb.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\RGB\lrgb.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\RGB\lrgb.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\RGB\lrgb.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RGB/lrgb.cpp.i: cmake_force
@@ -1330,7 +1288,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RGB/lrgb.cpp.s: cmake_force
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RomteC/RemoteC.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RomteC/RemoteC.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/RomteC/RemoteC.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RomteC/RemoteC.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RomteC/RemoteC.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RomteC/RemoteC.cpp.obj"
 	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RomteC/RemoteC.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\RomteC\RemoteC.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\RomteC\RemoteC.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\RomteC\RemoteC.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RomteC/RemoteC.cpp.i: cmake_force
@@ -1344,7 +1302,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RomteC/RemoteC.cpp.s: cmake_f
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ShootC/Shootc.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ShootC/Shootc.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/ShootC/Shootc.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ShootC/Shootc.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ShootC/Shootc.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ShootC/Shootc.cpp.obj"
 	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ShootC/Shootc.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\ShootC\Shootc.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\ShootC\Shootc.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\ShootC\Shootc.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ShootC/Shootc.cpp.i: cmake_force
@@ -1358,7 +1316,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ShootC/Shootc.cpp.s: cmake_fo
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Vision/crc.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Vision/crc.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Vision/crc.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Vision/crc.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Vision/crc.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Vision/crc.cpp.obj"
 	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Vision/crc.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Vision\crc.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Vision\crc.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\Vision\crc.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Vision/crc.cpp.i: cmake_force
@@ -1368,6 +1326,48 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Vision/crc.cpp.i: cmake_force
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Vision/crc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Vision/crc.cpp.s"
 	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\Vision\crc.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Vision\crc.cpp.s
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.cpp
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.cpp.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Yaw_Matlab_PID\PosLoop\PosLoop_Matlabsimulink.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Yaw_Matlab_PID\PosLoop\PosLoop_Matlabsimulink.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\Yaw_Matlab_PID\PosLoop\PosLoop_Matlabsimulink.cpp
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.cpp.i"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\Yaw_Matlab_PID\PosLoop\PosLoop_Matlabsimulink.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Yaw_Matlab_PID\PosLoop\PosLoop_Matlabsimulink.cpp.i
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.cpp.s"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\Yaw_Matlab_PID\PosLoop\PosLoop_Matlabsimulink.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Yaw_Matlab_PID\PosLoop\PosLoop_Matlabsimulink.cpp.s
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.cpp
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.cpp.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Yaw_Matlab_PID\SpdLoop\SpdLoop_Matlabsimulink.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Yaw_Matlab_PID\SpdLoop\SpdLoop_Matlabsimulink.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\Yaw_Matlab_PID\SpdLoop\SpdLoop_Matlabsimulink.cpp
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.cpp.i"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\Yaw_Matlab_PID\SpdLoop\SpdLoop_Matlabsimulink.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Yaw_Matlab_PID\SpdLoop\SpdLoop_Matlabsimulink.cpp.i
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.cpp.s"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\Yaw_Matlab_PID\SpdLoop\SpdLoop_Matlabsimulink.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Yaw_Matlab_PID\SpdLoop\SpdLoop_Matlabsimulink.cpp.s
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/matlab_PID.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/matlab_PID.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/matlab_PID.cpp
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/matlab_PID.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/matlab_PID.cpp.obj"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/matlab_PID.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Yaw_Matlab_PID\matlab_PID.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Yaw_Matlab_PID\matlab_PID.cpp.obj -c E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\Yaw_Matlab_PID\matlab_PID.cpp
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/matlab_PID.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/matlab_PID.cpp.i"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\Yaw_Matlab_PID\matlab_PID.cpp > CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Yaw_Matlab_PID\matlab_PID.cpp.i
+
+CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/matlab_PID.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/matlab_PID.cpp.s"
+	D:\ENVIRO~1\GCC-AR~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\Yaw_Matlab_PID\matlab_PID.cpp -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Yaw_Matlab_PID\matlab_PID.cpp.s
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/refee.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/refee.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/refee.cpp
@@ -1625,13 +1625,13 @@ kosann_UAVGimbal_elf_OBJECTS = \
 "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IWDG/iwdgC.cpp.obj" \
 "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/LED/LEDC.cpp.obj" \
 "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID/pidC.cpp.obj" \
-"CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/PID_mat.cpp.obj" \
-"CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/matlabPID.cpp.obj" \
-"CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PosPID_stm32/PosPID.cpp.obj" \
 "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RGB/lrgb.cpp.obj" \
 "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RomteC/RemoteC.cpp.obj" \
 "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ShootC/Shootc.cpp.obj" \
 "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Vision/crc.cpp.obj" \
+"CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.cpp.obj" \
+"CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.cpp.obj" \
+"CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/matlab_PID.cpp.obj" \
 "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/refee.cpp.obj" \
 "CMakeFiles/kosann_UAVGimbal.elf.dir/User/LOG/log.c.obj" \
 "CMakeFiles/kosann_UAVGimbal.elf.dir/User/LOG/log_port.c.obj" \
@@ -1734,13 +1734,13 @@ kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/tas
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IWDG/iwdgC.cpp.obj
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/LED/LEDC.cpp.obj
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID/pidC.cpp.obj
-kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/PID_mat.cpp.obj
-kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID_stm32/matlabPID.cpp.obj
-kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PosPID_stm32/PosPID.cpp.obj
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RGB/lrgb.cpp.obj
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RomteC/RemoteC.cpp.obj
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ShootC/Shootc.cpp.obj
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Vision/crc.cpp.obj
+kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.cpp.obj
+kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.cpp.obj
+kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/matlab_PID.cpp.obj
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/refee.cpp.obj
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/User/LOG/log.c.obj
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/User/LOG/log_port.c.obj

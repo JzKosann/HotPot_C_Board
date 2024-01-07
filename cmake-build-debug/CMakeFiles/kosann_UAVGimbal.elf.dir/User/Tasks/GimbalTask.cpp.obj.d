@@ -205,13 +205,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/GimbalTask.cpp.obj: \
  E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\MCUDriver\REMOTEC/remoteio.h \
  E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\RGB/lrgb.h \
  E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\Vision/packet.hpp \
- E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\PID_stm32/matlabPID.hpp \
- E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\PID_stm32/PID_mat.hpp \
- E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\PID_stm32/rtwtypes.h \
- E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\PID_stm32/PID_mat_types.h \
- E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\PosPID_stm32/PosPID.hpp \
- E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\PosPID_stm32/rtwtypes.h \
- E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\PosPID_stm32/PosPID_types.h \
+ E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\Yaw_Matlab_PID/matlab_PID.hpp \
  E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework/refee.hpp \
  E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework/framework_headfile.hpp \
  e:\competition\2024_robomaster\a_jinz\template\kosann_gimbal_c_board\user\framework\imu\bsp\bsp_delay.h \

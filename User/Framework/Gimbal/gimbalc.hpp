@@ -9,7 +9,7 @@
 #include "MCU_heafile.hpp"
 #include "core.h"
 #include "MotorC.hpp"
-
+extern CanType CanReg[];
 
 void Gimbal_Init();
 

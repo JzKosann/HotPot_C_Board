@@ -813,19 +813,22 @@ float IMU_Angle(int8_t Witch_angle)
     }
 }
 
-float Yaw_Speed, Pih_Speed;
+float Yaw_Speed, Pih_Speed, Roll_Speed;
 const fp32 *Speed;
 
 float IMU_Speed(int8_t Witch_angle)
 {
     Speed = get_gyro_data_point();
     Yaw_Speed = Speed[0] * 9.55f;
+    Roll_Speed=Speed[1]*9.55f;
     Pih_Speed = Speed[2] * 9.55f;
     switch (Witch_angle)
     {
-        case 1:
+        case 0:
             return Yaw_Speed;
-        case 2:
+        case 1:
             return Pih_Speed;
+        case 2:
+            return Roll_Speed;
     }
 }
