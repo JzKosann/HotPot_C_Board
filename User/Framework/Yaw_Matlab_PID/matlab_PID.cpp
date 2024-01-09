@@ -26,7 +26,7 @@ void Mat_Pid::Calc(float SpdInput, float PosInput)
     PosLoop_Matlabsimulink_step();
     SpdLoop_Matlabsimulink_U.Spd_Tar=PosLoop_Matlabsimulink_Y.Pos_Output;
     SpdLoop_Matlabsimulink_step();
-    usart_printf("%.2f\r\n", PosLoop_Matlabsimulink_Y.Pos_Output);//打印数据到调参助手
+//    usart_printf("%.2f\r\n", PosLoop_Matlabsimulink_Y.Pos_Output);//打印数据到调参助手
 }
 
 float Mat_Pid::Out()

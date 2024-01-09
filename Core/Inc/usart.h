@@ -39,7 +39,10 @@ extern UART_HandleTypeDef huart3;
 extern UART_HandleTypeDef huart6;
 
 /* USER CODE BEGIN Private defines */
-
+extern DMA_HandleTypeDef hdma_usart1_rx;
+extern DMA_HandleTypeDef hdma_usart1_tx;
+extern DMA_HandleTypeDef hdma_usart6_rx;
+extern DMA_HandleTypeDef hdma_usart6_tx;
 extern DMA_HandleTypeDef hdma_usart3_rx;
 /* USER CODE END Private defines */
 
@@ -51,6 +54,7 @@ void MX_USART6_UART_Init(void);
 
 void DEBUGC_UartIrqHandler(UART_HandleTypeDef* huart);
 void REMOTEC_UartIrqHandler(void);
+void IMU_Receive_Data(void);
 /* USER CODE END Prototypes */
 
 #ifdef __cplusplus

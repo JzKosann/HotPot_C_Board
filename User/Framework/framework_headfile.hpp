@@ -18,6 +18,8 @@
 #include "matlab_PID.hpp"
 #include "refee.hpp"
 #include "../../User/Framework/IMU/bsp/bsp_delay.h"
+#include "Bno085.hpp"
+
 
 class algorithm
 {

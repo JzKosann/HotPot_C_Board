@@ -13,7 +13,7 @@
  *
  */
 
-extern UART_HandleTypeDef huart1;
+extern UART_HandleTypeDef huart6;
 #define TX_BUF_SIZE 512
 uint8_t send_buf[TX_BUF_SIZE];
 
@@ -24,8 +24,8 @@ char *pEnd;
 int16_t start_flag = 0;
 
 void DEBUGC_UartInit(void) {
-    __HAL_UART_ENABLE_IT(&huart1, UART_IT_IDLE);
-    HAL_UART_Receive_DMA(&huart1, (uint8_t *) debugRvBuff, DEBUG_RVSIZE);
+    __HAL_UART_ENABLE_IT(&huart6, UART_IT_IDLE);
+    HAL_UART_Receive_DMA(&huart6, (uint8_t *) debugRvBuff, DEBUG_RVSIZE);
 }
 
 void usart_printf(const char *format, ...) {
@@ -34,7 +34,7 @@ void usart_printf(const char *format, ...) {
     va_start(args, format);
     length = vsnprintf((char *) send_buf, TX_BUF_SIZE, (const char *) format, args);
     va_end(args);
-    HAL_UART_Transmit_DMA(&huart1, (uint8_t *) send_buf, length);
+    HAL_UART_Transmit_DMA(&huart6, (uint8_t *) send_buf, length);
 }
 void DEBUGC_UartIdleCallback(UART_HandleTypeDef *huart) {
     HAL_UART_DMAStop(huart);                                                     //停止本次DMA传输
@@ -113,7 +113,7 @@ DebugParam Debug_Param() {
 }
 
 void DEBUGC_UartIrqHandler(UART_HandleTypeDef *huart) {
-    if (huart->Instance == USART1)                                   //判断是否是串口1
+    if (huart->Instance == USART6)                                   //判断是否是串口1
     {
         if (__HAL_UART_GET_FLAG(huart, UART_FLAG_IDLE) != RESET)   //判断是否是空闲中断
         {

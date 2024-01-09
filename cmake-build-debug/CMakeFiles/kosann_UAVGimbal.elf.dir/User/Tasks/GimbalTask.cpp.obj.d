@@ -210,6 +210,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/GimbalTask.cpp.obj: \
  E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework/framework_headfile.hpp \
  e:\competition\2024_robomaster\a_jinz\template\kosann_gimbal_c_board\user\framework\imu\bsp\bsp_delay.h \
  e:\competition\2024_robomaster\a_jinz\template\kosann_gimbal_c_board\user\framework\imu\task\struct_typedef.h \
+ E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\IMU\Other/Bno085.hpp \
  E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\MCUDriver/MCU_heafile.hpp \
  E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\MCUDriver\CAN/bsp_can.hpp \
  E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\MCUDriver\LASER/laser.h \

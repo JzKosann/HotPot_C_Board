@@ -211,7 +211,7 @@ float portSetYaw()
         case cCar::eKey:
             break;
     }
-//    usart_printf("%.2f,%.2f\r\n", IMU_Angle(0), tar_pos);
+
 
     return tar_pos;
 }
@@ -297,8 +297,8 @@ void portSetShoot()
 
     if (RC_GetDatas().rc.ch[4] <= -550 && is_fric_start == 0)
     {
-        fricL.MotorCtrl.c_ADRC.setSpdTar(-1000);
-        fricR.MotorCtrl.c_ADRC.setSpdTar(1000);
+        fricL.MotorCtrl.c_ADRC.setSpdTar(-6500);
+        fricR.MotorCtrl.c_ADRC.setSpdTar(6500);
 
         for (fric_count = 0; fric_count >= 400; fric_count++)
         {
@@ -435,7 +435,6 @@ void GimbalLoop()
         Can_Send();
 
     }
-
 
     CanMxg();
 

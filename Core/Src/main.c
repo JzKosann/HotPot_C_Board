@@ -72,6 +72,7 @@ void main_Init(void) {
     MX_TIM8_Init();
     MX_USART1_UART_Init();
     MX_USART3_UART_Init();
+    MX_USART6_UART_Init();
     MX_CAN1_Init();
     MX_CAN2_Init();
     MX_I2C3_Init();
