@@ -107,6 +107,7 @@ void PID_SpeedParamInit(PID_t *WhichPID)
     WhichPID->Kp1 = 20.0;
     WhichPID->Ki1 = 1;
     WhichPID->Kd1 = 0;
+    WhichPID->forward = 0;
     WhichPID->PID_Err_now = 0.0;
     WhichPID->PID_Err_last = 0.0;
     WhichPID->PID_Err_lastlast = 0.0;
@@ -139,6 +140,7 @@ void PID_PosParamInit(PID_t *WhichPID)
     WhichPID->Kp1 = 10;
     WhichPID->Ki1 = 0;
     WhichPID->Kd1 = 0;
+    WhichPID->forward = 0;
     WhichPID->PID_Err_now = 0.0;
     WhichPID->PID_Err_last = 0.0;
     WhichPID->PID_Err_lastlast = 0.0;
@@ -208,6 +210,7 @@ void cPID::setParam(float pos_kp, float pos_ki, float pos_kd, float pos_outmax)
     PosParam.Kp1 = pos_kp;
     PosParam.Ki1 = pos_ki;
     PosParam.Kd1 = pos_kd;
+    SpdParam.forward = 0;
     PosParam.PID_OutMax = pos_outmax;
 }
 
@@ -217,10 +220,12 @@ void cPID::setParam(float spd_kp, float spd_ki, float spd_kd, float spd_outmax,
     PosParam.Kp1 = pos_kp;
     PosParam.Ki1 = pos_ki;
     PosParam.Kd1 = pos_kd;
+    PosParam.forward = 0;
     PosParam.PID_OutMax = pos_outmax;                  //带载时电机速度不超过200RPM
     SpdParam.Kp1 = spd_kp;
     SpdParam.Ki1 = spd_ki;
     SpdParam.Kd1 = spd_kd;
+    SpdParam.forward = 0;
     SpdParam.PID_OutMax = spd_outmax;
 }
 
@@ -235,19 +240,19 @@ void cPID::setPosTar(float pos_tar, float step)
     PID_SetTargetWithRamp(&PosParam, pos_tar);
 }
 
-float cPID::PosLoop(float PosInput)
+float cPID::posLoop(float pos_input)
 {
-    PID_Update(&PosParam, PosInput);
+    PID_Update(&PosParam, pos_input);
     PID_GetPositionPID(&PosParam);
     return PosParam.PID_Out;
 }
 
-void cPID::PosLoop(float PosInput, float SpdInput)
+void cPID::posLoop(float pos_input, float spd_input)
 {
-    PID_Update(&PosParam, PosInput);
+    PID_Update(&PosParam, pos_input);
     PID_GetPositionPID(&PosParam);
     setSpdTar(PosParam.PID_Out);
-    PID_Update(&SpdParam, SpdInput);
+    PID_Update(&SpdParam, spd_input);
     PID_GetPositionPID(&SpdParam);
 }
 
@@ -262,15 +267,35 @@ void cPID::setSpdTar(float spd_tar, float step)
     PID_SetTargetWithRamp(&SpdParam, spd_tar);
 }
 
-void cPID::SpdLoop(float SpdInput)
+void cPID::spdLoop(float spd_input)
 {
-    PID_Update(&SpdParam, SpdInput);
+    PID_Update(&SpdParam, spd_input);
     PID_GetPositionPID(&SpdParam);
 }
 
-float cPID::Pid_Out() const
+float cPID::pidOut() const
 {
-    return SpdParam.PID_Out;
+    float pid_out;
+    if(SpdParam.PID_Out>0)
+        pid_out=SpdParam.PID_Out+PosParam.forward* fabsf(PosParam.PID_Target)+SpdParam.forward* fabsf(SpdParam.PID_Target);
+    if(SpdParam.PID_Out<0)
+        pid_out=SpdParam.PID_Out-PosParam.forward* fabsf(PosParam.PID_Target)-SpdParam.forward* fabsf(SpdParam.PID_Target);
+    return pid_out;
+}
+
+void cPID::setParam(float spd_kp, float spd_ki, float spd_kd, float spd_outmax, float spd_forward,
+                    float pos_kp, float pos_ki, float pos_kd, float pos_outmax, float pos_forward)
+{
+    PosParam.Kp1 = pos_kp;
+    PosParam.Ki1 = pos_ki;
+    PosParam.Kd1 = pos_kd;
+    PosParam.forward = pos_forward;
+    PosParam.PID_OutMax = pos_outmax;                  //带载时电机速度不超过200RPM
+    SpdParam.Kp1 = spd_kp;
+    SpdParam.Ki1 = spd_ki;
+    SpdParam.Kd1 = spd_kd;
+    SpdParam.forward = spd_forward;
+    SpdParam.PID_OutMax = spd_outmax;
 }
 
 

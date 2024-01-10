@@ -55,7 +55,7 @@ include_directories(${includes} User/Framework User/Framework/ADRC
     User/MCUDriver/LED User/MCUDriver/POWER User/Framework/PID_stm32 User/Framework/PosPID_stm32 User/Framework/slprj
     User/MCUDriver/REMOTEC User/MCUDriver/SERVO User/Tasks User/ User/MCUDriver/ User/Framework/RGB
     User/Framework/Vision User/Framework/IMU/algorithm User/Framework/IMU/bsp User/Framework/IMU/controller User/Framework/IMU/devices User/Framework/IMU/task User/Framework/IMU/Other
-    User/Framework/Yaw_Matlab_PID User/Framework/Yaw_Matlab_PID/SpdLoop User/Framework/Yaw_Matlab_PID/PosLoop)
+    User/Framework/Yaw_Matlab_PID User/Framework/Yaw_Matlab_PID/spdLoop User/Framework/Yaw_Matlab_PID/posLoop)
 
 add_definitions(${defines})
 add_definitions(

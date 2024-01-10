@@ -47,7 +47,7 @@ void cMotor::canSend(eController controller_type)
             errorHandle(eCanSend_Error);
             break;
         case ePid:
-            current = (int16_t) MotorCtrl.c_PID.Pid_Out();
+            current = (int16_t) MotorCtrl.c_PID.pidOut();
             break;
         case eAdrc:
             current=(int16_t)MotorCtrl.c_ADRC.ADRCout();

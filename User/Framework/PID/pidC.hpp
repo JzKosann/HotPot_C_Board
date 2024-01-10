@@ -35,6 +35,7 @@ typedef struct
     float Kp1;
     float Ki1;
     float Kd1;
+    float forward;
     float PID_Err_now;
     float PID_Err_last;
     float PID_Err_lastlast;
@@ -80,18 +81,20 @@ public:
     void setParam(float pos_kp, float pos_ki, float pos_kd, float pos_outmax);
     void setParam(float spd_kp, float spd_ki, float spd_kd, float spd_outmax,
                   float pos_kp, float pos_ki, float pos_kd, float pos_outmax);
+    void setParam(float spd_kp, float spd_ki, float spd_kd, float spd_outmax,float spd_forward,
+                  float pos_kp, float pos_ki, float pos_kd, float pos_outmax,float pos_forward);
 
     /** POS **/
     void setPosTar(float pos_tar);
     void setPosTar(float pos_tar, float step);
-    float PosLoop(float PosInput);
-    void PosLoop(float PosInput, float SpdInput);
+    float posLoop(float pos_input);
+    void posLoop(float pos_input, float spd_input);
     /** SPD **/
     void setSpdTar(float spd_tar);
     void setSpdTar(float spd_tar, float step);
-    void SpdLoop(float SpdInput);
+    void spdLoop(float spd_input);
 
-    [[nodiscard]] float Pid_Out() const;
+    [[nodiscard]] float pidOut() const;
 };
 
 #endif //KOSANN_UAVGIMBAL_PIDC_H
