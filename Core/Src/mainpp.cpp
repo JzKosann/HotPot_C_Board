@@ -7,7 +7,7 @@ void UserInit() {
     can_filter_init(&hcan1);
     can_filter_init(&hcan2);
     DEBUGC_UartInit();
-    HAL_TIM_Base_Start_IT(&htim5);
+    HAL_TIM_Base_Start_IT(&htim4);
     HAL_TIM_PWM_Start_IT(&htim10,TIM_CHANNEL_1);
     IMU_UartInit();
     delay_init();

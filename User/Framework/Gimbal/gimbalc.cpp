@@ -4,15 +4,17 @@
 #include "gimbalc.hpp"
 #include "math.h"
 #include "INS_task.h"
+#include "IMUC.hpp"
+
 
 /** Motor List **/
 cMotor yaw, pitch;          //云台功能
 cMotor fricR, fricL;
 cMotor rammc;
 /** algorithm **/
-//mPID matPID;
 
 #define TIMpiece    0.002   //控制周期，时间切片
+
 /** Car **/             //choose your car here
 cCar Car(cCar::MECANUM);
 /**
@@ -30,7 +32,7 @@ void Filter_Init()
     pitch.autoAim_filter.cLowPass.Init(10, 0.005);
     yaw.RCcrtl_filter.ckalman.Init(40, 200);
     pitch.RCcrtl_filter.ckalman.Init(40, 200);
-
+    IMU.yaw_filter.ckalman.Init(10, 60);
 }
 
 void Algorithm_Init()
@@ -81,6 +83,7 @@ void ChassisInit()
 bool CarInit()//
 {
     Car.ShootMode = cCar::eRC;
+    Car.is_protect = true;
     return false;
 }
 
@@ -98,8 +101,10 @@ void Gimbal_Init()
 
 bool portSetProtect()
 {
-    if (RC_GetDatas().rc.s[0] == 1) return true;
-    else return false;
+    if (RC_GetDatas().rc.s[0] == 1) Car.is_protect = true;
+    else Car.is_protect = false;
+
+    return Car.is_protect;
 }
 
 
@@ -177,11 +182,12 @@ float portSetYaw()
 
                     break;
                 case cCar::MECANUM:
-                    yaw_mat.SetPara(3800,1800, 10,100,30000,
-                                    1,0,0,100, 28);
+                    yaw_mat.SetPara(2500, 1800, 0, 0, 30000,
+                                    1, 0.0001, 0.8, 0.002, 50);
                     break;
                 case cCar::UAV:
-
+                    yaw_mat.SetPara(200, 500, 0, 100, 30000,
+                                    1, 0, 0, 100, 50);
                     break;
             }
             tar_pos -= (float) RC_GetDatas().rc.ch[0] * portion * 360.0f / 660.0f;
@@ -196,7 +202,8 @@ float portSetYaw()
 
                     break;
                 case cCar::MECANUM:
-
+                    yaw_mat.SetPara(1000, 500, 0, 200, 30000,
+                                    0.1, 0, 0, 100, 200);
                     break;
                 case cCar::UAV:
 
@@ -212,7 +219,8 @@ float portSetYaw()
             break;
     }
 
-
+//    usart_printf("%.2f,%.2f\r\n", IMU_Angle(0), IMU_Angle(1));
+    usart_printf("%.2f,%.2f,%.2f\r\n",tar_pos, Bno085_IMU_Angle(0),IMU.yaw_filter.ckalman.Calc(IMU.cAngle(cimu::Bno085_imu,cimu::Yaw)));
     return tar_pos;
 }
 
@@ -371,9 +379,16 @@ void Can_Calc()
     fricL.MotorCtrl.c_ADRC.SpdLoop(fricL.getEcd().speed);
     fricR.MotorCtrl.c_ADRC.SpdLoop(fricR.getEcd().speed);
     rammc.MotorCtrl.c_PID.SpdLoop(rammc.getEcd().speed);
-    pitch.MotorCtrl.c_PID.PosLoop(IMU_Angle(2), IMU_Speed(2));
-//    yaw.MotorCtrl.c_PID.PosLoop(IMU_Angle(0), IMU_Speed(0));
-    yaw_mat.Calc(IMU_Speed(0), IMU_Angle(0));
+    if (Car.CarType == cCar::UAV)
+    {
+        pitch.MotorCtrl.c_PID.PosLoop(-IMU_Angle(1), -IMU_Speed(1));
+        yaw_mat.Calc(-IMU_Speed(0), -IMU_Angle(0));
+    }
+    else
+    {
+        pitch.MotorCtrl.c_PID.PosLoop(Bno085_IMU_Angle(1), IMU_Speed(2));
+        yaw_mat.Calc(IMU.cSpeed(cimu::C_imu,cimu::Yaw),IMU.yaw_filter.ckalman.Calc(IMU.cAngle(cimu::Bno085_imu,cimu::Yaw)));
+    }
 
     if (portSetFollowUp())
     {
@@ -394,12 +409,11 @@ void Can_Calc()
 void Can_Send()
 {
 //    yaw.canSend(cMotor::ePid);
-
-    yaw.canSend(cMotor::eExternal, (int16_t)yaw_mat.Out());
+    yaw.canSend(cMotor::eExternal, (int16_t) yaw_mat.Out());
 //    pitch.canSend(cMotor::ePid);
-    fricR.canSend(cMotor::eAdrc);
-    fricL.canSend(cMotor::eAdrc);
-    rammc.canSend(cMotor::ePid);
+//    fricR.canSend(cMotor::eAdrc);
+//    fricL.canSend(cMotor::eAdrc);
+//    rammc.canSend(cMotor::ePid);
     sendChassisYaw(-(yaw.getEcd().total_angle - Car.getPCarInEcd()));
 
 }
@@ -435,7 +449,7 @@ void GimbalLoop()
         Can_Send();
 
     }
-
+//    usart_printf("%.2f,%.2f,%.2f,%.2f\r\n", Bno085_IMU_Angle(0),);
     CanMxg();
 
 }

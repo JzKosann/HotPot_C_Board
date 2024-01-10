@@ -825,10 +825,13 @@ float IMU_Speed(int8_t Witch_angle)
     switch (Witch_angle)
     {
         case 0:
-            return Yaw_Speed;
+            return -Yaw_Speed;
         case 1:
             return Pih_Speed;
         case 2:
             return Roll_Speed;
+        default:
+            break;
     }
+    return 0;
 }

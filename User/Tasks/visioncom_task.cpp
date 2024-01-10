@@ -7,7 +7,7 @@
 #include "crc.h"
 #include "usbd_cdc_if.h"
 #include "iwdgC.h"
-
+#include "INS_task.h"
 float Shoot_SpeedNow = 0;
 int8_t MyColor, Fan_Type;
 int32_t id = 0;
@@ -39,11 +39,11 @@ void VisionChattingLoop(uint8_t mode)
 //    float yaw = IMU_NaiveAngle().yaw;
 //	if (Color_now == 1)	send_packet.color =0;
 //	if (Color_now == 0)	send_packet.color =1;
-//    send_packet.header = 0x5A;
-//    send_packet.shoot_spd =refereeMsg.shoot_spd;
-//    send_packet.pitch = pitch;
-//    send_packet.yaw = yaw;
-//    send_packet.roll = roll;
+    send_packet.header = 0x5A;
+    send_packet.shoot_spd =refereeMsg.shoot_spd;
+    send_packet.pitch = IMU_Angle(2);
+    send_packet.yaw = IMU_Angle(0);
+    send_packet.roll = IMU_Angle(1);
 
 //    if (MyColor == 0)send_packet.enemy_color = 'B';
 //    else send_packet.enemy_color = 'R';

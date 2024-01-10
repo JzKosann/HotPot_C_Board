@@ -1768,6 +1768,30 @@ User/Framework/Gimbal/gimbalc.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Gimbal/gimbalc.cpp.s
 .PHONY : User/Framework/Gimbal/gimbalc.cpp.s
 
+User/Framework/IMU/IMUC.obj: User/Framework/IMU/IMUC.cpp.obj
+.PHONY : User/Framework/IMU/IMUC.obj
+
+# target to build an object file
+User/Framework/IMU/IMUC.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/IMUC.cpp.obj
+.PHONY : User/Framework/IMU/IMUC.cpp.obj
+
+User/Framework/IMU/IMUC.i: User/Framework/IMU/IMUC.cpp.i
+.PHONY : User/Framework/IMU/IMUC.i
+
+# target to preprocess a source file
+User/Framework/IMU/IMUC.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/IMUC.cpp.i
+.PHONY : User/Framework/IMU/IMUC.cpp.i
+
+User/Framework/IMU/IMUC.s: User/Framework/IMU/IMUC.cpp.s
+.PHONY : User/Framework/IMU/IMUC.s
+
+# target to generate assembly for a file
+User/Framework/IMU/IMUC.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/IMUC.cpp.s
+.PHONY : User/Framework/IMU/IMUC.cpp.s
+
 User/Framework/IMU/Other/Bno085.obj: User/Framework/IMU/Other/Bno085.cpp.obj
 .PHONY : User/Framework/IMU/Other/Bno085.obj
 
@@ -2870,6 +2894,9 @@ help:
 	@echo ... User/Framework/Gimbal/gimbalc.obj
 	@echo ... User/Framework/Gimbal/gimbalc.i
 	@echo ... User/Framework/Gimbal/gimbalc.s
+	@echo ... User/Framework/IMU/IMUC.obj
+	@echo ... User/Framework/IMU/IMUC.i
+	@echo ... User/Framework/IMU/IMUC.s
 	@echo ... User/Framework/IMU/Other/Bno085.obj
 	@echo ... User/Framework/IMU/Other/Bno085.i
 	@echo ... User/Framework/IMU/Other/Bno085.s

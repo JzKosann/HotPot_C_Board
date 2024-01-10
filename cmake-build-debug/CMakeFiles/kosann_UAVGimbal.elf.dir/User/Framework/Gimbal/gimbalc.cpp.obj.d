@@ -232,4 +232,5 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Gimbal/gimbalc.cpp.obj: \
  E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\IMU\task/INS_task.h \
  E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\IMU\task/struct_typedef.h \
  E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\IMU\devices/BMI088driver.h \
- e:\competition\2024_robomaster\a_jinz\template\kosann_gimbal_c_board\user\framework\imu\task\struct_typedef.h
+ e:\competition\2024_robomaster\a_jinz\template\kosann_gimbal_c_board\user\framework\imu\task\struct_typedef.h \
+ E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\IMU/IMUC.hpp

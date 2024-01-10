@@ -80,7 +80,7 @@ public:
     explicit cCar(eCarType car_type);
     [[nodiscard]] float getPCarInEcd() const;
     void setPCarInEcd(float p_car_in_ecd);
-
+    bool is_protect;
 };
 
 #endif //KOSANN_UAVGIMBAL_MOTORC_HPP

@@ -16,6 +16,8 @@ void Mat_Pid::Init()
 void Mat_Pid::SetTar(float tar)
 {
     PosLoop_Matlabsimulink_U.Pos_Tar=tar;
+//    SpdLoop_Matlabsimulink_U.Spd_Tar=tar;
+
 }
 
 void Mat_Pid::Calc(float SpdInput, float PosInput)
