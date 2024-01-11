@@ -31,6 +31,17 @@ float cimu::cAngle(cimu::eImuType imu_type, cimu::eImuFun imu_fun)
                 case Roll:
                     return Bno085_IMU_Angle(2);
             }
+            break;
+        case Wit_imu:
+            switch (imu_fun)
+            {
+                case Yaw:
+                    return WIT_IMU_Angle(imu_yaw);
+                case Pitch:
+                    return WIT_IMU_Angle(imu_pitch);
+                case Roll:
+                    break;
+            }
     }
     return 0;
 }
@@ -60,6 +71,18 @@ float cimu::cSpeed(cimu::eImuType imu_type, cimu::eImuFun imu_fun)
                 case Roll:
                     return Bno085_IMU_Speed(2);
             }
+            break;
+        case Wit_imu:
+            switch (imu_fun)
+            {
+                case Yaw:
+                    return WIT_IMU_Speed(imu_yaw);
+                case Pitch:
+                    return WIT_IMU_Speed(imu_pitch);
+                case Roll:
+                    break;
+            }
+            break;
     }
     return 0;
 }

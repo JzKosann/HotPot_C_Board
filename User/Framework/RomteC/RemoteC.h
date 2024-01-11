@@ -111,6 +111,8 @@ extern void REMOTEC_Init(void);
   */
 extern const RC_ctrl_t *get_remote_control_point(void);
 void RC_DataHandle(RC_ctrl_t *rc_ctrl);
-
+void portHandle(Key_State* port);
 RC_ctrl_t RC_GetDatas(void);
+extern bool RC_GetNewData;
+extern RC_ctrl_t rc_ctrl;
 #endif //KOSANN_UAVGIMBAL_REMOTEC_H

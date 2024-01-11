@@ -30,7 +30,7 @@ extern DMA_HandleTypeDef hdma_usart3_rx;
   * @param[out]     rc_ctrl: 遥控器数据指
   * @retval         none
   */
-static void sbus_to_rc(volatile const uint8_t* sbus_buf, RC_ctrl_t* rc_ctrl);
+static void sbus_to_rc(volatile const uint8_t *sbus_buf, RC_ctrl_t *rc_ctrl);
 
 //remote control data
 //遥控器控制变量
@@ -64,7 +64,7 @@ void REMOTEC_Init(void)
   * @param[in]      none
   * @retval         遥控器数据指针
   */
-const RC_ctrl_t* get_remote_control_point(void)
+const RC_ctrl_t *get_remote_control_point(void)
 {
     return &rc_ctrl;
 }
@@ -156,8 +156,8 @@ void REMOTEC_UartIrqHandler(void)
   * @param[out]     rc_ctrl: 遥控器数据指针
   * @retval         none
   */
-int16_t RC_GetNewData = 0;//检测键值是否在发送/更新 如何判断是否连接键盘呢？
-static void sbus_to_rc(volatile const uint8_t* sbus_buf, RC_ctrl_t* rc_ctrl)
+bool RC_GetNewData = false;//检测键值是否在发送/更新 如何判断是否连接键盘呢？
+static void sbus_to_rc(volatile const uint8_t *sbus_buf, RC_ctrl_t *rc_ctrl)
 {
     if (sbus_buf == NULL || rc_ctrl == NULL)
     {
@@ -200,19 +200,15 @@ static void sbus_to_rc(volatile const uint8_t* sbus_buf, RC_ctrl_t* rc_ctrl)
     rc_ctrl->rc.ch[2] -= RC_CH_VALUE_OFFSET;
     rc_ctrl->rc.ch[3] -= RC_CH_VALUE_OFFSET;
     rc_ctrl->rc.ch[4] -= RC_CH_VALUE_OFFSET;
-    RC_GetNewData++;
-    if (RC_GetNewData > 10000)
-    {
-        RC_GetNewData = 0;
-    }
+    RC_GetNewData = true;
 }
 
-int16_t RC_ErrorData()
+bool RC_ErrorData()
 {
     return RC_GetNewData;
 }
 
-void RC_DataHandle(RC_ctrl_t* rc_ctrl)  //抑制零漂
+void RC_DataHandle(RC_ctrl_t *rc_ctrl)  //抑制零漂
 {
     if (abs(rc_ctrl->rc.ch[0]) < 5)rc_ctrl->rc.ch[0] = 0;
     if (abs(rc_ctrl->rc.ch[1]) < 5)rc_ctrl->rc.ch[1] = 0;
@@ -236,9 +232,11 @@ RC_ctrl_t RC_GetDatas(void)
 	* @param  port 键值状态结构体
   	* @retval None
 */
-void portHandle(Key_State* port)
+void portHandle(Key_State *port)
 {
     if (port->Now_State == 1 && port->Last_State == 0) port->Is_Click_Once = 1;
     else port->Is_Click_Once = 0;
     port->Last_State = port->Now_State;
 }
+
+

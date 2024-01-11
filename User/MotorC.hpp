@@ -73,10 +73,10 @@ public:
         eRC,
         eAutoAim,
         eKey
-    } eShootMode;
+    } eCtrlMode;
 
     eCarType CarType;
-    eShootMode ShootMode;
+    eCtrlMode CtrlMode;
     explicit cCar(eCarType car_type);
     [[nodiscard]] float getPCarInEcd() const;
     void setPCarInEcd(float p_car_in_ecd);

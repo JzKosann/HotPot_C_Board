@@ -187,6 +187,12 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ADRC/ADRC.cpp.obj: \
  E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Core\Inc/main.h \
  E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\Vision/packet.hpp \
  E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\Yaw_Matlab_PID/matlab_PID.hpp \
+ E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\Yaw_Matlab_PID\SpdLoop/SpdLoop_Matlabsimulink.hpp \
+ E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\Yaw_Matlab_PID\SpdLoop/rtwtypes.h \
+ E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\Yaw_Matlab_PID\SpdLoop/SpdLoop_Matlabsimulink_types.h \
+ E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\Yaw_Matlab_PID\PosLoop/PosLoop_Matlabsimulink.hpp \
+ E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\Yaw_Matlab_PID\SpdLoop/rtwtypes.h \
+ E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\Yaw_Matlab_PID\PosLoop/PosLoop_Matlabsimulink_types.h \
  E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework/refee.hpp \
  E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework/framework_headfile.hpp \
  e:\competition\2024_robomaster\a_jinz\template\kosann_gimbal_c_board\user\framework\imu\bsp\bsp_delay.h \

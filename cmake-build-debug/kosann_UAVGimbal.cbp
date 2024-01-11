@@ -786,6 +786,15 @@
 		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/Other/Bno085.hpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/Other/Wit.cpp">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/Other/Wit.h">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/Other/witreg.hpp">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
 		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/algorithm/AHRS.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
