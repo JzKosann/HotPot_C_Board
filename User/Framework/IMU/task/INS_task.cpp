@@ -793,7 +793,7 @@ float IMU_AngleIncreLoop1(float angle_now)
     return angle_now;
 }
 
-const fp32 *angle;
+static const fp32 *angle;
 float Yaw_Angle, Pih_Angle, Roll_Angle;
 
 float IMU_Angle(int8_t Witch_angle)

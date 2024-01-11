@@ -47,7 +47,7 @@ void IMU_Data_Handler(UART_HandleTypeDef *huart)
 static float last_angle;
 static int32_t rotate_times;
 
-float IMU_AngleIncreLoop(float angle_now)
+static float IMU_AngleIncreLoop(float angle_now)
 {
     float this_angle;
     this_angle = angle_now;
@@ -87,7 +87,7 @@ float Bno085_IMU_Speed(uint8_t which){
     }
 }
 
-void IMU_Receive_Data(void)
+void BNO085_IMU_Receive_Data(void)
 {
     if (__HAL_UART_GET_FLAG(&huart1, UART_FLAG_IDLE) != RESET)
     {

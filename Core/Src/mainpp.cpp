@@ -38,22 +38,22 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
     /* USER CODE BEGIN Callback 1 */
     if (htim->Instance == TIM4)  //8ms
     {
-//        if (portSetProtect())
-//        {
+        if (portSetProtect())
+        {
 //            portSetChassicStop();
-//        }else{
-//            static uint8_t send_flag = 0;
-//            if (send_flag)
-//            {
+        }else{
+            static uint8_t send_flag = 0;
+            if (send_flag)
+            {
 //                ChassisVel.sendBuff();
-//                send_flag = 0;
-//            }
-//            else
-//            {
+                send_flag = 0;
+            }
+            else
+            {
 //                ChassisYaw.sendBuff();
-//                send_flag = 1;
-//            }
-//        }
+                send_flag = 1;
+            }
+        }
     }
     /* USER CODE END Callback 1 */
 }

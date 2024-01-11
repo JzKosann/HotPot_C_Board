@@ -8,6 +8,7 @@
 #include "usbd_cdc_if.h"
 #include "iwdgC.h"
 #include "INS_task.h"
+#include "IMUC.hpp"
 float Shoot_SpeedNow = 0;
 int8_t MyColor, Fan_Type;
 int32_t id = 0;
@@ -41,9 +42,9 @@ void VisionChattingLoop(uint8_t mode)
 //	if (Color_now == 0)	send_packet.color =1;
     send_packet.header = 0x5A;
     send_packet.shoot_spd =refereeMsg.shoot_spd;
-    send_packet.pitch = IMU_Angle(2);
-    send_packet.yaw = IMU_Angle(0);
-    send_packet.roll = IMU_Angle(1);
+    send_packet.pitch = IMU.cAngle(cimu::Wit_imu,cimu::Pitch);
+    send_packet.yaw = IMU.cAngle(cimu::Wit_imu,cimu::Yaw);
+    send_packet.roll = IMU_Angle(2);
 
 //    if (MyColor == 0)send_packet.enemy_color = 'B';
 //    else send_packet.enemy_color = 'R';

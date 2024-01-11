@@ -140,6 +140,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/IMUC.cpp.obj.d"
   "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/Other/Bno085.cpp.obj"
   "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/Other/Bno085.cpp.obj.d"
+  "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/Other/Wit.cpp.obj"
+  "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/Other/Wit.cpp.obj.d"
   "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/algorithm/AHRS_middleware.c.obj"
   "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/algorithm/AHRS_middleware.c.obj.d"
   "CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/algorithm/user_lib.c.obj"

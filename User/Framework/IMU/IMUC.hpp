@@ -9,6 +9,8 @@
 #include "Bno085.hpp"
 #include "INS_task.h"
 #include "filter.hpp"
+#include "witreg.hpp"
+
 
 class cimu
 {

@@ -54,7 +54,8 @@ void MX_USART6_UART_Init(void);
 
 void DEBUGC_UartIrqHandler(UART_HandleTypeDef* huart);
 void REMOTEC_UartIrqHandler(void);
-void IMU_Receive_Data(void);
+void BNO085_IMU_Receive_Data(void);
+void WIT_IMU_Receive_Data(void);
 /* USER CODE END Prototypes */
 
 #ifdef __cplusplus

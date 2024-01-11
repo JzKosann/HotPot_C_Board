@@ -1816,6 +1816,30 @@ User/Framework/IMU/Other/Bno085.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/Other/Bno085.cpp.s
 .PHONY : User/Framework/IMU/Other/Bno085.cpp.s
 
+User/Framework/IMU/Other/Wit.obj: User/Framework/IMU/Other/Wit.cpp.obj
+.PHONY : User/Framework/IMU/Other/Wit.obj
+
+# target to build an object file
+User/Framework/IMU/Other/Wit.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/Other/Wit.cpp.obj
+.PHONY : User/Framework/IMU/Other/Wit.cpp.obj
+
+User/Framework/IMU/Other/Wit.i: User/Framework/IMU/Other/Wit.cpp.i
+.PHONY : User/Framework/IMU/Other/Wit.i
+
+# target to preprocess a source file
+User/Framework/IMU/Other/Wit.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/Other/Wit.cpp.i
+.PHONY : User/Framework/IMU/Other/Wit.cpp.i
+
+User/Framework/IMU/Other/Wit.s: User/Framework/IMU/Other/Wit.cpp.s
+.PHONY : User/Framework/IMU/Other/Wit.s
+
+# target to generate assembly for a file
+User/Framework/IMU/Other/Wit.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/Other/Wit.cpp.s
+.PHONY : User/Framework/IMU/Other/Wit.cpp.s
+
 User/Framework/IMU/algorithm/AHRS_middleware.obj: User/Framework/IMU/algorithm/AHRS_middleware.c.obj
 .PHONY : User/Framework/IMU/algorithm/AHRS_middleware.obj
 
@@ -2900,6 +2924,9 @@ help:
 	@echo ... User/Framework/IMU/Other/Bno085.obj
 	@echo ... User/Framework/IMU/Other/Bno085.i
 	@echo ... User/Framework/IMU/Other/Bno085.s
+	@echo ... User/Framework/IMU/Other/Wit.obj
+	@echo ... User/Framework/IMU/Other/Wit.i
+	@echo ... User/Framework/IMU/Other/Wit.s
 	@echo ... User/Framework/IMU/algorithm/AHRS_middleware.obj
 	@echo ... User/Framework/IMU/algorithm/AHRS_middleware.i
 	@echo ... User/Framework/IMU/algorithm/AHRS_middleware.s

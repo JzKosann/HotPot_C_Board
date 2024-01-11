@@ -9,12 +9,13 @@ private:
 
 
 public:
+    float _pos_forward;
     void Init();
     void Calc(float SpdInput,float PosInput);
     void SetTar(float tar);
     float Out();
     void SetPara(float Spd_Kp,float Spd_Ki,float Spd_Kd,float Spd_Kn,float Spd_Outmax,
-                 float Pos_Kp,float Pos_Ki,float Pos_Kd,float Pos_Kn,float Pos_Outmax);
+                 float Pos_Kp,float Pos_Ki,float Pos_Kd,float Pos_Kn,float Pos_Outmax,float pos_forward);
 
 };
 

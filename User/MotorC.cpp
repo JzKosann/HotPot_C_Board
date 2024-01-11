@@ -189,6 +189,7 @@ cCar::cCar(cCar::eCarType car_type) : CarType(car_type)
             _pCarInEcd = 347;
             break;
         case MECANUM:
+            _pCarInEcd = 164;
             break;
         case UAV:
             break;
