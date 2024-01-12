@@ -288,7 +288,7 @@ float portSetPitch()
             switch (Car.CtrlMode)
             {
                 case cCar::eRC:
-                    pitch.MotorCtrl.c_PID.setParam(500, 1, 0, 30000, 0,
+                    pitch.MotorCtrl.c_PID.setParam(800, 1, 0, 30000, 0,
                                                    1.8, 0.0, 5, 300, 50);
                     _tar_pos += (float) RC_GetDatas().rc.ch[1] * portion;
                     tar_pos = -pitch.RCcrtl_filter.ckalman.Calc(_tar_pos);
@@ -338,8 +338,8 @@ void portSetShoot()
 
             if (RC_GetDatas().rc.ch[4] <= -550 && is_fric_start == 0)
             {
-                fricL.MotorCtrl.c_ADRC.setSpdTar(-300);
-                fricR.MotorCtrl.c_ADRC.setSpdTar(300);
+                fricL.MotorCtrl.c_ADRC.setSpdTar(-6500);
+                fricR.MotorCtrl.c_ADRC.setSpdTar(6500);
 
                 for (fric_count = 0; fric_count >= 400; fric_count++)
                 {
@@ -359,6 +359,20 @@ void portSetShoot()
         }
             break;
         case cCar::eKey:
+            portHandle(&rc_ctrl.mouse.press_r);
+            if (rc_ctrl.key.Q.Is_Click_Once)
+            {
+                fricL.MotorCtrl.c_ADRC.setSpdTar(-6500);
+                fricR.MotorCtrl.c_ADRC.setSpdTar(6500);
+            }
+            else
+            {
+                fricL.MotorCtrl.c_ADRC.setSpdTar(0);
+                fricR.MotorCtrl.c_ADRC.setSpdTar(0);
+            }
+            if(RC_GetDatas().mouse.press_l.Now_State){
+                rammc.MotorCtrl.c_PID.setSpdTar(80);
+            }
             break;
     }
 
