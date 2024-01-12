@@ -592,12 +592,6 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/Core/Src/mainpp.cpp.obj: E:/competition/2024
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/RGB/lrgb.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Vision/packet.hpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/matlab_PID.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/rtwtypes.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink_types.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/rtwtypes.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink_types.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/refee.hpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/framework_headfile.hpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/bsp/bsp_delay.h \
@@ -3488,12 +3482,6 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.cpp.obj: E:/compe
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/MCUDriver/REMOTEC/remoteio.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/RGB/lrgb.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/matlab_PID.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/rtwtypes.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink_types.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/rtwtypes.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink_types.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/refee.hpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/framework_headfile.hpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/bsp/bsp_delay.h \
@@ -3894,12 +3882,6 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ADRC/ADRC.cpp.obj: E:/competi
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Inc/main.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Vision/packet.hpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/matlab_PID.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/rtwtypes.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink_types.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/rtwtypes.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink_types.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/refee.hpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/framework_headfile.hpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/bsp/bsp_delay.h \
@@ -4183,12 +4165,6 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Gimbal/gimbalc.cpp.obj: E:/co
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Inc/main.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Vision/packet.hpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/matlab_PID.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/rtwtypes.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink_types.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/rtwtypes.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink_types.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/refee.hpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/framework_headfile.hpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/bsp/bsp_delay.h \
@@ -4235,8 +4211,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Gimbal/gimbalc.cpp.obj: E:/co
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/task/struct_typedef.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/devices/BMI088driver.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/task/struct_typedef.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/IMUC.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/Other/witreg.hpp
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/IMUC.hpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/IMUC.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/IMUC.cpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/IMUC.hpp \
@@ -4426,12 +4401,6 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/IMUC.cpp.obj: E:/competit
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Inc/main.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Vision/packet.hpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/matlab_PID.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/rtwtypes.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink_types.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/rtwtypes.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink_types.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/refee.hpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/framework_headfile.hpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/bsp/bsp_delay.h \
@@ -4440,8 +4409,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/IMUC.cpp.obj: E:/competit
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/task/INS_task.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/task/struct_typedef.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/devices/BMI088driver.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/task/struct_typedef.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/Other/witreg.hpp
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/task/struct_typedef.h
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/Other/Bno085.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/Other/Bno085.cpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/Other/Bno085.hpp \
@@ -4509,216 +4477,6 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/Other/Bno085.cpp.obj: E:/
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_locale.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/strings.h \
   D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/string.h
-
-CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/Other/Wit.cpp.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/Other/Wit.cpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/IMUC.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/framework_headfile.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/ADRC/ADRC.hpp \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cstdint \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/c++config.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/os_defines.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/cpu_defines.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/pstl/pstl_config.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/math.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cmath \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/cpp_type_traits.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/ext/type_traits.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/math.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/reent.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/_ansi.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/newlib.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/config.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/machine/ieeefp.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_types.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/machine/_types.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/lock.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/cdefs.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/_ansi.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/std_abs.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/stdlib.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/machine/stdlib.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/alloca.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/specfun.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/functexcept.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/exception_defines.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/ext/numeric_traits.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_pair.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/move.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/type_traits \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_iterator_base_types.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_iterator_base_funcs.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/concept_check.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/debug/assertions.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_iterator.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/ptr_traits.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/debug/debug.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/predefined_ops.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/limits \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/gamma.tcc \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/special_function_util.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/bessel_function.tcc \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/beta_function.tcc \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/ell_integral.tcc \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/exp_integral.tcc \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/hypergeometric.tcc \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/legendre_function.tcc \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/modified_bessel_func.tcc \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/poly_hermite.tcc \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/poly_laguerre.tcc \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/riemann_zeta.tcc \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Debug/DebugC.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Inc/stm32f4xx_hal_conf.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/CMSIS/Include/core_cm4.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/CMSIS/Include/cmsis_version.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/CMSIS/Include/cmsis_compiler.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/CMSIS/Include/cmsis_gcc.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/CMSIS/Include/mpu_armv7.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/stdio.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/types.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/machine/endian.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/machine/_endian.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/select.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_sigset.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_timeval.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/timespec.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_timespec.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_pthreadtypes.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/sched.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/machine/types.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/stdio.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Filters/filter.hpp \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/algorithm \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/utility \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_relops.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/initializer_list \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_algo.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cstdlib \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/algorithmfwd.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_heap.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_tempbuf.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_construct.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/new \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/exception \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/exception.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/exception_ptr.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/cxxabi_init_exception.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/typeinfo \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/hash_bytes.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/nested_exception.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/uniform_int_dist.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/pstl/glue_algorithm_defs.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/functional \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_function.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/backward/binders.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tuple \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/array \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/range_access.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/iterator_concepts.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/concepts \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/range_cmp.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/uses_allocator.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/invoke.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/functional_hash.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/refwrap.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/std_function.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/unordered_map \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/allocator.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/c++allocator.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/ext/new_allocator.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/memoryfwd.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/ext/alloc_traits.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/alloc_traits.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/ext/aligned_buffer.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/hashtable.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/hashtable_policy.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/node_handle.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/optional \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/enable_special_members.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/unordered_map.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/erase_if.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/vector \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_uninitialized.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_vector.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_bvector.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/vector.tcc \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/pstl/execution_defs.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/string.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/_locale.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/strings.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/string.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Filters/kalman.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Filters/kalman.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IWDG/iwdgC.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/LED/LEDC.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/PID/pidC.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/RomteC/RemoteC.h \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cctype \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/ctype.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/MCUDriver/REMOTEC/remoteio.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/RGB/lrgb.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Inc/main.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Vision/packet.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/matlab_PID.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/rtwtypes.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink_types.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/rtwtypes.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink_types.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/refee.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/framework_headfile.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/bsp/bsp_delay.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/task/struct_typedef.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/Other/Bno085.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/task/INS_task.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/task/struct_typedef.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/devices/BMI088driver.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/task/struct_typedef.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/Other/witreg.hpp \
-  D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cstring \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Inc/usart.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Inc/main.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/Other/witreg.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/Other/Wit.h
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/algorithm/AHRS_middleware.c.obj: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/algorithm/AHRS_middleware.c \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/algorithm/AHRS_middleware.h \
@@ -6327,12 +6085,6 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/refee.cpp.obj: E:/competition
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Inc/main.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Vision/packet.hpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/matlab_PID.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/rtwtypes.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink_types.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/rtwtypes.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink_types.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/bsp/bsp_delay.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/task/struct_typedef.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/Other/Bno085.hpp
@@ -6530,12 +6282,6 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/CAN/bsp_can.cpp.obj: E:/compe
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/RGB/lrgb.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Vision/packet.hpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/matlab_PID.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/rtwtypes.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink_types.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/rtwtypes.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink_types.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/refee.hpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/framework_headfile.hpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/bsp/bsp_delay.h \
@@ -6966,12 +6712,6 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/MotorC.cpp.obj: E:/competition/2024_ROB
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Inc/main.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Vision/packet.hpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/matlab_PID.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/rtwtypes.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink_types.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/rtwtypes.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink_types.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/refee.hpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/framework_headfile.hpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/bsp/bsp_delay.h \
@@ -7220,12 +6960,6 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/GimbalTask.cpp.obj: E:/competitio
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/RGB/lrgb.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Vision/packet.hpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/matlab_PID.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/rtwtypes.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink_types.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/rtwtypes.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink_types.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/refee.hpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/framework_headfile.hpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/bsp/bsp_delay.h \
@@ -7457,12 +7191,6 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/visioncom_task.cpp.obj: E:/compet
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/RGB/lrgb.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Vision/packet.hpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/matlab_PID.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/rtwtypes.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink_types.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/rtwtypes.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink_types.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/refee.hpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/framework_headfile.hpp \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/bsp/bsp_delay.h \
@@ -7481,9 +7209,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/visioncom_task.cpp.obj: E:/compet
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/task/INS_task.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/task/struct_typedef.h \
   E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/devices/BMI088driver.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/task/struct_typedef.h \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/IMUC.hpp \
-  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/Other/witreg.hpp
+  E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/task/struct_typedef.h
 
 
 D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/streambuf.tcc:
@@ -8078,22 +7804,6 @@ E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framew
 
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Vision/packet.hpp:
 
-D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/signal.h:
-
-E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.hpp:
-
-E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/devices/ist8310driver.h:
-
-E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/rtwtypes.h:
-
-E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c:
-
-E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink_types.h:
-
-E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.hpp:
-
-E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink_types.h:
-
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/bsp/bsp_delay.h:
 
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c:
@@ -8140,6 +7850,10 @@ D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/inclu
 
 D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/errno.h:
 
+E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.hpp:
+
+D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/signal.h:
+
 D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/signal.h:
 
 D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/sys/time.h:
@@ -8173,6 +7887,10 @@ D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/inclu
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/USB_DEVICE/App/usbd_desc.c:
 
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c:
+
+E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink_types.h:
+
+E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c:
 
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c:
 
@@ -8244,19 +7962,9 @@ E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framew
 
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Filters/kalman.cpp:
 
-E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/Other/witreg.hpp:
-
 D:/environment_for_clion_stm32/gcc-arm-none-eabi/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/charconv.h:
 
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/Other/Bno085.cpp:
-
-E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/MotorC.cpp:
-
-E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/Other/Wit.cpp:
-
-E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/MCUDriver/LED/ledio.cpp:
-
-E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/Other/Wit.h:
 
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/algorithm/user_lib.c:
 
@@ -8277,6 +7985,10 @@ E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framew
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/devices/BMI088Middleware.h:
 
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/devices/BMI088driver.c:
+
+E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/rtwtypes.h:
+
+E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/devices/ist8310driver.h:
 
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/devices/ist8310driver_middleware.h:
 
@@ -8344,6 +8056,10 @@ E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framew
 
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.cpp:
 
+E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.hpp:
+
+E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink_types.h:
+
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/refee.cpp:
 
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/LOG/log.c:
@@ -8352,6 +8068,10 @@ E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/LOG/lo
 
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/MCUDriver/CAN/bsp_can.cpp:
 
+E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/MCUDriver/LED/ledio.cpp:
+
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/MCUDriver/REMOTEC/remoteio.cpp:
+
+E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/MotorC.cpp:
 
 E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Tasks/visioncom_task.cpp:

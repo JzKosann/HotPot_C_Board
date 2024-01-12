@@ -5,7 +5,6 @@
 #include "math.h"
 #include "INS_task.h"
 #include "IMUC.hpp"
-#include "matlab_PID.hpp"
 
 
 /** Motor List **/
@@ -17,7 +16,7 @@ cMotor rammc;
 #define TIMpiece    0.002   //控制周期，时间切片
 
 /** Car **/             //choose your car here
-cCar Car(cCar::ONMI);
+cCar Car(cCar::MECANUM);
 /**
  * ONMI 全向
  * MECANUM 麦步
@@ -29,9 +28,8 @@ cCar Car(cCar::ONMI);
  */
 void Filter_Init()
 {
-    yaw.autoAim_filter.cLowPass.Init(20, TIMpiece);
-    pitch.autoAim_filter.cLowPass.Init(10, TIMpiece);
-    yaw.autoAim_filter.ckalman.Init(20, 200);
+    yaw.autoAim_filter.cLowPass.Init(10, 0.005);
+    pitch.autoAim_filter.cLowPass.Init(10, 0.005);
     yaw.RCcrtl_filter.ckalman.Init(40, 200);
     pitch.RCcrtl_filter.ckalman.Init(40, 200);
     IMU.yaw_filter.ckalman.Init(10, 60);
@@ -85,7 +83,7 @@ void ChassisInit()
 
 bool CarInit()//
 {
-    Car.CtrlMode = cCar::eRC;
+    Car.ShootMode = cCar::eRC;
     Car.is_protect = true;
     return false;
 }
@@ -104,16 +102,9 @@ void Gimbal_Init()
 
 bool portSetProtect()
 {
-    if (RC_GetNewData)
-    {
-        if (RC_GetDatas().rc.s[0] == 1) Car.is_protect = true;
-        else Car.is_protect = false;
-        RC_GetNewData = false;
-    }
-    else
-    {
-        Car.is_protect = false;
-    }
+    if (RC_GetDatas().rc.s[0] == 1) Car.is_protect = true;
+    else Car.is_protect = false;
+
     return Car.is_protect;
 }
 
@@ -180,87 +171,57 @@ float portSetYaw()
 {
     static float portion = TIMpiece;
     static float tar_pos = 0;
-    static float _tar_pos = 0;
-    switch (Car.CarType)
+    switch (Car.ShootMode)
     {
 
-        case cCar::ONMI:
-            switch (Car.CtrlMode)
+        case cCar::eRC:
+            switch (Car.CarType)
             {
-                case cCar::eRC:
-                    yaw_mat.SetPara(2000, 1400, 0, 0, 30000,
-                                    1.8, 0, 0, 1, 50, 5);
-                    _tar_pos -= (float) RC_GetDatas().rc.ch[0] * portion * 360.0f / 660.0f;
-                    tar_pos = yaw.RCcrtl_filter.ckalman.Calc(_tar_pos);
+
+                case cCar::ONMI:
+
+
                     break;
-                case cCar::eAutoAim:
-                    yaw_mat.SetPara(1500, 1000, 0, 0, 30000,
-                                    0.5, 0, 0.005, 200, 50, 0);
-                    if (yaw.autoaimflag)
-                    {
-                        static float yaw_autoaim;
-                        tar_pos = IMU.cAngle(cimu::Wit_imu, cimu::Yaw) + yaw.autoAim_filter.cLowPass.filter(vision_pkt.offset_yaw);
-                        _tar_pos = IMU.cAngle(cimu::Wit_imu, cimu::Yaw) + vision_pkt.offset_yaw;
-                        yaw.autoaimflag = false;
-                    }
+                case cCar::MECANUM:
+                    yaw_mat.SetPara(2500, 1800, 0, 0, 30000,
+                                    1.5, 0, 2, 0.000000001, 50);
                     break;
-                case cCar::eKey:
+                case cCar::UAV:
+                    yaw_mat.SetPara(200, 500, 0, 100, 30000,
+                                    1, 0, 0, 100, 50);
                     break;
+            }
+            tar_pos -= (float) RC_GetDatas().rc.ch[0] * portion * 360.0f / 660.0f;
+            yaw.RCcrtl_filter.ckalman.Calc(tar_pos);
+
+            break;
+        case cCar::eAutoAim:
+            switch (Car.CarType)
+            {
+
+                case cCar::ONMI:
+
+                    break;
+                case cCar::MECANUM:
+                    yaw_mat.SetPara(1000, 500, 0, 200, 30000,
+                                    0.1, 0, 0, 100, 200);
+                    break;
+                case cCar::UAV:
+
+                    break;
+            }
+            if (yaw.autoaimflag)
+            {
+                tar_pos = IMU_Angle(0) + yaw.autoAim_filter.cLowPass.filter(vision_pkt.offset_yaw) * 1.0f;
+                yaw.autoaimflag = false;
             }
             break;
-        case cCar::MECANUM:
-            switch (Car.CtrlMode)
-            {
-                case cCar::eRC:
-                    yaw_mat.SetPara(2000, 1400, 0, 0, 30000,
-                                    1.8, 0, 0, 1, 50, 5);
-                    _tar_pos -= (float) RC_GetDatas().rc.ch[0] * portion * 360.0f / 660.0f;
-                    tar_pos = yaw.RCcrtl_filter.ckalman.Calc(_tar_pos);
-                    break;
-                case cCar::eAutoAim:
-                    yaw_mat.SetPara(1500, 1000, 0, 0, 30000,
-                                    0.5, 0, 0.005, 200, 50, 0);
-                    if (yaw.autoaimflag)
-                    {
-                        static float yaw_autoaim;
-                        tar_pos = IMU.cAngle(cimu::Wit_imu, cimu::Yaw) + yaw.autoAim_filter.cLowPass.filter(vision_pkt.offset_yaw);
-                        _tar_pos = IMU.cAngle(cimu::Wit_imu, cimu::Yaw) + vision_pkt.offset_yaw;
-                        yaw.autoaimflag = false;
-                    }
-                    break;
-                case cCar::eKey:
-                    break;
-            }
-            break;
-        case cCar::UAV:
-            switch (Car.CtrlMode)
-            {
-                case cCar::eRC:
-                    yaw_mat.SetPara(2000, 1400, 0, 0, 30000,
-                                    1.8, 0, 0, 1, 50, 5);
-                    _tar_pos -= (float) RC_GetDatas().rc.ch[0] * portion * 360.0f / 660.0f;
-                    tar_pos = yaw.RCcrtl_filter.ckalman.Calc(_tar_pos);
-                    break;
-                case cCar::eAutoAim:
-                    yaw_mat.SetPara(1500, 1000, 0, 0, 30000,
-                                    0.5, 0, 0.005, 200, 50, 0);
-                    if (yaw.autoaimflag)
-                    {
-                        static float yaw_autoaim;
-                        tar_pos = IMU.cAngle(cimu::Wit_imu, cimu::Yaw) + yaw.autoAim_filter.cLowPass.filter(vision_pkt.offset_yaw);
-                        _tar_pos = IMU.cAngle(cimu::Wit_imu, cimu::Yaw) + vision_pkt.offset_yaw;
-                        yaw.autoaimflag = false;
-                    }
-                    break;
-                case cCar::eKey:
-                    break;
-            }
+        case cCar::eKey:
             break;
     }
 
 //    usart_printf("%.2f,%.2f\r\n", IMU_Angle(0), IMU_Angle(1));
-//    usart_printf("%.2f,%.2f\r\n",tar_pos,IMU.cAngle(cimu::Wit_imu,cimu::Yaw));
-//    usart_printf("%.2f,%.2f,%.2f,%.2f\r\n", tar_pos, _tar_pos, IMU.cAngle(cimu::Wit_imu, cimu::Pitch), IMU.cAngle(cimu::Wit_imu, cimu::Yaw));
+
     return tar_pos;
 }
 
@@ -271,167 +232,99 @@ float portSetPitch()
 {
     static float portion = TIMpiece;
     static float tar_pos = 0;
-
-    switch (Car.CarType)
+    switch (Car.ShootMode)
     {
 
-        case cCar::ONMI:
-            switch (Car.CtrlMode)
+        case cCar::eRC:
+            switch (Car.CarType)
             {
-                case cCar::eRC:
-                    pitch.MotorCtrl.c_PID.setParam(300, 1, 0, 30000, 0,
-                                                   1, 0.0, 5, 300, 50);
-                    tar_pos -= (float) RC_GetDatas().rc.ch[1] * portion;
-                    pitch.RCcrtl_filter.ckalman.Calc(tar_pos);
-                    break;
-                case cCar::eAutoAim:
-                    if ((-tar_pos - IMU.cAngle(cimu::Wit_imu, cimu::Pitch)) < -5)
-                        pitch.MotorCtrl.c_PID.setParam(10, 0.5, 0, 30000, 0,
-                                                       3, 0.0, 0, 300, 0);
-                    else
-                        pitch.MotorCtrl.c_PID.setParam(100, 1.2, 0, 30000, 0,
-                                                       2, 0.0, 10, 300, 5);
-                    if (pitch.autoaimflag)
-                    {
-                        tar_pos = -IMU.cAngle(cimu::Wit_imu, cimu::Pitch) + pitch.autoAim_filter.cLowPass.filter(vision_pkt.offset_pitch);
-                        pitch.autoaimflag = false;
-                    }
-                    break;
-                case cCar::eKey:
-                    break;
-            }
-            break;
-        case cCar::MECANUM:
-            switch (Car.CtrlMode)
-            {
-                case cCar::eRC:
-                    pitch.MotorCtrl.c_PID.setParam(300, 1, 0, 30000, 0,
-                                                   1, 0.0, 5, 300, 50);
-                    tar_pos -= (float) RC_GetDatas().rc.ch[1] * portion;
-                    pitch.RCcrtl_filter.ckalman.Calc(tar_pos);
-                    break;
-                case cCar::eAutoAim:
-                    if ((-tar_pos - IMU.cAngle(cimu::Wit_imu, cimu::Pitch)) < -5)
-                        pitch.MotorCtrl.c_PID.setParam(10, 0.5, 0, 30000, 0,
-                                                       3, 0.0, 0, 300, 0);
-                    else
-                        pitch.MotorCtrl.c_PID.setParam(100, 1.2, 0, 30000, 0,
-                                                       2, 0.0, 10, 300, 5);
-                    if (pitch.autoaimflag)
-                    {
-                        tar_pos = -IMU.cAngle(cimu::Wit_imu, cimu::Pitch) + pitch.autoAim_filter.cLowPass.filter(vision_pkt.offset_pitch);
-                        pitch.autoaimflag = false;
-                    }
-                    break;
-                case cCar::eKey:
-                    break;
-            }
-            break;
-        case cCar::UAV:
-        {
-            switch (Car.CtrlMode)
-            {
-                case cCar::eRC:
-                    pitch.MotorCtrl.c_PID.setParam(300, 1, 0, 30000, 0,
-                                                   1, 0.0, 5, 300, 50);
-                    tar_pos -= (float) RC_GetDatas().rc.ch[1] * portion;
-                    pitch.RCcrtl_filter.ckalman.Calc(tar_pos);
-                    break;
-                case cCar::eAutoAim:
-                    if ((-tar_pos - IMU.cAngle(cimu::Wit_imu, cimu::Pitch)) < -5)
-                        pitch.MotorCtrl.c_PID.setParam(10, 0.5, 0, 30000, 0,
-                                                       3, 0.0, 0, 300, 0);
-                    else
-                        pitch.MotorCtrl.c_PID.setParam(100, 1.2, 0, 30000, 0,
-                                                       2, 0.0, 10, 300, 5);
-                    if (pitch.autoaimflag)
-                    {
-                        tar_pos = -IMU.cAngle(cimu::Wit_imu, cimu::Pitch) + pitch.autoAim_filter.cLowPass.filter(vision_pkt.offset_pitch);
-                        pitch.autoaimflag = false;
-                    }
-                    break;
-                case cCar::eKey:
-                    break;
-            }
-            break;
-        }
-    }
 
+                case cCar::ONMI:
+                    pitch.MotorCtrl.c_PID.setParam(100, 20, 0, 30000,
+                                                   1, 0.00, 0, 300);
+                    break;
+                case cCar::MECANUM:
+                    pitch.MotorCtrl.c_PID.setParam(500, 1, 0, 30000,0,
+                                                   1.8, 0.0, 5, 300,50);
+                    break;
+                case cCar::UAV:
+                    pitch.MotorCtrl.c_PID.setParam(300, 5, 0, 30000,
+                                                   2, 0.00, 0, 300);
+                    break;
+            }
+            tar_pos += (float) RC_GetDatas().rc.ch[1] * portion;
+            if (tar_pos >= 30) tar_pos = 30;
+            else if (tar_pos <= -23) tar_pos = -23;
+            pitch.RCcrtl_filter.ckalman.Calc(tar_pos);
+            break;
+        case cCar::eAutoAim:
+            switch (Car.CarType)
+            {
+
+                case cCar::ONMI:
+                    pitch.MotorCtrl.c_PID.setParam(1000, 2, 0, 30000,
+                                                   2, 0.00, 0, 300);
+                    break;
+                case cCar::MECANUM:
+                    pitch.MotorCtrl.c_PID.setParam(1000, 2, 0, 30000,
+                                                   2, 0.00, 0, 300);
+                    break;
+                case cCar::UAV:
+                    pitch.MotorCtrl.c_PID.setParam(1000, 2, 0, 30000,
+                                                   2, 0.00, 0, 300);
+                    break;
+            }
+            if (pitch.autoaimflag)
+            {
+                tar_pos = IMU_Angle(1) - pitch.autoAim_filter.cLowPass.filter(vision_pkt.offset_pitch) * 1.0f;
+                pitch.autoaimflag = false;
+            }
+            if (tar_pos >= 30) tar_pos = 30;
+            else if (tar_pos <= -30) tar_pos = -30;
+            break;
+        case cCar::eKey:
+            break;
+    }
 //    usart_printf("%.2f,%.2f,%.2f\r\n", pitch.getEcd().total_angle,tar_pos,pitch.getEcd().torque_current);
-//    usart_printf("%.2f,%.2f,%.2f\r\n", -tar_pos, -vision_pkt.offset_pitch, IMU.cAngle(cimu::Wit_imu, cimu::Pitch));
-    if (tar_pos >= 30) tar_pos = 30;
-    else if (tar_pos <= -23) tar_pos = -23;
+    usart_printf("%.2f,%.2f\r\n",tar_pos, IMU.cAngle(cimu::C_imu, cimu::Roll));
     return tar_pos;
 }
 
 void portSetShoot()
 {
+    if (RC_GetDatas().rc.ch[4] > 100)
+    {
+        rammc.MotorCtrl.c_PID.setSpdTar(-RC_GetDatas().rc.ch[4] * 0.2);
+    }
+    else if (RC_GetDatas().rc.ch[4] >= -300 && RC_GetDatas().rc.ch[4] <= -100)
+        rammc.MotorCtrl.c_PID.setSpdTar(-RC_GetDatas().rc.ch[4] * 0.5);
+    else
+        rammc.MotorCtrl.c_PID.setSpdTar(0);
 
     static uint8_t is_fric_start = 0;
-    switch (Car.CtrlMode)
+    uint16_t fric_count = 0;
+
+
+    if (RC_GetDatas().rc.ch[4] <= -550 && is_fric_start == 0)
     {
-        case cCar::eRC:
+        fricL.MotorCtrl.c_ADRC.setSpdTar(-300);
+        fricR.MotorCtrl.c_ADRC.setSpdTar(300);
+
+        for (fric_count = 0; fric_count >= 400; fric_count++)
         {
-
-            if (RC_GetDatas().rc.ch[4] > 100)
-            {
-                rammc.MotorCtrl.c_PID.setSpdTar(-RC_GetDatas().rc.ch[4] * 0.2);
-            }
-            else if (RC_GetDatas().rc.ch[4] >= -300 && RC_GetDatas().rc.ch[4] <= -100)
-                rammc.MotorCtrl.c_PID.setSpdTar(-RC_GetDatas().rc.ch[4] * 0.5);
-            else
-                rammc.MotorCtrl.c_PID.setSpdTar(0);
-
-
-            uint16_t fric_count = 0;
-            if (RC_GetDatas().rc.ch[4] <= -550 && is_fric_start == 0)
-            {
-                fricL.MotorCtrl.c_ADRC.setSpdTar(-6500);
-                fricR.MotorCtrl.c_ADRC.setSpdTar(6500);
-
-                for (fric_count = 0; fric_count >= 400; fric_count++)
-                {
-                }
-                is_fric_start = 1;
-            }
-            else if (RC_GetDatas().rc.ch[4] <= -550 && is_fric_start == 1)
-            {
-                fricL.MotorCtrl.c_ADRC.setSpdTar(0);
-                fricR.MotorCtrl.c_ADRC.setSpdTar(0);
-
-                for (fric_count = 0; fric_count >= 400; fric_count++)
-                {
-                }
-                is_fric_start = 0;
-            }
         }
-            break;
-        case cCar::eKey:
-        {
-            portHandle(&rc_ctrl.key.Q);
-            if (rc_ctrl.key.Q.Is_Click_Once)
-            {
-                fricL.MotorCtrl.c_ADRC.setSpdTar(-6500);
-                fricR.MotorCtrl.c_ADRC.setSpdTar(6500);
-            }
-            else
-            {
-                fricL.MotorCtrl.c_ADRC.setSpdTar(0);
-                fricR.MotorCtrl.c_ADRC.setSpdTar(0);
-            }
-
-            if (RC_GetDatas().mouse.press_l.Now_State)
-            {
-                rammc.MotorCtrl.c_PID.setSpdTar(120);
-            }
-            else
-            {
-                rammc.MotorCtrl.c_PID.setSpdTar(0);
-            }
-        }
-            break;
+        is_fric_start = 1;
     }
+    else if (RC_GetDatas().rc.ch[4] <= -550 && is_fric_start == 1)
+    {
+        fricL.MotorCtrl.c_ADRC.setSpdTar(0);
+        fricR.MotorCtrl.c_ADRC.setSpdTar(0);
 
+        for (fric_count = 0; fric_count >= 400; fric_count++)
+        {
+        }
+        is_fric_start = 0;
+    }
 }
 
 float portSetLeft()
@@ -439,13 +332,13 @@ float portSetLeft()
     switch (RC_GetDatas().rc.s[1])
     {
         case 1:
-            Car.CtrlMode = cCar::eKey;
+            Car.ShootMode = cCar::eKey;
             break;
         case 2:
-            Car.CtrlMode = cCar::eAutoAim;
+            Car.ShootMode = cCar::eAutoAim;
             break;
         case 3:
-            Car.CtrlMode = cCar::eRC;
+            Car.ShootMode = cCar::eRC;
             break;
     }
     return 1;
@@ -453,21 +346,13 @@ float portSetLeft()
 
 float portSetRight()
 {
-    switch (Car.CtrlMode)
+
+    if (RC_GetDatas().rc.s[0] == 2)
     {
-
-        case cCar::eRC:
-            if (RC_GetDatas().rc.s[0] == 2)
-            {
-                setSpin(50);
-            }
-            else
-                setSpin(0);
-            break;
-        case cCar::eKey:
-            break;
+        setSpin(50);
     }
-
+    else
+        setSpin(0);
 
     return 1;
 }
@@ -479,14 +364,13 @@ float portSetRight()
 void getCrtlData()
 {
 
-
+    yaw_mat.SetTar(portSetYaw());
+    pitch.MotorCtrl.c_PID.setPosTar(portSetPitch());
     portSetLeft();
     portSetRight();
     portSetShoot();
     portSetMove(RC_GetDatas().rc.ch[2] * 200.0f / 660.0f, RC_GetDatas().rc.ch[3] * 200.0f / 660.0f);
 
-    yaw_mat.SetTar(portSetYaw());
-    pitch.MotorCtrl.c_PID.setPosTar(portSetPitch());
 }
 /**********************************Motor spdLoop and send current**********************************************/
 /**
@@ -504,9 +388,8 @@ void Can_Calc()
     }
     else
     {
-        pitch.MotorCtrl.c_PID.posLoop(-IMU.cAngle(cimu::Wit_imu, cimu::Pitch), -IMU.cSpeed(cimu::Wit_imu, cimu::Pitch));
-//        yaw_mat.Calc(IMU.cSpeed(cimu::C_imu,cimu::Yaw),IMU.yaw_filter.ckalman.Calc(IMU.cAngle(cimu::Bno085_imu,cimu::Yaw)));
-        yaw_mat.Calc(IMU.cSpeed(cimu::Wit_imu, cimu::Yaw), IMU.cAngle(cimu::Wit_imu, cimu::Yaw));
+        pitch.MotorCtrl.c_PID.posLoop(IMU.cAngle(cimu::C_imu, cimu::Roll), IMU.cSpeed(cimu::C_imu, cimu::Roll));
+        yaw_mat.Calc(IMU.cSpeed(cimu::C_imu,cimu::Yaw),IMU.yaw_filter.ckalman.Calc(IMU.cAngle(cimu::Bno085_imu,cimu::Yaw)));
 
     }
 
@@ -529,12 +412,12 @@ void Can_Calc()
 void Can_Send()
 {
 //    yaw.canSend(cMotor::ePid);
-    yaw.canSend(cMotor::eExternal, (int16_t) yaw_mat.Out());
+//    yaw.canSend(cMotor::eExternal, (int16_t) yaw_mat.Out());
     pitch.canSend(cMotor::ePid);
 //    fricR.canSend(cMotor::eAdrc);
 //    fricL.canSend(cMotor::eAdrc);
 //    rammc.canSend(cMotor::ePid);
-    sendChassisYaw(-(yaw.getEcd().total_angle - Car.getPCarInEcd()));
+//    sendChassisYaw(-(yaw.getEcd().total_angle - Car.getPCarInEcd()));
 
 }
 
@@ -569,8 +452,7 @@ void GimbalLoop()
         Can_Send();
 
     }
-
-    usart_printf("%d,%d,%d\r\n", RC_GetDatas().key.W, RC_GetDatas().mouse.y, RC_GetDatas().mouse.z);
+//    usart_printf("%.2f,%.2f,%.2f,%.2f\r\n", Bno085_IMU_Angle(0),);
     CanMxg();
 
 }
