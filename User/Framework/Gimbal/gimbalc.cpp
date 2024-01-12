@@ -247,7 +247,7 @@ float portSetYaw()
             }
             break;
     }
-    usart_printf("%.2f,%.2f\r\n", tar_pos, IMU.cAngle(cimu::Wit_imu, cimu::Yaw));
+//    usart_printf("%.2f,%.2f\r\n", tar_pos, IMU.cAngle(cimu::Wit_imu, cimu::Yaw));
     return tar_pos;
 }
 
@@ -298,7 +298,7 @@ float portSetPitch()
                                                    2, 0.00, 0, 300);
                     if (pitch.autoaimflag)
                     {
-                        tar_pos = IMU.cAngle(cimu::Wit_imu, cimu::Pitch) - pitch.autoAim_filter.cLowPass.filter(vision_pkt.offset_pitch) * 1.0f;
+                        tar_pos = -IMU.cAngle(cimu::Wit_imu, cimu::Pitch) + pitch.autoAim_filter.cLowPass.filter(vision_pkt.offset_pitch) * 1.0f;
                         pitch.autoaimflag = false;
                     }
                     break;
@@ -309,8 +309,9 @@ float portSetPitch()
         case cCar::UAV:
             break;
     }
-    if (tar_pos >= 30) tar_pos = 30;
-    else if (tar_pos <= -30) tar_pos = -30;
+    if (tar_pos >= 25) tar_pos = 25;
+    else if (tar_pos <= -23) tar_pos = -23;
+    usart_printf("%.2f,%.2f\r\n", tar_pos, IMU.cAngle(cimu::Wit_imu, cimu::Pitch));
 
     return tar_pos;
 }
