@@ -44,7 +44,7 @@ private:
 public:
     static void errorHandle(eErrorType error_type);
     void canInit(uint32_t can_id_t, CAN_HandleTypeDef *hcan, int motor_type);
-    void canSend(eController controller_type,int16_t current);
+    void canSend(eController controller_type, int16_t current);
     void canSend(eController controller_type);
     void canRead(uint32_t rx_std_id, uint8_t rx_buffer[8]);
     Motor_measure_f &getEcd();
@@ -71,12 +71,19 @@ public:
     typedef enum
     {
         eRC,
-        eAutoAim,
+        eRC_Autoaim,
         eKey
     } eCtrlMode;
+    typedef enum
+    {
+        eNormal,
+        eAutoaim
+    } eShootMode;
+
 
     eCarType CarType;
     eCtrlMode CtrlMode;
+    eShootMode ShootMode;
     explicit cCar(eCarType car_type);
     [[nodiscard]] float getPCarInEcd() const;
     void setPCarInEcd(float p_car_in_ecd);

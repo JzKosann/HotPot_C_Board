@@ -45,12 +45,12 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
             static uint8_t send_flag = 0;
             if (send_flag)
             {
-//                ChassisVel.sendBuff();
+                ChassisVel.sendBuff();
                 send_flag = 0;
             }
             else
             {
-//                ChassisYaw.sendBuff();
+                ChassisYaw.sendBuff();
                 send_flag = 1;
             }
         }

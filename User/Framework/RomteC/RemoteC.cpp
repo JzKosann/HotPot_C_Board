@@ -156,13 +156,17 @@ void REMOTEC_UartIrqHandler(void)
   * @param[out]     rc_ctrl: 遥控器数据指针
   * @retval         none
   */
-bool RC_GetNewData = false;//检测键值是否在发送/更新 如何判断是否连接键盘呢？
+Online_detect_t RC_GetNewData;
+
 static void sbus_to_rc(volatile const uint8_t *sbus_buf, RC_ctrl_t *rc_ctrl)
 {
     if (sbus_buf == NULL || rc_ctrl == NULL)
     {
         return;
     }
+    RC_GetNewData.is_online = true;
+    RC_GetNewData.now_state = true;
+
     rc_ctrl->rc.ch[0] = (sbus_buf[0] | (sbus_buf[1] << 8)) & 0x07ff;                //!< Channel 0
     rc_ctrl->rc.ch[1] = ((sbus_buf[1] >> 3) | (sbus_buf[2] << 5)) & 0x07ff;         //!< Channel 1
     rc_ctrl->rc.ch[2] = ((sbus_buf[2] >> 6) | (sbus_buf[3] << 2) |                  //!< Channel 2
@@ -200,12 +204,6 @@ static void sbus_to_rc(volatile const uint8_t *sbus_buf, RC_ctrl_t *rc_ctrl)
     rc_ctrl->rc.ch[2] -= RC_CH_VALUE_OFFSET;
     rc_ctrl->rc.ch[3] -= RC_CH_VALUE_OFFSET;
     rc_ctrl->rc.ch[4] -= RC_CH_VALUE_OFFSET;
-    RC_GetNewData = true;
-}
-
-bool RC_ErrorData()
-{
-    return RC_GetNewData;
 }
 
 void RC_DataHandle(RC_ctrl_t *rc_ctrl)  //抑制零漂
@@ -234,8 +232,13 @@ RC_ctrl_t RC_GetDatas(void)
 */
 void portHandle(Key_State *port)
 {
-    if (port->Now_State == 1 && port->Last_State == 0) port->Is_Click_Once = 1;
-    else port->Is_Click_Once = 0;
+    if (port->Now_State == 1 && port->Last_State == 0)
+    {
+        if (port->Is_Click_Once)
+            port->Is_Click_Once = 0;
+        else
+            port->Is_Click_Once = 1;
+    }
     port->Last_State = port->Now_State;
 }
 
