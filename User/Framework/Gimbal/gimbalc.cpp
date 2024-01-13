@@ -158,7 +158,7 @@ bool portSetFollowUp()      //随动
             mode_judge = (RC_GetDatas().rc.s[0] == 3);
             break;
         case cCar::eKey:
-            mode_judge = (rc_ctrl.key.F.Is_Click_Once!=1);
+            mode_judge = (rc_ctrl.key.F.Is_Click_Once != 1);
             break;
     }
     if (mode_judge)
@@ -508,9 +508,18 @@ void portSetShoot()
     }
 
 
-    if (rammc.getEcd().torque_current < -6000)
+    static uint8_t stalled_count = 0;   //堵转处理
+    static bool is_stalled = false;
+    if (rammc.getEcd().torque_current < -6000)is_stalled = true;
+    if (is_stalled)
     {
         rammc.MotorCtrl.c_PID.setSpdTar(80);
+        stalled_count++;
+        if (stalled_count >= 50)
+        {
+            stalled_count = 0;
+            is_stalled = false;
+        }
     }
 
 //    usart_printf("%d,%d\r\n", RC_GetDatas().key.Q.Is_Click_Once, RC_GetDatas().mouse.press_r.Is_Click_Once);
