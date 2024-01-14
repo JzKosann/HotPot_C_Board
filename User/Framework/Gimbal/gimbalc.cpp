@@ -124,8 +124,34 @@ bool portSetProtect()
 }
 
 
-void portSetMove(float vx, float vy)
+void portSetMove()
 {
+    float vx = 0;
+    float vy = 0;
+    switch (Car.CtrlMode)
+    {
+
+        case cCar::eRC:
+            vx = RC_GetDatas().rc.ch[2] * 200.0f / 660.0f;
+            vy = RC_GetDatas().rc.ch[3] * 200.0f / 660.0f;
+            break;
+        case cCar::eRC_Autoaim:
+            vx = RC_GetDatas().rc.ch[2] * 200.0f / 660.0f;
+            vy = RC_GetDatas().rc.ch[3] * 200.0f / 660.0f;
+            break;
+        case cCar::eKey:
+            if (rc_ctrl.key.W)
+                vx = rc_ctrl.key.W * 200.0f;
+            else if(rc_ctrl.key.S)
+                vx = -rc_ctrl.key.S * 200.0f;
+            if (rc_ctrl.key.A)
+                vx = rc_ctrl.key.A * 200.0f;
+            else if(rc_ctrl.key.D)
+                vx = -rc_ctrl.key.D * 200.0f;
+            break;
+    }
+
+
     ChassisVel.CANx_send_data[0] = (int16_t) vx >> 8;
     ChassisVel.CANx_send_data[1] = (int16_t) vx & 0xff;
     ChassisVel.CANx_send_data[2] = (int16_t) vy >> 8;
@@ -500,7 +526,7 @@ void portSetShoot()
 
             if (RC_GetDatas().mouse.press_l.Now_State && is_shoot)
             {
-                rammc.MotorCtrl.c_PID.setSpdTar(-60);
+                rammc.MotorCtrl.c_PID.setSpdTar(-80);
             }
             else
                 rammc.MotorCtrl.c_PID.setSpdTar(0);
@@ -513,7 +539,7 @@ void portSetShoot()
     if (rammc.getEcd().torque_current < -6000)is_stalled = true;
     if (is_stalled)
     {
-        rammc.MotorCtrl.c_PID.setSpdTar(80);
+        rammc.MotorCtrl.c_PID.setSpdTar(150);
         stalled_count++;
         if (stalled_count >= 50)
         {
@@ -577,7 +603,7 @@ void getCrtlData()
     portSetLeft();
     portSetRight();
     portSetShoot();
-    portSetMove(RC_GetDatas().rc.ch[2] * 200.0f / 660.0f, RC_GetDatas().rc.ch[3] * 200.0f / 660.0f);
+    portSetMove();
 
 }
 /**********************************Motor spdLoop and send current**********************************************/
