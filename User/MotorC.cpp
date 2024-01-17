@@ -65,7 +65,7 @@ void cMotor::canInit(uint32_t can_id_t, CAN_HandleTypeDef *hcan_t, int motor_typ
     ID = _can_id - 0x200;
     switch (_motor_type)
     {
-        case GM_6020:
+        case GM_6020_volt:
             if (_usehcan == &hcan1)
             {
                 tx_channel = (ID <= 8) ? 0 : 2;
@@ -125,7 +125,7 @@ void cMotor::canInit(uint32_t can_id_t, CAN_HandleTypeDef *hcan_t, int motor_typ
     switch (_motor_type)
     {
 
-        case GM_6020:
+        case GM_6020_volt:
             _ratio = 1;
             break;
         case M_3508:

@@ -14,7 +14,7 @@ class cMotor
 public:
     typedef enum
     {
-        GM_6020,
+        GM_6020_volt,
         M_3508,
         M_2006,
         M_3508_p19,

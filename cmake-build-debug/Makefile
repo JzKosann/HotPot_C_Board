@@ -1744,30 +1744,6 @@ User/Framework/Filters/kalman.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Filters/kalman.cpp.s
 .PHONY : User/Framework/Filters/kalman.cpp.s
 
-User/Framework/Gimbal/gimbalc.obj: User/Framework/Gimbal/gimbalc.cpp.obj
-.PHONY : User/Framework/Gimbal/gimbalc.obj
-
-# target to build an object file
-User/Framework/Gimbal/gimbalc.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Gimbal/gimbalc.cpp.obj
-.PHONY : User/Framework/Gimbal/gimbalc.cpp.obj
-
-User/Framework/Gimbal/gimbalc.i: User/Framework/Gimbal/gimbalc.cpp.i
-.PHONY : User/Framework/Gimbal/gimbalc.i
-
-# target to preprocess a source file
-User/Framework/Gimbal/gimbalc.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Gimbal/gimbalc.cpp.i
-.PHONY : User/Framework/Gimbal/gimbalc.cpp.i
-
-User/Framework/Gimbal/gimbalc.s: User/Framework/Gimbal/gimbalc.cpp.s
-.PHONY : User/Framework/Gimbal/gimbalc.s
-
-# target to generate assembly for a file
-User/Framework/Gimbal/gimbalc.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Gimbal/gimbalc.cpp.s
-.PHONY : User/Framework/Gimbal/gimbalc.cpp.s
-
 User/Framework/IMU/IMUC.obj: User/Framework/IMU/IMUC.cpp.obj
 .PHONY : User/Framework/IMU/IMUC.obj
 
@@ -2440,6 +2416,30 @@ User/Framework/refee.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/refee.cpp.s
 .PHONY : User/Framework/refee.cpp.s
 
+User/Gimbal/gimbalc.obj: User/Gimbal/gimbalc.cpp.obj
+.PHONY : User/Gimbal/gimbalc.obj
+
+# target to build an object file
+User/Gimbal/gimbalc.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Gimbal/gimbalc.cpp.obj
+.PHONY : User/Gimbal/gimbalc.cpp.obj
+
+User/Gimbal/gimbalc.i: User/Gimbal/gimbalc.cpp.i
+.PHONY : User/Gimbal/gimbalc.i
+
+# target to preprocess a source file
+User/Gimbal/gimbalc.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Gimbal/gimbalc.cpp.i
+.PHONY : User/Gimbal/gimbalc.cpp.i
+
+User/Gimbal/gimbalc.s: User/Gimbal/gimbalc.cpp.s
+.PHONY : User/Gimbal/gimbalc.s
+
+# target to generate assembly for a file
+User/Gimbal/gimbalc.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/User/Gimbal/gimbalc.cpp.s
+.PHONY : User/Gimbal/gimbalc.cpp.s
+
 User/LOG/log.obj: User/LOG/log.c.obj
 .PHONY : User/LOG/log.obj
 
@@ -2915,9 +2915,6 @@ help:
 	@echo ... User/Framework/Filters/kalman.obj
 	@echo ... User/Framework/Filters/kalman.i
 	@echo ... User/Framework/Filters/kalman.s
-	@echo ... User/Framework/Gimbal/gimbalc.obj
-	@echo ... User/Framework/Gimbal/gimbalc.i
-	@echo ... User/Framework/Gimbal/gimbalc.s
 	@echo ... User/Framework/IMU/IMUC.obj
 	@echo ... User/Framework/IMU/IMUC.i
 	@echo ... User/Framework/IMU/IMUC.s
@@ -3002,6 +2999,9 @@ help:
 	@echo ... User/Framework/refee.obj
 	@echo ... User/Framework/refee.i
 	@echo ... User/Framework/refee.s
+	@echo ... User/Gimbal/gimbalc.obj
+	@echo ... User/Gimbal/gimbalc.i
+	@echo ... User/Gimbal/gimbalc.s
 	@echo ... User/LOG/log.obj
 	@echo ... User/LOG/log.i
 	@echo ... User/LOG/log.s

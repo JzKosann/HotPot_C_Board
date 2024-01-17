@@ -53,8 +53,8 @@ void Algorithm_Init()
 
 void MotorInit()
 {
-    yaw.canInit(0x209, &hcan2, cMotor::GM_6020);
-    pitch.canInit(0x206, &hcan1, cMotor::GM_6020);
+    yaw.canInit(0x209, &hcan2, cMotor::GM_6020_volt);
+    pitch.canInit(0x206, &hcan1, cMotor::GM_6020_volt);
 
 
     rammc.canInit(0x203, &hcan1, cMotor::M_2006_p36);

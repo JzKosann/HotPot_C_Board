@@ -52,7 +52,7 @@
 					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/ADRC"/>
 					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Debug"/>
 					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Filters"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Gimbal"/>
+					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Gimbal"/>
 					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU"/>
 					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IWDG"/>
 					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/LED"/>
@@ -81,8 +81,8 @@
 					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/task"/>
 					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/Other"/>
 					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/PosLoop"/>
+					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/spdLoop"/>
+					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/posLoop"/>
 					<Add directory="d:\environment_for_clion_stm32\gcc-arm-none-eabi\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
 					<Add directory="d:\environment_for_clion_stm32\gcc-arm-none-eabi\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
 					<Add directory="d:\environment_for_clion_stm32\gcc-arm-none-eabi\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
@@ -132,7 +132,7 @@
 					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/ADRC"/>
 					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Debug"/>
 					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Filters"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Gimbal"/>
+					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Gimbal"/>
 					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU"/>
 					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IWDG"/>
 					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/LED"/>
@@ -161,8 +161,8 @@
 					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/task"/>
 					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/Other"/>
 					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/PosLoop"/>
+					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/spdLoop"/>
+					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/posLoop"/>
 					<Add directory="d:\environment_for_clion_stm32\gcc-arm-none-eabi\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
 					<Add directory="d:\environment_for_clion_stm32\gcc-arm-none-eabi\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
 					<Add directory="d:\environment_for_clion_stm32\gcc-arm-none-eabi\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
@@ -768,12 +768,6 @@
 		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Filters/kalman.hpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Gimbal/gimbalc.cpp">
-			<Option target="kosann_UAVGimbal.elf"/>
-		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Gimbal/gimbalc.hpp">
-			<Option target="kosann_UAVGimbal.elf"/>
-		</Unit>
 		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/IMUC.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
@@ -1024,6 +1018,12 @@
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
 		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/slprj/stm32/_sharedutils/shared_file.dmr">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Gimbal/gimbalc.cpp">
+			<Option target="kosann_UAVGimbal.elf"/>
+		</Unit>
+		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Gimbal/gimbalc.hpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
 		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/LOG/log.c">

@@ -45,7 +45,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/CAN/bsp_can.cpp.obj: \
  E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pcd.h \
  E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_ll_usb.h \
  E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pcd_ex.h \
- E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\Gimbal/gimbalc.hpp \
+ E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Gimbal/gimbalc.hpp \
  E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework/framework_headfile.hpp \
  E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\ADRC/ADRC.hpp \
  d:\enviro~1\gcc-ar~1\102021~1.10\arm-none-eabi\include\c++\10.3.1\cstdint \
@@ -188,12 +188,12 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/CAN/bsp_can.cpp.obj: \
  E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\RGB/lrgb.h \
  E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\Vision/packet.hpp \
  E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\Yaw_Matlab_PID/matlab_PID.hpp \
- E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\Yaw_Matlab_PID\SpdLoop/SpdLoop_Matlabsimulink.hpp \
- E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\Yaw_Matlab_PID\SpdLoop/rtwtypes.h \
- E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\Yaw_Matlab_PID\SpdLoop/SpdLoop_Matlabsimulink_types.h \
- E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\Yaw_Matlab_PID\PosLoop/PosLoop_Matlabsimulink.hpp \
- E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\Yaw_Matlab_PID\SpdLoop/rtwtypes.h \
- E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\Yaw_Matlab_PID\PosLoop/PosLoop_Matlabsimulink_types.h \
+ E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\Yaw_Matlab_PID\spdLoop/SpdLoop_Matlabsimulink.hpp \
+ E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\Yaw_Matlab_PID\spdLoop/rtwtypes.h \
+ E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\Yaw_Matlab_PID\spdLoop/SpdLoop_Matlabsimulink_types.h \
+ E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\Yaw_Matlab_PID\posLoop/PosLoop_Matlabsimulink.hpp \
+ E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\Yaw_Matlab_PID\spdLoop/rtwtypes.h \
+ E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\Yaw_Matlab_PID\posLoop/PosLoop_Matlabsimulink_types.h \
  E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework/refee.hpp \
  E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework/framework_headfile.hpp \
  e:\competition\2024_robomaster\a_jinz\template\kosann_gimbal_c_board\user\framework\imu\bsp\bsp_delay.h \
