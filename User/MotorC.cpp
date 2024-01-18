@@ -21,8 +21,9 @@ void cMotor::errorHandle(eErrorType error_type)
 }
 
 /**
- * can串口发送电流
- * @param current 电流
+ * 电机控制函数 给相应的数据位输入值
+ * @param controller_type 选择算法  eExternal说明输出的数据不是motor类里的算法 可用于不同信号的输入
+ * @param current 如果选择eExternal模式需要将电流值输入至此
  */
 void cMotor::canSend( eController controller_type,int16_t current)
 {
@@ -36,7 +37,10 @@ void cMotor::canSend( eController controller_type,int16_t current)
 //        usart_printf("%d\r\n",CanReg[tx_channel].CANx_send_data[(ID - 1) * 2]);
     }
 }
-
+/**
+ * 发送motor类内的算法输出
+ * @param controller_type   算法类型
+ */
 void cMotor::canSend(eController controller_type)
 {
     int16_t current=0;
@@ -147,6 +151,11 @@ void cMotor::canInit(uint32_t can_id_t, CAN_HandleTypeDef *hcan_t, int motor_typ
     CanReg[tx_channel].send_flag = 1;
 }
 
+/**
+ * 读取can数据
+ * @param rx_std_id
+ * @param rx_buffer
+ */
 void cMotor::canRead(uint32_t rx_std_id, uint8_t rx_buffer[8])
 {
     if (_can_id == rx_std_id) MotorMeasureFun(&_can_read, rx_buffer);
@@ -179,7 +188,10 @@ float cCar::getPCarInEcd() const
     return _pCarInEcd;
 }
 
-
+/**
+ * 选择车 不同车的正前方不一样
+ * @param car_type
+ */
 cCar::cCar(cCar::eCarType car_type) : CarType(car_type)
 {
     switch (CarType)

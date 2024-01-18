@@ -19,18 +19,18 @@ public:
         M_2006,
         M_3508_p19,
         M_2006_p36
-    } eMotorType;
+    } eMotorType;   //电机表
     enum eErrorType
     {
         ERROR_MOTOR,
         eCanSend_Error
-    };
+    };      //错误类型
     typedef enum
     {
         eExternal,
         ePid,
         eAdrc
-    } eController;
+    } eController;  //控制算法
 private:
     uint32_t _can_id;
     eMotorType _motor_type;
@@ -49,9 +49,9 @@ public:
     void canRead(uint32_t rx_std_id, uint8_t rx_buffer[8]);
     Motor_measure_f &getEcd();
     void clearEcdRcnt();
-    cFilter autoAim_filter;
-    cFilter RCcrtl_filter;
-    algorithm MotorCtrl;
+    cFilter autoAim_filter; //自瞄滤波器
+    cFilter RCcrtl_filter;  //遥控滤波器
+    algorithm MotorCtrl;    //电机控制算法
     void protect();
     bool autoaimflag;
 };
@@ -59,7 +59,7 @@ public:
 class cCar
 {
 private:
-    float _pCarInEcd;
+    float _pCarInEcd;//正前方
 public:
 
     typedef enum
@@ -67,18 +67,18 @@ public:
         ONMI,
         MECANUM,
         UAV
-    } eCarType;
+    } eCarType;//机器人表
     typedef enum
     {
         eRC,
         eRC_Autoaim,
         eKey
-    } eCtrlMode;
+    } eCtrlMode;//控制方式
     typedef enum
     {
         eNormal,
         eAutoaim
-    } eShootMode;
+    } eShootMode;//射击方式
 
 
     eCarType CarType;
@@ -87,7 +87,7 @@ public:
     explicit cCar(eCarType car_type);
     [[nodiscard]] float getPCarInEcd() const;
     void setPCarInEcd(float p_car_in_ecd);
-    bool is_protect;
+    bool is_protect;    //保护模式变量
 };
 
 #endif //KOSANN_UAVGIMBAL_MOTORC_HPP

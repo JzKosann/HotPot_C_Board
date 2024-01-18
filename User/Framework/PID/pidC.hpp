@@ -86,7 +86,7 @@ public:
 
     /** POS **/
     void setPosTar(float pos_tar);
-    void setPosTar(float pos_tar, float step);
+    void setPosTar(float pos_tar, float step);      //斜坡 step步进
     float posLoop(float pos_input);
     void posLoop(float pos_input, float spd_input);
     /** SPD **/
@@ -94,7 +94,7 @@ public:
     void setSpdTar(float spd_tar, float step);
     void spdLoop(float spd_input);
 
-    [[nodiscard]] float pidOut() const;
+    [[nodiscard]] float pidOut() const;         //PID算法输出
 };
 
 #endif //KOSANN_UAVGIMBAL_PIDC_H

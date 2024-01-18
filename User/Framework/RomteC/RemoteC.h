@@ -43,20 +43,24 @@
 #define KEY_PRESSED_OFFSET_B            ((uint16_t)1 << 15)
 /* ----------------------- Data Struct ------------------------------------- */
 
-typedef __packed struct {
+typedef __packed struct
+{
     uint8_t Last_State: 1;
     uint8_t Now_State: 1;
     uint8_t Is_Click_Once: 1;       //“：1”声明后该变量只有0和1
 } Key_State;
 
-typedef __packed struct {
-    __packed struct {
+typedef __packed struct
+{
+    __packed struct
+    {
         int16_t ch[5];  //无符号类型遥控器通道 0、1、2、3 控制信息 1683~1024~364
-                        // ch0->右摇杆横向   ch1->右摇杆纵向  ch2->左摇杆横向  ch3->左摇杆纵向
+        // ch0->右摇杆横向   ch1->右摇杆纵向  ch2->左摇杆横向  ch3->左摇杆纵向
         char s[2];      //遥控发射机S1、S2开关  1:上 2:下 3:中
-                        // s[0]->s2(右边)    s[0]->s1(左边)
+        // s[0]->s2(右边)    s[0]->s1(左边)
     } rc;
-    __packed struct {
+    __packed struct
+    {
         int16_t x;      //鼠标值X轴 移动速度 32767 ~ -32768 静止值:0
         int16_t y;      //鼠标值Y轴
         int16_t z;      //鼠标值Z轴
@@ -64,7 +68,8 @@ typedef __packed struct {
         Key_State press_l;  //左键是否按下    0没按下 1按下
         Key_State press_r;  //右键是否按下
     } mouse;
-    __packed struct {
+    __packed struct
+    {
         uint16_t value;
         uint8_t W: 1;
         uint8_t S: 1;
@@ -111,13 +116,14 @@ extern void REMOTEC_Init(void);
   */
 extern const RC_ctrl_t *get_remote_control_point(void);
 void RC_DataHandle(RC_ctrl_t *rc_ctrl);
-void portHandle(Key_State* port);
+void portHandle(Key_State *port);
 RC_ctrl_t RC_GetDatas(void);
 extern RC_ctrl_t rc_ctrl;
 
-typedef struct {
+typedef struct
+{
     bool now_state;
     bool is_online;
-}Online_detect_t;
+} Online_detect_t;   //检测遥控器是否断连
 extern Online_detect_t RC_GetNewData;
 #endif //KOSANN_UAVGIMBAL_REMOTEC_H

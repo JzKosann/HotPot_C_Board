@@ -13,9 +13,9 @@ struct ReceivePacket
 {
     uint8_t header = 0xA5;
     uint32_t packat_id = 0;
-    uint8_t suggest_fire: 1;
-    float offset_yaw = 0;
-    float offset_pitch = 0;
+    uint8_t suggest_fire: 1;    //是否发射
+    float offset_yaw = 0;       //yaw偏移
+    float offset_pitch = 0;     //pitch偏移
     uint16_t checksum = 0;
 } __attribute__((packed));
 
@@ -46,5 +46,5 @@ inline uint8_t *toVector(const SendPacket &data)
     return packet;
 }
 
-extern ReceivePacket vision_pkt;
+extern ReceivePacket vision_pkt;    //视觉接收包
 #endif  // RM_SERIAL_DRIVER__PACKET_HPP_

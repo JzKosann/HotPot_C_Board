@@ -30,7 +30,7 @@ private:
     extKalman_t _kalman;
 public:
     void Init(float T_Q, float T_R);
-    float Calc(float dat);
+    float Calc(float dat);  //计算数据
 };
 
 #endif //KOSANN_UAVGIMBAL_KALMAN_H
