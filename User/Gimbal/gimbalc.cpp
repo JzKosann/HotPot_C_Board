@@ -356,7 +356,7 @@ float portSetPitch() {
 
                     break;
                 case cCar::eRC_Autoaim:
-                    pitch.MotorCtrl.c_PID.setParam(800, 1, 0, 30000,
+                    pitch.MotorCtrl.c_PID.setParam(800, 10, 0, 30000,
                                                    2, 0.00, 0.02, 300);
                     if (pitch.autoaimflag) {
                         _tar_pos = -IMU.cAngle(cimu::Wit_imu, cimu::Pitch) + vision_pkt.offset_pitch;
