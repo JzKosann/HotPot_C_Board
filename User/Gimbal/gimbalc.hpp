@@ -9,14 +9,13 @@
 #include "MCU_heafile.hpp"
 #include "core.h"
 #include "MotorC.hpp"
+
 extern CanType CanReg[];
 
 void Gimbal_Init();
 
 void GimbalLoop();
-bool portSetProtect();
-void portSetChassicStop();
-
+void CarCanMxg();
 /**external value**/
 extern cMotor yaw;
 extern cMotor pitch;

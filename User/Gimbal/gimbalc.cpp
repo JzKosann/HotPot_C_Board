@@ -559,7 +559,7 @@ void portSetShoot()
 
     static uint8_t stalled_count = 0;   //堵转处理
     static bool is_stalled = false;
-    if (rammc.getEcd().torque_current < -8000) is_stalled = true;  //电流值大于6000 判断为堵转 需要反拨
+    if (rammc.getEcd().torque_current < -9500) is_stalled = true;  //电流值大于6000 判断为堵转 需要反拨
     if (is_stalled)
     {
         rammc.MotorCtrl.c_PID.setSpdTar(30);
@@ -678,8 +678,6 @@ void Can_Calc()
  */
 void Can_Send()
 {
-//    yaw.canSend(cMotor::ePid);
-
     yaw.canSend(cMotor::eExternal, (int16_t) yaw_mat.Out());
     pitch.canSend(cMotor::ePid);
     fricR.canSend(cMotor::eAdrc);
@@ -731,9 +729,31 @@ void GimbalLoop()
         Can_Send();
 
     }
-
-
-    pitch.canSend(cMotor::eExternal, 1000);
     CanMxg();
 
+}
+
+/**
+ * CarCanMxg() 发送底盘数据
+ */
+void CarCanMxg()
+{
+    if (portSetProtect())
+    {
+        portSetChassicStop();
+    }
+    else
+    {
+        static uint8_t send_flag = 0;
+        if (send_flag)
+        {
+//            ChassisVel.sendBuff();
+            send_flag = 0;
+        }
+        else
+        {
+//            ChassisYaw.sendBuff();
+            send_flag = 1;
+        }
+    }
 }
