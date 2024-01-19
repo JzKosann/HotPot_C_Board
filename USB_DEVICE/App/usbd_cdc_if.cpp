@@ -126,9 +126,13 @@ extern USBD_HandleTypeDef hUsbDeviceFS;
   */
 
 static int8_t CDC_Init_FS(void);
+
 static int8_t CDC_DeInit_FS(void);
+
 static int8_t CDC_Control_FS(uint8_t cmd, uint8_t *pbuf, uint16_t length);
+
 static int8_t CDC_Receive_FS(uint8_t *pbuf, uint32_t *Len);
+
 static int8_t CDC_TransmitCplt_FS(uint8_t *pbuf, uint32_t *Len, uint8_t epnum);
 
 /* USER CODE BEGIN PRIVATE_FUNCTIONS_DECLARATION */
@@ -153,8 +157,7 @@ USBD_CDC_ItfTypeDef USBD_Interface_fops_FS =
   * @brief  Initializes the CDC media low layer over the FS USB IP
   * @retval USBD_OK if all operations are OK else USBD_FAIL
   */
-static int8_t CDC_Init_FS(void)
-{
+static int8_t CDC_Init_FS(void) {
     /* USER CODE BEGIN 3 */
     /* Set Application Buffers */
     USBD_CDC_SetTxBuffer(&hUsbDeviceFS, UserTxBufferFS, 0);
@@ -167,8 +170,7 @@ static int8_t CDC_Init_FS(void)
   * @brief  DeInitializes the CDC media low layer
   * @retval USBD_OK if all operations are OK else USBD_FAIL
   */
-static int8_t CDC_DeInit_FS(void)
-{
+static int8_t CDC_DeInit_FS(void) {
     /* USER CODE BEGIN 4 */
     return (USBD_OK);
     /* USER CODE END 4 */
@@ -181,11 +183,9 @@ static int8_t CDC_DeInit_FS(void)
   * @param  length: Number of data to be sent (in bytes)
   * @retval Result of the operation: USBD_OK if all operations are OK else USBD_FAIL
   */
-static int8_t CDC_Control_FS(uint8_t cmd, uint8_t *pbuf, uint16_t length)
-{
+static int8_t CDC_Control_FS(uint8_t cmd, uint8_t *pbuf, uint16_t length) {
     /* USER CODE BEGIN 5 */
-    switch (cmd)
-    {
+    switch (cmd) {
         case CDC_SEND_ENCAPSULATED_COMMAND:
 
             break;
@@ -264,20 +264,23 @@ static int8_t CDC_Control_FS(uint8_t cmd, uint8_t *pbuf, uint16_t length)
   */
 ReceivePacket vision_pkt;
 
-static int8_t CDC_Receive_FS(uint8_t *Buf, uint32_t *Len)
-{
+static int8_t CDC_Receive_FS(uint8_t *Buf, uint32_t *Len) {
     /* USER CODE BEGIN 6 */
     USBD_CDC_SetRxBuffer(&hUsbDeviceFS, &Buf[0]);
     USBD_CDC_ReceivePacket(&hUsbDeviceFS);
 
     uint32_t crc = Verify_CRC16_Check_Sum(Buf, sizeof(ReceivePacket)); //crc校验
-    if (crc)
-    {
+    if (crc) {
         vision_pkt = fromVector(Buf);//校验成功
         yaw.autoaimflag = true;
         pitch.autoaimflag = true;
-        if(vision_pkt.offset_yaw>=-0.2&&vision_pkt.offset_yaw<=0.2)
-            vision_pkt.offset_yaw=0.0f;
+        if (vision_pkt.offset_yaw >= -0.2 && vision_pkt.offset_yaw <= 0.2)
+            vision_pkt.offset_yaw = 0.0f;
+
+        if (vision_pkt.offset_yaw <= -20) vision_pkt.offset_yaw = -20;
+        if (vision_pkt.offset_yaw >= 20)vision_pkt.offset_yaw = 20;
+        if (vision_pkt.offset_pitch >= 15)vision_pkt.offset_pitch = 15;
+        if (vision_pkt.offset_pitch <= -15)vision_pkt.offset_pitch = -15;
 //        usart_printf("%.2f,%.2f\r\n", vision_pkt.offset_yaw, vision_pkt.offset_pitch);
     }
     return (USBD_OK);
@@ -295,13 +298,11 @@ static int8_t CDC_Receive_FS(uint8_t *Buf, uint32_t *Len)
   * @param  Len: Number of data to be sent (in bytes)
   * @retval USBD_OK if all operations are OK else USBD_FAIL or USBD_BUSY
   */
-uint8_t CDC_Transmit_FS(uint8_t *Buf, uint16_t Len)
-{
+uint8_t CDC_Transmit_FS(uint8_t *Buf, uint16_t Len) {
     uint8_t result = USBD_OK;
     /* USER CODE BEGIN 7 */
     USBD_CDC_HandleTypeDef *hcdc = (USBD_CDC_HandleTypeDef *) hUsbDeviceFS.pClassData;
-    if (hcdc->TxState != 0)
-    {
+    if (hcdc->TxState != 0) {
         return USBD_BUSY;
     }
     USBD_CDC_SetTxBuffer(&hUsbDeviceFS, Buf, Len);
@@ -322,8 +323,7 @@ uint8_t CDC_Transmit_FS(uint8_t *Buf, uint16_t Len)
   * @param  Len: Number of data received (in bytes)
   * @retval Result of the operation: USBD_OK if all operations are OK else USBD_FAIL
   */
-static int8_t CDC_TransmitCplt_FS(uint8_t *Buf, uint32_t *Len, uint8_t epnum)
-{
+static int8_t CDC_TransmitCplt_FS(uint8_t *Buf, uint32_t *Len, uint8_t epnum) {
     uint8_t result = USBD_OK;
     /* USER CODE BEGIN 13 */
     UNUSED(Buf);

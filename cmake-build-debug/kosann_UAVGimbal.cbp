@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/cmake-build-debug"/>
+				<Option working_dir="E:/RM/HotPot/HotPot_C_Board-master/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/CLion/MinGW64/bin/mingw32-make.exe -f &quot;E:/RM/HotPot/HotPot_C_Board-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/CLion/MinGW64/bin/mingw32-make.exe -f &quot;E:/RM/HotPot/HotPot_C_Board-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion/MinGW64/bin/mingw32-make.exe -f &quot;E:/RM/HotPot/HotPot_C_Board-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion/MinGW64/bin/mingw32-make.exe -f &quot;E:/RM/HotPot/HotPot_C_Board-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="kosann_UAVGimbal.elf">
-				<Option output="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/cmake-build-debug/kosann_UAVGimbal.elf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/cmake-build-debug"/>
+				<Option output="E:/RM/HotPot/HotPot_C_Board-master/cmake-build-debug/kosann_UAVGimbal.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/RM/HotPot/HotPot_C_Board-master/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -32,74 +32,74 @@
 					<Add option="-DSTM32F407xx"/>
 					<Add option="-D__FPU_USED=1U"/>
 					<Add option="-D__FPU_PRESENT=1U"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Inc"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/include"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/CMSIS/Include"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/FATFS/Target"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/FATFS/App"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/USB_DEVICE/App"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/USB_DEVICE/Target"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FatFs/src"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/ST/ARM/DSP/Inc"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/ADRC"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Debug"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Filters"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Gimbal"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IWDG"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/LED"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/PID"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/RomteC"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/ShootC"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Vision"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/LOG"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/MCUDriver/CAN"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/MCUDriver/LASER"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/MCUDriver/LED"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/MCUDriver/POWER"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/PID_stm32"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/PosPID_stm32"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/slprj"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/MCUDriver/REMOTEC"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/MCUDriver/SERVO"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Tasks"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/MCUDriver"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/RGB"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/algorithm"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/bsp"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/controller"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/devices"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/task"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/Other"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/spdLoop"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/posLoop"/>
-					<Add directory="d:\environment_for_clion_stm32\gcc-arm-none-eabi\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
-					<Add directory="d:\environment_for_clion_stm32\gcc-arm-none-eabi\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
-					<Add directory="d:\environment_for_clion_stm32\gcc-arm-none-eabi\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
-					<Add directory="d:\environment_for_clion_stm32\gcc-arm-none-eabi\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
-					<Add directory="d:\environment_for_clion_stm32\gcc-arm-none-eabi\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
-					<Add directory="d:\environment_for_clion_stm32\gcc-arm-none-eabi\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/Core/Inc"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/Drivers/CMSIS/Include"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/FATFS/Target"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/FATFS/App"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/USB_DEVICE/App"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/USB_DEVICE/Target"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/Third_Party/FatFs/src"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/ST/ARM/DSP/Inc"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Framework"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/ADRC"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/Debug"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/Filters"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Gimbal"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IWDG"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/LED"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/PID"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/RomteC"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/ShootC"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/Vision"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/LOG"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/MCUDriver/CAN"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/MCUDriver/LASER"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/MCUDriver/LED"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/MCUDriver/POWER"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/PID_stm32"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/PosPID_stm32"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/slprj"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/MCUDriver/REMOTEC"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/MCUDriver/SERVO"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Tasks"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/MCUDriver"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/RGB"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/algorithm"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/bsp"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/controller"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/devices"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/task"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/Other"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/Yaw_Matlab_PID"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/Yaw_Matlab_PID/spdLoop"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/Yaw_Matlab_PID/posLoop"/>
+					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 kosann_UAVGimbal.elf"/>
-					<CompileFile command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/CLion/MinGW64/bin/mingw32-make.exe -f &quot;E:/RM/HotPot/HotPot_C_Board-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 kosann_UAVGimbal.elf"/>
+					<CompileFile command="D:/CLion/MinGW64/bin/mingw32-make.exe -f &quot;E:/RM/HotPot/HotPot_C_Board-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion/MinGW64/bin/mingw32-make.exe -f &quot;E:/RM/HotPot/HotPot_C_Board-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion/MinGW64/bin/mingw32-make.exe -f &quot;E:/RM/HotPot/HotPot_C_Board-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="kosann_UAVGimbal.elf/fast">
-				<Option output="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/cmake-build-debug/kosann_UAVGimbal.elf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/cmake-build-debug"/>
+				<Option output="E:/RM/HotPot/HotPot_C_Board-master/cmake-build-debug/kosann_UAVGimbal.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/RM/HotPot/HotPot_C_Board-master/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -112,993 +112,993 @@
 					<Add option="-DSTM32F407xx"/>
 					<Add option="-D__FPU_USED=1U"/>
 					<Add option="-D__FPU_PRESENT=1U"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Inc"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/include"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/CMSIS/Include"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/FATFS/Target"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/FATFS/App"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/USB_DEVICE/App"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/USB_DEVICE/Target"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FatFs/src"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/ST/ARM/DSP/Inc"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/ADRC"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Debug"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Filters"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Gimbal"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IWDG"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/LED"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/PID"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/RomteC"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/ShootC"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Vision"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/LOG"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/MCUDriver/CAN"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/MCUDriver/LASER"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/MCUDriver/LED"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/MCUDriver/POWER"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/PID_stm32"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/PosPID_stm32"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/slprj"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/MCUDriver/REMOTEC"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/MCUDriver/SERVO"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Tasks"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/MCUDriver"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/RGB"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/algorithm"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/bsp"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/controller"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/devices"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/task"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/Other"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/spdLoop"/>
-					<Add directory="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/posLoop"/>
-					<Add directory="d:\environment_for_clion_stm32\gcc-arm-none-eabi\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
-					<Add directory="d:\environment_for_clion_stm32\gcc-arm-none-eabi\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
-					<Add directory="d:\environment_for_clion_stm32\gcc-arm-none-eabi\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
-					<Add directory="d:\environment_for_clion_stm32\gcc-arm-none-eabi\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
-					<Add directory="d:\environment_for_clion_stm32\gcc-arm-none-eabi\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
-					<Add directory="d:\environment_for_clion_stm32\gcc-arm-none-eabi\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/Core/Inc"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/Drivers/CMSIS/Include"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/FATFS/Target"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/FATFS/App"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/USB_DEVICE/App"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/USB_DEVICE/Target"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/Third_Party/FatFs/src"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/ST/ARM/DSP/Inc"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Framework"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/ADRC"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/Debug"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/Filters"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Gimbal"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IWDG"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/LED"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/PID"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/RomteC"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/ShootC"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/Vision"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/LOG"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/MCUDriver/CAN"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/MCUDriver/LASER"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/MCUDriver/LED"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/MCUDriver/POWER"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/PID_stm32"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/PosPID_stm32"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/slprj"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/MCUDriver/REMOTEC"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/MCUDriver/SERVO"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Tasks"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/MCUDriver"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/RGB"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/algorithm"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/bsp"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/controller"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/devices"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/task"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/Other"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/Yaw_Matlab_PID"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/Yaw_Matlab_PID/spdLoop"/>
+					<Add directory="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/Yaw_Matlab_PID/posLoop"/>
+					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 kosann_UAVGimbal.elf/fast"/>
-					<CompileFile command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/CLion/MinGW64/bin/mingw32-make.exe -f &quot;E:/RM/HotPot/HotPot_C_Board-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 kosann_UAVGimbal.elf/fast"/>
+					<CompileFile command="D:/CLion/MinGW64/bin/mingw32-make.exe -f &quot;E:/RM/HotPot/HotPot_C_Board-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion/MinGW64/bin/mingw32-make.exe -f &quot;E:/RM/HotPot/HotPot_C_Board-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion/MinGW64/bin/mingw32-make.exe -f &quot;E:/RM/HotPot/HotPot_C_Board-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/cmake-build-debug"/>
+				<Option working_dir="E:/RM/HotPot/HotPot_C_Board-master/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/CLion/MinGW64/bin/mingw32-make.exe -f &quot;E:/RM/HotPot/HotPot_C_Board-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/CLion/MinGW64/bin/mingw32-make.exe -f &quot;E:/RM/HotPot/HotPot_C_Board-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion/MinGW64/bin/mingw32-make.exe -f &quot;E:/RM/HotPot/HotPot_C_Board-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion/MinGW64/bin/mingw32-make.exe -f &quot;E:/RM/HotPot/HotPot_C_Board-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/cmake-build-debug"/>
+				<Option working_dir="E:/RM/HotPot/HotPot_C_Board-master/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/CLion/MinGW64/bin/mingw32-make.exe -f &quot;E:/RM/HotPot/HotPot_C_Board-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/CLion/MinGW64/bin/mingw32-make.exe -f &quot;E:/RM/HotPot/HotPot_C_Board-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion/MinGW64/bin/mingw32-make.exe -f &quot;E:/RM/HotPot/HotPot_C_Board-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion/MinGW64/bin/mingw32-make.exe -f &quot;E:/RM/HotPot/HotPot_C_Board-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Inc/FreeRTOSConfig.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Core/Inc/FreeRTOSConfig.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Inc/can.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Core/Inc/can.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Inc/dma.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Core/Inc/dma.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Inc/gpio.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Core/Inc/gpio.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Inc/i2c.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Core/Inc/i2c.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Inc/main.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Core/Inc/main.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Inc/spi.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Core/Inc/spi.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Inc/stm32f4xx_hal_conf.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Core/Inc/stm32f4xx_hal_conf.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Inc/stm32f4xx_it.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Core/Inc/stm32f4xx_it.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Inc/tim.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Core/Inc/tim.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Inc/usart.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Core/Inc/usart.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Src/can.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Core/Src/can.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Src/dma.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Core/Src/dma.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Src/freertos.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Core/Src/freertos.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Src/gpio.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Core/Src/gpio.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Src/i2c.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Core/Src/i2c.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Src/main.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Core/Src/main.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Src/mainpp.cpp">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Core/Src/mainpp.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Src/spi.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Core/Src/spi.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Src/stm32f4xx_hal_msp.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Core/Src/stm32f4xx_hal_msp.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Src/stm32f4xx_hal_timebase_tim.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Core/Src/stm32f4xx_hal_timebase_tim.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Src/stm32f4xx_it.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Core/Src/stm32f4xx_it.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Src/syscalls.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Core/Src/syscalls.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Src/sysmem.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Core/Src/sysmem.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Src/system_stm32f4xx.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Core/Src/system_stm32f4xx.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Src/tim.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Core/Src/tim.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Src/usart.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Core/Src/usart.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Core/Startup/startup_stm32f407ighx.s">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Core/Startup/startup_stm32f407ighx.s">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/CMSIS/Device/ST/STM32F4xx/LICENSE.txt">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/CMSIS/Device/ST/STM32F4xx/LICENSE.txt">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/CMSIS/Include/cmsis_armcc.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/CMSIS/Include/cmsis_armcc.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/CMSIS/Include/cmsis_armclang.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/CMSIS/Include/cmsis_armclang.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/CMSIS/Include/cmsis_compiler.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/CMSIS/Include/cmsis_compiler.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/CMSIS/Include/cmsis_gcc.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/CMSIS/Include/cmsis_gcc.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/CMSIS/Include/cmsis_iccarm.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/CMSIS/Include/cmsis_iccarm.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/CMSIS/Include/cmsis_version.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/CMSIS/Include/cmsis_version.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/CMSIS/Include/core_armv8mbl.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/CMSIS/Include/core_armv8mbl.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/CMSIS/Include/core_armv8mml.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/CMSIS/Include/core_armv8mml.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/CMSIS/Include/core_cm0.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/CMSIS/Include/core_cm0.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/CMSIS/Include/core_cm0plus.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/CMSIS/Include/core_cm0plus.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/CMSIS/Include/core_cm1.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/CMSIS/Include/core_cm1.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/CMSIS/Include/core_cm23.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/CMSIS/Include/core_cm23.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/CMSIS/Include/core_cm3.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/CMSIS/Include/core_cm3.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/CMSIS/Include/core_cm33.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/CMSIS/Include/core_cm33.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/CMSIS/Include/core_cm4.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/CMSIS/Include/core_cm4.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/CMSIS/Include/core_cm7.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/CMSIS/Include/core_cm7.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/CMSIS/Include/core_sc000.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/CMSIS/Include/core_sc000.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/CMSIS/Include/core_sc300.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/CMSIS/Include/core_sc300.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/CMSIS/Include/mpu_armv7.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/CMSIS/Include/mpu_armv7.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/CMSIS/Include/mpu_armv8.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/CMSIS/Include/mpu_armv8.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/CMSIS/Include/tz_context.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/CMSIS/Include/tz_context.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/CMSIS/LICENSE.txt">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/CMSIS/LICENSE.txt">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_cortex.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_cortex.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_i2c.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_i2c.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_pwr.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_pwr.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_spi.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_spi.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_utils.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_utils.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/LICENSE.txt">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/LICENSE.txt">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/FATFS/App/fatfs.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/FATFS/App/fatfs.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/FATFS/App/fatfs.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/FATFS/App/fatfs.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/FATFS/Target/ffconf.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/FATFS/Target/ffconf.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/FATFS/Target/user_diskio.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/FATFS/Target/user_diskio.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/FATFS/Target/user_diskio.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/FATFS/Target/user_diskio.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/ST/ARM/DSP/Inc/arm_math.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/ST/ARM/DSP/Inc/arm_math.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/ST/ARM/DSP/Lib/libarm_cortexM4lf_math.a">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/ST/ARM/DSP/Lib/libarm_cortexM4lf_math.a">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/ST/STM32_USB_Device_Library/LICENSE.txt">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/ST/STM32_USB_Device_Library/LICENSE.txt">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FatFs/src/diskio.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/Third_Party/FatFs/src/diskio.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FatFs/src/diskio.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/Third_Party/FatFs/src/diskio.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FatFs/src/ff.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/Third_Party/FatFs/src/ff.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FatFs/src/ff.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/Third_Party/FatFs/src/ff.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FatFs/src/ff_gen_drv.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/Third_Party/FatFs/src/ff_gen_drv.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FatFs/src/integer.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/Third_Party/FatFs/src/integer.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FatFs/src/option/syscall.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/Third_Party/FatFs/src/option/syscall.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/croutine.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/Third_Party/FreeRTOS/Source/croutine.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/include/atomic.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/Third_Party/FreeRTOS/Source/include/atomic.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/include/list.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/Third_Party/FreeRTOS/Source/include/list.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/include/message_buffer.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/Third_Party/FreeRTOS/Source/include/message_buffer.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_prototypes.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_prototypes.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/include/task.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/Third_Party/FreeRTOS/Source/include/task.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/list.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/Third_Party/FreeRTOS/Source/list.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/queue.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/Third_Party/FreeRTOS/Source/queue.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/tasks.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/Third_Party/FreeRTOS/Source/tasks.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/Middlewares/Third_Party/FreeRTOS/Source/timers.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/Middlewares/Third_Party/FreeRTOS/Source/timers.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/STM32F407IGHX_FLASH.ld">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/STM32F407IGHX_FLASH.ld">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/USB_DEVICE/App/usb_device.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/USB_DEVICE/App/usb_device.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/USB_DEVICE/App/usb_device.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/USB_DEVICE/App/usb_device.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/USB_DEVICE/App/usbd_cdc_if.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/USB_DEVICE/App/usbd_cdc_if.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/USB_DEVICE/App/usbd_cdc_if.cpp">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/USB_DEVICE/App/usbd_cdc_if.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/USB_DEVICE/App/usbd_cdc_if.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/USB_DEVICE/App/usbd_cdc_if.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/USB_DEVICE/App/usbd_desc.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/USB_DEVICE/App/usbd_desc.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/USB_DEVICE/App/usbd_desc.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/USB_DEVICE/App/usbd_desc.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/USB_DEVICE/Target/usbd_conf.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/USB_DEVICE/Target/usbd_conf.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/USB_DEVICE/Target/usbd_conf.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/USB_DEVICE/Target/usbd_conf.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/ADRC/ADRC.cpp">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/ADRC/ADRC.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/ADRC/ADRC.hpp">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/ADRC/ADRC.hpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Debug/DebugC.cpp">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/Debug/DebugC.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Debug/DebugC.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/Debug/DebugC.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Filters/Kalman.md">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/Filters/Kalman.md">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Filters/filter.hpp">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/Filters/filter.hpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Filters/kalman.cpp">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/Filters/kalman.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Filters/kalman.hpp">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/Filters/kalman.hpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/IMUC.cpp">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/IMUC.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/IMUC.hpp">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/IMUC.hpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/Other/Bno085.cpp">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/Other/Bno085.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/Other/Bno085.hpp">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/Other/Bno085.hpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/Other/Wit.cpp">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/Other/Wit.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/Other/Wit.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/Other/Wit.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/Other/witreg.hpp">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/Other/witreg.hpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/algorithm/AHRS.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/algorithm/AHRS.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/algorithm/AHRS.lib">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/algorithm/AHRS.lib">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/algorithm/AHRS_middleware.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/algorithm/AHRS_middleware.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/algorithm/AHRS_middleware.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/algorithm/AHRS_middleware.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/algorithm/Include/arm_common_tables.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/algorithm/Include/arm_common_tables.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/algorithm/Include/arm_const_structs.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/algorithm/Include/arm_const_structs.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/algorithm/Include/arm_math.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/algorithm/Include/arm_math.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/algorithm/Include/core_sc000.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/algorithm/Include/core_sc000.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/algorithm/Include/core_sc300.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/algorithm/Include/core_sc300.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/algorithm/user_lib.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/algorithm/user_lib.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/algorithm/user_lib.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/algorithm/user_lib.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/bsp/bsp_delay.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/bsp/bsp_delay.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/bsp/bsp_delay.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/bsp/bsp_delay.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/bsp/bsp_flash.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/bsp/bsp_flash.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/bsp/bsp_flash.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/bsp/bsp_flash.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/bsp/bsp_imu_pwm.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/bsp/bsp_imu_pwm.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/bsp/bsp_imu_pwm.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/bsp/bsp_imu_pwm.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/bsp/bsp_spi.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/bsp/bsp_spi.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/bsp/bsp_spi.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/bsp/bsp_spi.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/controller/pid.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/controller/pid.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/controller/pid.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/controller/pid.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/devices/BMI088Middleware.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/devices/BMI088Middleware.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/devices/BMI088Middleware.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/devices/BMI088Middleware.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/devices/BMI088driver.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/devices/BMI088driver.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/devices/BMI088driver.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/devices/BMI088driver.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/devices/BMI088reg.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/devices/BMI088reg.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/devices/ist8310driver.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/devices/ist8310driver.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/devices/ist8310driver.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/devices/ist8310driver.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/devices/ist8310driver_middleware.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/devices/ist8310driver_middleware.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/devices/ist8310driver_middleware.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/devices/ist8310driver_middleware.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/filtter.cpp">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/filtter.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/filtter.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/filtter.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/imu_tool.cpp">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/imu_tool.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/imu_tool.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/imu_tool.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/task/INS_task.cpp">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/task/INS_task.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/task/INS_task.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/task/INS_task.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IMU/task/struct_typedef.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IMU/task/struct_typedef.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IWDG/iwdgC.cpp">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IWDG/iwdgC.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/IWDG/iwdgC.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/IWDG/iwdgC.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/LED/LEDC.cpp">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/LED/LEDC.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/LED/LEDC.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/LED/LEDC.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/PID/pidC.cpp">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/PID/pidC.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/PID/pidC.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/PID/pidC.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/PID/pidC.hpp">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/PID/pidC.hpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/RGB/lrgb.cpp">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/RGB/lrgb.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/RGB/lrgb.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/RGB/lrgb.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/RomteC/Remote.md">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/RomteC/Remote.md">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/RomteC/Remote.pdf">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/RomteC/Remote.pdf">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/RomteC/RemoteC.cpp">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/RomteC/RemoteC.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/RomteC/RemoteC.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/RomteC/RemoteC.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/ShootC/Shootc.cpp">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/ShootC/Shootc.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/ShootC/Shootc.hpp">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/ShootC/Shootc.hpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Vision/crc.cpp">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/Vision/crc.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Vision/crc.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/Vision/crc.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Vision/packet.hpp">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/Vision/packet.hpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.cpp">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.hpp">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.hpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink_private.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink_private.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink_types.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink_types.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.cpp">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.hpp">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.hpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink_private.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink_private.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink_types.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink_types.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/SpdLoop/rtwtypes.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/Yaw_Matlab_PID/SpdLoop/rtwtypes.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/matlab_PID.cpp">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/Yaw_Matlab_PID/matlab_PID.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/Yaw_Matlab_PID/matlab_PID.hpp">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/Yaw_Matlab_PID/matlab_PID.hpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/framework_headfile.hpp">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/framework_headfile.hpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/refee.cpp">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/refee.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/refee.hpp">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/refee.hpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/slprj/sim/varcache/PID/checksumOfCache.mat">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/slprj/sim/varcache/PID/checksumOfCache.mat">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/slprj/sim/varcache/PID/tmwinternal/simulink_cache.xml">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/slprj/sim/varcache/PID/tmwinternal/simulink_cache.xml">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/slprj/sim/varcache/PID/varInfo.mat">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/slprj/sim/varcache/PID/varInfo.mat">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/slprj/sl_proj.tmw">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/slprj/sl_proj.tmw">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/slprj/stm32/PID/tmwinternal/CompileInfo.xml">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/slprj/stm32/PID/tmwinternal/CompileInfo.xml">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/slprj/stm32/PID/tmwinternal/binfo.mat">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/slprj/stm32/PID/tmwinternal/binfo.mat">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/slprj/stm32/PID/tmwinternal/minfo.mat">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/slprj/stm32/PID/tmwinternal/minfo.mat">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Framework/slprj/stm32/_sharedutils/shared_file.dmr">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Framework/slprj/stm32/_sharedutils/shared_file.dmr">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Gimbal/gimbalc.cpp">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Gimbal/gimbalc.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Gimbal/gimbalc.hpp">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Gimbal/gimbalc.hpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/LOG/log.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/LOG/log.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/LOG/log.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/LOG/log.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/LOG/log_port.c">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/LOG/log_port.c">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/LOG/log_port.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/LOG/log_port.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/MCUDriver/CAN/bsp_can.cpp">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/MCUDriver/CAN/bsp_can.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/MCUDriver/CAN/bsp_can.hpp">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/MCUDriver/CAN/bsp_can.hpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/MCUDriver/LASER/laser.cpp">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/MCUDriver/LASER/laser.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/MCUDriver/LASER/laser.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/MCUDriver/LASER/laser.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/MCUDriver/LED/ledio.cpp">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/MCUDriver/LED/ledio.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/MCUDriver/LED/ledio.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/MCUDriver/LED/ledio.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/MCUDriver/MCU_heafile.hpp">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/MCUDriver/MCU_heafile.hpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/MCUDriver/POWER/power.cpp">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/MCUDriver/POWER/power.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/MCUDriver/POWER/power.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/MCUDriver/POWER/power.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/MCUDriver/REMOTEC/remoteio.cpp">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/MCUDriver/REMOTEC/remoteio.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/MCUDriver/REMOTEC/remoteio.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/MCUDriver/REMOTEC/remoteio.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/MCUDriver/SERVO/servo.cpp">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/MCUDriver/SERVO/servo.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/MCUDriver/SERVO/servo.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/MCUDriver/SERVO/servo.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/MotorC.cpp">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/MotorC.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/MotorC.hpp">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/MotorC.hpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Tasks/GimbalTask.cpp">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Tasks/GimbalTask.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Tasks/GimbalTask.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Tasks/GimbalTask.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Tasks/visioncom_task.cpp">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Tasks/visioncom_task.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/Tasks/visioncom_task.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/Tasks/visioncom_task.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/User/core.h">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/User/core.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/CMakeLists.txt">
+		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

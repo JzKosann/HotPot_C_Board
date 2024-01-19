@@ -15,6 +15,7 @@ private:
 
 public:
     float _pos_forward;     //伪前馈系数
+    float _pos_last_tar;
     void Init();            //初始化 其实什么都没有
     void Calc(float SpdInput, float PosInput);   //计算 输入传感器反馈值
     void SetTar(float tar);                     //设置位置目标值

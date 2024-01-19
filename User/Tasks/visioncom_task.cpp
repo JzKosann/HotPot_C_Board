@@ -43,7 +43,7 @@ void VisionChattingLoop(uint8_t mode)
     send_packet.header = 0x5A;
     send_packet.shoot_spd =refereeMsg.shoot_spd;
     send_packet.pitch = -IMU.cAngle(cimu::Wit_imu,cimu::Pitch);
-    send_packet.yaw = IMU.cAngle(cimu::Wit_imu,cimu::Yaw);
+    send_packet.yaw = -IMU.cAngle(cimu::Wit_imu,cimu::Yaw);
     send_packet.roll = IMU_Angle(2);
 
 //    if (MyColor == 0)send_packet.enemy_color = 'B';

@@ -1,4 +1,4 @@
-# Install script for directory: E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board
+# Install script for directory: E:/RM/HotPot/HotPot_C_Board-master
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/competition/2024_ROBOMASTER/A_JINZ/template/kosann_Gimbal_C_Board/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/RM/HotPot/HotPot_C_Board-master/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
