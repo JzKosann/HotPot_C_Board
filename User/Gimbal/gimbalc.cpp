@@ -383,7 +383,8 @@ float portSetPitch()
                 case cCar::eRC_Autoaim:
                     pitch.MotorCtrl.c_PID.setParam(500, 1, 0, 30000,
                                                    0.5, 0.00, 0, 300);
-                    tar_pos = -IMU.cAngle(cimu::Wit_imu, cimu::Pitch) + pitch.autoAim_filter.cLowPass.filter(vision_pkt.offset_pitch) * 1.0f;
+                    _tar_pos = -IMU.cAngle(cimu::Wit_imu, cimu::Pitch) + pitch.autoAim_filter.cLowPass.filter(vision_pkt.offset_pitch) * 1.0f;
+                    tar_pos = _tar_pos;
                     break;
             }
             break;
@@ -417,7 +418,8 @@ float portSetPitch()
                 case cCar::eRC_Autoaim:
                     pitch.MotorCtrl.c_PID.setParam(500, 1, 0, 30000,
                                                    0.5, 0.00, 0, 300);
-                    tar_pos = -IMU.cAngle(cimu::Wit_imu, cimu::Pitch) + pitch.autoAim_filter.cLowPass.filter(vision_pkt.offset_pitch) * 1.0f;
+                    _tar_pos = -IMU.cAngle(cimu::Wit_imu, cimu::Pitch) + pitch.autoAim_filter.cLowPass.filter(vision_pkt.offset_pitch) * 1.0f;
+                    tar_pos = _tar_pos;
                     break;
             }
             break;
@@ -569,7 +571,7 @@ void portSetShoot()
         }
     }
 
-    usart_printf("%.2f\r\n",rammc.getEcd().torque_current);
+    usart_printf("%.2f\r\n", rammc.getEcd().torque_current);
 
 }
 
@@ -698,7 +700,7 @@ void CanMxg()
     {
         CanReg[i].sendBuff();//
     }
-    for (i = 9; i <=12; ++i)
+    for (i = 9; i <= 12; ++i)
     {
         CanReg[i].sendBuff();
     }
