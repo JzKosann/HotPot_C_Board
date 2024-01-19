@@ -16,7 +16,7 @@ cMotor rammc;
 static float mouse_sense = TIMpiece * 2.5;  //鼠标灵敏度
 
 /** Car **/             //choose your car here
-cCar Car(cCar::MECANUM);
+cCar Car(cCar::ONMI);
 /**
  * ONMI 全向
  * MECANUM 麦步
@@ -338,7 +338,7 @@ float portSetYaw()
 
             break;
     }
-    usart_printf("%.2f,%.2f,%.2f,%.2f\r\n", tar_pos, IMU.cAngle(cimu::Wit_imu, cimu::Yaw), vision_pkt.offset_yaw, _tar_pos);
+//    usart_printf("%.2f,%.2f,%.2f,%.2f\r\n", tar_pos, IMU.cAngle(cimu::Wit_imu, cimu::Yaw), vision_pkt.offset_yaw, _tar_pos);
     return tar_pos;
 }
 
@@ -557,10 +557,10 @@ void portSetShoot()
 
     static uint8_t stalled_count = 0;   //堵转处理
     static bool is_stalled = false;
-    if (rammc.getEcd().torque_current < -6000) is_stalled = true;  //电流值大于6000 判断为堵转 需要反拨
+    if (rammc.getEcd().torque_current < -8000) is_stalled = true;  //电流值大于6000 判断为堵转 需要反拨
     if (is_stalled)
     {
-        rammc.MotorCtrl.c_PID.setSpdTar(60);
+        rammc.MotorCtrl.c_PID.setSpdTar(30);
         stalled_count++;
         if (stalled_count >= 100)                           //0.002控制周期 反拨100次 即200ms内目标值设置为反拨
         {
@@ -568,6 +568,8 @@ void portSetShoot()
             is_stalled = false;
         }
     }
+
+    usart_printf("%.2f\r\n",rammc.getEcd().torque_current);
 
 }
 
@@ -675,6 +677,7 @@ void Can_Calc()
 void Can_Send()
 {
 //    yaw.canSend(cMotor::ePid);
+
     yaw.canSend(cMotor::eExternal, (int16_t) yaw_mat.Out());
     pitch.canSend(cMotor::ePid);
     fricR.canSend(cMotor::eAdrc);
@@ -694,6 +697,10 @@ void CanMxg()
     for (i = 0; i <= 5; i++)
     {
         CanReg[i].sendBuff();//
+    }
+    for (i = 9; i <=12; ++i)
+    {
+        CanReg[i].sendBuff();
     }
 }
 
@@ -722,9 +729,9 @@ void GimbalLoop()
         Can_Send();
 
     }
+
+
+    pitch.canSend(cMotor::eExternal, 1000);
     CanMxg();
 
 }
-
-
-//kjfgjksnfvkj

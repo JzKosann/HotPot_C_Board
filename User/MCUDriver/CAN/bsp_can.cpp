@@ -10,7 +10,7 @@
 extern CAN_HandleTypeDef hcan1;
 extern CAN_HandleTypeDef hcan2;
 
-CanType CanReg[] = {CanType(&hcan1, 0x1FF), //motor
+CanType CanReg[] = {CanType(&hcan1, 0x1FF), //motor //0
                     CanType(&hcan1, 0x200), //motor
                     CanType(&hcan1, 0x2FF), //motor
                     CanType(&hcan2, 0x1FF), //motor
@@ -18,7 +18,11 @@ CanType CanReg[] = {CanType(&hcan1, 0x1FF), //motor
                     CanType(&hcan2, 0x2FF), //can包
                     CanType(&hcan2, 0x401), //chassis vel
                     CanType(&hcan2, 0x402), //chassis yaw
-                    CanType(&hcan1, 0x601)  //chassis yaw
+                    CanType(&hcan1, 0x601),  //chassis yaw
+                    CanType(&hcan1, 0x1FE), //motor
+                    CanType(&hcan1, 0x2FE), //motor //10
+                    CanType(&hcan2, 0x1FE), //can包
+                    CanType(&hcan2, 0x2FE), //can包
 };
 
 

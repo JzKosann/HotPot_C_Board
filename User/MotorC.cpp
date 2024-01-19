@@ -25,25 +25,29 @@ void cMotor::errorHandle(eErrorType error_type)
  * @param controller_type 选择算法  eExternal说明输出的数据不是motor类里的算法 可用于不同信号的输入
  * @param current 如果选择eExternal模式需要将电流值输入至此
  */
-void cMotor::canSend( eController controller_type,int16_t current)
+void cMotor::canSend(eController controller_type, int16_t current)
 {
 
     _controller_type = (eController) controller_type;
-    if(_controller_type!=eExternal){
+    if (_controller_type != eExternal)
+    {
         errorHandle(eCanSend_Error);
-    }else{
-    CanReg[tx_channel].CANx_send_data[(ID - 1) * 2] = current >> 8;
-    CanReg[tx_channel].CANx_send_data[(ID - 1) * 2 + 1] = current;
+    }
+    else
+    {
+        CanReg[tx_channel].CANx_send_data[(ID - 1) * 2] = current >> 8;
+        CanReg[tx_channel].CANx_send_data[(ID - 1) * 2 + 1] = current;
 //        usart_printf("%d\r\n",CanReg[tx_channel].CANx_send_data[(ID - 1) * 2]);
     }
 }
+
 /**
  * 发送motor类内的算法输出
  * @param controller_type   算法类型
  */
 void cMotor::canSend(eController controller_type)
 {
-    int16_t current=0;
+    int16_t current = 0;
     _controller_type = (eController) controller_type;
     switch (_controller_type)
     {
@@ -54,7 +58,7 @@ void cMotor::canSend(eController controller_type)
             current = (int16_t) MotorCtrl.c_PID.pidOut();
             break;
         case eAdrc:
-            current=(int16_t)MotorCtrl.c_ADRC.ADRCout();
+            current = (int16_t) MotorCtrl.c_ADRC.ADRCout();
             break;
     }
     CanReg[tx_channel].CANx_send_data[(ID - 1) * 2] = current >> 8;
@@ -77,6 +81,17 @@ void cMotor::canInit(uint32_t can_id_t, CAN_HandleTypeDef *hcan_t, int motor_typ
             else if (_usehcan == &hcan2)
             {
                 tx_channel = (ID <= 8) ? 3 : 5;
+            }
+            ID -= 4;
+            break;
+        case GM_6020_cur:
+            if (_usehcan == &hcan1)
+            {
+                tx_channel = (ID <= 8) ? 9 : 10;
+            }
+            else if (_usehcan == &hcan2)
+            {
+                tx_channel = (ID <= 8) ? 11 : 12;
             }
             ID -= 4;
             break;
@@ -132,6 +147,9 @@ void cMotor::canInit(uint32_t can_id_t, CAN_HandleTypeDef *hcan_t, int motor_typ
         case GM_6020_volt:
             _ratio = 1;
             break;
+        case GM_6020_cur:
+            _ratio = 1;
+            break;
         case M_3508:
             _ratio = 1;
             break;
@@ -163,7 +181,7 @@ void cMotor::canRead(uint32_t rx_std_id, uint8_t rx_buffer[8])
 
 void cMotor::protect()
 {
-    canSend(eExternal,0);
+    canSend(eExternal, 0);
 }
 
 Motor_measure_f &cMotor::getEcd()

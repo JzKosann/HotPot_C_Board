@@ -14,7 +14,8 @@ class cMotor
 public:
     typedef enum
     {
-        GM_6020_volt,
+        GM_6020_volt,//电压控制
+        GM_6020_cur,//电机电流控制
         M_3508,
         M_2006,
         M_3508_p19,
