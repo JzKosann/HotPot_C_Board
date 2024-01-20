@@ -91,15 +91,7 @@ void OS_Init(){
 }
 /* USER CODE END 0 */
 
-/**
-  * @brief  The application entry point.
-  * @retval int
-  */
 
-/**
-  * @brief System Clock Configuration
-  * @retval None
-  */
 void SystemClock_Config(void)
 {
   RCC_OscInitTypeDef RCC_OscInitStruct = {0};
@@ -156,13 +148,13 @@ void SystemClock_Config(void)
 //void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 //{
 //  /* USER CODE BEGIN Callback 0 */
-//
+//////
 //  /* USER CODE END Callback 0 */
 //  if (htim->Instance == TIM6) {
 //    HAL_IncTick();
 //  }
 //  /* USER CODE BEGIN Callback 1 */
-//
+//////
 //  /* USER CODE END Callback 1 */
 //}
 

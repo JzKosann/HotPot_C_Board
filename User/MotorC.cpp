@@ -216,10 +216,10 @@ cCar::cCar(cCar::eCarType car_type) : CarType(car_type)
     {
 
         case ONMI:
-            _pCarInEcd = 347;
+            _pCarInEcd = 85;
             break;
         case MECANUM:
-            _pCarInEcd = 164;
+            _pCarInEcd = 13.8;
             break;
         case UAV:
             break;

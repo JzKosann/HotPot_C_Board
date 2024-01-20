@@ -15,5 +15,6 @@
 #include "usart.h"
 #include "usb_device.h"
 #include "gpio.h"
+#include "stm32f4xx_hal.h"
 
 #endif //KOSANN_UAVGIMBAL_CORE_H

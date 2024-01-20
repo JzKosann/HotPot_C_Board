@@ -2,6 +2,7 @@
 // Created by ShiF on 2023/9/16.
 #include "core.h"
 #include "gimbalc.hpp"
+#include "main.h"
 
 void UserInit()
 {
@@ -22,7 +23,7 @@ int main()
     main_Init();
     UserInit();
 //    MX_IWDG_Init();
-
+    HAL_GPIO_WritePin(GPIOC, GPIO_PIN_8, GPIO_PIN_SET);
     OS_Init();
 
     while (1)

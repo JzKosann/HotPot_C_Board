@@ -29,6 +29,8 @@ extern "C" {
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f4xx_hal.h"
 
+#include "stm32f4xx_hal_gpio.h"
+
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 void VisionComTask(void const *argument);
@@ -58,9 +60,9 @@ void OS_Init(void);
 void Error_Handler(void);
 
 /* USER CODE BEGIN EFP */
-void INS_task(void const * argument);
-void GimbalTask(void const * argument);
-void VisionTask(void const * argument);
+void INS_task(void const *argument);
+void GimbalTask(void const *argument);
+void VisionTask(void const *argument);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
