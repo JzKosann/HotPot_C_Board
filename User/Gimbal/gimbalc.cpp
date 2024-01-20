@@ -429,8 +429,8 @@ void portSetShoot() {
             uint16_t fric_count = 0;
 
             if (RC_GetDatas().rc.ch[4] <= -550 && is_fric_start == 0) {
-                fricL.MotorCtrl.c_ADRC.setSpdTar(-6500);
-                fricR.MotorCtrl.c_ADRC.setSpdTar(6500);
+                fricL.MotorCtrl.c_ADRC.setSpdTar(-5000);
+                fricR.MotorCtrl.c_ADRC.setSpdTar(5000);
                 is_shoot = true;
                 for (fric_count = 0; fric_count >= 400; fric_count++) {
                 }
