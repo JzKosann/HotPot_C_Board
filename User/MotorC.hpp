@@ -28,7 +28,7 @@ public:
     };      //错误类型
     typedef enum
     {
-        eExternal,
+        eExternal,  //非控制算法表的算法的额外的控制量输入
         ePid,
         eAdrc
     } eController;  //控制算法

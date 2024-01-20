@@ -125,5 +125,6 @@ typedef struct
     bool now_state;
     bool is_online;
 } Online_detect_t;   //检测遥控器是否断连
+
 extern Online_detect_t RC_GetNewData;
 #endif //KOSANN_UAVGIMBAL_REMOTEC_H
