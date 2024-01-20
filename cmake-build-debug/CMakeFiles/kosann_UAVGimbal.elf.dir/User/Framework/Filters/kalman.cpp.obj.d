@@ -1,3 +1,3 @@
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Filters/kalman.cpp.obj: \
- E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\Filters\kalman.cpp \
- E:\competition\2024_ROBOMASTER\A_JINZ\template\kosann_Gimbal_C_Board\User\Framework\Filters\kalman.hpp
+ E:\RM\HotPot\HotPot_C_Board-master\User\Framework\Filters\kalman.cpp \
+ E:\RM\HotPot\HotPot_C_Board-master\User\Framework\Filters\kalman.hpp

@@ -34,7 +34,8 @@ void Mat_Pid::Calc(float SpdInput, float PosInput)
 float Mat_Pid::Out()
 {
     float mat_pid_out;
-    mat_pid_out = (PosLoop_Matlabsimulink_U.Pos_Tar-PosLoop_Matlabsimulink_U.Pos_now) * _pos_forward + SpdLoop_Matlabsimulink_Y.Spd_Output;
+    mat_pid_out = (PosLoop_Matlabsimulink_U.Pos_Tar-_pos_last_tar) * _pos_forward + SpdLoop_Matlabsimulink_Y.Spd_Output;
+    _pos_last_tar=PosLoop_Matlabsimulink_U.Pos_Tar;
     return mat_pid_out;
 }
 
