@@ -88,6 +88,9 @@ public:
     void setPosTar(float pos_tar);
     void setPosTar(float pos_tar, float step);      //斜坡 step步进
     float posLoop(float pos_input);
+    /*
+     * 串级PID位置环
+     * 参数：反馈的当前位置、速度*/
     void posLoop(float pos_input, float spd_input);
     /** SPD **/
     void setSpdTar(float spd_tar);

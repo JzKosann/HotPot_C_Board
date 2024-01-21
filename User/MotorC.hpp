@@ -60,7 +60,8 @@ public:
 class cCar
 {
 private:
-    float _pCarInEcd;//正前方
+    float _pCarInEcd;//yaw轴正前方
+
 public:
 
     typedef enum
