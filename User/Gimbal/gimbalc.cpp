@@ -148,7 +148,7 @@ void portSetMove() {
             else if (rc_ctrl.key.S)
                 vx = -rc_ctrl.key.S * 200.0f;
             if (rc_ctrl.key.A)
-                vx = rc_ctrl.key.A * 200.0f;
+                vx = rc_ctrl.key.A * 200.0f; //todo
             else if (rc_ctrl.key.D)
                 vx = -rc_ctrl.key.D * 200.0f;
             break;
@@ -325,6 +325,7 @@ float portSetYaw() {
 
             break;
     }
+    //yaw轴数据发送
 //    usart_printf("%.2f,%.2f,%.2f,%.2f\r\n", tar_pos, IMU.cAngle(cimu::Wit_imu, cimu::Yaw), vision_pkt.offset_yaw,
 //                 _tar_pos);
     return tar_pos;
@@ -458,7 +459,8 @@ float portSetPitch() {
     }
     if (tar_pos >= 25) tar_pos = 25;
     else if (tar_pos <= -23) tar_pos = -23;
-    usart_printf("%.2f,%.2f,%.2f\r\n", -tar_pos, IMU.cAngle(cimu::Wit_imu, cimu::Pitch), vision_pkt.offset_pitch);
+    //pitch轴数据发送
+//    usart_printf("%.2f,%.2f,%.2f\r\n", -tar_pos, IMU.cAngle(cimu::Wit_imu, cimu::Pitch), vision_pkt.offset_pitch);
     return tar_pos;
 }
 
