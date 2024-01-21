@@ -255,11 +255,13 @@ float portSetYaw() {
                             tar_pos = yaw.RCcrtl_filter.ckalman.Calc(_tar_pos);
                             break;
                         case cCar::eAutoaim:
-                            yaw_mat.SetPara(2000, 1400, 0, 0, 30000,
-                                            0.8, 0, 0, 175, 200, 0);
-                            _tar_pos = IMU.cAngle(cimu::Wit_imu, cimu::Yaw) +
-                                       yaw.autoAim_filter.cLowPass.filter(vision_pkt.offset_yaw) * 1.0f;
-                            tar_pos = _tar_pos;
+                            yaw_mat.SetPara(3400, 1000, 0, 0, 30000,
+                                            2.0, 0, 0.04, 175, 200, 1.0);
+                            if (yaw.autoaimflag) {
+                                _tar_pos = IMU.cAngle(cimu::Wit_imu, cimu::Yaw) + vision_pkt.offset_yaw;//IMU值需改为机械角度 及 yaw.getEcd().angle-Car._p_UAVInEcd_yaw
+                                yaw.autoaimflag = false;
+                            }
+                            tar_pos = yaw.autoAim_filter.cLowPass.filter(_tar_pos);
                             break;
                     }
                     break;
@@ -297,11 +299,13 @@ float portSetYaw() {
                             tar_pos = yaw.RCcrtl_filter.ckalman.Calc(_tar_pos);
                             break;
                         case cCar::eAutoaim:
-                            yaw_mat.SetPara(2000, 1400, 0, 0, 30000,
-                                            0.8, 0, 0, 175, 200, 0);
-                            _tar_pos = IMU.cAngle(cimu::Wit_imu, cimu::Yaw) +
-                                       yaw.autoAim_filter.cLowPass.filter(vision_pkt.offset_yaw) * 1.0f;
-                            tar_pos = _tar_pos;
+                            yaw_mat.SetPara(3400, 1000, 0, 0, 30000,
+                                            2.0, 0, 0.04, 175, 200, 1.0);
+                            if (yaw.autoaimflag) {
+                                _tar_pos = IMU.cAngle(cimu::Wit_imu, cimu::Yaw) + vision_pkt.offset_yaw;
+                                yaw.autoaimflag = false;
+                            }
+                            tar_pos = yaw.autoAim_filter.cLowPass.filter(_tar_pos);
                             break;
                     }
                     break;
@@ -316,7 +320,8 @@ float portSetYaw() {
                         _tar_pos = IMU.cAngle(cimu::Wit_imu, cimu::Yaw) + vision_pkt.offset_yaw;
                         yaw.autoaimflag = false;
                     }
-                    tar_pos = _tar_pos;
+                    tar_pos = yaw.autoAim_filter.cLowPass.filter(_tar_pos);
+
 
                     break;
             }
@@ -326,25 +331,38 @@ float portSetYaw() {
         case cCar::UAV:
             switch (Car.CtrlMode) {
                 case cCar::eRC: //无人机yaw遥控
-//                    yaw_mat.SetPara(2200, 1200, 0, 0, 30000,
-//                                    1.8, 0, 0, 175, 50, 0);
-//                    _tar_pos -= (float) RC_GetDatas().rc.ch[0] * portion * 360.0f / 660.0f;
-//                    tar_pos = yaw.RCcrtl_filter.ckalman.Calc(_tar_pos);
+//                    yaw_mat.SetPara(0, 0, 0, 0, 30000,
+//                                    0, 0, 0.0, 175, 50, 3);
+                    yaw_mat.SetPara(300, 30, 0, 0, 30000,
+                                    3, 0, 0.06, 175, 50, 3);
+//                    yaw_mat.SetPara(Debug_Param().vel_kp, Debug_Param().vel_ki, 0, 0, 30000,
+//                                    Debug_Param().vel_kd, 0.0, Debug_Param().vel_rampTargetValue, 175, 200,
+//                                    Debug_Param().vel_maxIntegral);
+
+                    _tar_pos -= (float) RC_GetDatas().rc.ch[0] * portion * 360.0f / 660.0f;
+                    //无人机云台yaw限位
+                    if (_tar_pos >= 80) _tar_pos = 80;
+                    if (_tar_pos <= -80) _tar_pos = -80;
+                    //
+                    tar_pos = -yaw.RCcrtl_filter.ckalman.Calc(_tar_pos);
                     break;
-                case cCar::eKey: //全步yaw键盘
+                case cCar::eKey: //无人机yaw键盘
                     switch (Car.ShootMode) {
                         case cCar::eNormal:
 //                            yaw_mat.SetPara(2500, 1800, 0, 0, 30000,
 //                                            2.5, 0, 0, 175, 50, 0);
-//                            _tar_pos -= (float) RC_GetDatas().mouse.x * mouse_sense;
-//                            tar_pos = yaw.RCcrtl_filter.ckalman.Calc(_tar_pos);
+                            _tar_pos -= (float) RC_GetDatas().mouse.x * mouse_sense;
+                            tar_pos = yaw.RCcrtl_filter.ckalman.Calc(_tar_pos);
                             break;
                         case cCar::eAutoaim:
 //                            yaw_mat.SetPara(2000, 1400, 0, 0, 30000,
 //                                            0.8, 0, 0, 175, 200, 0);
-//                            _tar_pos = IMU.cAngle(cimu::Wit_imu, cimu::Yaw) +
-//                                       yaw.autoAim_filter.cLowPass.filter(vision_pkt.offset_yaw) * 1.0f;
-                            tar_pos = _tar_pos;
+
+                            if (yaw.autoaimflag) {
+                                _tar_pos = IMU.cAngle(cimu::Wit_imu, cimu::Yaw) + vision_pkt.offset_yaw;//IMU值需改为机械角度 及 yaw.getEcd().angle-Car._p_UAVInEcd_yaw
+                                yaw.autoaimflag = false;
+                            }
+                            tar_pos = yaw.autoAim_filter.cLowPass.filter(_tar_pos);
                             break;
                     }
                     break;
@@ -355,18 +373,18 @@ float portSetYaw() {
 //                                    Debug_Param().vel_kd, 0.0, Debug_Param().vel_rampTargetValue, 175, 200,
 //                                    Debug_Param().vel_maxIntegral);
 
-//                    if (yaw.autoaimflag) {
-//                        _tar_pos = IMU.cAngle(cimu::Wit_imu, cimu::Yaw) + vision_pkt.offset_yaw;
-//                        yaw.autoaimflag = false;
-//                    }
-//                    tar_pos = yaw.autoAim_filter.cLowPass.filter(_tar_pos);
+                    if (yaw.autoaimflag) {
+                        _tar_pos = IMU.cAngle(cimu::Wit_imu, cimu::Yaw) + vision_pkt.offset_yaw;//IMU值需改为机械角度 及 yaw.getEcd().angle-Car._p_UAVInEcd_yaw
+                        yaw.autoaimflag = false;
+                    }
+                    tar_pos = yaw.autoAim_filter.cLowPass.filter(_tar_pos);
                     break;
             }
 
             break;
     }
     //yaw轴数据发送
-    usart_printf("%.2f,%.2f,%.2f,%.2f\r\n",  yaw.getEcd().angle,yaw.getEcd().speed, tar_pos, yaw.getEcd().torque_current);
+//    usart_printf("%.2f,%.2f,%.2f,%.2f\r\n",  tar_pos,yaw.getEcd().speed,yaw.getEcd().total_angle-Car._p_UAVInEcd_yaw, yaw.getEcd().torque_current);//无人机数据输出
 //    usart_printf("%.2f,%.2f,%.2f,%.2f\r\n", tar_pos, IMU.cAngle(cimu::Wit_imu, cimu::Yaw), vision_pkt.offset_yaw,
 //                 _tar_pos);
     return tar_pos;
@@ -408,9 +426,14 @@ float portSetPitch() {
                         case cCar::eAutoaim:
                             pitch.MotorCtrl.c_PID.setParam(1000, 2, 0, 30000,
                                                            2, 0.00, 0, 300);
-                            _tar_pos = -IMU.cAngle(cimu::Wit_imu, cimu::Pitch) +
-                                       pitch.autoAim_filter.cLowPass.filter(vision_pkt.offset_pitch) * 1.0f;
-                            tar_pos = _tar_pos;
+//                            _tar_pos = -IMU.cAngle(cimu::Wit_imu, cimu::Pitch) +
+//                                       pitch.autoAim_filter.cLowPass.filter(vision_pkt.offset_pitch) * 1.0f;
+//                            tar_pos = _tar_pos;
+                            if (pitch.autoaimflag) {
+                                _tar_pos = -IMU.cAngle(cimu::Wit_imu, cimu::Pitch) + vision_pkt.offset_pitch;
+                                pitch.autoaimflag = false;
+                            }
+                            tar_pos = pitch.autoAim_filter.cLowPass.filter(_tar_pos);
                             break;
                     }
 
@@ -467,9 +490,15 @@ float portSetPitch() {
                         case cCar::eAutoaim:
                             pitch.MotorCtrl.c_PID.setParam(1000, 2, 0, 30000,
                                                            1, 0.00, 0, 300);
-                            _tar_pos = -IMU.cAngle(cimu::Wit_imu, cimu::Pitch) +
-                                       pitch.autoAim_filter.cLowPass.filter(vision_pkt.offset_pitch) * 1.0f;
-                            tar_pos = _tar_pos;
+//                            _tar_pos = -IMU.cAngle(cimu::Wit_imu, cimu::Pitch) +
+//                                       pitch.autoAim_filter.cLowPass.filter(vision_pkt.offset_pitch) * 1.0f;
+//                            tar_pos = _tar_pos;
+                            if (pitch.autoaimflag) {
+                                _tar_pos = -IMU.cAngle(cimu::Wit_imu, cimu::Pitch) + vision_pkt.offset_pitch;
+                                pitch.autoaimflag = false;
+                            }
+
+                            tar_pos = pitch.autoAim_filter.cLowPass.filter(_tar_pos);
                             break;
                     }
 
@@ -490,8 +519,7 @@ float portSetPitch() {
                         _tar_pos = -IMU.cAngle(cimu::Wit_imu, cimu::Pitch) + vision_pkt.offset_pitch;
                         pitch.autoaimflag = false;
                     }
-
-                    tar_pos = _tar_pos;
+                    tar_pos = pitch.autoAim_filter.cLowPass.filter(_tar_pos);
                     break;
             }
             break;
@@ -500,10 +528,10 @@ float portSetPitch() {
         case cCar::UAV:
             switch (Car.CtrlMode) {
                 case cCar::eRC: //无人机pitch遥控
-                    pitch.MotorCtrl.c_PID.setParam(Debug_Param().vel_kp, Debug_Param().vel_ki, 0, 30000, 0,
-                                                   Debug_Param().vel_kd, 0.0, Debug_Param().vel_rampTargetValue, 300, Debug_Param().vel_maxIntegral);
-                    pitch.MotorCtrl.c_PID.setParam(60, 4.0, 0, 30000, 0,
-                                                   0.93, 0.0, 0.03, 300, 2.0);
+//                    pitch.MotorCtrl.c_PID.setParam(Debug_Param().vel_kp, Debug_Param().vel_ki, 0, 30000, 0,
+//                                                   Debug_Param().vel_kd, 0.0, Debug_Param().vel_rampTargetValue, 300, Debug_Param().vel_maxIntegral);
+                    pitch.MotorCtrl.c_PID.setParam(100, 50.0, 0, 30000, 0,
+                                                   2.0, 0.0, 3, 300, 3.0);
 //
                     //
 
@@ -514,33 +542,36 @@ float portSetPitch() {
                     //
                     tar_pos = pitch.RCcrtl_filter.ckalman.Calc(_tar_pos);
                     break;
-                case cCar::eKey: //麦步pitch键盘
+                case cCar::eKey: //无人机pitch键盘
                     switch (Car.ShootMode) {
                         case cCar::eNormal:
 //                            pitch.MotorCtrl.c_PID.setParam(800, 1, 0, 30000, 0,
 //                                                           1.8, 0.0, 5, 300, 50);
-//                            _tar_pos += (float) RC_GetDatas().mouse.y * mouse_sense;
-//                            tar_pos = pitch.RCcrtl_filter.ckalman.Calc(_tar_pos);
+                            _tar_pos += (float) RC_GetDatas().mouse.y * mouse_sense;
+                            tar_pos = pitch.RCcrtl_filter.ckalman.Calc(_tar_pos);
                             break;
                         case cCar::eAutoaim:
 //                            pitch.MotorCtrl.c_PID.setParam(1000, 2, 0, 30000,
 //                                                           1, 0.00, 0, 300);
-//                            _tar_pos = -IMU.cAngle(cimu::Wit_imu, cimu::Pitch) +
-//                                       pitch.autoAim_filter.cLowPass.filter(vision_pkt.offset_pitch) * 1.0f;
-//                            tar_pos = _tar_pos;
+                            if (pitch.autoaimflag) {
+                                _tar_pos = -IMU.cAngle(cimu::Wit_imu, cimu::Pitch) + vision_pkt.offset_pitch;//IMU值需改为机械角度 及 pitch.getEcd().angle-Car._p_UAVInEcd_pitch
+                                pitch.autoaimflag = false;
+                            }
+
+                            tar_pos = pitch.autoAim_filter.cLowPass.filter(_tar_pos);
                             break;
                     }
 
                     break;
-                case cCar::eRC_Autoaim: //麦步pitch自瞄
+                case cCar::eRC_Autoaim: //无人机pitch自瞄
 //                    pitch.MotorCtrl.c_PID.setParam(800, 5, 0, 30000,
 //                                                   0.4, 0.00, 0.0, 300);
 
 
-//                    if (pitch.autoaimflag) {
-//                        _tar_pos = -IMU.cAngle(cimu::Wit_imu, cimu::Pitch) + vision_pkt.offset_pitch;
-//                        pitch.autoaimflag = false;
-//                    }
+                    if (pitch.autoaimflag) {
+                        _tar_pos = -IMU.cAngle(cimu::Wit_imu, cimu::Pitch) + vision_pkt.offset_pitch;//IMU值需改为机械角度 及 pitch.getEcd().angle-Car._p_UAVInEcd_pitch
+                        pitch.autoaimflag = false;
+                    }
 
                     tar_pos = _tar_pos;
                     break;
@@ -548,10 +579,10 @@ float portSetPitch() {
 
             break;
     }
-//    if (tar_pos >= 150) tar_pos = 150;
-//    else if (tar_pos <= 100) tar_pos = 100;
+    if (tar_pos >= 30) tar_pos = 30;
+    else if (tar_pos <= -18) tar_pos = -18;
     //pitch轴数据发送
-//    usart_printf("%.2f,%.2f,%.2f,%.2f\r\n",  pitch.getEcd().angle-125,pitch.getEcd().speed, tar_pos, pitch.getEcd().torque_current);
+    usart_printf("%.2f,%.2f,%.2f,%.2f\r\n",  pitch.getEcd().angle-Car._p_UAVInEcd_pitch,pitch.getEcd().speed, tar_pos, pitch.getEcd().torque_current);//无人机数据输出
 //    usart_printf("%.2f,%.2f,%.2f\r\n", -tar_pos, IMU.cAngle(cimu::Wit_imu, cimu::Pitch), vision_pkt.offset_pitch);
     return tar_pos;
 }
@@ -736,8 +767,8 @@ void Can_Calc() {
     fricR.MotorCtrl.c_ADRC.SpdLoop(fricR.getEcd().speed);
     rammc.MotorCtrl.c_PID.spdLoop(rammc.getEcd().speed);
     if (Car.CarType == cCar::UAV) {
-        pitch.MotorCtrl.c_PID.posLoop(pitch.getEcd().angle - 125, pitch.getEcd().speed);
-//        yaw_mat.Calc(-IMU_Speed(0), -IMU_Angle(0));
+        pitch.MotorCtrl.c_PID.posLoop(pitch.getEcd().angle - Car._p_UAVInEcd_pitch, pitch.getEcd().speed);
+        yaw_mat.Calc(yaw.getEcd().speed, yaw.getEcd().total_angle-Car._p_UAVInEcd_yaw);
     } else {
         pitch.MotorCtrl.c_PID.posLoop(-IMU.cAngle(cimu::Wit_imu, cimu::Pitch), -IMU.cSpeed(cimu::Wit_imu, cimu::Pitch));
         yaw_mat.Calc(IMU.cSpeed(cimu::Wit_imu, cimu::Yaw), IMU.cAngle(cimu::Wit_imu, cimu::Yaw));
@@ -761,7 +792,7 @@ void Can_Calc() {
  * 统一赋值控制量
  */
 void Can_Send() {
-//    yaw.canSend(cMotor::eExternal, (int16_t) yaw_mat.Out());
+    yaw.canSend(cMotor::eExternal, (int16_t) yaw_mat.Out());
     pitch.canSend(cMotor::ePid);
     fricR.canSend(cMotor::eAdrc);
     fricL.canSend(cMotor::eAdrc);

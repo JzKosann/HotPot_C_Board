@@ -90,7 +90,8 @@ public:
     float posLoop(float pos_input);
     /*
      * 串级PID位置环
-     * 参数：反馈的当前位置、速度*/
+     * 参数：反馈的当前位置、速度
+     * */
     void posLoop(float pos_input, float spd_input);
     /** SPD **/
     void setSpdTar(float spd_tar);

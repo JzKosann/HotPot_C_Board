@@ -60,7 +60,11 @@ public:
 class cCar
 {
 private:
-    float _pCarInEcd;//yaw轴正前方
+    float _pCarInEcd;//机器人yaw轴正前方
+
+public:
+    float _p_UAVInEcd_yaw;//无人机云台yaw轴正前方
+    float _p_UAVInEcd_pitch;//无人机云台pitch轴正前方
 
 public:
 
