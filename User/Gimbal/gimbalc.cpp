@@ -148,9 +148,9 @@ void portSetMove() {
             else if (rc_ctrl.key.S)
                 vx = -rc_ctrl.key.S * 200.0f;
             if (rc_ctrl.key.A)
-                vx = rc_ctrl.key.A * 200.0f; //todo
+                vy = -rc_ctrl.key.A * 200.0f;
             else if (rc_ctrl.key.D)
-                vx = -rc_ctrl.key.D * 200.0f;
+                vy = rc_ctrl.key.D * 200.0f;
             break;
     }
 
@@ -321,11 +321,52 @@ float portSetYaw() {
                     break;
             }
             break;
+
+
         case cCar::UAV:
+            switch (Car.CtrlMode) {
+                case cCar::eRC: //无人机yaw遥控
+//                    yaw_mat.SetPara(2200, 1200, 0, 0, 30000,
+//                                    1.8, 0, 0, 175, 50, 0);
+//                    _tar_pos -= (float) RC_GetDatas().rc.ch[0] * portion * 360.0f / 660.0f;
+//                    tar_pos = yaw.RCcrtl_filter.ckalman.Calc(_tar_pos);
+                    break;
+                case cCar::eKey: //全步yaw键盘
+                    switch (Car.ShootMode) {
+                        case cCar::eNormal:
+//                            yaw_mat.SetPara(2500, 1800, 0, 0, 30000,
+//                                            2.5, 0, 0, 175, 50, 0);
+//                            _tar_pos -= (float) RC_GetDatas().mouse.x * mouse_sense;
+//                            tar_pos = yaw.RCcrtl_filter.ckalman.Calc(_tar_pos);
+                            break;
+                        case cCar::eAutoaim:
+//                            yaw_mat.SetPara(2000, 1400, 0, 0, 30000,
+//                                            0.8, 0, 0, 175, 200, 0);
+//                            _tar_pos = IMU.cAngle(cimu::Wit_imu, cimu::Yaw) +
+//                                       yaw.autoAim_filter.cLowPass.filter(vision_pkt.offset_yaw) * 1.0f;
+                            tar_pos = _tar_pos;
+                            break;
+                    }
+                    break;
+                case cCar::eRC_Autoaim: //无人机yaw自瞄
+//                    yaw_mat.SetPara(3400, 1000, 0, 0, 30000,
+//                                    2.0, 0.0, 0.04, 175, 200, 1.0);
+//                    yaw_mat.SetPara(Debug_Param().vel_kp, Debug_Param().vel_ki, 0, 0, 30000,
+//                                    Debug_Param().vel_kd, 0.0, Debug_Param().vel_rampTargetValue, 175, 200,
+//                                    Debug_Param().vel_maxIntegral);
+
+//                    if (yaw.autoaimflag) {
+//                        _tar_pos = IMU.cAngle(cimu::Wit_imu, cimu::Yaw) + vision_pkt.offset_yaw;
+//                        yaw.autoaimflag = false;
+//                    }
+//                    tar_pos = yaw.autoAim_filter.cLowPass.filter(_tar_pos);
+                    break;
+            }
 
             break;
     }
     //yaw轴数据发送
+    usart_printf("%.2f,%.2f,%.2f,%.2f\r\n",  yaw.getEcd().total_angle,tar_pos, vision_pkt.offset_yaw,_tar_pos);
 //    usart_printf("%.2f,%.2f,%.2f,%.2f\r\n", tar_pos, IMU.cAngle(cimu::Wit_imu, cimu::Yaw), vision_pkt.offset_yaw,
 //                 _tar_pos);
     return tar_pos;
