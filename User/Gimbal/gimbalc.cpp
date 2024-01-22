@@ -17,7 +17,7 @@ static float mouse_sense = TIMpiece * 2.5;  //鼠标灵敏度
 
 /** Car **/             //choose your car here
 //cCar Car(cCar::ONMI);
-cCar Car(cCar::UAV);
+cCar Car(cCar::MECANUM);
 /**
  * ONMI 全向
  * MECANUM 麦步

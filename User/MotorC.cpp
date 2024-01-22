@@ -222,7 +222,7 @@ cCar::cCar(cCar::eCarType car_type) : CarType(car_type)
             _pCarInEcd = 13.8;
             break;
         case UAV:
-            _pCarInEcd = 328.75;
+//            _pCarInEcd = 328.75;
             _p_UAVInEcd_yaw = 328.75;
             _p_UAVInEcd_pitch = 125;
             break;
