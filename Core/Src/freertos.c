@@ -138,7 +138,7 @@ void MX_FREERTOS_Init(void) {
   defaultTaskHandle = osThreadCreate(osThread(defaultTask), NULL);
 
   /* definition and creation of Gimabal_Task */
-  osThreadDef(Gimabal_Task, GimbalTask, osPriorityHigh, 0, 1024);
+  osThreadDef(Gimabal_Task, GimbalTask, osPriorityHigh, 0, 2048);
   Gimabal_TaskHandle = osThreadCreate(osThread(Gimabal_Task), NULL);
 
   /* definition and creation of Vision_Task */

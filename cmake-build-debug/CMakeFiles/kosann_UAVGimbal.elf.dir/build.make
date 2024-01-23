@@ -921,24 +921,10 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usb_device.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usb_device.c.s"
 	D:\CLion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\RM\HotPot\HotPot_C_Board-master\USB_DEVICE\App\usb_device.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\USB_DEVICE\App\usb_device.c.s
 
-CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
-CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj: ../USB_DEVICE/App/usbd_cdc_if.c
-CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj"
-	D:\CLion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\USB_DEVICE\App\usbd_cdc_if.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\USB_DEVICE\App\usbd_cdc_if.c.obj -c E:\RM\HotPot\HotPot_C_Board-master\USB_DEVICE\App\usbd_cdc_if.c
-
-CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.i"
-	D:\CLion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\RM\HotPot\HotPot_C_Board-master\USB_DEVICE\App\usbd_cdc_if.c > CMakeFiles\kosann_UAVGimbal.elf.dir\USB_DEVICE\App\usbd_cdc_if.c.i
-
-CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.s"
-	D:\CLion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\RM\HotPot\HotPot_C_Board-master\USB_DEVICE\App\usbd_cdc_if.c -o CMakeFiles\kosann_UAVGimbal.elf.dir\USB_DEVICE\App\usbd_cdc_if.c.s
-
 CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.cpp.obj: ../USB_DEVICE/App/usbd_cdc_if.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.cpp.obj"
 	D:\CLion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\USB_DEVICE\App\usbd_cdc_if.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\USB_DEVICE\App\usbd_cdc_if.cpp.obj -c E:\RM\HotPot\HotPot_C_Board-master\USB_DEVICE\App\usbd_cdc_if.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.cpp.i: cmake_force
@@ -952,7 +938,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.cpp.s: cmake_forc
 CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_desc.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_desc.c.obj: ../USB_DEVICE/App/usbd_desc.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_desc.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_desc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_desc.c.obj"
 	D:\CLion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_desc.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\USB_DEVICE\App\usbd_desc.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\USB_DEVICE\App\usbd_desc.c.obj -c E:\RM\HotPot\HotPot_C_Board-master\USB_DEVICE\App\usbd_desc.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_desc.c.i: cmake_force
@@ -966,7 +952,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_desc.c.s: cmake_force
 CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj: ../USB_DEVICE/Target/usbd_conf.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj"
 	D:\CLion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\USB_DEVICE\Target\usbd_conf.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\USB_DEVICE\Target\usbd_conf.c.obj -c E:\RM\HotPot\HotPot_C_Board-master\USB_DEVICE\Target\usbd_conf.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/Target/usbd_conf.c.i: cmake_force
@@ -980,7 +966,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/Target/usbd_conf.c.s: cmake_force
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ADRC/ADRC.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ADRC/ADRC.cpp.obj: ../User/Framework/ADRC/ADRC.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ADRC/ADRC.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ADRC/ADRC.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ADRC/ADRC.cpp.obj"
 	D:\CLion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ADRC/ADRC.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\ADRC\ADRC.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\ADRC\ADRC.cpp.obj -c E:\RM\HotPot\HotPot_C_Board-master\User\Framework\ADRC\ADRC.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ADRC/ADRC.cpp.i: cmake_force
@@ -994,7 +980,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ADRC/ADRC.cpp.s: cmake_force
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Debug/DebugC.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Debug/DebugC.cpp.obj: ../User/Framework/Debug/DebugC.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Debug/DebugC.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Debug/DebugC.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Debug/DebugC.cpp.obj"
 	D:\CLion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Debug/DebugC.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Debug\DebugC.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Debug\DebugC.cpp.obj -c E:\RM\HotPot\HotPot_C_Board-master\User\Framework\Debug\DebugC.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Debug/DebugC.cpp.i: cmake_force
@@ -1008,7 +994,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Debug/DebugC.cpp.s: cmake_for
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Filters/kalman.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Filters/kalman.cpp.obj: ../User/Framework/Filters/kalman.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Filters/kalman.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Filters/kalman.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Filters/kalman.cpp.obj"
 	D:\CLion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Filters/kalman.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Filters\kalman.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Filters\kalman.cpp.obj -c E:\RM\HotPot\HotPot_C_Board-master\User\Framework\Filters\kalman.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Filters/kalman.cpp.i: cmake_force
@@ -1022,7 +1008,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Filters/kalman.cpp.s: cmake_f
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/IMUC.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/IMUC.cpp.obj: ../User/Framework/IMU/IMUC.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/IMUC.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/IMUC.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/IMUC.cpp.obj"
 	D:\CLion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/IMUC.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\IMUC.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\IMUC.cpp.obj -c E:\RM\HotPot\HotPot_C_Board-master\User\Framework\IMU\IMUC.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/IMUC.cpp.i: cmake_force
@@ -1036,7 +1022,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/IMUC.cpp.s: cmake_force
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/Other/Bno085.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/Other/Bno085.cpp.obj: ../User/Framework/IMU/Other/Bno085.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/Other/Bno085.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/Other/Bno085.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/Other/Bno085.cpp.obj"
 	D:\CLion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/Other/Bno085.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\Other\Bno085.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\Other\Bno085.cpp.obj -c E:\RM\HotPot\HotPot_C_Board-master\User\Framework\IMU\Other\Bno085.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/Other/Bno085.cpp.i: cmake_force
@@ -1050,7 +1036,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/Other/Bno085.cpp.s: cmake
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/Other/Wit.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/Other/Wit.cpp.obj: ../User/Framework/IMU/Other/Wit.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/Other/Wit.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/Other/Wit.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/Other/Wit.cpp.obj"
 	D:\CLion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/Other/Wit.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\Other\Wit.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\Other\Wit.cpp.obj -c E:\RM\HotPot\HotPot_C_Board-master\User\Framework\IMU\Other\Wit.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/Other/Wit.cpp.i: cmake_force
@@ -1064,7 +1050,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/Other/Wit.cpp.s: cmake_fo
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/algorithm/AHRS_middleware.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/algorithm/AHRS_middleware.c.obj: ../User/Framework/IMU/algorithm/AHRS_middleware.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/algorithm/AHRS_middleware.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/algorithm/AHRS_middleware.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/algorithm/AHRS_middleware.c.obj"
 	D:\CLion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/algorithm/AHRS_middleware.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\algorithm\AHRS_middleware.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\algorithm\AHRS_middleware.c.obj -c E:\RM\HotPot\HotPot_C_Board-master\User\Framework\IMU\algorithm\AHRS_middleware.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/algorithm/AHRS_middleware.c.i: cmake_force
@@ -1078,7 +1064,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/algorithm/AHRS_middleware
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/algorithm/user_lib.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/algorithm/user_lib.c.obj: ../User/Framework/IMU/algorithm/user_lib.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/algorithm/user_lib.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/algorithm/user_lib.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/algorithm/user_lib.c.obj"
 	D:\CLion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/algorithm/user_lib.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\algorithm\user_lib.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\algorithm\user_lib.c.obj -c E:\RM\HotPot\HotPot_C_Board-master\User\Framework\IMU\algorithm\user_lib.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/algorithm/user_lib.c.i: cmake_force
@@ -1092,7 +1078,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/algorithm/user_lib.c.s: c
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_delay.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_delay.c.obj: ../User/Framework/IMU/bsp/bsp_delay.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_delay.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_delay.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_delay.c.obj"
 	D:\CLion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_delay.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\bsp\bsp_delay.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\bsp\bsp_delay.c.obj -c E:\RM\HotPot\HotPot_C_Board-master\User\Framework\IMU\bsp\bsp_delay.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_delay.c.i: cmake_force
@@ -1106,7 +1092,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_delay.c.s: cmake_
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_flash.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_flash.c.obj: ../User/Framework/IMU/bsp/bsp_flash.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_flash.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_flash.c.obj"
 	D:\CLion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_flash.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\bsp\bsp_flash.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\bsp\bsp_flash.c.obj -c E:\RM\HotPot\HotPot_C_Board-master\User\Framework\IMU\bsp\bsp_flash.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_flash.c.i: cmake_force
@@ -1120,7 +1106,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_flash.c.s: cmake_
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_imu_pwm.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_imu_pwm.c.obj: ../User/Framework/IMU/bsp/bsp_imu_pwm.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_imu_pwm.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_imu_pwm.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_imu_pwm.c.obj"
 	D:\CLion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_imu_pwm.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\bsp\bsp_imu_pwm.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\bsp\bsp_imu_pwm.c.obj -c E:\RM\HotPot\HotPot_C_Board-master\User\Framework\IMU\bsp\bsp_imu_pwm.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_imu_pwm.c.i: cmake_force
@@ -1134,7 +1120,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_imu_pwm.c.s: cmak
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_spi.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_spi.c.obj: ../User/Framework/IMU/bsp/bsp_spi.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_spi.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_spi.c.obj"
 	D:\CLion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_spi.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\bsp\bsp_spi.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\bsp\bsp_spi.c.obj -c E:\RM\HotPot\HotPot_C_Board-master\User\Framework\IMU\bsp\bsp_spi.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_spi.c.i: cmake_force
@@ -1148,7 +1134,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/bsp/bsp_spi.c.s: cmake_fo
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/controller/pid.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/controller/pid.c.obj: ../User/Framework/IMU/controller/pid.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/controller/pid.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/controller/pid.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/controller/pid.c.obj"
 	D:\CLion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/controller/pid.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\controller\pid.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\controller\pid.c.obj -c E:\RM\HotPot\HotPot_C_Board-master\User\Framework\IMU\controller\pid.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/controller/pid.c.i: cmake_force
@@ -1162,7 +1148,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/controller/pid.c.s: cmake
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/BMI088Middleware.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/BMI088Middleware.c.obj: ../User/Framework/IMU/devices/BMI088Middleware.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/BMI088Middleware.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/BMI088Middleware.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/BMI088Middleware.c.obj"
 	D:\CLion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/BMI088Middleware.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\devices\BMI088Middleware.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\devices\BMI088Middleware.c.obj -c E:\RM\HotPot\HotPot_C_Board-master\User\Framework\IMU\devices\BMI088Middleware.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/BMI088Middleware.c.i: cmake_force
@@ -1176,7 +1162,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/BMI088Middleware.
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/BMI088driver.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/BMI088driver.c.obj: ../User/Framework/IMU/devices/BMI088driver.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/BMI088driver.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/BMI088driver.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/BMI088driver.c.obj"
 	D:\CLion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/BMI088driver.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\devices\BMI088driver.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\devices\BMI088driver.c.obj -c E:\RM\HotPot\HotPot_C_Board-master\User\Framework\IMU\devices\BMI088driver.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/BMI088driver.c.i: cmake_force
@@ -1190,7 +1176,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/BMI088driver.c.s:
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/ist8310driver.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/ist8310driver.c.obj: ../User/Framework/IMU/devices/ist8310driver.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/ist8310driver.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/ist8310driver.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/ist8310driver.c.obj"
 	D:\CLion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/ist8310driver.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\devices\ist8310driver.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\devices\ist8310driver.c.obj -c E:\RM\HotPot\HotPot_C_Board-master\User\Framework\IMU\devices\ist8310driver.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/ist8310driver.c.i: cmake_force
@@ -1204,7 +1190,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/ist8310driver.c.s
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/ist8310driver_middleware.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/ist8310driver_middleware.c.obj: ../User/Framework/IMU/devices/ist8310driver_middleware.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/ist8310driver_middleware.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/ist8310driver_middleware.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/ist8310driver_middleware.c.obj"
 	D:\CLion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/ist8310driver_middleware.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\devices\ist8310driver_middleware.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\devices\ist8310driver_middleware.c.obj -c E:\RM\HotPot\HotPot_C_Board-master\User\Framework\IMU\devices\ist8310driver_middleware.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/ist8310driver_middleware.c.i: cmake_force
@@ -1218,7 +1204,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/devices/ist8310driver_mid
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/filtter.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/filtter.cpp.obj: ../User/Framework/IMU/filtter.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/filtter.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/filtter.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/filtter.cpp.obj"
 	D:\CLion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/filtter.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\filtter.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\filtter.cpp.obj -c E:\RM\HotPot\HotPot_C_Board-master\User\Framework\IMU\filtter.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/filtter.cpp.i: cmake_force
@@ -1232,7 +1218,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/filtter.cpp.s: cmake_forc
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/imu_tool.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/imu_tool.cpp.obj: ../User/Framework/IMU/imu_tool.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/imu_tool.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/imu_tool.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/imu_tool.cpp.obj"
 	D:\CLion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/imu_tool.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\imu_tool.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\imu_tool.cpp.obj -c E:\RM\HotPot\HotPot_C_Board-master\User\Framework\IMU\imu_tool.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/imu_tool.cpp.i: cmake_force
@@ -1246,7 +1232,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/imu_tool.cpp.s: cmake_for
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/task/INS_task.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/task/INS_task.cpp.obj: ../User/Framework/IMU/task/INS_task.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/task/INS_task.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/task/INS_task.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/task/INS_task.cpp.obj"
 	D:\CLion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/task/INS_task.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\task\INS_task.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IMU\task\INS_task.cpp.obj -c E:\RM\HotPot\HotPot_C_Board-master\User\Framework\IMU\task\INS_task.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/task/INS_task.cpp.i: cmake_force
@@ -1260,7 +1246,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IMU/task/INS_task.cpp.s: cmak
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IWDG/iwdgC.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IWDG/iwdgC.cpp.obj: ../User/Framework/IWDG/iwdgC.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IWDG/iwdgC.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IWDG/iwdgC.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IWDG/iwdgC.cpp.obj"
 	D:\CLion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IWDG/iwdgC.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IWDG\iwdgC.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\IWDG\iwdgC.cpp.obj -c E:\RM\HotPot\HotPot_C_Board-master\User\Framework\IWDG\iwdgC.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IWDG/iwdgC.cpp.i: cmake_force
@@ -1274,7 +1260,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/IWDG/iwdgC.cpp.s: cmake_force
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/LED/LEDC.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/LED/LEDC.cpp.obj: ../User/Framework/LED/LEDC.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/LED/LEDC.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/LED/LEDC.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/LED/LEDC.cpp.obj"
 	D:\CLion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/LED/LEDC.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\LED\LEDC.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\LED\LEDC.cpp.obj -c E:\RM\HotPot\HotPot_C_Board-master\User\Framework\LED\LEDC.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/LED/LEDC.cpp.i: cmake_force
@@ -1288,7 +1274,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/LED/LEDC.cpp.s: cmake_force
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID/pidC.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID/pidC.cpp.obj: ../User/Framework/PID/pidC.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID/pidC.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID/pidC.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID/pidC.cpp.obj"
 	D:\CLion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID/pidC.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\PID\pidC.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\PID\pidC.cpp.obj -c E:\RM\HotPot\HotPot_C_Board-master\User\Framework\PID\pidC.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID/pidC.cpp.i: cmake_force
@@ -1302,7 +1288,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/PID/pidC.cpp.s: cmake_force
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RGB/lrgb.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RGB/lrgb.cpp.obj: ../User/Framework/RGB/lrgb.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RGB/lrgb.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RGB/lrgb.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RGB/lrgb.cpp.obj"
 	D:\CLion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RGB/lrgb.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\RGB\lrgb.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\RGB\lrgb.cpp.obj -c E:\RM\HotPot\HotPot_C_Board-master\User\Framework\RGB\lrgb.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RGB/lrgb.cpp.i: cmake_force
@@ -1316,7 +1302,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RGB/lrgb.cpp.s: cmake_force
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RomteC/RemoteC.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RomteC/RemoteC.cpp.obj: ../User/Framework/RomteC/RemoteC.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RomteC/RemoteC.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RomteC/RemoteC.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RomteC/RemoteC.cpp.obj"
 	D:\CLion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RomteC/RemoteC.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\RomteC\RemoteC.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\RomteC\RemoteC.cpp.obj -c E:\RM\HotPot\HotPot_C_Board-master\User\Framework\RomteC\RemoteC.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RomteC/RemoteC.cpp.i: cmake_force
@@ -1330,7 +1316,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/RomteC/RemoteC.cpp.s: cmake_f
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ShootC/Shootc.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ShootC/Shootc.cpp.obj: ../User/Framework/ShootC/Shootc.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ShootC/Shootc.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ShootC/Shootc.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ShootC/Shootc.cpp.obj"
 	D:\CLion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ShootC/Shootc.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\ShootC\Shootc.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\ShootC\Shootc.cpp.obj -c E:\RM\HotPot\HotPot_C_Board-master\User\Framework\ShootC\Shootc.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ShootC/Shootc.cpp.i: cmake_force
@@ -1344,7 +1330,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/ShootC/Shootc.cpp.s: cmake_fo
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Vision/crc.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Vision/crc.cpp.obj: ../User/Framework/Vision/crc.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Vision/crc.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Vision/crc.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Vision/crc.cpp.obj"
 	D:\CLion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Vision/crc.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Vision\crc.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Vision\crc.cpp.obj -c E:\RM\HotPot\HotPot_C_Board-master\User\Framework\Vision\crc.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Vision/crc.cpp.i: cmake_force
@@ -1358,7 +1344,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Vision/crc.cpp.s: cmake_force
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.cpp.obj: ../User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.cpp.obj"
 	D:\CLion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Yaw_Matlab_PID\PosLoop\PosLoop_Matlabsimulink.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Yaw_Matlab_PID\PosLoop\PosLoop_Matlabsimulink.cpp.obj -c E:\RM\HotPot\HotPot_C_Board-master\User\Framework\Yaw_Matlab_PID\PosLoop\PosLoop_Matlabsimulink.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoop_Matlabsimulink.cpp.i: cmake_force
@@ -1372,7 +1358,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/PosLoop/PosLoo
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.cpp.obj: ../User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.cpp.obj"
 	D:\CLion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Yaw_Matlab_PID\SpdLoop\SpdLoop_Matlabsimulink.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Yaw_Matlab_PID\SpdLoop\SpdLoop_Matlabsimulink.cpp.obj -c E:\RM\HotPot\HotPot_C_Board-master\User\Framework\Yaw_Matlab_PID\SpdLoop\SpdLoop_Matlabsimulink.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoop_Matlabsimulink.cpp.i: cmake_force
@@ -1386,7 +1372,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/SpdLoop/SpdLoo
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/matlab_PID.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/matlab_PID.cpp.obj: ../User/Framework/Yaw_Matlab_PID/matlab_PID.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/matlab_PID.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/matlab_PID.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/matlab_PID.cpp.obj"
 	D:\CLion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/matlab_PID.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Yaw_Matlab_PID\matlab_PID.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\Yaw_Matlab_PID\matlab_PID.cpp.obj -c E:\RM\HotPot\HotPot_C_Board-master\User\Framework\Yaw_Matlab_PID\matlab_PID.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/matlab_PID.cpp.i: cmake_force
@@ -1400,7 +1386,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/Yaw_Matlab_PID/matlab_PID.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/refee.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/refee.cpp.obj: ../User/Framework/refee.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/refee.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/refee.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/refee.cpp.obj"
 	D:\CLion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/refee.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\refee.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Framework\refee.cpp.obj -c E:\RM\HotPot\HotPot_C_Board-master\User\Framework\refee.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/refee.cpp.i: cmake_force
@@ -1414,7 +1400,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Framework/refee.cpp.s: cmake_force
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Gimbal/gimbalc.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Gimbal/gimbalc.cpp.obj: ../User/Gimbal/gimbalc.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Gimbal/gimbalc.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Gimbal/gimbalc.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Gimbal/gimbalc.cpp.obj"
 	D:\CLion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Gimbal/gimbalc.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Gimbal\gimbalc.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Gimbal\gimbalc.cpp.obj -c E:\RM\HotPot\HotPot_C_Board-master\User\Gimbal\gimbalc.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Gimbal/gimbalc.cpp.i: cmake_force
@@ -1428,7 +1414,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Gimbal/gimbalc.cpp.s: cmake_force
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/LOG/log.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/LOG/log.c.obj: ../User/LOG/log.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/LOG/log.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/User/LOG/log.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/User/LOG/log.c.obj"
 	D:\CLion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/LOG/log.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\LOG\log.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\LOG\log.c.obj -c E:\RM\HotPot\HotPot_C_Board-master\User\LOG\log.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/LOG/log.c.i: cmake_force
@@ -1442,7 +1428,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/LOG/log.c.s: cmake_force
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/LOG/log_port.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/LOG/log_port.c.obj: ../User/LOG/log_port.c
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/LOG/log_port.c.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/User/LOG/log_port.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/kosann_UAVGimbal.elf.dir/User/LOG/log_port.c.obj"
 	D:\CLion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/LOG/log_port.c.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\LOG\log_port.c.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\LOG\log_port.c.obj -c E:\RM\HotPot\HotPot_C_Board-master\User\LOG\log_port.c
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/LOG/log_port.c.i: cmake_force
@@ -1456,7 +1442,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/LOG/log_port.c.s: cmake_force
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/CAN/bsp_can.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/CAN/bsp_can.cpp.obj: ../User/MCUDriver/CAN/bsp_can.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/CAN/bsp_can.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/CAN/bsp_can.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/CAN/bsp_can.cpp.obj"
 	D:\CLion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/CAN/bsp_can.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\CAN\bsp_can.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\CAN\bsp_can.cpp.obj -c E:\RM\HotPot\HotPot_C_Board-master\User\MCUDriver\CAN\bsp_can.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/CAN/bsp_can.cpp.i: cmake_force
@@ -1470,7 +1456,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/CAN/bsp_can.cpp.s: cmake_forc
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/LASER/laser.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/LASER/laser.cpp.obj: ../User/MCUDriver/LASER/laser.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/LASER/laser.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/LASER/laser.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/LASER/laser.cpp.obj"
 	D:\CLion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/LASER/laser.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\LASER\laser.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\LASER\laser.cpp.obj -c E:\RM\HotPot\HotPot_C_Board-master\User\MCUDriver\LASER\laser.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/LASER/laser.cpp.i: cmake_force
@@ -1484,7 +1470,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/LASER/laser.cpp.s: cmake_forc
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/LED/ledio.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/LED/ledio.cpp.obj: ../User/MCUDriver/LED/ledio.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/LED/ledio.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/LED/ledio.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/LED/ledio.cpp.obj"
 	D:\CLion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/LED/ledio.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\LED\ledio.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\LED\ledio.cpp.obj -c E:\RM\HotPot\HotPot_C_Board-master\User\MCUDriver\LED\ledio.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/LED/ledio.cpp.i: cmake_force
@@ -1498,7 +1484,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/LED/ledio.cpp.s: cmake_force
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/POWER/power.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/POWER/power.cpp.obj: ../User/MCUDriver/POWER/power.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/POWER/power.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/POWER/power.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/POWER/power.cpp.obj"
 	D:\CLion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/POWER/power.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\POWER\power.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\POWER\power.cpp.obj -c E:\RM\HotPot\HotPot_C_Board-master\User\MCUDriver\POWER\power.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/POWER/power.cpp.i: cmake_force
@@ -1512,7 +1498,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/POWER/power.cpp.s: cmake_forc
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/REMOTEC/remoteio.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/REMOTEC/remoteio.cpp.obj: ../User/MCUDriver/REMOTEC/remoteio.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/REMOTEC/remoteio.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/REMOTEC/remoteio.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/REMOTEC/remoteio.cpp.obj"
 	D:\CLion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/REMOTEC/remoteio.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\REMOTEC\remoteio.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\REMOTEC\remoteio.cpp.obj -c E:\RM\HotPot\HotPot_C_Board-master\User\MCUDriver\REMOTEC\remoteio.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/REMOTEC/remoteio.cpp.i: cmake_force
@@ -1526,7 +1512,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/REMOTEC/remoteio.cpp.s: cmake
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/SERVO/servo.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/SERVO/servo.cpp.obj: ../User/MCUDriver/SERVO/servo.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/SERVO/servo.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/SERVO/servo.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/SERVO/servo.cpp.obj"
 	D:\CLion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/SERVO/servo.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\SERVO\servo.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\MCUDriver\SERVO\servo.cpp.obj -c E:\RM\HotPot\HotPot_C_Board-master\User\MCUDriver\SERVO\servo.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/SERVO/servo.cpp.i: cmake_force
@@ -1540,7 +1526,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/MCUDriver/SERVO/servo.cpp.s: cmake_forc
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MotorC.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MotorC.cpp.obj: ../User/MotorC.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MotorC.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/MotorC.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/MotorC.cpp.obj"
 	D:\CLion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/MotorC.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\MotorC.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\MotorC.cpp.obj -c E:\RM\HotPot\HotPot_C_Board-master\User\MotorC.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/MotorC.cpp.i: cmake_force
@@ -1554,7 +1540,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/MotorC.cpp.s: cmake_force
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/GimbalTask.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/GimbalTask.cpp.obj: ../User/Tasks/GimbalTask.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/GimbalTask.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/GimbalTask.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/GimbalTask.cpp.obj"
 	D:\CLion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/GimbalTask.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Tasks\GimbalTask.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Tasks\GimbalTask.cpp.obj -c E:\RM\HotPot\HotPot_C_Board-master\User\Tasks\GimbalTask.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/GimbalTask.cpp.i: cmake_force
@@ -1568,7 +1554,7 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/GimbalTask.cpp.s: cmake_force
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/visioncom_task.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/flags.make
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/visioncom_task.cpp.obj: ../User/Tasks/visioncom_task.cpp
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/visioncom_task.cpp.obj: CMakeFiles/kosann_UAVGimbal.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/visioncom_task.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/visioncom_task.cpp.obj"
 	D:\CLion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/visioncom_task.cpp.obj -MF CMakeFiles\kosann_UAVGimbal.elf.dir\User\Tasks\visioncom_task.cpp.obj.d -o CMakeFiles\kosann_UAVGimbal.elf.dir\User\Tasks\visioncom_task.cpp.obj -c E:\RM\HotPot\HotPot_C_Board-master\User\Tasks\visioncom_task.cpp
 
 CMakeFiles/kosann_UAVGimbal.elf.dir/User/Tasks/visioncom_task.cpp.i: cmake_force
@@ -1642,7 +1628,6 @@ kosann_UAVGimbal_elf_OBJECTS = \
 "CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj" \
 "CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj" \
 "CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usb_device.c.obj" \
-"CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj" \
 "CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.cpp.obj" \
 "CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_desc.c.obj" \
 "CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj" \
@@ -1754,7 +1739,6 @@ kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Part
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usb_device.c.obj
-kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.cpp.obj
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
@@ -1805,7 +1789,7 @@ kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/build.make
 kosann_UAVGimbal.elf: ../User/Framework/IMU/algorithm/AHRS.lib
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/objects1.rsp
 kosann_UAVGimbal.elf: CMakeFiles/kosann_UAVGimbal.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Linking CXX executable kosann_UAVGimbal.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\RM\HotPot\HotPot_C_Board-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Linking CXX executable kosann_UAVGimbal.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\kosann_UAVGimbal.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building E:/RM/HotPot/HotPot_C_Board-master/cmake-build-debug/kosann_UAVGimbal.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building E:/RM/HotPot/HotPot_C_Board-master/cmake-build-debug/kosann_UAVGimbal.bin"

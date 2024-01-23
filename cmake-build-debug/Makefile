@@ -1576,30 +1576,6 @@ USB_DEVICE/App/usb_device.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usb_device.c.s
 .PHONY : USB_DEVICE/App/usb_device.c.s
 
-USB_DEVICE/App/usbd_cdc_if.obj: USB_DEVICE/App/usbd_cdc_if.c.obj
-.PHONY : USB_DEVICE/App/usbd_cdc_if.obj
-
-# target to build an object file
-USB_DEVICE/App/usbd_cdc_if.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
-.PHONY : USB_DEVICE/App/usbd_cdc_if.c.obj
-
-USB_DEVICE/App/usbd_cdc_if.i: USB_DEVICE/App/usbd_cdc_if.c.i
-.PHONY : USB_DEVICE/App/usbd_cdc_if.i
-
-# target to preprocess a source file
-USB_DEVICE/App/usbd_cdc_if.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.i
-.PHONY : USB_DEVICE/App/usbd_cdc_if.c.i
-
-USB_DEVICE/App/usbd_cdc_if.s: USB_DEVICE/App/usbd_cdc_if.c.s
-.PHONY : USB_DEVICE/App/usbd_cdc_if.s
-
-# target to generate assembly for a file
-USB_DEVICE/App/usbd_cdc_if.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\kosann_UAVGimbal.elf.dir\build.make CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.s
-.PHONY : USB_DEVICE/App/usbd_cdc_if.c.s
-
 USB_DEVICE/App/usbd_cdc_if.obj: USB_DEVICE/App/usbd_cdc_if.cpp.obj
 .PHONY : USB_DEVICE/App/usbd_cdc_if.obj
 
@@ -2894,9 +2870,6 @@ help:
 	@echo ... USB_DEVICE/App/usb_device.obj
 	@echo ... USB_DEVICE/App/usb_device.i
 	@echo ... USB_DEVICE/App/usb_device.s
-	@echo ... USB_DEVICE/App/usbd_cdc_if.obj
-	@echo ... USB_DEVICE/App/usbd_cdc_if.i
-	@echo ... USB_DEVICE/App/usbd_cdc_if.s
 	@echo ... USB_DEVICE/App/usbd_cdc_if.obj
 	@echo ... USB_DEVICE/App/usbd_cdc_if.i
 	@echo ... USB_DEVICE/App/usbd_cdc_if.s

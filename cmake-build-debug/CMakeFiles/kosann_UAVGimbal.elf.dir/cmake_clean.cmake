@@ -120,8 +120,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/kosann_UAVGimbal.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj.d"
   "CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usb_device.c.obj"
   "CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usb_device.c.obj.d"
-  "CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj"
-  "CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj.d"
   "CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.cpp.obj"
   "CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.cpp.obj.d"
   "CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_desc.c.obj"

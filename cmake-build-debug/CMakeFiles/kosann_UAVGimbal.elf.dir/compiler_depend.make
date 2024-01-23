@@ -3287,8 +3287,6 @@ CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usb_device.c.obj: ../USB_DEVI
   ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
   ../USB_DEVICE/App/usbd_cdc_if.h
 
-CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj: ../USB_DEVICE/App/usbd_cdc_if.c
-
 CMakeFiles/kosann_UAVGimbal.elf.dir/USB_DEVICE/App/usbd_cdc_if.cpp.obj: ../USB_DEVICE/App/usbd_cdc_if.cpp \
   ../USB_DEVICE/App/usbd_cdc_if.h \
   ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h \
@@ -8228,10 +8226,6 @@ D:/CLion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm
 
 ../USB_DEVICE/App/usb_device.c:
 
-../User/Framework/IMU/algorithm/user_lib.h:
-
-../USB_DEVICE/App/usbd_cdc_if.c:
-
 ../USB_DEVICE/App/usbd_cdc_if.cpp:
 
 ../User/Tasks/GimbalTask.cpp:
@@ -8253,6 +8247,8 @@ D:/CLion/gcc-arm-none-eabi-10.3-2021.10-win32/gcc-arm-none-eabi-10.3-2021.10/arm
 ../User/Framework/IMU/devices/ist8310driver_middleware.h:
 
 ../User/Framework/IMU/algorithm/AHRS_middleware.h:
+
+../User/Framework/IMU/algorithm/user_lib.h:
 
 ../User/Framework/IMU/bsp/bsp_flash.c:
 

@@ -89,6 +89,12 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan)
     else if (hcan == &hcan2)
     {                //can2
         yaw.canRead(rx_header.StdId, rx_buffer);
+//        RefereeMsg(rx_header.StdId ,rx_buffer);
+//        for (int i = 0;i < 8;i++)
+//        {
+//            usart_printf("%f\r\n",rx_buffer[i]);
+//        }
+
 
     }
 }

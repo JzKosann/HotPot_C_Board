@@ -723,9 +723,6 @@
 		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/USB_DEVICE/App/usb_device.h">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
-		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/USB_DEVICE/App/usbd_cdc_if.c">
-			<Option target="kosann_UAVGimbal.elf"/>
-		</Unit>
 		<Unit filename="E:/RM/HotPot/HotPot_C_Board-master/USB_DEVICE/App/usbd_cdc_if.cpp">
 			<Option target="kosann_UAVGimbal.elf"/>
 		</Unit>
